@@ -28,7 +28,7 @@ Your race pinned at the top of your city page and the matching distance and area
 
 ### Newsletter sponsor
 
-One sponsor per city edition of the Thursday email. Your logo, about 60 words and one link, clearly marked as sponsored. Great for the two to three weeks before a price increase.
+One sponsor per city edition of the weekly email. Your logo, about 60 words and one link, clearly marked as sponsored. Great for the two to three weeks before a price increase.
 
 ### Price-increase alert
 
