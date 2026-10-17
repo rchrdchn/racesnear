@@ -1,0 +1,9 @@
+---
+layout: base.njk
+permalink: /404.html
+title: "Page not found | Races This Weekend"
+description: "That page doesn't exist. Races finish, URLs change."
+noindex: true
+eleventyExcludeFromCollections: true
+---
+<div class="wrap prose"><h1>That race isn't here</h1><p class="lead">It may have finished or moved. Pick your city to find what's next:</p><ul class="lgrid">{% for m in cal.list %}<li><a href="/{{ m.slug }}/"><span>{{ m.name }}</span><small>{{ m.count }} upcoming</small></a></li>{% endfor %}</ul></div>

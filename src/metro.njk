@@ -1,0 +1,25 @@
+---
+layout: base.njk
+pagination: { data: cal.list, size: 1, alias: m }
+permalink: "/{{ m.slug }}/"
+eleventyComputed:
+  title: "{{ m.name }} Races This Weekend and Next 30 Days | {{ site.name }}"
+  description: "{{ m.weekend.length }} running races in {{ m.name }} this weekend and {{ m.next30.length }} in the next 30 days: 5Ks, 10Ks, half marathons, marathons and trail races, with prices and early-bird deadlines."
+  nlMetro: "{{ m.slug }}"
+---
+{% import "macros.njk" as k %}
+<div class="wrap">
+<p class="crumbs"><a href="/">Home</a> / {{ m.name }}</p>
+<section class="mhero"><h1>{{ m.name }} races</h1>
+<p class="lead"><strong>{{ m.weekend.length }} race{% if m.weekend.length != 1 %}s{% endif %} this weekend</strong> ({{ cal.wkS | mds }}{% if cal.wkE != cal.wkS %} to {{ cal.wkE | mds }}{% endif %}) and <strong>{{ m.next30.length }} in the next 30 days</strong> across {{ m.blurb | replace(".", "") }}.{% if m.early.length %} {{ m.early.length }} race{% if m.early.length != 1 %}s{% endif %} raise their price in the next three weeks.{% endif %}</p>
+<p class="jump"><a href="#weekend">This weekend</a><a href="#next30">Next 30 days</a><a href="#early">Price increases</a><a href="#browse">By distance, area or month</a></p></section>
+<section id="weekend" aria-labelledby="h1w"><div class="sec"><h2 id="h1w">This weekend</h2><a class="more" href="/{{ m.slug }}/this-weekend/">Weekend page →</a></div>{{ k.list(m.weekend, cal.today, false, 'Nothing on the calendar this weekend yet. Check the next 30 days below.') }}</section>
+<section id="next30" aria-labelledby="h30"><div class="sec"><h2 id="h30">Next 30 days</h2><p class="sub">{{ m.next30.length }} races through {{ cal.in30 | md }}</p></div>
+{{ k.filters(m, m.dists) }}<div class="fwrap">{{ k.list(m.next30, cal.today) }}<p class="empty fnone" hidden>No races match those filters in the next 30 days. Try another distance or area.</p></div></section>
+<section id="early" aria-labelledby="heb"><div class="sec"><h2 id="heb">Early-bird prices ending soon</h2><p class="sub">Register before these dates to pay less.</p></div>{{ k.early(m.early, cal.today) }}</section>
+<section id="browse" aria-labelledby="hbr"><div class="sec"><h2 id="hbr">Browse {{ m.short }} races</h2></div>
+<h3 class="minor">By distance</h3>{% set items = [] %}{% for d in m.dists %}{% set items = (items.push(["/" + m.slug + "/" + d.slug + "/", d.name, d.count + " upcoming"]), items) %}{% endfor %}{{ k.links(items) }}
+<h3 class="minor">By area</h3>{% set items = [] %}{% for g in m.regions %}{% set items = (items.push(["/" + m.slug + "/" + g.slug + "/", g.name, g.count + " upcoming"]), items) %}{% endfor %}{{ k.links(items) }}
+<h3 class="minor">By month</h3>{% set items = [] %}{% for mo in m.months %}{% set items = (items.push(["/" + m.slug + "/" + mo.y + "/" + mo.slug + "/", mo.name + " " + mo.y, mo.count + " races"]), items) %}{% endfor %}{{ k.links(items) }}
+</section>
+</div>

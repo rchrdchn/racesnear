@@ -1,0 +1,16 @@
+---
+permalink: /guides/new-years-day-races-2027/
+short: "New Year's Day races 2027"
+title: "New Year's Day Races 2027 in 10 US Cities | Races This Weekend"
+description: "Start 2027 with a race: New Year's Day 5Ks, 10Ks and halfs in 10 US cities, with prices and start times."
+date: 2026-10-15
+---
+{% import "macros.njk" as k %}
+<div class="wrap prose">
+<p class="crumbs"><a href="/">Home</a> / <a href="/guides/">Guides</a> / New Year's Day races 2027</p>
+<h1>New Year's Day races 2027</h1>
+<p class="lead"><strong>{{ cal.newYear.length }} races</strong> are already listed for Friday, January 1, 2027. Resolution runs and first-day 5Ks fill up over the holidays, so this list grows through December.</p>
+</div>
+<div class="wrap">
+{% for m in cal.list %}{% set t = cal.newYear | where('metro', m.slug) %}{% if t.length %}<section aria-labelledby="n-{{ m.slug }}"><div class="sec"><h2 id="n-{{ m.slug }}">{{ m.name }}</h2><p class="sub">{{ t.length }} races</p></div>{{ k.list(t, cal.today) }}</section>{% endif %}{% endfor %}
+</div>

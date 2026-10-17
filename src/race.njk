@@ -1,0 +1,44 @@
+---
+layout: base.njk
+pagination: { data: cal.racePages, size: 1, alias: p }
+permalink: "/{{ p.metro.slug }}/races/{{ p.race.slug }}/"
+eleventyComputed:
+  title: "{{ p.race.name }} {{ p.race.date | truncate(4, true, '') }}: Date, Price, Registration | {{ site.name }}"
+  description: "{{ p.race.name }} is {{ p.race.date | long }}{% if p.race.start %} at {{ p.race.start | t12 }}{% endif %} in {{ p.race.city }}. {{ p.race | distList }}.{% if p.race.priceFrom %} From {{ p.race.priceFrom | money }}.{% endif %}"
+  nlMetro: "{{ p.metro.slug }}"
+---
+{% import "macros.njk" as k %}
+{% set r = p.race %}{% set m = p.metro %}
+<div class="wrap">
+<p class="crumbs"><a href="/">Home</a> / <a href="/{{ m.slug }}/">{{ m.name }}</a> / <a href="/{{ m.slug }}/{{ r.region }}/">{{ r | regionName }}</a> / {{ r.name }}</p>
+<script type="application/ld+json">{{ r | eventLd | json | safe }}</script>
+<article class="rpage">
+<div class="rhead"><div class="cal big" aria-hidden="true"><span class="w">{{ r.date | wd }}</span><b>{{ r.date | day }}</b><span class="m">{{ r.date | mon }}</span></div>
+<div><h1>{{ r.name }}</h1>
+<p class="answer"><strong>{{ r.date | long }}</strong>{% if r.start %}, first start {{ r.start | t12 }}{% endif %}, in {{ r.city }}{% if r.street %} ({{ r.street }}){% endif %}. Distances: {{ r | distList }}.{% if r.priceFrom %} Entry from {{ r.priceFrom | money }}{% if r.priceTo and r.priceTo != r.priceFrom %} to {{ r.priceTo | money }}{% endif %}{% if r.nextIncrease and r.nextIncrease.date >= cal.today %}; the {{ r.nextIncrease.event }} goes from {{ r.nextIncrease.from | money }} to {{ r.nextIncrease.to | money }} after {{ r.nextIncrease.date | md }}{% endif %}.{% endif %}</p></div></div>
+<div class="rgrid">
+<div class="rmain">
+<dl class="facts">
+<div><dt>Date</dt><dd>{{ r.date | long }}{% if r.endDate and r.endDate != r.date %} to {{ r.endDate | long }}{% endif %}</dd></div>
+<div><dt>Start time</dt><dd>{% if r.start %}{{ r.start | t12 }} (earliest wave){% else %}Not published yet{% endif %}</dd></div>
+<div><dt>Location</dt><dd>{% if r.street %}{{ r.street }}, {% endif %}{{ r.city }}, {{ m.state }} {{ r.zip }}</dd></div>
+<div><dt>Area</dt><dd><a href="/{{ m.slug }}/{{ r.region }}/">{{ r | regionName }}</a>, {{ m.name }}</dd></div>
+<div><dt>Distances</dt><dd class="ds">{% for d in r.distances %}<span class="d{% if d.cat != 'other' %} {{ d.cat }}{% endif %}">{{ d.label }}</span>{% endfor %}</dd></div>
+<div><dt>Course</dt><dd>{% if r.trail %}Trail (dirt or single-track on at least part of the course){% else %}Road or path{% endif %}</dd></div>
+<div><dt>Price</dt><dd>{% if r.priceFrom %}{{ r.priceFrom | money }}{% if r.priceTo and r.priceTo != r.priceFrom %} to {{ r.priceTo | money }}{% endif %} plus the platform's processing fee{% else %}See the registration page{% endif %}</dd></div>
+<div><dt>Next price increase</dt><dd>{% if r.nextIncrease and r.nextIncrease.date >= cal.today %}<strong class="hl">{{ r.nextIncrease.date | long }}</strong>: {{ r.nextIncrease.event }} {{ r.nextIncrease.from | money }} → {{ r.nextIncrease.to | money }}{% else %}None published{% endif %}</dd></div>
+<div><dt>Registration</dt><dd>{% if r.open %}Open{% else %}Closed online{% endif %}{% if r.regOpen and r.source == 'RunSignup' %}. Opened {{ r.regOpen | md }}{% endif %}{% if r.regClose %}, online signup closes {{ r.regClose | long }}{% endif %}</dd></div>
+</dl>
+<h2>How to register</h2>
+<p>{% if r.source == 'RunSignup' %}Registration is on RunSignup. Pick your distance, add any extras, and you'll get a confirmation email with your bib details.{% else %}Registration is on the race's official site.{% endif %}{% if r.nextIncrease and r.nextIncrease.date >= cal.today %} Sign up by {{ r.nextIncrease.date | md }} to pay {{ r.nextIncrease.from | money }} instead of {{ r.nextIncrease.to | money }}.{% endif %}</p>
+<p class="cta"><a class="btn" href="{{ r | regUrl }}" target="_blank" rel="{{ r | regRel }}">{% if r.open %}Register{% else %}See race page{% endif %} on {{ "RunSignup" if r.source == 'RunSignup' else "the official site" }} →</a>{% if r.website and r.website != r.url %}<a class="btn2" href="{{ r.website }}" target="_blank" rel="noopener nofollow">Race website</a>{% endif %}</p>
+{% if r.summary %}<h2>Course and race notes</h2><p>{{ r.summary }}</p><p class="src">From the race's own listing. Check the race website for the course map and parking.</p>{% endif %}
+</div>
+<aside class="rside" aria-labelledby="sameh"><h2 id="sameh">Same weekend in {{ m.short }}</h2>
+{% set near = [] %}{% for x in cal.metros[m.slug].all %}{% if x.id != r.id and (x.date | daysUntil(r.date)) >= -1 and (x.date | daysUntil(r.date)) <= 1 and near.length < 6 %}{% set near = (near.push(x), near) %}{% endif %}{% endfor %}
+{% if near.length %}<ul class="mini">{% for x in near %}<li><a href="{{ x | raceUrl }}">{{ x.name }}</a><small>{{ x.date | wd }} {{ x.date | mds }} · {{ x.city }}</small></li>{% endfor %}</ul>{% else %}<p class="empty">No other races that weekend yet.</p>{% endif %}
+<p><a href="/{{ m.slug }}/">All {{ m.name }} races →</a></p></aside>
+</div>
+<p class="src">Source: {{ r.source }}{% if r.source == 'RunSignup' %} public race API{% endif %}, refreshed {{ cal.updated | truncate(10, true, '') }}. Details can change; the registration page is the final word.</p>
+</article>
+</div>

@@ -1,0 +1,14 @@
+---
+layout: base.njk
+permalink: /newsletter/
+title: "The Free Weekly Race Email | Races This Weekend"
+description: "One short email every Thursday with your city's races this weekend and the early-bird prices about to go up."
+---
+<div class="wrap prose">
+<p class="crumbs"><a href="/">Home</a> / Newsletter</p>
+<h1>The free weekly race email</h1>
+<p class="lead">Every Thursday: this weekend's races in your city, new races added, and the early-bird prices that end in the next seven days. One email, one city, no spam.</p>
+<p>Pick your city when you sign up and you'll only get that edition:</p>
+<ul class="lgrid">{% for m in cal.list %}<li id="{{ m.slug }}"><a href="{{ m.slug | nlUrl }}"><span>{{ m.name }}</span><small>{{ m.count }} upcoming races</small></a></li>{% endfor %}</ul>
+{% if not site.newsletterUrl %}<p><span class="tag">Coming soon</span> Signups open in the next few days. Until then, the city pages above update every morning.</p>{% endif %}
+</div>

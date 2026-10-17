@@ -1,0 +1,17 @@
+---
+permalink: /guides/turkey-trots-2026/
+short: "Turkey Trots 2026 in 10 cities"
+title: "Turkey Trots 2026: Thanksgiving Races in 10 US Cities | Races This Weekend"
+description: "Thanksgiving Day races in the Bay Area, NYC, LA, Chicago, Boston, DC, Seattle, Denver, Austin and San Diego, with start times and prices."
+date: 2026-10-16
+---
+{% import "macros.njk" as k %}
+<div class="wrap prose">
+<p class="crumbs"><a href="/">Home</a> / <a href="/guides/">Guides</a> / Turkey Trots 2026</p>
+<h1>Turkey Trots 2026 in 10 cities</h1>
+<p class="lead">Thanksgiving is <strong>Thursday, November 26, 2026</strong>, the busiest race day of the year. We have <strong>{{ cal.turkey.length }} Turkey Trots</strong> listed so far. Most are 5Ks with a kids' dash, and many sell out or raise prices the week before.</p>
+<p>Tip: register early. Turkey Trots often add a price step in the final week, and race-day signup costs more where it exists at all.</p>
+</div>
+<div class="wrap">
+{% for m in cal.list %}{% set t = cal.turkey | where('metro', m.slug) %}{% if t.length %}<section aria-labelledby="t-{{ m.slug }}"><div class="sec"><h2 id="t-{{ m.slug }}">{{ m.name }}</h2><p class="sub">{{ t.length }} races</p></div>{{ k.list(t, cal.today) }}</section>{% endif %}{% endfor %}
+</div>

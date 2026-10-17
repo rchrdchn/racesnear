@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><script>document.documentElement.classList.add("js")</script>
+<title>{{ title }}</title><meta name="description" content="{{ description }}"><link rel="canonical" href="{{ site.url }}{{ page.url }}"><meta name="theme-color" content="#0b4a6f">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:site_name" content="{{ site.name }}"><meta property="og:title" content="{{ title }}"><meta property="og:description" content="{{ description }}"><meta property="og:type" content="website"><meta property="og:url" content="{{ site.url }}{{ page.url }}"><meta name="twitter:card" content="summary">
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+{% if schema %}<script type="application/ld+json">{{ schema | json | safe }}</script>{% endif %}
+<link rel="stylesheet" href="/assets/style.css?v={{ build.v }}">
+</head><body><a class="skip" href="#main">Skip to content</a>
+<div class="topbar" id="topbar"><div class="wrap"><header class="top"><a class="logo" href="/" aria-label="{{ site.name }} home"><span class="mark" aria-hidden="true"><i></i><i></i></span><span>{{ site.logoA }}<em>{{ site.logoB }}</em>{{ site.logoC }}</span></a>
+<nav id="mainnav" aria-label="Main">{% set nav = [["/#cities","Cities"],["/this-weekend/","This weekend"],["/price-increases/","Price increases"],["/guides/","Guides"],["/about/","About"]] %}{% for n in nav %}<a href="{{ n[0] }}"{% if page.url == n[0] %} aria-current="page"{% endif %}>{{ n[1] }}</a>{% endfor %}<a class="nav-adv" href="/advertise/"{% if page.url == '/advertise/' %} aria-current="page"{% endif %}>Advertise</a></nav><div class="hcta"><a class="adv" href="/advertise/"{% if page.url == '/advertise/' %} aria-current="page"{% endif %}>Advertise</a><a class="nlb" href="{{ (nlMetro or '') | nlUrl }}"{% if site.newsletterUrl %} target="_blank" rel="noopener"{% endif %}>Free email</a></div><button type="button" class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="mainnav"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button></header></div></div>
+<main id="main">{{ content | safe }}</main>
+<div class="wrap fband">{% include "newsletter.njk" %}</div>
+<footer class="foot"><div class="wrap">
+<div class="ftop">
+<div class="fbrand"><a class="logo" href="/" aria-label="{{ site.name }} home"><span class="mark" aria-hidden="true"><i></i><i></i></span><span>{{ site.logoA }}<em>{{ site.logoB }}</em>{{ site.logoC }}</span></a>
+<p class="ftag">{{ site.tagline }}</p>
+<p class="fmail"><a href="mailto:{{ site.email }}">{{ site.email }}</a><button type="button" class="fcopy ecopy" data-email="{{ site.email }}" aria-label="Copy email address">Copy</button></p>
+<a class="fadv" href="/advertise/">Advertise your race →</a></div>
+<nav class="fl fcities" aria-label="Cities"><h3>Cities</h3>{% for m in cal.list %}<a href="/{{ m.slug }}/">{{ m.name }}</a>{% endfor %}</nav>
+<nav class="fl" aria-label="Site"><h3>Site</h3><a href="/this-weekend/">Races this weekend</a><a href="/price-increases/">Price increases</a><a href="/guides/">Guides</a><a href="/about/">About &amp; sources</a><a href="/advertise/">Advertise</a><a href="/privacy/">Privacy</a><a href="/sitemap.xml">Sitemap</a></nav>
+</div>
+<div class="fbar"><p class="legal">Race listings come from the RunSignup public race API, refreshed daily, plus a few major races checked by hand against their official sites. Dates, prices and start times can change, so confirm on the race's registration page before you go. Not affiliated with any race or registration platform.</p><p class="copy">© {{ build.year }} {{ site.name }}</p></div>
+</div></footer>
+{% if site.cfAnalyticsToken %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cfAnalyticsToken }}"}'></script>{% endif %}
+<script defer src="/assets/site.js?v={{ build.v }}"></script>
+</body></html>

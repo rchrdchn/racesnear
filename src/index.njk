@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: "Races This Weekend: 5Ks, Halfs and Marathons in 10 US Cities"
+description: "Find running races this weekend and the next 30 days in the Bay Area, NYC, LA, Chicago, Boston, DC, Seattle, Denver, Austin and San Diego. Prices, start times and early-bird deadlines."
+---
+{% import "macros.njk" as k %}
+<div class="wrap">
+<section class="hero"><p class="kick">{{ cal.total | string }} upcoming races · 10 cities · updated daily</p>
+<h1>Every race near you, <span class="acc">before the price goes up.</span></h1>
+<p class="lead">5Ks, 10Ks, half marathons, marathons and trail races in ten of the most active US cities. Pick your city for this weekend, the next 30 days and the early-bird deadlines coming up.</p></section>
+<section id="cities" aria-labelledby="ch"><div class="sec"><h2 id="ch">Pick your city</h2></div>
+<ul class="metros">{% for m in cal.list %}<li><a href="/{{ m.slug }}/"><strong>{{ m.name }}</strong><span>{{ m.weekend.length }} this weekend · {{ m.count }} upcoming</span></a></li>{% endfor %}</ul></section>
+<section aria-labelledby="wh"><div class="sec"><h2 id="wh">This weekend across all cities</h2><p class="sub">{{ cal.wkS | wdl }} {{ cal.wkS | md }}{% if cal.wkE != cal.wkS %} and {{ cal.wkE | wdl }} {{ cal.wkE | md }}{% endif %} · {{ cal.allWeekend.length }} races</p><a class="more" href="/this-weekend/">All {{ cal.allWeekend.length }} →</a></div>
+<div class="wkgrid">{% for m in cal.list %}<div class="wk"><h3><a href="/{{ m.slug }}/this-weekend/">{{ m.name }}</a><span>{{ m.weekend.length }}</span></h3>{{ k.list(m.weekend | limit(3), cal.today, false, 'Nothing listed this weekend. See the next 30 days.') }}{% if m.weekend.length > 3 %}<a class="wkmore" href="/{{ m.slug }}/this-weekend/">+{{ m.weekend.length - 3 }} more in {{ m.short }}</a>{% endif %}</div>{% endfor %}</div></section>
+<section aria-labelledby="eh"><div class="sec"><h2 id="eh">Early-bird prices ending soon</h2><p class="sub">Register before these dates to pay less.</p><a class="more" href="/price-increases/">All price increases →</a></div>
+{{ k.early(cal.allEarly | limit(10), cal.today, true) }}</section>
+<section aria-labelledby="gh"><div class="sec"><h2 id="gh">Guides</h2></div>{% include "guidelist.njk" %}</section>
+</div>

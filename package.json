@@ -1,0 +1,13 @@
+{
+  "name": "bayarearaces",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "data": "node scripts/fetch-races.mjs",
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "@11ty/eleventy": "^3.1.7" }
+}

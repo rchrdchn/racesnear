@@ -1,0 +1,713 @@
+[
+ {
+  "slug": "bay-area",
+  "name": "SF Bay Area",
+  "short": "Bay Area",
+  "state": "CA",
+  "zip": "94103",
+  "radius": 80,
+  "tz": "America/Los_Angeles",
+  "blurb": "San Francisco, Oakland, San Jose, the Peninsula, Marin, Napa and Sonoma, and Santa Cruz.",
+  "regions": [
+   {
+    "slug": "san-francisco",
+    "name": "San Francisco",
+    "cities": [
+     "San Francisco"
+    ]
+   },
+   {
+    "slug": "east-bay",
+    "name": "East Bay",
+    "cities": [
+     "Oakland",
+     "Berkeley",
+     "Alameda",
+     "Castro Valley",
+     "Fremont",
+     "Livermore",
+     "Pleasanton",
+     "San Leandro",
+     "El Sobrante",
+     "Clayton",
+     "Antioch",
+     "Brentwood",
+     "Concord",
+     "Walnut Creek",
+     "Lafayette",
+     "Moraga",
+     "San Ramon",
+     "Pleasant Hill",
+     "San Pablo",
+     "Newark",
+     "Union City",
+     "Hayward",
+     "Richmond",
+     "Dublin",
+     "Danville",
+     "Orinda",
+     "Rodeo",
+     "Martinez",
+     "Emeryville",
+     "Albany",
+     "El Cerrito",
+     "Pinole",
+     "Hercules",
+     "Sunol",
+     "Piedmont",
+     "Oakley",
+     "Pittsburg",
+     "San Lorenzo",
+     "Alamo",
+     "Benicia"
+    ]
+   },
+   {
+    "slug": "south-bay",
+    "name": "South Bay & San Jose",
+    "cities": [
+     "San Jose",
+     "Santa Clara",
+     "Sunnyvale",
+     "Mountain View",
+     "Los Gatos",
+     "Saratoga",
+     "Campbell",
+     "Cupertino",
+     "Milpitas",
+     "Morgan Hill",
+     "Gilroy",
+     "Los Altos",
+     "Los Altos Hills",
+     "Alviso",
+     "San Martin"
+    ]
+   },
+   {
+    "slug": "peninsula",
+    "name": "Peninsula",
+    "cities": [
+     "Palo Alto",
+     "Menlo Park",
+     "Redwood City",
+     "San Mateo",
+     "Woodside",
+     "Pacifica",
+     "Half Moon Bay",
+     "Burlingame",
+     "South San Francisco",
+     "Daly City",
+     "Foster City",
+     "San Carlos",
+     "Belmont",
+     "Millbrae",
+     "San Bruno",
+     "Montara",
+     "Portola Valley",
+     "Atherton",
+     "East Palo Alto",
+     "Brisbane",
+     "Pescadero",
+     "El Granada",
+     "Moss Beach"
+    ]
+   },
+   {
+    "slug": "marin",
+    "name": "Marin",
+    "cities": [
+     "Sausalito",
+     "Tiburon",
+     "San Rafael",
+     "Stinson Beach",
+     "Mill Valley",
+     "Novato",
+     "Larkspur",
+     "Corte Madera",
+     "Fairfax",
+     "San Anselmo",
+     "Point Reyes Station",
+     "Belvedere",
+     "Muir Beach",
+     "Bolinas",
+     "Ross",
+     "Kentfield"
+    ]
+   },
+   {
+    "slug": "napa-sonoma",
+    "name": "Napa & Sonoma",
+    "cities": [
+     "Napa",
+     "Sonoma",
+     "Santa Rosa",
+     "Petaluma",
+     "Sebastopol",
+     "Healdsburg",
+     "Guerneville",
+     "Saint Helena",
+     "St. Helena",
+     "Calistoga",
+     "Yountville",
+     "American Canyon",
+     "Windsor",
+     "Rohnert Park",
+     "Cotati",
+     "Glen Ellen",
+     "Kenwood",
+     "Bodega Bay",
+     "Forestville"
+    ]
+   },
+   {
+    "slug": "santa-cruz",
+    "name": "Santa Cruz",
+    "cities": [
+     "Santa Cruz",
+     "Watsonville",
+     "Felton",
+     "Soquel",
+     "Capitola",
+     "Aptos",
+     "Scotts Valley",
+     "Boulder Creek",
+     "Ben Lomond",
+     "Davenport"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nyc",
+  "name": "New York City",
+  "short": "NYC",
+  "state": "NY",
+  "zip": "10001",
+  "radius": 40,
+  "tz": "America/New_York",
+  "blurb": "The five boroughs plus Long Island, Westchester and the Hudson Valley, North Jersey and Fairfield County.",
+  "regions": [
+   {
+    "slug": "manhattan",
+    "name": "Manhattan",
+    "zip3": [
+     "100",
+     "101",
+     "102"
+    ]
+   },
+   {
+    "slug": "brooklyn",
+    "name": "Brooklyn",
+    "zip3": [
+     "112"
+    ]
+   },
+   {
+    "slug": "queens",
+    "name": "Queens",
+    "zip3": [
+     "110",
+     "111",
+     "113",
+     "114",
+     "116"
+    ]
+   },
+   {
+    "slug": "bronx",
+    "name": "The Bronx",
+    "zip3": [
+     "104"
+    ]
+   },
+   {
+    "slug": "staten-island",
+    "name": "Staten Island",
+    "zip3": [
+     "103"
+    ]
+   },
+   {
+    "slug": "long-island",
+    "name": "Long Island",
+    "zip3": [
+     "115",
+     "117",
+     "118",
+     "119"
+    ]
+   },
+   {
+    "slug": "westchester-hudson",
+    "name": "Westchester & Hudson Valley",
+    "zip3": [
+     "105",
+     "106",
+     "107",
+     "108",
+     "109"
+    ]
+   },
+   {
+    "slug": "new-jersey",
+    "name": "New Jersey",
+    "zip3": [
+     "070",
+     "071",
+     "072",
+     "073",
+     "074",
+     "075",
+     "076",
+     "077",
+     "078",
+     "079",
+     "088",
+     "089"
+    ]
+   },
+   {
+    "slug": "connecticut",
+    "name": "Connecticut",
+    "zip3": [
+     "068",
+     "069",
+     "064",
+     "065",
+     "066",
+     "067"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "los-angeles",
+  "name": "Los Angeles",
+  "short": "LA",
+  "state": "CA",
+  "zip": "90012",
+  "radius": 40,
+  "tz": "America/Los_Angeles",
+  "blurb": "LA, the Westside and beaches, the Valleys, Pasadena, Long Beach and Orange County.",
+  "regions": [
+   {
+    "slug": "central-la",
+    "name": "Central LA",
+    "zip3": [
+     "900"
+    ]
+   },
+   {
+    "slug": "westside-beaches",
+    "name": "Westside & Beaches",
+    "zip3": [
+     "904",
+     "902"
+    ]
+   },
+   {
+    "slug": "south-bay-long-beach",
+    "name": "South Bay & Long Beach",
+    "zip3": [
+     "903",
+     "905",
+     "906",
+     "907",
+     "908"
+    ]
+   },
+   {
+    "slug": "pasadena-sgv",
+    "name": "Pasadena & San Gabriel Valley",
+    "zip3": [
+     "910",
+     "911",
+     "912",
+     "917",
+     "918"
+    ]
+   },
+   {
+    "slug": "san-fernando-valley",
+    "name": "San Fernando Valley",
+    "zip3": [
+     "913",
+     "914",
+     "915",
+     "916"
+    ]
+   },
+   {
+    "slug": "orange-county",
+    "name": "Orange County",
+    "zip3": [
+     "926",
+     "927",
+     "928"
+    ]
+   },
+   {
+    "slug": "inland-empire",
+    "name": "Inland Empire",
+    "zip3": [
+     "917",
+     "909",
+     "923",
+     "924",
+     "925"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "chicago",
+  "name": "Chicago",
+  "short": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "radius": 40,
+  "tz": "America/Chicago",
+  "blurb": "The city, the North Shore, the western and southern suburbs, and Northwest Indiana.",
+  "regions": [
+   {
+    "slug": "city",
+    "name": "Chicago (city)",
+    "zip3": [
+     "606",
+     "607",
+     "608"
+    ]
+   },
+   {
+    "slug": "north-suburbs",
+    "name": "North Shore & North Suburbs",
+    "zip3": [
+     "600",
+     "602"
+    ]
+   },
+   {
+    "slug": "west-suburbs",
+    "name": "West Suburbs",
+    "zip3": [
+     "601",
+     "603",
+     "605"
+    ]
+   },
+   {
+    "slug": "south-suburbs",
+    "name": "South Suburbs",
+    "zip3": [
+     "604"
+    ]
+   },
+   {
+    "slug": "northwest-indiana",
+    "name": "Northwest Indiana",
+    "zip3": [
+     "463",
+     "464"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "boston",
+  "name": "Boston",
+  "short": "Boston",
+  "state": "MA",
+  "zip": "02108",
+  "radius": 40,
+  "tz": "America/New_York",
+  "blurb": "Boston and Cambridge, the western suburbs, MetroWest, the North and South Shores and southern New Hampshire.",
+  "regions": [
+   {
+    "slug": "boston-cambridge",
+    "name": "Boston & Cambridge",
+    "zip3": [
+     "021",
+     "022"
+    ]
+   },
+   {
+    "slug": "west-suburbs",
+    "name": "West Suburbs",
+    "zip3": [
+     "024"
+    ]
+   },
+   {
+    "slug": "metrowest",
+    "name": "MetroWest & Worcester",
+    "zip3": [
+     "014",
+     "015",
+     "016",
+     "017"
+    ]
+   },
+   {
+    "slug": "north-shore",
+    "name": "North Shore & Merrimack Valley",
+    "zip3": [
+     "018",
+     "019"
+    ]
+   },
+   {
+    "slug": "south-shore",
+    "name": "South Shore",
+    "zip3": [
+     "020",
+     "023",
+     "027"
+    ]
+   },
+   {
+    "slug": "southern-nh",
+    "name": "Southern New Hampshire",
+    "zip3": [
+     "030",
+     "031",
+     "038"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "washington-dc",
+  "name": "Washington, DC",
+  "short": "DC",
+  "state": "DC",
+  "zip": "20001",
+  "radius": 40,
+  "tz": "America/New_York",
+  "blurb": "DC, Northern Virginia, the Maryland suburbs, and Baltimore and Annapolis.",
+  "regions": [
+   {
+    "slug": "dc",
+    "name": "DC",
+    "zip3": [
+     "200",
+     "202",
+     "203",
+     "204",
+     "205"
+    ]
+   },
+   {
+    "slug": "northern-virginia",
+    "name": "Northern Virginia",
+    "zip3": [
+     "201",
+     "220",
+     "221",
+     "222",
+     "223",
+     "226"
+    ]
+   },
+   {
+    "slug": "maryland-suburbs",
+    "name": "Maryland Suburbs",
+    "zip3": [
+     "206",
+     "207",
+     "208",
+     "209"
+    ]
+   },
+   {
+    "slug": "baltimore-annapolis",
+    "name": "Baltimore & Annapolis",
+    "zip3": [
+     "210",
+     "211",
+     "212",
+     "214"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "seattle",
+  "name": "Seattle",
+  "short": "Seattle",
+  "state": "WA",
+  "zip": "98101",
+  "radius": 40,
+  "tz": "America/Los_Angeles",
+  "blurb": "Seattle, the Eastside and South King County, Snohomish County, Tacoma and the South Sound.",
+  "regions": [
+   {
+    "slug": "city",
+    "name": "Seattle (city)",
+    "zip3": [
+     "981"
+    ]
+   },
+   {
+    "slug": "eastside-south-king",
+    "name": "Eastside & South King",
+    "zip3": [
+     "980"
+    ]
+   },
+   {
+    "slug": "snohomish",
+    "name": "Snohomish County",
+    "zip3": [
+     "982"
+    ]
+   },
+   {
+    "slug": "tacoma-south-sound",
+    "name": "Tacoma & South Sound",
+    "zip3": [
+     "983",
+     "984"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "denver-boulder",
+  "name": "Denver & Boulder",
+  "short": "Denver",
+  "state": "CO",
+  "zip": "80202",
+  "radius": 45,
+  "tz": "America/Denver",
+  "blurb": "Denver, Boulder, the suburbs, the Foothills, and Fort Collins and Loveland.",
+  "regions": [
+   {
+    "slug": "denver",
+    "name": "Denver",
+    "zip3": [
+     "802"
+    ]
+   },
+   {
+    "slug": "boulder",
+    "name": "Boulder County",
+    "zip3": [
+     "803"
+    ]
+   },
+   {
+    "slug": "suburbs",
+    "name": "Denver Suburbs",
+    "zip3": [
+     "800",
+     "801"
+    ]
+   },
+   {
+    "slug": "foothills",
+    "name": "Foothills & Mountains",
+    "zip3": [
+     "804"
+    ]
+   },
+   {
+    "slug": "northern-colorado",
+    "name": "Fort Collins & Loveland",
+    "zip3": [
+     "805"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "austin",
+  "name": "Austin",
+  "short": "Austin",
+  "state": "TX",
+  "zip": "78701",
+  "radius": 40,
+  "tz": "America/Chicago",
+  "blurb": "Austin, the northern suburbs, the Hill Country, and San Marcos and Hays County.",
+  "regions": [
+   {
+    "slug": "city",
+    "name": "Austin (city)",
+    "zip3": [
+     "787"
+    ]
+   },
+   {
+    "slug": "north-suburbs",
+    "name": "Round Rock & North Suburbs",
+    "cities": [
+     "Round Rock",
+     "Georgetown",
+     "Cedar Park",
+     "Leander",
+     "Pflugerville",
+     "Hutto",
+     "Taylor",
+     "Liberty Hill",
+     "Jarrell",
+     "Manor",
+     "Elgin"
+    ]
+   },
+   {
+    "slug": "hays-county",
+    "name": "San Marcos & Hays County",
+    "cities": [
+     "San Marcos",
+     "Kyle",
+     "Buda",
+     "Wimberley",
+     "Dripping Springs",
+     "Driftwood",
+     "Lockhart",
+     "New Braunfels"
+    ]
+   },
+   {
+    "slug": "hill-country",
+    "name": "Hill Country & Lakes",
+    "zip3": [
+     "786"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "san-diego",
+  "name": "San Diego",
+  "short": "San Diego",
+  "state": "CA",
+  "zip": "92101",
+  "radius": 40,
+  "tz": "America/Los_Angeles",
+  "blurb": "San Diego, North County, and East County and the South Bay.",
+  "regions": [
+   {
+    "slug": "city",
+    "name": "San Diego (city)",
+    "zip3": [
+     "921"
+    ]
+   },
+   {
+    "slug": "north-county",
+    "name": "North County",
+    "zip3": [
+     "920"
+    ]
+   },
+   {
+    "slug": "east-south-county",
+    "name": "East County & South Bay",
+    "zip3": [
+     "919"
+    ]
+   }
+  ]
+ }
+]

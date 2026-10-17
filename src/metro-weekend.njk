@@ -1,0 +1,17 @@
+---
+layout: base.njk
+pagination: { data: cal.list, size: 1, alias: m }
+permalink: "/{{ m.slug }}/this-weekend/"
+eleventyComputed:
+  title: "{{ m.name }} Races This Weekend ({{ cal.wkS | mds }}) | {{ site.name }}"
+  description: "Every running race in {{ m.name }} this weekend: {{ m.weekend.length }} races with start times, distances, prices and how to register."
+  nlMetro: "{{ m.slug }}"
+---
+{% import "macros.njk" as k %}
+<div class="wrap">
+<p class="crumbs"><a href="/">Home</a> / <a href="/{{ m.slug }}/">{{ m.name }}</a> / This weekend</p>
+<h1>{{ m.name }} races this weekend</h1>
+<p class="lead">{% if m.weekend.length %}<strong>{{ m.weekend.length }} race{% if m.weekend.length != 1 %}s{% endif %}</strong> on {{ cal.wkS | wdl }} {{ cal.wkS | md }}{% if cal.wkE != cal.wkS %} and {{ cal.wkE | wdl }} {{ cal.wkE | md }}{% endif %}. Many take race-day signups, but some close online registration the day before.{% else %}No races are listed for {{ cal.wkS | md }}{% if cal.wkE != cal.wkS %} to {{ cal.wkE | md }}{% endif %} yet.{% endif %}</p>
+<div class="sec"><h2>By date</h2></div>{{ k.list(m.weekend, cal.today, false, 'Check the next 30 days on the ' + m.name + ' page.') }}
+<p class="back"><a href="/{{ m.slug }}/#next30">See the next 30 days in {{ m.short }} →</a></p>
+</div>
