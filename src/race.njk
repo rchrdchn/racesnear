@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-pagination: { data: cal.racePages, size: 1, alias: p }
+pagination: { data: cal.racePages, size: 1, alias: p, addAllPagesToCollections: true }
 permalink: "/{{ p.metro.slug }}/races/{{ p.race.slug }}/"
 eleventyComputed:
   title: "{{ p.race.name }} {{ p.race.date | truncate(4, true, '') }}: Date, Price, Registration | {{ site.name }}"

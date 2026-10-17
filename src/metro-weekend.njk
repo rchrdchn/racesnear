@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-pagination: { data: cal.list, size: 1, alias: m }
+pagination: { data: cal.list, size: 1, alias: m, addAllPagesToCollections: true }
 permalink: "/{{ m.slug }}/this-weekend/"
 eleventyComputed:
   title: "Races near {{ m.near }} This Weekend ({{ cal.wkS | mds }}) | {{ site.name }}"

@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-pagination: { data: cal.distPages, size: 1, alias: p }
+pagination: { data: cal.distPages, size: 1, alias: p, addAllPagesToCollections: true }
 permalink: "/{{ p.metro.slug }}/{{ p.dist.slug }}/{% if p.region %}{{ p.region.slug }}/{% endif %}"
 eleventyComputed:
   title: "{{ p.dist.name | tc }} {% if p.region %}in {{ p.region.name }}, {{ p.metro.short }}{% else %}near {{ cal.metros[p.metro.slug].near }}{% endif %} ({{ cal.seasonYears }}) | {{ site.name }}"

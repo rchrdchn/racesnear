@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-pagination: { data: cal.list, size: 1, alias: m }
+pagination: { data: cal.list, size: 1, alias: m, addAllPagesToCollections: true }
 permalink: "/{{ m.slug }}/"
 eleventyComputed:
   title: "Upcoming Races near {{ m.near }} ({{ cal.seasonYears }}): 5Ks to Marathons | {{ site.name }}"
@@ -11,7 +11,7 @@ eleventyComputed:
 <div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / {{ m.name }}</p>
 <section class="mhero"><h1>Upcoming races near {{ m.near }}</h1>
-<p class="lead"><strong>{{ m.next90.length }} race{% if m.next90.length != 1 %}s{% endif %} in the next 90 days</strong> (through {{ cal.in90 | md }}) and {{ m.count }} on the calendar for the next 12 months, across {{ m.blurb | replace(".", "") }}.{% if m.early.length %} {{ m.early.length }} race{% if m.early.length != 1 %}s{% endif %} raise their price in the next three weeks.{% endif %}</p>
+<p class="lead"><strong>{{ m.next90.length }} race{% if m.next90.length != 1 %}s{% endif %} in the next 90 days</strong> (through {{ cal.in90 | md }}) and {{ m.count }} on the calendar for the next 12 months, across {{ m.blurb | replace(".", "") | replace(r/^The /, "the ") }}.{% if m.early.length %} {{ m.early.length }} race{% if m.early.length != 1 %}s{% endif %} raise their price in the next three weeks.{% endif %}</p>
 <p class="jump"><a href="#next90">Next 90 days</a><a href="#early">Early-bird deadlines</a><a href="#weekend">This weekend ({{ m.weekend.length }})</a><a href="#browse">By distance, season, month or area</a></p></section>
 <section id="next90" aria-labelledby="h90"><div class="sec"><h2 id="h90">Next 90 days</h2><p class="sub">{{ m.next90.length }} races through {{ cal.in90 | md }}</p></div>
 {{ k.filters(m, m.dists) }}<div class="fwrap">{{ k.list(m.next90, cal.today) }}<p class="empty fnone" hidden>No races match those filters in the next 90 days. Try another distance or area.</p></div></section>

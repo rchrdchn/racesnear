@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-pagination: { data: cal.siteMonths, size: 1, alias: p }
+pagination: { data: cal.siteMonths, size: 1, alias: p, addAllPagesToCollections: true }
 permalink: "/upcoming/{{ p.slug }}/"
 eleventyComputed:
   title: "Running Races in {{ p.name }} {{ p.y }}: {{ p.count }} in 10 US Cities | {{ site.name }}"

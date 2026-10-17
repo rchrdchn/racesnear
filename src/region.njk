@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-pagination: { data: cal.regionPages, size: 1, alias: p }
+pagination: { data: cal.regionPages, size: 1, alias: p, addAllPagesToCollections: true }
 permalink: "/{{ p.metro.slug }}/{{ p.region.slug }}/"
 eleventyComputed:
   title: "Upcoming Races in {{ p.region.name }}, {{ p.metro.short }} ({{ cal.seasonYears }}) | {{ site.name }}"
