@@ -34,7 +34,7 @@ module.exports = function (c) {
     const m = MB[r.metro], off = u.tzOffset(r.date, r.start, m.tz);
     const ld = { '@context': 'https://schema.org', '@type': 'Event', name: r.name, startDate: r.start ? `${r.date}T${r.start}:00${off}` : r.date, endDate: r.endDate || r.date,
       eventStatus: 'https://schema.org/EventScheduled', eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode', sport: 'Running',
-      location: { '@type': 'Place', name: r.street || r.city, address: { '@type': 'PostalAddress', streetAddress: r.street || undefined, addressLocality: r.city, postalCode: r.zip || undefined, addressRegion: m.state, addressCountry: 'US' } },
+      location: { '@type': 'Place', name: r.street || r.city, address: { '@type': 'PostalAddress', streetAddress: r.street || undefined, addressLocality: r.city, postalCode: r.zip || undefined, addressRegion: r.state || m.state, addressCountry: 'US' } },
       url: `${site.url}/${r.metro}/races/${r.slug}/`, description: r.summary || `${r.name}: ${r.distances.map(d => d.label).join(', ')} in ${r.city}.` };
     if (r.logo) ld.image = [r.logo];
     if (r.priceFrom != null) ld.offers = { '@type': 'AggregateOffer', priceCurrency: 'USD', lowPrice: r.priceFrom, highPrice: r.priceTo || r.priceFrom, url: r.url, availability: r.open ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut', validFrom: r.regOpen || undefined };

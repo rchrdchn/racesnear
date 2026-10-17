@@ -97,9 +97,30 @@ for (const m of METROS) {
     seen.add(r.race_id); races.push(s); perMetro[m.slug].kept++;
   }
 }
-// Hand-curated majors that are not on RunSignup (Race Roster, own platforms). Verified against official sites.
-const curated = JSON.parse(readFileSync(root + 'curated.json', 'utf8')).filter(c => c.date >= today && c.date <= end);
-for (const c of curated) { const m = METROS.find(x => x.slug === c.metro); races.push({ region: locate(m, c.city, c.zip)?.slug || m.regions[0].slug, source: 'Official site', open: true, priceFrom: null, priceTo: null, nextIncrease: null, logo: null, ...c }); }
+// Hand-curated majors that are not on RunSignup (Race Roster, NYRR, BAA, own platforms). Verified against official
+// race or organizer pages; each entry carries a `checked` date. Past entries drop out automatically (date < today).
+// Dedupe: if RunSignup already lists the same race (same metro, same date, near-identical name), keep the RunSignup
+// listing (live prices, affiliate link) and skip the curated one. Charity-team and bib-resale pages never count as a match.
+const STOP = new Set(['the', 'and', 'a', 'of', 'at', 'in', 'by', 'presented', 'race', 'run', 'annual', 'inc']);
+const toks = s => clean(s).toLowerCase().replace(/&/g, ' and ').replace(/['\u2019]/g, '').replace(/\b20\d\d\b/g, ' ').split(/[^a-z0-9]+/).filter(w => w && !STOP.has(w));
+const NOT_RACE = /\b(team|bibs?|charity|fundrais\w*|reservation|virtual|volunteers?|shakeout|training)\b/i;
+const sameRace = (a, b) => {
+  if (a.metro !== b.metro || a.date !== b.date || NOT_RACE.test(b.name)) return false;
+  const A = new Set(toks(a.name)), B = new Set(toks(b.name)); if (!A.size || !B.size) return false;
+  const inter = [...A].filter(w => B.has(w)).length;
+  return inter / new Set([...A, ...B]).size >= 0.6 || inter === Math.min(A.size, B.size) && inter >= 3;
+};
+const curatedAll = JSON.parse(readFileSync(root + 'curated.json', 'utf8'));
+const pastCurated = curatedAll.filter(c => c.date < today).length;
+const rsList = races.slice(), dupes = [];
+const curated = curatedAll.filter(c => c.date >= today && c.date <= end).filter(c => { const d = rsList.find(r => sameRace(c, r)); if (d) dupes.push(`${c.name} = ${d.name} (${d.id})`); return !d; });
+for (const c of curated) {
+  const m = METROS.find(x => x.slug === c.metro);
+  const region = m.regions.some(g => g.slug === c.region) ? c.region : locate(m, c.city, c.zip)?.slug || m.regions[0].slug;
+  races.push({ source: 'Official site', open: true, priceFrom: null, priceTo: null, nextIncrease: null, logo: null, ...c, region });
+}
+if (dupes.length) console.log('Curated skipped as RunSignup duplicates:', dupes);
+console.log(`Curated: ${curated.length} listed, ${dupes.length} deduped, ${pastCurated} past (dropped).`);
 // Unique slugs: name-based; add the month when two listings share a name (series races).
 races.sort((a, b) => a.date.localeCompare(b.date) || a.name.localeCompare(b.name));
 const used = new Map();

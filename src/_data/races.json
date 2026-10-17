@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-17T14:44",
+ "updated": "2026-10-17T15:26",
  "from": "2026-10-17",
  "to": "2027-10-17",
  "sources": {
   "runsignup": 1832,
-  "curated": 7
+  "curated": 47
  },
  "perMetro": {
   "bay-area": {
@@ -82,7 +82,7 @@
    "website": "https://www.facebook.com/happyjackfundinc/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-44859-1777073885.2771-0.bP6_7D.png",
    "summary": "The Happy Jack 5K is an annual, family-friendly walk/run honoring the life of our son, John Thomas “Happy Jack” Doyle. All proceeds benefit The Happy Jack Fund, which provides annual scholarships to high school students who have lost a sibling, while also supporting families navigating the loss of a child.",
-   "modified": "10/17/2026 16:51",
+   "modified": "10/17/2026 17:51",
    "slug": "14th-annual-happy-jack-5k"
   },
   {
@@ -313,7 +313,7 @@
    "website": "https://jedandtedraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-255073-1748112159.489-0.bOmHmF.png",
    "summary": "Get ready to rev up your DeLorean and hit 88 MPH! Back to the Future: 88 MPH Dash celebrates the iconic time-traveling trilogy with a special nod to Back to the Future Day, October 21, the date Marty McFly and Doc Brown traveled to the future in Back to the Future Part II. Presented by Jed & Ted’s Excellent Races.",
-   "modified": "10/17/2026 10:25",
+   "modified": "10/17/2026 17:45",
    "slug": "back-to-the-future-88-mph-dash-5k-10k-and-half"
   },
   {
@@ -533,7 +533,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/ultra-300px.bMjMog.png",
    "summary": "RACE START: 10AM. RACE DAY REGISTRATION: Starts 8:30 AM at the CTK parking lot (corner of Palisade Ave & Roberts Ave). REGISTRATION FEE: $40 Under 18 $30, Active Military Free.(register in person on Thurs Oct 15 or race day). PRE-REGISTRATION: NUGENTS PUB-782 Palisade Ave on Thursday OCT 15th from 4-8pm.",
-   "modified": "10/17/2026 16:50",
+   "modified": "10/17/2026 17:51",
    "slug": "chili-hilly-5k-run-walk"
   },
   {
@@ -2369,7 +2369,7 @@
    "website": "http://suffolkmarathon.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-50199-1730553708.7351-0.bNjIDS.png",
    "summary": "THE CATHOLIC HEALTH SUFFOLK COUNTY MARATHON WEEKEND. Join us for one of Long Island’s premier running events at the 12th Annual Suffolk County Marathon Weekend, featuring the Marathon, Half Marathon, 10K, and 5K. SATURDAY, OCTOBER 17, 2026. 5K & KIDS 1K.",
-   "modified": "10/17/2026 08:34",
+   "modified": "10/17/2026 18:11",
    "slug": "suffolk-county-marathon"
   },
   {
@@ -6141,6 +6141,43 @@
    "slug": "mcgraw-memorial-park-quick-draw-mcgraw-2-1-and-12-6-mile-trail-races"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-mcm-8k-2026",
+   "state": "VA",
+   "batch": "majors-2026-10",
+   "metro": "washington-dc",
+   "region": "northern-virginia",
+   "name": "MCM 8K",
+   "date": "2026-10-24",
+   "endDate": "2026-10-24",
+   "start": "07:20",
+   "city": "Arlington",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "8K",
+     "cat": "other",
+     "km": 8
+    }
+   ],
+   "cats": [],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://www.marinemarathon.com/event/mcm-8k/",
+   "website": null,
+   "summary": "The inaugural Marine Corps Marathon 8K, on the Saturday of MCM weekend.",
+   "checked": "2026-10-17",
+   "slug": "mcm-8k"
+  },
+  {
    "id": "rs-132814",
    "metro": "boston",
    "source": "RunSignup",
@@ -9073,6 +9110,45 @@
    "slug": "marine-corp-marathon-with-girls-on-the-run"
   },
   {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-marine-corps-marathon-2026",
+   "state": "VA",
+   "batch": "majors-2026-10",
+   "metro": "washington-dc",
+   "region": "northern-virginia",
+   "name": "Marine Corps Marathon",
+   "date": "2026-10-25",
+   "endDate": "2026-10-25",
+   "start": null,
+   "city": "Arlington",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "The 51st Marine Corps Marathon is sold out. 2027 registration opens January 1.",
+   "priceNote": "$240 standard rate (sold out)",
+   "url": "https://www.marinemarathon.com/event/marine-corps-marathon/",
+   "website": null,
+   "summary": "The 51st Marine Corps Marathon, organized by the US Marine Corps.",
+   "checked": "2026-10-17",
+   "slug": "marine-corps-marathon"
+  },
+  {
    "id": "rs-204400",
    "metro": "washington-dc",
    "source": "RunSignup",
@@ -10708,6 +10784,44 @@
    "summary": "The Rockland Road Runners To Infinity & Beyond Halloween 5K will be a fun event for kids and adults at Rockland Lake State Park. The money raised will go to the Jordyn Seiden Memorial Fund which will benefit kids who struggle with mental illness and intellectual developmental issues.",
    "modified": "10/16/2026 13:56",
    "slug": "1st-annual-to-infinity-and-beyond-halloween-5k"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-abbott-dash",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "Abbott Dash to the Finish Line 5K",
+   "date": "2026-10-31",
+   "endDate": "2026-10-31",
+   "start": "08:45",
+   "city": "New York",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    }
+   ],
+   "cats": [
+    "5k"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out on NYRR.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2026/abbott-dash-to-the-finish-line-5k",
+   "website": null,
+   "summary": "NYRR's 5K on the Saturday of TCS New York City Marathon weekend. Bibs are picked up at the marathon expo.",
+   "checked": "2026-10-17",
+   "slug": "abbott-dash-to-the-finish-line-5k"
   },
   {
    "id": "rs-215543",
@@ -13602,7 +13716,6 @@
    "slug": "genesishr-battlegreen-run"
   },
   {
-   "region": "san-francisco",
    "source": "Official site",
    "open": true,
    "priceFrom": null,
@@ -13637,6 +13750,7 @@
    "url": "https://www.goldengatehalf.com/",
    "website": "https://www.goldengatehalf.com/",
    "summary": "Starts near Aquatic Park and crosses the Golden Gate Bridge twice. Packet pickup is October 30 and 31 at Sports Basement Stonestown.",
+   "region": "san-francisco",
    "slug": "golden-gate-half-marathon-and-5k"
   },
   {
@@ -14125,6 +14239,93 @@
    "summary": "SEF 5K Fun Run 2026. Sunday November 1, 2026 - 5K race start at 9am (Kids Dash race start at 10:15am). The Saratoga Education Foundation is excited to announce our fifth annual 5K Fun Run and Walk.",
    "modified": "9/29/2026 23:53",
    "slug": "saratoga-education-foundation-5k-fun-run"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-hot-chocolate-chicago-2026",
+   "batch": "majors-2026-10",
+   "metro": "chicago",
+   "region": "city",
+   "name": "SKECHERS Hot Chocolate Run Chicago",
+   "date": "2026-11-01",
+   "endDate": "2026-11-01",
+   "start": "07:30",
+   "city": "Chicago",
+   "street": "Grant Park, 301 S Columbus Dr",
+   "zip": "60605",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "15K",
+     "cat": "other",
+     "km": 15
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://hotchocolate15k.com/city/chicago/",
+   "website": null,
+   "summary": "5K, 10K or 15K starting and finishing in Grant Park, past Millennium Park and Soldier Field, with a chocolate post-race party.",
+   "checked": "2026-10-17",
+   "slug": "skechers-hot-chocolate-run-chicago"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-tcs-nyc-marathon-2026",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "TCS New York City Marathon",
+   "date": "2026-11-01",
+   "endDate": "2026-11-01",
+   "start": "08:00",
+   "city": "New York",
+   "street": "Staten Island to Central Park through all five boroughs",
+   "zip": "",
+   "distances": [
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Closed",
+   "regStatus": "The 2026 drawing is complete. Remaining entries are through official charity partners or, for non-US residents, international tour operators.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/tcsnycmarathon",
+   "website": null,
+   "summary": "The five-borough World Marathon Major, starting on Staten Island and finishing in Central Park. 59,226 people finished in 2025.",
+   "checked": "2026-10-17",
+   "slug": "tcs-new-york-city-marathon"
   },
   {
    "id": "rs-142552",
@@ -16898,6 +17099,44 @@
    "summary": "The race will be dedicated to the Men and Women of Belleville that served in the US Military. Proceeds will financially support our Belleville Veterans' Organizations and help offset costs associated with honoring our veterans.",
    "modified": "10/16/2026 15:17",
    "slug": "belleville-veterans-day-5k-run-walk"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-boston-half-2026",
+   "batch": "majors-2026-10",
+   "metro": "boston",
+   "region": "boston-cambridge",
+   "name": "Boston Half",
+   "date": "2026-11-08",
+   "endDate": "2026-11-08",
+   "start": "08:00",
+   "city": "Boston",
+   "street": "Franklin Park",
+   "zip": "02121",
+   "distances": [
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    }
+   ],
+   "cats": [
+    "half"
+   ],
+   "trail": false,
+   "badge": "See site",
+   "regStatus": "Registration opened July 8, 2026 on the BAA site.",
+   "priceNote": "$110 entry fee (BAA)",
+   "url": "https://www.baa.org/races/boston-half/info-for-athletes/",
+   "website": null,
+   "summary": "The BAA's fall half marathon, starting and finishing in Franklin Park and running through the Emerald Necklace. Unicorn finisher medal.",
+   "checked": "2026-10-17",
+   "slug": "boston-half"
   },
   {
    "id": "rs-92311",
@@ -21153,7 +21392,6 @@
    "slug": "adrenaline-rush-5k-washington-d-c-and-virtual"
   },
   {
-   "region": "east-bay",
    "source": "Official site",
    "open": true,
    "priceFrom": null,
@@ -21195,6 +21433,7 @@
    "url": "https://berkeleyhalfmarathon.com/",
    "website": "https://berkeleyhalfmarathon.com/",
    "summary": "Berkeley's biggest race day: half at 7:30 AM, 10K and 5K at 8:30 AM, all from Milvia St at Kittredge St. Online registration runs through October 30 on Race Roster.",
+   "region": "east-bay",
    "slug": "berkeley-half-marathon"
   },
   {
@@ -24895,6 +25134,42 @@
    "summary": "RACE HAS BEEN CANCELED.",
    "modified": "8/17/2026 07:35",
    "slug": "race-has-been-canceled"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-race-to-deliver",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "Race to Deliver 4M to Benefit God's Love We Deliver",
+   "date": "2026-11-22",
+   "endDate": "2026-11-22",
+   "start": null,
+   "city": "New York",
+   "street": "Central Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "4 miles",
+     "cat": "other",
+     "km": 6.44
+    }
+   ],
+   "cats": [],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2026/race-to-deliver-4m-to-benefit-gods-love-we-deliver",
+   "website": null,
+   "summary": "A four-mile NYRR race in Central Park raising money for God's Love We Deliver, which delivered 3.7 million free meals last year.",
+   "checked": "2026-10-17",
+   "slug": "race-to-deliver-4m-to-benefit-gods-love-we-deliver"
   },
   {
    "id": "rs-55076",
@@ -34062,6 +34337,50 @@
    "slug": "tough-10-and-fast-5-turkey-trot"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-seattle-marathon-2026",
+   "batch": "majors-2026-10",
+   "metro": "seattle",
+   "region": "city",
+   "name": "UW Medicine Seattle Marathon & Half Marathon",
+   "date": "2026-11-29",
+   "endDate": "2026-11-29",
+   "start": "07:00",
+   "city": "Seattle",
+   "street": "Seattle Center (5th & Harrison), finish at Pier 66",
+   "zip": "98109",
+   "distances": [
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    },
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "half",
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Registration open through November 26, 2026.",
+   "priceNote": "Half $187.49, marathon $204.72 (Race Roster, fees included)",
+   "url": "https://raceroster.com/events/2026/112954/2026-uw-medicine-seattle-marathon-and-half-marathon",
+   "website": null,
+   "summary": "Seattle's hometown marathon, held the Sunday after Thanksgiving since 1970. The marathon starts at 7:00 AM and the half at 8:30 AM.",
+   "checked": "2026-10-17",
+   "slug": "uw-medicine-seattle-marathon-and-half-marathon"
+  },
+  {
    "id": "rs-81584",
    "metro": "washington-dc",
    "source": "RunSignup",
@@ -35227,6 +35546,42 @@
    "summary": "Course Description. The course will use existing fire roads, single track trail, hills and some pavement at South Mountain Reservation. The course is designed to be a mix of everything. You will have access to aid approximately every 3 miles. 5K, 10K, and 13.1M distances on a looped course.",
    "modified": "4/20/2026 14:11",
    "slug": "nj-trail-series-somo-winter-2"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-ted-corbitt-15k",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "NYRR Ted Corbitt 15K",
+   "date": "2026-12-05",
+   "endDate": "2026-12-05",
+   "start": "08:00",
+   "city": "New York",
+   "street": "Central Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "15K",
+     "cat": "other",
+     "km": 15
+    }
+   ],
+   "cats": [],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2026/nyrr-ted-corbitt-15k",
+   "website": null,
+   "summary": "NYRR's 15K in Central Park honoring Ted Corbitt, open to ages 16 and up. A 9+1 qualifier with finisher medals and club points.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-ted-corbitt-15k"
   },
   {
    "id": "rs-62765",
@@ -38156,6 +38511,44 @@
    "summary": "Morristown Fleet Feet Packet Pick Up- 2-6 pm 12/11. Day of Packet Pick Up: 8:30-9:30 am. Packet Pick up Closes promptly at 9:30. Line up time: 9:50 am. Start Time: 10:00 am. Join us for a festive run on December 12th before the holiday season! Choose to run or walk 3.1 or 6.",
    "modified": "9/21/2026 09:49",
    "slug": "morris-hot-cocoa-5k-10k-december-12th-10-am"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-frosty-5k",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "brooklyn",
+   "name": "NYRR Frosty 5K",
+   "date": "2026-12-12",
+   "endDate": "2026-12-12",
+   "start": "08:00",
+   "city": "Brooklyn",
+   "street": "Prospect Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    }
+   ],
+   "cats": [
+    "5k"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2026/nyrr-frosty-5k",
+   "website": null,
+   "summary": "A December 5K loop in Prospect Park, open to ages 8 and up.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-frosty-5k"
   },
   {
    "id": "rs-187969",
@@ -41597,6 +41990,50 @@
    "slug": "chasing-santa-5k-10k-10-miler-half-marathon"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-holiday-half-pomona-2026",
+   "batch": "majors-2026-10",
+   "metro": "los-angeles",
+   "region": "pasadena-sgv",
+   "name": "Holiday Half Marathon & 5K",
+   "date": "2026-12-20",
+   "endDate": "2026-12-20",
+   "start": "07:00",
+   "city": "Pomona",
+   "street": "Fairplex",
+   "zip": "91768",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    }
+   ],
+   "cats": [
+    "5k",
+    "half"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://raceroster.com/events/2026/141172/holiday-half-marathon-and-5k",
+   "website": null,
+   "summary": "A December half marathon and 5K at the Fairplex in Pomona. The half starts at 7:00 AM and the 5K at 7:20 AM.",
+   "checked": "2026-10-17",
+   "slug": "holiday-half-marathon-and-5k"
+  },
+  {
    "id": "rs-172362",
    "metro": "los-angeles",
    "source": "RunSignup",
@@ -43306,6 +43743,42 @@
    "summary": "Start the New Year running as far as you can or as little as you want. Sign up individually or as a team! The course is a 1.0 mile loop around Cottonwood Lake in popular Hellyer Park. USATF course certification (CA23033TEB).",
    "modified": "8/4/2026 20:59",
    "slug": "new-years-one-day"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-midnight-run",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "NYRR Midnight Run",
+   "date": "2026-12-31",
+   "endDate": "2026-12-31",
+   "start": "23:59",
+   "city": "New York",
+   "street": "Central Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "4 miles",
+     "cat": "other",
+     "km": 6.44
+    }
+   ],
+   "cats": [],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "The 9+1 credit entry is still available; the other entry option is sold out.",
+   "priceNote": "NYRR members $58.16, non-members $74.02 (members at the 10K Philanthropic level run free)",
+   "url": "https://www.nyrr.org/races-and-events/2026/nyrr-midnight-run",
+   "website": null,
+   "summary": "Four miles in Central Park starting at 11:59 PM on New Year's Eve, with fireworks. Open to ages 8 and up.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-midnight-run"
   },
   {
    "id": "rs-203823",
@@ -45088,6 +45561,44 @@
    "slug": "nj-trail-series-somo-winter-3"
   },
   {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-joe-kleinerman-10k",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "NYRR Joe Kleinerman 10K",
+   "date": "2027-01-09",
+   "endDate": "2027-01-09",
+   "start": "08:00",
+   "city": "New York",
+   "street": "Central Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    }
+   ],
+   "cats": [
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2027/nyrr-joe-kleinerman-10k",
+   "website": null,
+   "summary": "NYRR's first race of 2027, a 10K in Central Park for ages 12 and up.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-joe-kleinerman-10k"
+  },
+  {
    "id": "rs-116123",
    "metro": "san-diego",
    "source": "RunSignup",
@@ -45338,6 +45849,55 @@
    "summary": "Thank you for registering for the 2027 Altadena Forever Run!",
    "modified": "10/3/2026 16:43",
    "slug": "altadena-forever-run-lasaa-mug-run"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-hot-chocolate-sf-2027",
+   "batch": "majors-2026-10",
+   "metro": "bay-area",
+   "region": "san-francisco",
+   "name": "SKECHERS Hot Chocolate Run San Francisco",
+   "date": "2027-01-10",
+   "endDate": "2027-01-10",
+   "start": "07:20",
+   "city": "San Francisco",
+   "street": "Golden Gate Park, 55 Hagiwara Tea Garden Dr",
+   "zip": "94118",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "15K",
+     "cat": "other",
+     "km": 15
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://hotchocolate15k.com/city/san-francisco/",
+   "website": null,
+   "summary": "5K, 10K or 15K in Golden Gate Park past the Japanese Tea Garden and Murphy Windmill.",
+   "checked": "2026-10-17",
+   "slug": "skechers-hot-chocolate-run-san-francisco"
   },
   {
    "id": "rs-140430",
@@ -46487,6 +47047,56 @@
    "slug": "the-bagel-run-5k-10k-10-miler-half-marathon"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-carlsbad-marathon-2027",
+   "batch": "majors-2026-10",
+   "metro": "san-diego",
+   "region": "north-county",
+   "name": "Carlsbad Marathon, Half Marathon & 5K",
+   "date": "2027-01-17",
+   "endDate": "2027-01-17",
+   "start": "06:15",
+   "city": "Carlsbad",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    },
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "5k",
+    "half",
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://raceroster.com/events/2027/114126/2027-carlsbad-marathon-half-marathon-and-5k",
+   "website": null,
+   "summary": "Coastal marathon, half and 5K in Carlsbad. Marathon 6:15 AM, 5K 6:40 AM, half 7:45 AM.",
+   "checked": "2026-10-17",
+   "slug": "carlsbad-marathon-half-marathon-and-5k"
+  },
+  {
    "id": "rs-190917",
    "metro": "seattle",
    "source": "RunSignup",
@@ -46579,6 +47189,50 @@
    "summary": "Baby, it's cold outside. And we're gonna take it on, because that's what living in Colorado is all about. Let's conquer the elements together at this WINTERY January 5k/10k race. We're staying cool in Colorado, one mile at a time!",
    "modified": "10/13/2026 15:42",
    "slug": "colorado-cold-snap"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-rose-bowl-half-2027",
+   "batch": "majors-2026-10",
+   "metro": "los-angeles",
+   "region": "pasadena-sgv",
+   "name": "Rose Bowl Half Marathon & 5K",
+   "date": "2027-01-17",
+   "endDate": "2027-01-17",
+   "start": null,
+   "city": "Pasadena",
+   "street": "Rose Bowl",
+   "zip": "91103",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    }
+   ],
+   "cats": [
+    "5k",
+    "half"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://www.mccourtfoundation.org/event/rose-bowl-half-5k/register/",
+   "website": null,
+   "summary": "A half marathon and 5K from the Rose Bowl in Pasadena, run by The McCourt Foundation.",
+   "checked": "2026-10-17",
+   "slug": "rose-bowl-half-marathon-and-5k"
   },
   {
    "id": "rs-149306",
@@ -46684,6 +47338,44 @@
    "summary": "Experience the towering redwoods, lush ferns, and beautiful trails through Huddart Park, King's Mountain and Bear Gulch.",
    "modified": "9/8/2026 10:04",
    "slug": "spasm-crystal-springs-trail-run"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-austin-international-half-2027",
+   "batch": "majors-2026-10",
+   "metro": "austin",
+   "region": "city",
+   "name": "Spurs Austin International Half (formerly 3M Half)",
+   "date": "2027-01-17",
+   "endDate": "2027-01-17",
+   "start": "07:30",
+   "city": "Austin",
+   "street": "North Austin to downtown",
+   "zip": "",
+   "distances": [
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    }
+   ],
+   "cats": [
+    "half"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://downhilltodowntown.com/",
+   "website": null,
+   "summary": "Formerly the 3M Half Marathon: a fast, net-downhill point-to-point course from North Austin to downtown.",
+   "checked": "2026-10-17",
+   "slug": "spurs-austin-international-half-formerly-3m-half"
   },
   {
    "id": "rs-177030",
@@ -47140,6 +47832,93 @@
    "summary": "It's that time of year when brave runners lace up, layer up, and take on the chill! The Freakin' Freezin' 5K is all about starting the new year with some frosty fun and cool determination.",
    "modified": "9/15/2026 11:38",
    "slug": "freakin-freezin-5k-denver"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-fred-lebow-half",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "NYRR Fred Lebow Half",
+   "date": "2027-01-24",
+   "endDate": "2027-01-24",
+   "start": "08:00",
+   "city": "New York",
+   "street": "Central Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    }
+   ],
+   "cats": [
+    "half"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2027/nyrr-fred-lebow-half",
+   "website": null,
+   "summary": "A winter half marathon of Central Park loops named for the founder of the NYC Marathon. Open to ages 16 and up; a time qualifier race.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-fred-lebow-half"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-hot-chocolate-san-diego-2027",
+   "batch": "majors-2026-10",
+   "metro": "san-diego",
+   "region": "city",
+   "name": "SKECHERS Hot Chocolate Run San Diego",
+   "date": "2027-01-24",
+   "endDate": "2027-01-24",
+   "start": "07:00",
+   "city": "San Diego",
+   "street": "Petco Park Tailgate Lots, 1235 K St",
+   "zip": "92101",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "15K",
+     "cat": "other",
+     "km": 15
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://hotchocolate15k.com/city/san-diego/",
+   "website": null,
+   "summary": "5K, 10K or 15K from Petco Park, with the longer courses through Balboa Park and Golden Hill.",
+   "checked": "2026-10-17",
+   "slug": "skechers-hot-chocolate-run-san-diego"
   },
   {
    "id": "rs-171463",
@@ -48779,6 +49558,44 @@
    "slug": "little-patuxent-river-half-marathon-10k-and-5k"
   },
   {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-manhattan-10k",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "NYRR Manhattan 10K",
+   "date": "2027-01-31",
+   "endDate": "2027-01-31",
+   "start": "08:00",
+   "city": "New York",
+   "street": "Central Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    }
+   ],
+   "cats": [
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2027/nyrr-manhattan-10k",
+   "website": null,
+   "summary": "A Central Park 10K with finisher medals. Counts toward NYRR's 4 out of 6 and 9+1 programs.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-manhattan-10k"
+  },
+  {
    "id": "rs-142717",
    "metro": "los-angeles",
    "source": "RunSignup",
@@ -49502,7 +50319,6 @@
    "slug": "hungry-dog-dash"
   },
   {
-   "region": "san-francisco",
    "source": "Official site",
    "open": true,
    "priceFrom": null,
@@ -49543,7 +50359,44 @@
    "url": "https://sanfranciscohalfmarathon.org/",
    "website": "https://sanfranciscohalfmarathon.org/",
    "summary": "A certified, mostly flat course through Golden Gate Park and out and back on the Great Highway. Registration is on the race's own site.",
+   "region": "san-francisco",
    "slug": "kaiser-permanente-san-francisco-half-marathon-and-5k"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-gridiron-4m",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "NYRR Gridiron 4M",
+   "date": "2027-02-07",
+   "endDate": "2027-02-07",
+   "start": "09:00",
+   "city": "New York",
+   "street": "Central Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "4 miles",
+     "cat": "other",
+     "km": 6.44
+    }
+   ],
+   "cats": [],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2027/nyrr-gridiron-4m-presented-by-the-flag-art-foundation",
+   "website": null,
+   "summary": "Four miles in Central Park, presented by The FLAG Art Foundation. Open to ages 8 and up.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-gridiron-4m"
   },
   {
    "id": "rs-153635",
@@ -51183,6 +52036,50 @@
    "slug": "pr-races-run-your-heart-out-5k-1k"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-austin-marathon-2027",
+   "batch": "majors-2026-10",
+   "metro": "austin",
+   "region": "city",
+   "name": "Ascension Seton Austin Marathon & Half",
+   "date": "2027-02-14",
+   "endDate": "2027-02-14",
+   "start": null,
+   "city": "Austin",
+   "street": "Downtown Austin",
+   "zip": "",
+   "distances": [
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    },
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "half",
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://youraustinmarathon.com/registration/",
+   "website": null,
+   "summary": "Austin's marathon and half marathon through downtown, with about 30,000 runners. A 5K is also offered.",
+   "checked": "2026-10-17",
+   "slug": "ascension-seton-austin-marathon-and-half"
+  },
+  {
    "id": "rs-201615",
    "metro": "san-diego",
    "source": "RunSignup",
@@ -52195,6 +53092,44 @@
    "slug": "montara-mountain-trail-run"
   },
   {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-bk-5k",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "brooklyn",
+   "name": "NYRR BK 5K",
+   "date": "2027-02-20",
+   "endDate": "2027-02-20",
+   "start": "08:00",
+   "city": "Brooklyn",
+   "street": "Prospect Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    }
+   ],
+   "cats": [
+    "5k"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2027/nyrr-bk-5k",
+   "website": null,
+   "summary": "A February 5K in Prospect Park, open to ages 8 and up.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-bk-5k"
+  },
+  {
    "id": "rs-169952",
    "metro": "austin",
    "source": "RunSignup",
@@ -52432,6 +53367,44 @@
    "summary": "LASAA’s mission is to provide athletic events for our members, comprised of Los Angeles County Sheriff’s Department employees and law enforcement personnel, to promote health, fitness, and camaraderie. The Mug Run series started in 1993.",
    "modified": "9/2/2026 17:59",
    "slug": "lasaa-mug-run-lasd-homicide-bureau"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-al-gordon-5k",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "brooklyn",
+   "name": "NYRR Al Gordon 5K",
+   "date": "2027-02-27",
+   "endDate": "2027-02-27",
+   "start": "08:00",
+   "city": "Brooklyn",
+   "street": "Prospect Park",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    }
+   ],
+   "cats": [
+    "5k"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2027/nyrr-al-gordon-5k",
+   "website": null,
+   "summary": "A Prospect Park 5K named for Al Gordon, open to ages 8 and up.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-al-gordon-5k"
   },
   {
    "id": "rs-214120",
@@ -54110,6 +55083,55 @@
    "slug": "screenland-5k"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-hot-chocolate-seattle-2027",
+   "batch": "majors-2026-10",
+   "metro": "seattle",
+   "region": "city",
+   "name": "SKECHERS Hot Chocolate Run Seattle",
+   "date": "2027-02-28",
+   "endDate": "2027-02-28",
+   "start": "07:00",
+   "city": "Seattle",
+   "street": "Seattle Center, 305 Harrison St",
+   "zip": "98109",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "15K",
+     "cat": "other",
+     "km": 15
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://hotchocolate15k.com/city/seattle/",
+   "website": null,
+   "summary": "5K, 10K or 15K starting and finishing at Seattle Center by the Space Needle, with a chocolate post-race party.",
+   "checked": "2026-10-17",
+   "slug": "skechers-hot-chocolate-run-seattle"
+  },
+  {
    "id": "rs-123746",
    "metro": "bay-area",
    "source": "RunSignup",
@@ -54971,6 +55993,44 @@
    "slug": "artesa-wine-run-5k"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-la-marathon-2027",
+   "batch": "majors-2026-10",
+   "metro": "los-angeles",
+   "region": "central-la",
+   "name": "ASICS Los Angeles Marathon",
+   "date": "2027-03-07",
+   "endDate": "2027-03-07",
+   "start": null,
+   "city": "Los Angeles",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://www.mccourtfoundation.org/event/los-angeles-marathon/register/",
+   "website": null,
+   "summary": "The ASICS LA Marathon. The LA Charity Half runs the same day for fundraisers, and the LA 5K is the day before (March 6, 2027).",
+   "checked": "2026-10-17",
+   "slug": "asics-los-angeles-marathon"
+  },
+  {
    "id": "rs-120759",
    "metro": "washington-dc",
    "source": "RunSignup",
@@ -55148,7 +56208,6 @@
    "slug": "international-womens-day-run"
   },
   {
-   "region": "napa-sonoma",
    "source": "Official site",
    "open": true,
    "priceFrom": null,
@@ -55189,7 +56248,46 @@
    "url": "https://napavalleymarathon.org/registration/",
    "website": "https://napavalleymarathon.org/",
    "summary": "A point-to-point marathon down the Silverado Trail from Calistoga to Napa. Half starts at 7:00 AM, 5K at 7:15 AM and the marathon at 7:30 AM.",
+   "region": "napa-sonoma",
    "slug": "napa-valley-marathon-and-half"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-nyrr-washington-heights-5k",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "NYRR Washington Heights Salsa, Blues, and Shamrocks 5K",
+   "date": "2027-03-07",
+   "endDate": "2027-03-07",
+   "start": "09:00",
+   "city": "New York",
+   "street": "Washington Heights",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    }
+   ],
+   "cats": [
+    "5k"
+   ],
+   "trail": false,
+   "badge": "Sold out",
+   "regStatus": "Sold out. NYRR members can apply to the Member-Only Standby List.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/races-and-events/2027/nyrr-washington-heights-salsa-blues-and-shamrocks-5k",
+   "website": null,
+   "summary": "An uptown NYRR 5K in Washington Heights, open to ages 8 and up.",
+   "checked": "2026-10-17",
+   "slug": "nyrr-washington-heights-salsa-blues-and-shamrocks-5k"
   },
   {
    "id": "rs-170869",
@@ -57314,6 +58412,50 @@
    "slug": "signal-hill-rotary-mutt-run-1k-and-5k"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-rnr-dc-2027",
+   "batch": "majors-2026-10",
+   "metro": "washington-dc",
+   "region": "dc",
+   "name": "St. Jude Rock 'n' Roll Washington DC",
+   "date": "2027-03-20",
+   "endDate": "2027-03-20",
+   "start": null,
+   "city": "Washington",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    }
+   ],
+   "cats": [
+    "5k",
+    "half"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://www.runrocknroll.com/events/washington-dc",
+   "website": null,
+   "summary": "Half marathon and 5K past the Washington Monument and Lincoln Memorial, finishing near the Capitol.",
+   "checked": "2026-10-17",
+   "slug": "st-jude-rock-n-roll-washington-dc"
+  },
+  {
    "id": "rs-26382",
    "metro": "nyc",
    "source": "RunSignup",
@@ -58429,6 +59571,42 @@
    "slug": "all-out-spring-fever"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-shamrock-shuffle-2027",
+   "batch": "majors-2026-10",
+   "metro": "chicago",
+   "region": "city",
+   "name": "Bank of America Shamrock Shuffle",
+   "date": "2027-03-21",
+   "endDate": "2027-03-21",
+   "start": null,
+   "city": "Chicago",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "8K",
+     "cat": "other",
+     "km": 8
+    }
+   ],
+   "cats": [],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "8K entry $51 to $72",
+   "url": "https://www.shamrockshuffle.com/register/8k-run/",
+   "website": null,
+   "summary": "Chicago's spring 8K, with a 2-mile walk option. Packet mailing is available for a fee.",
+   "checked": "2026-10-17",
+   "slug": "bank-of-america-shamrock-shuffle"
+  },
+  {
    "id": "rs-84166",
    "metro": "denver-boulder",
    "source": "RunSignup",
@@ -58527,7 +59705,6 @@
    "slug": "garden-state-10-miler-and-cookie-chase-5k"
   },
   {
-   "region": "east-bay",
    "source": "Official site",
    "open": true,
    "priceFrom": null,
@@ -58574,6 +59751,7 @@
    "url": "https://register.oaklandmarathon.com/",
    "website": "https://oaklandmarathon.com/",
    "summary": "A one-loop marathon past Lake Merritt and downtown with an out-and-back on the Bay Bridge. Marathon and half at 7:00 AM, 10K at 8:30 AM, 5K at 9:00 AM.",
+   "region": "east-bay",
    "slug": "oakland-marathon"
   },
   {
@@ -58698,6 +59876,44 @@
    "summary": "‍♂️ Run Forest Run 5K - A Forrest Gump-Inspired Fun Run! If you’ve ever watched Forrest Gump and thought, “Hey, I could run across America too… or at least a few miles,” then the Run Forrest Run 5K is calling your name louder than Jenny yelling from a school bus window.",
    "modified": "9/22/2026 19:03",
    "slug": "run-forest-run-5k"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-united-airlines-nyc-half",
+   "batch": "majors-2026-10",
+   "metro": "nyc",
+   "region": "manhattan",
+   "name": "United Airlines NYC Half",
+   "date": "2027-03-21",
+   "endDate": "2027-03-21",
+   "start": null,
+   "city": "New York",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    }
+   ],
+   "cats": [
+    "half"
+   ],
+   "trail": false,
+   "badge": "Drawing: apply Oct 21 to Nov 11, 2026",
+   "regStatus": "Entry by drawing. Applications and guaranteed-entry claims run October 21 to November 11, 2026, and the drawing is November 18, 2026.",
+   "priceNote": "See site",
+   "url": "https://www.nyrr.org/run/united-airlines-nyc-half",
+   "website": null,
+   "summary": "NYRR's big spring half marathon. Entry is by drawing, guaranteed entry or a charity spot.",
+   "checked": "2026-10-17",
+   "slug": "united-airlines-nyc-half"
   },
   {
    "id": "rs-204434",
@@ -60314,6 +61530,44 @@
    "slug": "chi-town-half-marathon-and-10k"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-cherry-blossom-5k-2027",
+   "batch": "majors-2026-10",
+   "metro": "washington-dc",
+   "region": "dc",
+   "name": "Credit Union Cherry Blossom 5K",
+   "date": "2027-04-03",
+   "endDate": "2027-04-03",
+   "start": "09:15",
+   "city": "Washington",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    }
+   ],
+   "cats": [
+    "5k"
+   ],
+   "trail": false,
+   "badge": "Lottery: Dec 14 to Jan 5",
+   "regStatus": "Entry is by lottery for the first time in 2027, open December 14, 2026 to January 5, 2027.",
+   "priceNote": "$47 (plus processing fee)",
+   "url": "https://cherryblossom.org/",
+   "website": null,
+   "summary": "The Saturday 5K of Cherry Blossom weekend in Washington, DC.",
+   "checked": "2026-10-17",
+   "slug": "credit-union-cherry-blossom-5k"
+  },
+  {
    "id": "rs-164308",
    "metro": "chicago",
    "source": "RunSignup",
@@ -60878,6 +62132,42 @@
    "summary": "Kick Off the Spring Running Season - With Cinnamon Buns & Big Smiles! ‍♀️. What better way to welcome spring than with a flat, fast 5K or 10K - and new for 2026, a 2K Pup Strut for you and your furry friend!",
    "modified": "10/15/2026 11:42",
    "slug": "cinnamon-bun-5k-10k-and-2k-pupstrut"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-cherry-blossom-10-mile-2027",
+   "batch": "majors-2026-10",
+   "metro": "washington-dc",
+   "region": "dc",
+   "name": "Credit Union Cherry Blossom Ten Mile Run",
+   "date": "2027-04-04",
+   "endDate": "2027-04-04",
+   "start": "07:30",
+   "city": "Washington",
+   "street": "Washington Monument Grounds",
+   "zip": "",
+   "distances": [
+    {
+     "label": "10 miles",
+     "cat": "other",
+     "km": 16.09
+    }
+   ],
+   "cats": [],
+   "trail": false,
+   "badge": "Lottery: Dec 14 to Jan 5",
+   "regStatus": "Entry is by lottery, open December 14, 2026 to January 5, 2027. Double Blossom (5K + 10 miles) is $114.",
+   "priceNote": "$67 (plus processing fee)",
+   "url": "https://cherryblossom.org/",
+   "website": null,
+   "summary": "DC's classic spring 10-miler from the Washington Monument Grounds, timed for the cherry blossoms. Also the USATF 10 Mile Championships.",
+   "checked": "2026-10-17",
+   "slug": "credit-union-cherry-blossom-ten-mile-run"
   },
   {
    "id": "rs-53714",
@@ -62884,6 +64174,44 @@
    "slug": "spring-fling-prairie-dog-half-10k-and-5k"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-cap10k-2027",
+   "batch": "majors-2026-10",
+   "metro": "austin",
+   "region": "city",
+   "name": "Statesman Cap10K",
+   "date": "2027-04-11",
+   "endDate": "2027-04-11",
+   "start": "08:00",
+   "city": "Austin",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    }
+   ],
+   "cats": [
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://www.cap10k.com/register-now/",
+   "website": null,
+   "summary": "The 50th Statesman Capitol 10,000, Austin's big spring 10K.",
+   "checked": "2026-10-17",
+   "slug": "statesman-cap10k"
+  },
+  {
    "id": "rs-67684",
    "metro": "los-angeles",
    "source": "RunSignup",
@@ -63248,75 +64576,6 @@
    "slug": "generations-in-motion-2-mile-and-relay"
   },
   {
-   "id": "rs-124209",
-   "metro": "bay-area",
-   "source": "RunSignup",
-   "name": "Horseshoe Lake Trail Run",
-   "date": "2027-04-17",
-   "endDate": "2027-04-17",
-   "start": "07:50",
-   "city": "Los Gatos",
-   "region": "south-bay",
-   "street": "Skyline Ridge Open Space Preserve (Circle Parking Lot)",
-   "zip": "95033",
-   "distances": [
-    {
-     "label": "2 miles",
-     "cat": "other",
-     "km": 3.22
-    },
-    {
-     "label": "5.1 miles",
-     "cat": "other",
-     "km": 8.21
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    },
-    {
-     "label": "30K",
-     "cat": "other",
-     "km": 30
-    },
-    {
-     "label": "Marathon",
-     "cat": "marathon",
-     "km": 42.16
-    },
-    {
-     "label": "50K",
-     "cat": "ultra",
-     "km": 50.05
-    }
-   ],
-   "cats": [
-    "half",
-    "marathon",
-    "ultra",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": 60,
-   "priceTo": 90,
-   "nextIncrease": {
-    "date": "2027-04-11",
-    "event": "5.1 miles",
-    "from": 60,
-    "to": 70
-   },
-   "regOpen": "2026-04-22",
-   "regClose": "2027-04-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/CA/LosGatos/HorseshoeLakeTrailRun",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race124209-logo-0.bH5Whz.png",
-   "summary": "The course is within the Skyline Ridge, Long Ridge, and Russian Ridge Open Space Preserves. The majority of the course is along the Bay Area Ridge Trail with spectacular views of the Pacific Ocean and Santa Cruz Mountains. (Distances are accurately measured using a Rolatape® surveyor's measuring wheel.).",
-   "modified": "8/5/2026 11:12",
-   "slug": "horseshoe-lake-trail-run"
-  },
-  {
    "id": "rs-84975",
    "metro": "san-diego",
    "source": "RunSignup",
@@ -63531,6 +64790,75 @@
    "summary": "Run for the Planet. Start Line: 5400 E Ocean Blvd, Long Beach, CA. Saturday, April 17, 2027. 5K | 10K | Half Marathon| 1 Miler | Kids Dash. Celebrate Earth Day the CaliFlow way at Run for the Planet-a high-vibe coastal race honoring community, sustainability, and the beautiful place we call home.",
    "modified": "9/15/2026 20:26",
    "slug": "run-for-the-planet-an-earth-day-run-by-califlow-runs-5k-10k-half-marat"
+  },
+  {
+   "id": "rs-121588",
+   "metro": "bay-area",
+   "source": "RunSignup",
+   "name": "Spasm Lake Chabot Trail Run",
+   "date": "2027-04-17",
+   "endDate": "2027-04-17",
+   "start": "08:20",
+   "city": "Castro Valley",
+   "region": "east-bay",
+   "street": "Lake Chabot Regional Park - Marina",
+   "zip": "94546",
+   "distances": [
+    {
+     "label": "2 miles",
+     "cat": "other",
+     "km": 3.22
+    },
+    {
+     "label": "5 miles",
+     "cat": "other",
+     "km": 8.05
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    },
+    {
+     "label": "17.9 miles",
+     "cat": "other",
+     "km": 28.81
+    },
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.16
+    },
+    {
+     "label": "50K",
+     "cat": "ultra",
+     "km": 49.89
+    }
+   ],
+   "cats": [
+    "half",
+    "marathon",
+    "ultra",
+    "trail"
+   ],
+   "trail": true,
+   "priceFrom": 60,
+   "priceTo": 90,
+   "nextIncrease": {
+    "date": "2027-04-11",
+    "event": "5 miles",
+    "from": 60,
+    "to": 70
+   },
+   "regOpen": "2026-04-22",
+   "regClose": "2027-04-17",
+   "open": true,
+   "url": "https://runsignup.com/Race/CA/CastroValley/SPASMLakeChabotTrailRun",
+   "website": null,
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race121588-logo-0.bIvckL.png",
+   "summary": "The course starts at the Marina and travels around the popular Lake Chabot reservoir and surrounding hills. Great course for first-time trail runners! (Distances are accurately measured using a Rolatape® surveyor's measuring wheel.).",
+   "modified": "10/17/2026 18:02",
+   "slug": "spasm-lake-chabot-trail-run"
   },
   {
    "id": "rs-211811",
@@ -64214,6 +65542,44 @@
    "summary": "Finally! A flat, fast full marathon in the Seattle area, the inaugural Washington State Marathon promises to deliver a stunning point-to-point race.",
    "modified": "9/29/2026 17:35",
    "slug": "washington-state-marathon"
+  },
+  {
+   "source": "Official site",
+   "open": false,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-boston-marathon-2027",
+   "batch": "majors-2026-10",
+   "metro": "boston",
+   "region": "boston-cambridge",
+   "name": "Boston Marathon",
+   "date": "2027-04-19",
+   "endDate": "2027-04-19",
+   "start": null,
+   "city": "Boston",
+   "street": "Hopkinton to Boylston Street, Boston",
+   "zip": "02116",
+   "distances": [
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Qualifier (closed)",
+   "regStatus": "Qualifier-only race. 2027 qualifier registration ran September 14 to 18, 2026 and acceptances have been announced; charity entries go through official charity partners.",
+   "priceNote": "See site",
+   "url": "https://www.baa.org/races/boston-marathon/info-for-athletes/",
+   "website": null,
+   "summary": "The 131st Boston Marathon, run from Hopkinton to Boylston Street on Patriots' Day. You need a qualifying time or a charity entry.",
+   "checked": "2026-10-17",
+   "slug": "boston-marathon"
   },
   {
    "id": "rs-27667",
@@ -64951,6 +66317,75 @@
    "summary": "Welcome to the Great Woods Marathon & 5k! Ready to chase your next PR in a fun, fast, and super supportive setting? Welcome to the Great Woods Marathon, a race experience built for speed, safety, and serious good vibes - all happening at the iconic Great Woods in Mansfield, MA (now known as the Xfinity Center)!",
    "modified": "10/13/2026 15:15",
    "slug": "great-woods-marathon-and-5k"
+  },
+  {
+   "id": "rs-124209",
+   "metro": "bay-area",
+   "source": "RunSignup",
+   "name": "Horseshoe Lake Trail Run",
+   "date": "2027-04-24",
+   "endDate": "2027-04-24",
+   "start": "07:50",
+   "city": "Los Gatos",
+   "region": "south-bay",
+   "street": "Skyline Ridge Open Space Preserve (Circle Parking Lot)",
+   "zip": "95033",
+   "distances": [
+    {
+     "label": "2 miles",
+     "cat": "other",
+     "km": 3.22
+    },
+    {
+     "label": "5.1 miles",
+     "cat": "other",
+     "km": 8.21
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    },
+    {
+     "label": "30K",
+     "cat": "other",
+     "km": 30
+    },
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.16
+    },
+    {
+     "label": "50K",
+     "cat": "ultra",
+     "km": 50.05
+    }
+   ],
+   "cats": [
+    "half",
+    "marathon",
+    "ultra",
+    "trail"
+   ],
+   "trail": true,
+   "priceFrom": 60,
+   "priceTo": 90,
+   "nextIncrease": {
+    "date": "2027-04-18",
+    "event": "5.1 miles",
+    "from": 60,
+    "to": 70
+   },
+   "regOpen": "2026-04-22",
+   "regClose": "2027-04-24",
+   "open": true,
+   "url": "https://runsignup.com/Race/CA/LosGatos/HorseshoeLakeTrailRun",
+   "website": null,
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race124209-logo-0.bH5Whz.png",
+   "summary": "The course is within the Skyline Ridge, Long Ridge, and Russian Ridge Open Space Preserves. The majority of the course is along the Bay Area Ridge Trail with spectacular views of the Pacific Ocean and Santa Cruz Mountains. (Distances are accurately measured using a Rolatape® surveyor's measuring wheel.).",
+   "modified": "10/17/2026 18:12",
+   "slug": "horseshoe-lake-trail-run"
   },
   {
    "id": "rs-119331",
@@ -65744,75 +67179,6 @@
    "summary": "Amigos De Bolsa Chica, in conjunction with Bolsa Chica State Beach is hosting a run/walk/beach cleanup for Earth Day! Run for the Birds, Run for the Planet, Run for Earth Day. Join us on Saturday, April 24, 2027, at Bolsa Chica State Beach - where every step makes a difference.",
    "modified": "8/4/2026 17:44",
    "slug": "running-is-for-the-birds-5k-10k-kids-run-and-walk-earth-day-celebratio"
-  },
-  {
-   "id": "rs-121588",
-   "metro": "bay-area",
-   "source": "RunSignup",
-   "name": "Spasm Lake Chabot Trail Run",
-   "date": "2027-04-24",
-   "endDate": "2027-04-24",
-   "start": "08:20",
-   "city": "Castro Valley",
-   "region": "east-bay",
-   "street": "Lake Chabot Regional Park - Marina",
-   "zip": "94546",
-   "distances": [
-    {
-     "label": "2 miles",
-     "cat": "other",
-     "km": 3.22
-    },
-    {
-     "label": "5 miles",
-     "cat": "other",
-     "km": 8.05
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    },
-    {
-     "label": "17.9 miles",
-     "cat": "other",
-     "km": 28.81
-    },
-    {
-     "label": "Marathon",
-     "cat": "marathon",
-     "km": 42.16
-    },
-    {
-     "label": "50K",
-     "cat": "ultra",
-     "km": 49.89
-    }
-   ],
-   "cats": [
-    "half",
-    "marathon",
-    "ultra",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": 60,
-   "priceTo": 90,
-   "nextIncrease": {
-    "date": "2027-04-18",
-    "event": "5 miles",
-    "from": 60,
-    "to": 70
-   },
-   "regOpen": "2026-04-22",
-   "regClose": "2027-04-24",
-   "open": true,
-   "url": "https://runsignup.com/Race/CA/CastroValley/SPASMLakeChabotTrailRun",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race121588-logo-0.bIvckL.png",
-   "summary": "The course starts at the Marina and travels around the popular Lake Chabot reservoir and surrounding hills. Great course for first-time trail runners! (Distances are accurately measured using a Rolatape® surveyor's measuring wheel.).",
-   "modified": "8/5/2026 11:10",
-   "slug": "spasm-lake-chabot-trail-run"
   },
   {
    "id": "rs-197218",
@@ -70363,7 +71729,6 @@
    "slug": "arlington-education-foundation-5k"
   },
   {
-   "region": "san-francisco",
    "source": "Official site",
    "open": true,
    "priceFrom": null,
@@ -70395,6 +71760,7 @@
    "url": "https://www.baytobreakers.com/",
    "website": "https://www.baytobreakers.com/",
    "summary": "San Francisco's famous costume race from downtown to Ocean Beach. The 15K adds 3K on the Great Highway. Waves start from 8:00 AM and prices rise in steps.",
+   "region": "san-francisco",
    "slug": "bay-to-breakers"
   },
   {
@@ -70550,6 +71916,55 @@
    "summary": "Annual Dash for the Dogs 5K Run/Walk to raise funds for the dogs & cats under our care at Animal House Shelter! Run or Walk the 5K with your dog or without! Dogs must be up to date on all vaccinations and be excellent around all other animals & people.",
    "modified": "10/15/2026 00:06",
    "slug": "dash-for-the-dogs-14th-annual-5k-run-walk"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-colfax-marathon-2027",
+   "batch": "majors-2026-10",
+   "metro": "denver-boulder",
+   "region": "denver",
+   "name": "Denver Colfax Marathon",
+   "date": "2027-05-16",
+   "endDate": "2027-05-16",
+   "start": null,
+   "city": "Denver",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "10 miles",
+     "cat": "other",
+     "km": 16.09
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    },
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "half",
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://www.runcolfax.org/races/register/",
+   "website": null,
+   "summary": "Sunday of Colfax Marathon weekend: marathon, half marathon, Urban 10 Miler and relays. The Colfax 5K is Saturday, May 15.",
+   "checked": "2026-10-17",
+   "slug": "denver-colfax-marathon"
   },
   {
    "id": "rs-135266",
@@ -72159,6 +73574,44 @@
    "slug": "race-to-the-flag"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-bolder-boulder-2027",
+   "batch": "majors-2026-10",
+   "metro": "denver-boulder",
+   "region": "boulder",
+   "name": "BOLDERBoulder",
+   "date": "2027-05-31",
+   "endDate": "2027-05-31",
+   "start": null,
+   "city": "Boulder",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    }
+   ],
+   "cats": [
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://landing.letsdothis.com/2027-bolderboulder-registration",
+   "website": null,
+   "summary": "Colorado's Memorial Day 10K through the streets of Boulder. A virtual option is also offered.",
+   "checked": "2026-10-17",
+   "slug": "bolderboulder"
+  },
+  {
    "id": "rs-173466",
    "metro": "washington-dc",
    "source": "RunSignup",
@@ -72600,6 +74053,56 @@
    "summary": "The Oneness Move proudly presents the 9th annual Oneness 10K Run and 5K Run/Walk! This event is entirely volunteer-run, and 100% of the funds raised go towards charity and scholarships. For more details on the Charitable initiatives of Oneness Move, please visit www.onenessmove.org.",
    "modified": "6/16/2026 08:35",
    "slug": "oneness-10k-run-and-5k-run-walk"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-rnr-san-diego-2027",
+   "batch": "majors-2026-10",
+   "metro": "san-diego",
+   "region": "city",
+   "name": "Rock 'n' Roll San Diego",
+   "date": "2027-06-05",
+   "endDate": "2027-06-06",
+   "start": null,
+   "city": "San Diego",
+   "street": "Balboa Park to Downtown",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    },
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "5k",
+    "half",
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Race weekend is June 5 to 6, 2027.",
+   "priceNote": "See site",
+   "url": "https://www.runrocknroll.com/events/san-diego",
+   "website": null,
+   "summary": "The original Rock 'n' Roll race: marathon, half and 5K from Balboa Park to downtown San Diego, held June 5 to 6, 2027.",
+   "checked": "2026-10-17",
+   "slug": "rock-n-roll-san-diego"
   },
   {
    "id": "rs-125705",
@@ -77392,7 +78895,6 @@
    "slug": "spirit-of-the-west-5k-run-walk"
   },
   {
-   "region": "san-francisco",
    "source": "Official site",
    "open": true,
    "priceFrom": null,
@@ -77433,6 +78935,7 @@
    "url": "https://www.thesfmarathon.com/",
    "website": "https://www.thesfmarathon.com/",
    "summary": "The 50th running, over the Golden Gate Bridge. The full starts at 5:15 AM on the Embarcadero at Market and has a 6-hour limit.",
+   "region": "san-francisco",
    "slug": "the-san-francisco-marathon"
   },
   {
@@ -78545,6 +80048,50 @@
    "summary": "The course travels through beautiful Redwood Regional Park. Enjoy the spectacular views along the East Ridge and West Ridge trails and wind through tall redwoods on the popular Stream and Bridle trails. (Distances are accurately measured using a Rolatape® surveyor's measuring wheel.).",
    "modified": "9/9/2026 09:31",
    "slug": "redwood-summer-trail-run"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-americas-finest-city-half-2027",
+   "batch": "majors-2026-10",
+   "metro": "san-diego",
+   "region": "city",
+   "name": "America's Finest City Half Marathon & 5K",
+   "date": "2027-08-15",
+   "endDate": "2027-08-15",
+   "start": "06:10",
+   "city": "San Diego",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.1
+    }
+   ],
+   "cats": [
+    "5k",
+    "half"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://raceroster.com/events/2027/141155/2027-americas-finest-city-half-marathon-and-5k",
+   "website": null,
+   "summary": "San Diego's summer half marathon and 5K. 5K starts 6:10 AM, half 6:15 AM.",
+   "checked": "2026-10-17",
+   "slug": "americas-finest-city-half-marathon-and-5k"
   },
   {
    "id": "rs-15290",
@@ -81623,6 +83170,55 @@
    "slug": "garavel-sono-half-marathon-5k"
   },
   {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-hot-chocolate-denver-2027",
+   "batch": "majors-2026-10",
+   "metro": "denver-boulder",
+   "region": "denver",
+   "name": "SKECHERS Hot Chocolate Run Denver",
+   "date": "2027-10-03",
+   "endDate": "2027-10-03",
+   "start": "07:00",
+   "city": "Denver",
+   "street": "Washington Park, 701 S Franklin St",
+   "zip": "80209",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "15K",
+     "cat": "other",
+     "km": 15
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k"
+   ],
+   "trail": false,
+   "badge": "Open",
+   "regStatus": "Open on the official site",
+   "priceNote": "See site",
+   "url": "https://hotchocolate15k.com/city/denver/",
+   "website": null,
+   "summary": "5K, 10K or 15K around Washington Park, with the 15K running along Cherry Creek.",
+   "checked": "2026-10-17",
+   "slug": "skechers-hot-chocolate-run-denver"
+  },
+  {
    "id": "rs-11066",
    "metro": "los-angeles",
    "source": "RunSignup",
@@ -81986,6 +83582,44 @@
    "summary": "Walk Their Journey. Change Their Future. Join us for a powerful and transformative experience at the Walk for Water 5K Charity Fundraiser, co-hosted by Pathway To Tomorrow and Drop of Water.",
    "modified": "7/17/2026 02:22",
    "slug": "walk-for-water-5k-los-angeles"
+  },
+  {
+   "source": "Official site",
+   "open": true,
+   "priceFrom": null,
+   "priceTo": null,
+   "nextIncrease": null,
+   "logo": null,
+   "id": "cur-chicago-marathon-2027",
+   "batch": "majors-2026-10",
+   "metro": "chicago",
+   "region": "city",
+   "name": "Bank of America Chicago Marathon",
+   "date": "2027-10-10",
+   "endDate": "2027-10-10",
+   "start": null,
+   "city": "Chicago",
+   "street": "",
+   "zip": "",
+   "distances": [
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.2
+    }
+   ],
+   "cats": [
+    "marathon"
+   ],
+   "trail": false,
+   "badge": "Drawing: apply by Oct 29, 2026",
+   "regStatus": "Non-guaranteed entries are by drawing; guaranteed-entry paths are open in the same window (October 8 to 29, 2026).",
+   "priceNote": "See site",
+   "url": "https://www.chicagomarathon.com/apply/",
+   "website": null,
+   "summary": "The 49th Bank of America Chicago Marathon, one of the World Marathon Majors.",
+   "checked": "2026-10-17",
+   "slug": "bank-of-america-chicago-marathon"
   },
   {
    "id": "rs-211865",

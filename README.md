@@ -4,7 +4,7 @@ Races Near: a multi-metro race calendar for planning ahead. Upcoming races (next
 Same stack as howtowatchsoccerusa / howtowatchnba: Eleventy 3, Cloudflare Pages, GitHub Actions nightly refresh. Newsletter (beehiiv) not set up yet; the Free email button points to /newsletter/.
 
 ## Commands
-- `npm run data`: refresh `src/_data/races.json` from the RunSignup public API (one radius query per metro centre in `src/_data/metros.json`) plus `src/_data/curated.json` (hand-checked majors not on RunSignup).
+- `npm run data`: refresh `src/_data/races.json` from the RunSignup public API (one radius query per metro centre in `src/_data/metros.json`) plus `src/_data/curated.json` (hand-checked majors not on RunSignup: NYRR, BAA, Race Roster, Rock 'n' Roll, Hot Chocolate, etc.). Curated fields beyond the RunSignup shape: `region` (explicit area slug), `badge` (short status on cards, e.g. Sold out, Lottery: ..., Drawing: ..., Qualifier (closed)), `regStatus` (full registration note), `priceNote` ('See site' or the published price), `state` (override, e.g. VA), `checked` (date verified). Past entries drop out automatically; a curated entry is skipped if RunSignup lists the same race (same metro, same date, near-identical name; charity-team and bib pages never match).
 - `npm run build`: build to `_site` (about 2,570 pages).
 - `npm run check`: internal link check.
 - `npm run indexnow`: ping IndexNow with every sitemap URL after a deploy (key file `src/<indexNowKey>.txt`).
