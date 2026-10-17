@@ -3,14 +3,14 @@ layout: base.njk
 pagination: { data: cal.regionPages, size: 1, alias: p }
 permalink: "/{{ p.metro.slug }}/{{ p.region.slug }}/"
 eleventyComputed:
-  title: "{{ p.region.name }} Races {{ cal.year }}: {{ p.races.length }} Upcoming | {{ p.metro.name }}"
+  title: "Upcoming Races in {{ p.region.name }}, {{ p.metro.short }} ({{ cal.seasonYears }}) | {{ site.name }}"
   description: "{{ p.races.length }} upcoming running races in {{ p.region.name }} ({{ p.metro.name }}): 5Ks, 10Ks, halfs and more with dates, prices and registration links."
   nlMetro: "{{ p.metro.slug }}"
 ---
 {% import "macros.njk" as k %}
 <div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / <a href="/{{ p.metro.slug }}/">{{ p.metro.name }}</a> / {{ p.region.name }}</p>
-<h1>{{ p.region.name }} races</h1>
+<h1>Upcoming races in {{ p.region.name }}</h1>
 <p class="lead"><strong>{{ p.races.length }} upcoming race{% if p.races.length != 1 %}s{% endif %}</strong> in {{ p.region.name }}{% if p.races.length %}, next up: <a href="{{ p.races[0] | raceUrl }}">{{ p.races[0].name }}</a> on {{ p.races[0].date | wdl }} {{ p.races[0].date | md }}{% endif %}.</p>
 {% if p.dists.length %}<p class="jump">{% for d in p.dists %}<a href="/{{ p.metro.slug }}/{{ d.slug }}/{{ p.region.slug }}/">{{ d.name }}</a>{% endfor %}</p>{% endif %}
 <div class="sec"><h2>By date</h2></div>{{ k.list(p.races, cal.today) }}

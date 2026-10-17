@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 permalink: /privacy/
-title: "Privacy | Races This Weekend"
+title: "Privacy | Races Near"
 description: "What we collect (very little) and why."
 ---
 <div class="wrap prose">

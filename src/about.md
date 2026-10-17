@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 permalink: /about/
-title: "About and Sources | Races This Weekend"
+title: "About and Sources | Races Near"
 description: "Where our race listings come from, how often they update, and how we pick our ten cities."
 ---
 <div class="wrap prose">
@@ -10,7 +10,7 @@ description: "Where our race listings come from, how often they update, and how 
 
 # About and sources
 
-<p class="lead">Races This Weekend is a race calendar for ten of the most active cities in the US. It answers two questions fast: what can I run this weekend, and which races get more expensive soon?</p>
+<p class="lead">Races Near is a race calendar for ten of the most active cities in the US. Most runners sign up weeks or months ahead, so it answers two questions fast: what is coming up near me, and which races get more expensive soon?</p>
 
 ## Where the races come from
 

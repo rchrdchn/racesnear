@@ -1,18 +1,24 @@
 ---
 layout: base.njk
-title: "Races This Weekend: 5Ks, Halfs and Marathons in 10 US Cities"
-description: "Find running races this weekend and the next 30 days in the Bay Area, NYC, LA, Chicago, Boston, DC, Seattle, Denver, Austin and San Diego. Prices, start times and early-bird deadlines."
+eleventyComputed:
+  title: "Races Near You ({{ cal.seasonYears }}): Upcoming 5Ks, Half Marathons and Marathons | Races Near"
+  description: "Plan your next race. {{ cal.allNext90.length }} 5Ks, 10Ks, half marathons, marathons and trail races in the next 90 days near the Bay Area, NYC, LA, Chicago, Boston, DC, Seattle, Denver, Austin and San Diego, with early-bird deadlines."
 ---
 {% import "macros.njk" as k %}
 <div class="wrap">
 <section class="hero"><p class="kick">{{ cal.total | string }} upcoming races · 10 cities · updated daily</p>
-<h1>Every race near you, <span class="acc">before the price goes up.</span></h1>
-<p class="lead">5Ks, 10Ks, half marathons, marathons and trail races in ten of the most active US cities. Pick your city for this weekend, the next 30 days and the early-bird deadlines coming up.</p></section>
-<section id="cities" aria-labelledby="ch"><div class="sec"><h2 id="ch">Pick your city</h2></div>
-<ul class="metros">{% for m in cal.list %}<li><a href="/{{ m.slug }}/"><strong>{{ m.name }}</strong><span>{{ m.weekend.length }} this weekend · {{ m.count }} upcoming</span></a></li>{% endfor %}</ul></section>
-<section aria-labelledby="wh"><div class="sec"><h2 id="wh">This weekend across all cities</h2><p class="sub">{{ cal.wkS | wdl }} {{ cal.wkS | md }}{% if cal.wkE != cal.wkS %} and {{ cal.wkE | wdl }} {{ cal.wkE | md }}{% endif %} · {{ cal.allWeekend.length }} races</p><a class="more" href="/this-weekend/">All {{ cal.allWeekend.length }} →</a></div>
-<div class="wkgrid">{% for m in cal.list %}<div class="wk"><h3><a href="/{{ m.slug }}/this-weekend/">{{ m.name }}</a><span>{{ m.weekend.length }}</span></h3>{{ k.list(m.weekend | limit(3), cal.today, false, 'Nothing listed this weekend. See the next 30 days.') }}{% if m.weekend.length > 3 %}<a class="wkmore" href="/{{ m.slug }}/this-weekend/">+{{ m.weekend.length - 3 }} more in {{ m.short }}</a>{% endif %}</div>{% endfor %}</div></section>
-<section aria-labelledby="eh"><div class="sec"><h2 id="eh">Early-bird prices ending soon</h2><p class="sub">Register before these dates to pay less.</p><a class="more" href="/price-increases/">All price increases →</a></div>
+<h1>Upcoming races near you, <span class="acc">before the price goes up.</span></h1>
+<p class="lead">Most runners sign up weeks or months ahead. Pick your city for the next 90 days of 5Ks, 10Ks, half marathons, marathons and trail races, plus the early-bird prices about to end.</p>
+<form class="picker" id="picker" action="/" method="get"><label for="city">Your city</label><div class="pk"><select id="city" name="city">{% for m in cal.list %}<option value="/{{ m.slug }}/">{{ m.name }} ({{ m.next90.length }} races)</option>{% endfor %}</select><button type="submit" class="btn">Show races</button></div></form></section>
+<section id="cities" aria-labelledby="ch"><div class="sec"><h2 id="ch">Upcoming races by city</h2><p class="sub">Next 90 days, through {{ cal.in90 | md }}</p><a class="more" href="/upcoming/">All upcoming →</a></div>
+<ul class="metros">{% for m in cal.list %}<li><a href="/{{ m.slug }}/"><strong>{{ m.name }}</strong><span>{{ m.next90.length }} in 90 days{% if m.early.length %} · {{ m.early.length }} early-bird{% endif %}</span></a></li>{% endfor %}</ul></section>
+<section aria-labelledby="eh"><div class="sec"><h2 id="eh">Early-bird prices ending soon</h2><p class="sub">Register before these dates to pay less.</p><a class="more" href="/price-increases/">All {{ cal.allEarly.length }} deadlines →</a></div>
 {{ k.early(cal.allEarly | limit(10), cal.today, true) }}</section>
+<section aria-labelledby="mh"><div class="sec"><h2 id="mh">Plan by month</h2><p class="sub">Every race in all ten cities, month by month</p></div>
+{% set items = [] %}{% for mo in cal.siteMonths %}{% set items = (items.push(["/upcoming/" + mo.slug + "/", mo.name + " " + mo.y, mo.count + " races"]), items) %}{% endfor %}{{ k.links(items) }}</section>
+<section aria-labelledby="sh"><div class="sec"><h2 id="sh">Plan by season</h2><p class="sub">Popular searches, by city</p></div>
+<ul class="lgrid g4">{% for se in cal.seasons %}{% for pair in [["half-marathons","Half marathons"],["marathons","Marathons"]] %}{% set n = 0 %}{% for m in cal.list %}{% for ms in m.seasons %}{% if ms.slug == se.slug %}{% for d in ms.dists %}{% if d.slug == pair[0] %}{% set n = n + 1 %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% endfor %}{% if n %}<li class="sl"><span class="slh">{{ se.name }} {{ pair[1] | lower }} ({{ se.label }})</span><span class="slc">{% for m in cal.list %}{% for ms in m.seasons %}{% if ms.slug == se.slug %}{% for d in ms.dists %}{% if d.slug == pair[0] %}<a href="/{{ m.slug }}/{{ se.slug }}-{{ d.slug }}/">{{ m.short }}</a>{% endif %}{% endfor %}{% endif %}{% endfor %}{% endfor %}</span></li>{% endif %}{% endfor %}{% endfor %}</ul></section>
+<section aria-labelledby="wh"><div class="sec"><h2 id="wh">Racing this weekend</h2><p class="sub">{{ cal.wkS | wdl }} {{ cal.wkS | md }}{% if cal.wkE != cal.wkS %} and {{ cal.wkE | wdl }} {{ cal.wkE | md }}{% endif %} · {{ cal.allWeekend.length }} races</p><a class="more" href="/this-weekend/">All {{ cal.allWeekend.length }} →</a></div>
+<div class="wkgrid">{% for m in cal.list %}<div class="wk"><h3><a href="/{{ m.slug }}/this-weekend/">{{ m.name }}</a><span>{{ m.weekend.length }}</span></h3>{{ k.list(m.weekend | limit(2), cal.today, false, 'Nothing listed this weekend. See what is coming up.') }}{% if m.weekend.length > 2 %}<a class="wkmore" href="/{{ m.slug }}/this-weekend/">+{{ m.weekend.length - 2 }} more near {{ m.near }}</a>{% endif %}</div>{% endfor %}</div></section>
 <section aria-labelledby="gh"><div class="sec"><h2 id="gh">Guides</h2></div>{% include "guidelist.njk" %}</section>
 </div>

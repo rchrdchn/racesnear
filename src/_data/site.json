@@ -1,15 +1,15 @@
 {
-  "name": "Races This Weekend",
-  "domain": "racesthisweekend.com",
-  "url": "https://racesthisweekend.com",
-  "email": "hello@racesthisweekend.com",
-  "logoA": "races",
-  "logoB": "this",
-  "logoC": "weekend",
-  "tagline": "Every race near you, before the price goes up.",
+  "name": "Races Near",
+  "domain": "racesnear.com",
+  "url": "https://racesnear.com",
+  "email": "hello@racesnear.com",
+  "logoA": "Races",
+  "logoB": "Near",
+  "tagline": "Find your next race weeks ahead, before the price goes up.",
   "newsletterUrl": "",
   "newsletterNote": "One beehiiv publication with a metro tag per subscriber. Set newsletterUrl to the subscribe page; each metro link adds ?utm_campaign=<metro-slug> so a beehiiv automation can tag the city.",
   "runsignupAffiliateToken": "",
   "runsignupAffiliateNote": "Placeholder until we join the RunSignup affiliate program. When set, RunSignup registration links get ?aflt_token=<token> and rel=sponsored.",
-  "cfAnalyticsToken": ""
+  "cfAnalyticsToken": "",
+  "indexNowKey": "76d0b31ff3ea4eb2be2fd34b3391abbf"
 }

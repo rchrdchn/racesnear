@@ -1,0 +1,46 @@
+name: Nightly race refresh
+on:
+  schedule: [{ cron: "5 10 * * *" }]   # 3:05 AM PDT (2:05 AM PST in winter)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: nightly, cancel-in-progress: false }
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Refresh races from RunSignup
+        run: |
+          BEFORE=$(node -p "require('./src/_data/races.json').races.length")
+          if ! npm run data; then echo "::warning::Fetch failed; keeping yesterday's data"; git checkout -- src/_data/races.json; exit 0; fi
+          AFTER=$(node -p "require('./src/_data/races.json').races.length")
+          echo "Races: $BEFORE -> $AFTER"
+          if [ "$AFTER" -lt $((BEFORE * 7 / 10)) ]; then echo "::warning::Race count dropped more than 30% ($BEFORE -> $AFTER); keeping yesterday's data"; git checkout -- src/_data/races.json; fi
+      # Stamp the date so there is always a commit: Cloudflare Pages rebuilds on push, which rolls
+      # "this weekend", the next 90 days and early-bird deadlines forward even if no race changed.
+      - run: echo "{\"date\":\"$(TZ=America/Los_Angeles date +%F)\"}" > src/_data/nightly.json
+      - run: npm run build && npm run check
+      - name: Commit data changes
+        id: commit
+        run: |
+          git add -A src/_data
+          if git diff --cached --quiet; then echo "No data changes"; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Nightly race refresh $(TZ=America/Los_Angeles date +%F)"
+          git push origin HEAD:main
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+      # After Cloudflare Pages finishes deploying, ping IndexNow with every sitemap URL.
+      - name: IndexNow ping
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          KEY=$(node -p "require('./src/_data/site.json').indexNowKey")
+          for i in $(seq 1 20); do
+            sleep 30
+            if curl -fsS "https://racesnear.com/$KEY.txt" | grep -q "$KEY"; then npm run indexnow; exit 0; fi
+          done
+          echo "Site not reachable yet; skipping IndexNow"

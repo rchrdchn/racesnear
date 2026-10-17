@@ -4,7 +4,8 @@ const metros = require('./src/_data/metros.json');
 const MB = Object.fromEntries(metros.map(m => [m.slug, m]));
 module.exports = function (c) {
   c.addPassthroughCopy({ 'src/assets': 'assets' });
-  ['favicon.svg', '_headers', 'site.webmanifest', 'robots.txt'].forEach(f => c.addPassthroughCopy('src/' + f));
+  ['favicon.svg', '_headers', 'site.webmanifest'].forEach(f => c.addPassthroughCopy('src/' + f));
+  c.addPassthroughCopy('src/*.txt');
   c.addGlobalData('build', () => ({ v: Date.now().toString(36), year: new Date().getFullYear(), now: new Date().toISOString() }));
   c.addFilter('json', v => JSON.stringify(v).replace(/</g, '\\u003c'));
   c.addFilter('long', s => u.fmt(s, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }));
@@ -24,6 +25,7 @@ module.exports = function (c) {
   c.addFilter('nlUrl', slug => site.newsletterUrl ? site.newsletterUrl + (site.newsletterUrl.includes('?') ? '&' : '?') + 'utm_source=site&utm_campaign=' + (slug || 'all') : '/newsletter/' + (slug ? '#' + slug : ''));
   c.addFilter('distList', r => r.distances.map(d => d.label).join(', '));
   c.addFilter('daysUntil', (s, today) => Math.round((u.D(s) - u.D(today)) / 864e5));
+  c.addFilter('tc', s => String(s).replace(/(^|\s)([a-z])/g, (x, a, b) => a + b.toUpperCase()));
   c.addFilter('limit', (a, n) => (a || []).slice(0, n));
   c.addFilter('where', (a, k, v) => (a || []).filter(x => x[k] === v));
   c.addFilter('sitemapPages', ps => ps.filter(p => p.url && p.url.endsWith('/') && !p.data.noindex).sort((a, b) => a.url === '/' ? -1 : b.url === '/' ? 1 : a.url.localeCompare(b.url)));

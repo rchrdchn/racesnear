@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 permalink: /advertise/
-title: "Advertise Your Race: Featured Listings and Newsletter Sponsorship | Races This Weekend"
+title: "Advertise Your Race: Featured Listings and Newsletter Sponsorship | Races Near"
 description: "Race directors: put your event in front of runners choosing their next race. Featured listings on city pages and sponsorship of the weekly city email."
 ---
 <div class="wrap prose">

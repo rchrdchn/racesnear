@@ -1,0 +1,20 @@
+---
+layout: base.njk
+pagination: { data: cal.seasonPages, size: 1, alias: p }
+permalink: "/{{ p.metro.slug }}/{{ p.season.slug }}-{% if p.dist %}{{ p.dist.slug }}{% else %}races{% endif %}/"
+eleventyComputed:
+  title: "{{ p.season.name }} {% if p.dist %}{{ p.dist.name | tc }}{% else %}Races{% endif %} near {{ p.metro.near }} ({{ p.season.label }}) | {{ site.name }}"
+  description: "{{ p.races.length }} {{ p.season.name | lower }} {% if p.dist %}{{ p.dist.name | lower }}{% else %}running races{% endif %} near {{ p.metro.near }} for {{ p.season.label }} ({{ p.season.months }}), with dates, prices and early-bird deadlines so you can sign up ahead."
+  nlMetro: "{{ p.metro.slug }}"
+---
+{% import "macros.njk" as k %}
+{% set what = (p.dist.name | lower) if p.dist else "races" %}
+<div class="wrap">
+<p class="crumbs"><a href="/">Home</a> / <a href="/{{ p.metro.slug }}/">{{ p.metro.name }}</a> / {% if p.dist %}<a href="/{{ p.metro.slug }}/{{ p.season.slug }}-races/">{{ p.season.name }} {{ p.season.label }}</a> / {{ p.dist.name }}{% else %}{{ p.season.name }} {{ p.season.label }}{% endif %}</p>
+<h1>{{ p.season.name }} {{ what }} near {{ p.metro.near }} ({{ p.season.label }})</h1>
+{% set eb = [] %}{% for r in p.races %}{% if r.nextIncrease and r.nextIncrease.date >= cal.today and r.date > r.nextIncrease.date %}{% set eb = (eb.push(r), eb) %}{% endif %}{% endfor %}
+<p class="lead"><strong>{{ p.races.length }} {{ what if p.races.length != 1 else (p.dist.one if p.dist else "race") }}</strong> on the calendar from {{ p.season.months }}{% if p.races.length %}, starting with <a href="{{ p.races[0] | raceUrl }}">{{ p.races[0].name }}</a> on {{ p.races[0].date | wdl }} {{ p.races[0].date | md }}{% endif %}.{% if eb.length %} {{ eb.length }} of them publish an upcoming price increase, so signing up early saves money.{% endif %}</p>
+<p class="jump"><a href="/{{ p.metro.slug }}/{{ p.season.slug }}-races/"{% if not p.dist %} aria-current="page"{% endif %}>All {{ p.season.name | lower }} races</a>{% for d in p.dists %}<a href="/{{ p.metro.slug }}/{{ p.season.slug }}-{{ d.slug }}/"{% if p.dist and p.dist.slug == d.slug %} aria-current="page"{% endif %}>{{ d.name }} ({{ d.count }})</a>{% endfor %}</p>
+<div class="sec"><h2>By date</h2></div>{{ k.list(p.races, cal.today) }}
+{% set other = cal.metros[p.metro.slug].seasons %}{% if other.length > 1 %}<div class="sec"><h2>Other seasons near {{ p.metro.near }}</h2></div>{% set items = [] %}{% for se in other %}{% if se.slug != p.season.slug %}{% set items = (items.push(["/" + p.metro.slug + "/" + se.slug + "-races/", se.name + " " + se.label, se.count + " races"]), items) %}{% endif %}{% endfor %}{{ k.links(items) }}{% endif %}
+</div>

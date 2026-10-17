@@ -1,0 +1,17 @@
+---
+layout: base.njk
+permalink: /upcoming/
+eleventyComputed:
+  title: "Upcoming Races in the Next 3 Months: 10 US Cities ({{ cal.seasonYears }}) | {{ site.name }}"
+  description: "{{ cal.allNext90.length }} running races in the next 90 days across the Bay Area, NYC, LA, Chicago, Boston, DC, Seattle, Denver, Austin and San Diego. Plan ahead and register before prices go up."
+---
+{% import "macros.njk" as k %}
+<div class="wrap">
+<p class="crumbs"><a href="/">Home</a> / Upcoming</p>
+<h1>Upcoming races in the next 3 months</h1>
+<p class="lead"><strong>{{ cal.allNext90.length }} races</strong> between {{ cal.today | md }} and {{ cal.in90 | md }} across our ten cities. Here are the next few in each city. Every city page has the full 90 days with distance and area filters.</p>
+<p class="jump">{% for m in cal.list %}<a href="#{{ m.slug }}">{{ m.short }} ({{ m.next90.length }})</a>{% endfor %}</p>
+<div class="sec"><h2>Month by month</h2></div>
+{% set items = [] %}{% for mo in cal.siteMonths %}{% if mo.in90 %}{% set items = (items.push(["/upcoming/" + mo.slug + "/", mo.name + " " + mo.y, mo.count + " races in all cities"]), items) %}{% endif %}{% endfor %}{{ k.links(items) }}
+{% for m in cal.list %}<section id="{{ m.slug }}" aria-labelledby="u-{{ m.slug }}"><div class="sec"><h2 id="u-{{ m.slug }}">Near {{ m.near }}</h2><p class="sub">{{ m.next90.length }} races in the next 90 days</p><a class="more" href="/{{ m.slug }}/#next90">All {{ m.next90.length }} →</a></div>{{ k.list(m.next90 | limit(8), cal.today, false, 'Nothing listed near ' + m.near + ' in the next 90 days yet.') }}</section>{% endfor %}
+</div>

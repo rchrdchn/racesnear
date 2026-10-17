@@ -3,14 +3,14 @@ layout: base.njk
 pagination: { data: cal.monthPages, size: 1, alias: p }
 permalink: "/{{ p.metro.slug }}/{{ p.y }}/{{ p.slug }}/"
 eleventyComputed:
-  title: "{{ p.metro.name }} Races in {{ p.name }} {{ p.y }} ({{ p.races.length }}) | {{ site.name }}"
-  description: "All {{ p.races.length }} running races in {{ p.metro.name }} in {{ p.name }} {{ p.y }}: 5Ks, 10Ks, half marathons, marathons and trail races by date."
+  title: "Races near {{ cal.metros[p.metro.slug].near }} in {{ p.name }} {{ p.y }} ({{ p.races.length }}) | {{ site.name }}"
+  description: "All {{ p.races.length }} running races near {{ cal.metros[p.metro.slug].near }} in {{ p.name }} {{ p.y }}: 5Ks, 10Ks, half marathons, marathons and trail races by date."
   nlMetro: "{{ p.metro.slug }}"
 ---
 {% import "macros.njk" as k %}
 <div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / <a href="/{{ p.metro.slug }}/">{{ p.metro.name }}</a> / {{ p.name }} {{ p.y }}</p>
-<h1>{{ p.metro.name }} races in {{ p.name }} {{ p.y }}</h1>
+<h1>Races near {{ cal.metros[p.metro.slug].near }} in {{ p.name }} {{ p.y }}</h1>
 <p class="lead"><strong>{{ p.races.length }} race{% if p.races.length != 1 %}s{% endif %}</strong> on the calendar for {{ p.name }}. Listed by date, with prices and early-bird deadlines where the race publishes them.</p>
 {% set mm = cal.metros[p.metro.slug].months %}<p class="jump">{% for mo in mm %}<a href="/{{ p.metro.slug }}/{{ mo.y }}/{{ mo.slug }}/"{% if mo.key == p.key %} aria-current="page"{% endif %}>{{ mo.name | truncate(3, true, "") }} {{ mo.y }}</a>{% endfor %}</p>
 <div class="sec"><h2>By date</h2></div>{{ k.list(p.races, cal.today) }}

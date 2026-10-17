@@ -73,3 +73,9 @@ document.addEventListener('click', e => {
   });
   f.hidden = false; run();
 })();
+
+// Home city picker: go straight to the chosen city page.
+(() => {
+  const f = document.getElementById('picker'); if (!f) return;
+  f.addEventListener('submit', e => { e.preventDefault(); location.href = f.querySelector('select').value; });
+})();

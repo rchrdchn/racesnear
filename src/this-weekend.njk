@@ -11,5 +11,5 @@ eleventyComputed:
 <h1>Races this weekend</h1>
 <p class="lead"><strong>{{ cal.allWeekend.length }} races</strong> on {{ cal.wkS | wdl }} {{ cal.wkS | md }}{% if cal.wkE != cal.wkS %} and {{ cal.wkE | wdl }} {{ cal.wkE | md }}{% endif %} across our ten cities. Jump to yours:</p>
 <p class="jump">{% for m in cal.list %}<a href="#{{ m.slug }}">{{ m.short }} ({{ m.weekend.length }})</a>{% endfor %}</p>
-{% for m in cal.list %}<section id="{{ m.slug }}" aria-labelledby="h-{{ m.slug }}"><div class="sec"><h2 id="h-{{ m.slug }}">{{ m.name }}</h2><p class="sub">{{ m.weekend.length }} races</p><a class="more" href="/{{ m.slug }}/">{{ m.short }} calendar →</a></div>{{ k.list(m.weekend, cal.today, false, 'Nothing listed in ' + m.name + ' this weekend.') }}</section>{% endfor %}
+{% for m in cal.list %}<section id="{{ m.slug }}" aria-labelledby="h-{{ m.slug }}"><div class="sec"><h2 id="h-{{ m.slug }}">{{ m.name }}</h2><p class="sub">{{ m.weekend.length }} races</p><a class="more" href="/{{ m.slug }}/">Upcoming near {{ m.near }} →</a></div>{{ k.list(m.weekend, cal.today, false, 'Nothing listed in ' + m.name + ' this weekend.') }}</section>{% endfor %}
 </div>
