@@ -20,8 +20,13 @@ module.exports = function (c) {
   c.addFilter('metro', s => MB[s]);
   c.addFilter('regionName', (r) => (MB[r.metro].regions.find(g => g.slug === r.region) || {}).name || '');
   c.addFilter('raceUrl', r => `/${r.metro}/races/${r.slug}/`);
-  c.addFilter('regUrl', r => r.source === 'RunSignup' && site.runsignupAffiliateToken ? r.url + (r.url.includes('?') ? '&' : '?') + 'aflt_token=' + encodeURIComponent(site.runsignupAffiliateToken) : r.url);
-  c.addFilter('regRel', r => r.source === 'RunSignup' && site.runsignupAffiliateToken ? 'sponsored noopener' : 'noopener');
+  // RunSignup affiliate tagging: only runsignup.com URLs get aflt_token (never official race sites, Race Roster, etc.).
+  const isRS = url => { try { return /(^|\.)runsignup\.com$/i.test(new URL(url).hostname); } catch { return false; } };
+  const aff = url => { if (!url || !site.runsignupAffiliateToken || !isRS(url) || /[?&]aflt_token=/.test(url)) return url; const [u, h] = url.split('#'); return u + (u.includes('?') ? '&' : '?') + 'aflt_token=' + encodeURIComponent(site.runsignupAffiliateToken) + (h ? '#' + h : ''); };
+  c.addFilter('affUrl', aff);
+  c.addFilter('affRel', (url, base = 'noopener') => site.runsignupAffiliateToken && isRS(url) ? 'sponsored noopener' : base);
+  c.addFilter('regUrl', r => aff(r.url));
+  c.addFilter('regRel', r => site.runsignupAffiliateToken && isRS(r.url) ? 'sponsored noopener' : 'noopener');
   c.addFilter('nlUrl', slug => site.newsletterUrl ? site.newsletterUrl + (site.newsletterUrl.includes('?') ? '&' : '?') + 'utm_source=site&utm_campaign=' + (slug || 'all') : '/newsletter/' + (slug ? '#' + slug : ''));
   c.addFilter('distList', r => r.distances.map(d => d.label).join(', '));
   c.addFilter('daysUntil', (s, today) => Math.round((u.D(s) - u.D(today)) / 864e5));
@@ -37,8 +42,8 @@ module.exports = function (c) {
       location: { '@type': 'Place', name: r.street || r.city, address: { '@type': 'PostalAddress', streetAddress: r.street || undefined, addressLocality: r.city, postalCode: r.zip || undefined, addressRegion: r.state || m.state, addressCountry: 'US' } },
       url: `${site.url}/${r.metro}/races/${r.slug}/`, description: r.summary || `${r.name}: ${r.distances.map(d => d.label).join(', ')} in ${r.city}.` };
     if (r.logo) ld.image = [r.logo];
-    if (r.priceFrom != null) ld.offers = { '@type': 'AggregateOffer', priceCurrency: 'USD', lowPrice: r.priceFrom, highPrice: r.priceTo || r.priceFrom, url: r.url, availability: r.open ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut', validFrom: r.regOpen || undefined };
-    else ld.offers = { '@type': 'Offer', url: r.url, availability: r.open ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut' };
+    if (r.priceFrom != null) ld.offers = { '@type': 'AggregateOffer', priceCurrency: 'USD', lowPrice: r.priceFrom, highPrice: r.priceTo || r.priceFrom, url: aff(r.url), availability: r.open ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut', validFrom: r.regOpen || undefined };
+    else ld.offers = { '@type': 'Offer', url: aff(r.url), availability: r.open ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut' };
     ld.organizer = { '@type': 'Organization', name: r.name, url: r.website || r.url };
     return ld;
   });

@@ -21,7 +21,7 @@
 <nav class="fl fcities" aria-label="Cities"><h3>Cities</h3>{% for m in cal.list %}<a href="/{{ m.slug }}/">{{ m.name }}</a>{% endfor %}</nav>
 <nav class="fl" aria-label="Site"><h3>Site</h3><a href="/upcoming/">Upcoming races</a><a href="/this-weekend/">Races this weekend</a><a href="/price-increases/">Early-bird deadlines</a><a href="/guides/">Guides</a><a href="/about/">About &amp; sources</a><a href="/advertise/">Advertise</a><a href="/privacy/">Privacy</a><a href="/sitemap.xml">Sitemap</a></nav>
 </div>
-<div class="fbar"><p class="legal">Race listings come from the RunSignup public race API, refreshed daily, plus a few major races checked by hand against their official sites. Dates, prices and start times can change, so confirm on the race's registration page before you go. Not affiliated with any race or registration platform.</p><p class="copy">© {{ build.year }} {{ site.name }}</p></div>
+<div class="fbar"><p class="legal">Race listings come from the RunSignup public race API, refreshed daily, plus a few major races checked by hand against their official sites. Dates, prices and start times can change, so confirm on the race's registration page before you go. Not affiliated with any race. RunSignup registration links are affiliate links (<a href="/about/#affiliate-links">details</a>).</p><p class="copy">© {{ build.year }} {{ site.name }}</p></div>
 </div></footer>
 {% if site.cfAnalyticsToken %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cfAnalyticsToken }}"}'></script>{% endif %}
 <script defer src="/assets/site.js?v={{ build.v }}"></script>

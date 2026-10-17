@@ -27,9 +27,9 @@ Price shows the current entry fee for the cheapest distance, before the platform
 
 We picked cities where lots of people run and lots of young adults are getting into it: high scores in the ACSM American Fitness Index, Strava's 2025 Year in Sport city leaderboards, a high share of residents aged 25 to 34 (US Census 2024 estimates), and a deep race calendar. More cities are coming.
 
-## Affiliate links
+<h2 id="affiliate-links">Affiliate links</h2>
 
-Some registration links may earn us a small referral fee from the registration platform at no extra cost to you. It never changes which races we list or how we sort them.
+Races Near is a RunSignup affiliate. When you register for a race through one of our RunSignup links, RunSignup shares part of its processing fee with us, at no extra cost to you. Links to official race sites and other platforms are not affiliate links. Affiliate status never changes which races we list or how we sort them.
 
 ## Contact
 
