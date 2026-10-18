@@ -34,13 +34,15 @@ jobs:
           git commit -m "Nightly race refresh $(TZ=America/Los_Angeles date +%F)"
           git push origin HEAD:main
           echo "pushed=true" >> "$GITHUB_OUTPUT"
-      # After Cloudflare Pages finishes deploying, ping IndexNow with only the new, changed and removed URLs (.indexnow.json from postbuild).
+      # After Cloudflare Pages has deployed this commit (the live sitemap carries this build's lastmod
+      # timestamp), ping IndexNow with only the new, changed and removed URLs (.indexnow.json from postbuild).
       - name: IndexNow ping
         if: steps.commit.outputs.pushed == 'true'
         run: |
-          KEY=$(node -p "require('./src/_data/site.json').indexNowKey")
+          N=$(node -p "require('./.indexnow.json').urls.length"); AT=$(node -p "require('./.indexnow.json').at")
+          if [ "$N" = "0" ]; then echo "No changed URLs"; exit 0; fi
           for i in $(seq 1 20); do
             sleep 30
-            if curl -fsS "https://racesnear.com/$KEY.txt" | grep -q "$KEY"; then npm run indexnow; exit 0; fi
+            if curl -fsS "https://racesnear.com/sitemap.xml" | grep -q "$AT"; then npm run indexnow; exit 0; fi
           done
-          echo "Site not reachable yet; skipping IndexNow"
+          echo "New sitemap not seen after 10 minutes; sending anyway"; npm run indexnow
