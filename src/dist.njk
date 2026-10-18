@@ -16,5 +16,6 @@ eleventyComputed:
 <p class="lead"><strong>{{ hub.intro }}</strong> {{ p.races.length }} {{ p.dist.name | lower if p.races.length != 1 else p.dist.one }} {{ "are" if p.races.length != 1 else "is" }} listed {{ where }} for the next 12 months{% if p.races.length and p.races[0].priceFrom %}; the next one starts from {{ p.races[0].priceFrom | money }}{% endif %}.</p>
 {% if p.subs.length > 1 %}<p class="jump"><a href="/{{ p.metro.slug }}/{{ p.dist.slug }}/"{% if not p.region %} aria-current="page"{% endif %}>All {{ p.metro.short }}</a>{% for g in p.subs %}<a href="/{{ p.metro.slug }}/{{ p.dist.slug }}/{{ g.slug }}/"{% if p.region and p.region.slug == g.slug %} aria-current="page"{% endif %}>{{ g.name }} ({{ g.count }})</a>{% endfor %}</p>{% endif %}
 <div class="sec"><h2>By date</h2></div>{{ k.list(p.races, cal.today) }}
+{% if p.dist.slug != 'trail-races' and p.dist.slug != 'ultramarathons' %}<p class="back">Picking a goal time? <a href="/tools/pace-calculator/">Work out your {{ p.dist.one | lower }} pace and splits →</a></p>{% endif %}
 {% include "faq.njk" %}
 </div>

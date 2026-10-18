@@ -1,0 +1,58 @@
+---
+layout: base.njk
+permalink: /tools/pace-calculator/
+title: "Race Pace Calculator: Pace, Finish Time and Splits (2026)"
+description: "Free running pace calculator. A 4:00:00 marathon is 9:09 per mile. Get pace per mile and km, finish time, splits and predicted times for 5K to marathon."
+kind: WebPage
+---
+<div class="wrap pc">
+<p class="crumbs"><a href="/">Home</a> / Pace calculator</p>
+<h1>Race pace calculator</h1>
+{% updated %}
+<p class="lead"><strong>A 4:00:00 marathon is {{ tool.example.perMi }} per mile ({{ tool.example.perKm }} per km), and a 2:00:00 half marathon is 9:09 per mile too.</strong> Pick a distance, enter a goal time or a pace, and get your finish time, mile and km splits, and estimated times at other distances.</p>
+
+<div class="pc-grid">
+<form class="pc-form" id="pcf" novalidate>
+<noscript><p class="empty">The live calculator needs JavaScript. The <a href="#chart">pace chart</a> and <a href="#formula">formulas</a> below work without it.</p></noscript>
+<fieldset class="pc-f"><legend>1. Distance</legend>
+<div class="pc-row"><label class="pc-l" for="pd">Race distance</label><select id="pd" name="d">{% for x in tool.dists %}<option value="{{ x.id }}"{% if x.id == 'marathon' %} selected{% endif %}>{{ x.label }}</option>{% endfor %}<option value="custom">Custom distance</option></select></div>
+<div class="pc-row pc-custom" id="pcc" hidden><label class="pc-l" for="pcd">Custom distance</label><span class="pc-pair"><input id="pcd" type="number" inputmode="decimal" min="0.1" max="250" step="0.01" value="15"><select id="pcu" aria-label="Custom distance unit"><option value="mi">miles</option><option value="km">km</option></select></span></div>
+</fieldset>
+<fieldset class="pc-f"><legend>2. What do you know?</legend>
+<div class="pc-mode" role="radiogroup"><label><input type="radio" name="m" value="time" checked> Goal finish time</label><label><input type="radio" name="m" value="pace"> Pace</label></div>
+<div class="pc-row" id="pct"><span class="pc-l" id="pctl">Finish time</span><span class="pc-hms" role="group" aria-labelledby="pctl"><label><input id="th" type="number" inputmode="numeric" min="0" max="99" value="4"><small>hr</small></label><label><input id="tm" type="number" inputmode="numeric" min="0" max="59" value="0"><small>min</small></label><label><input id="ts" type="number" inputmode="numeric" min="0" max="59" value="0"><small>sec</small></label></span></div>
+<div class="pc-row" id="pcp" hidden><span class="pc-l" id="pcpl">Pace</span><span class="pc-hms" role="group" aria-labelledby="pcpl"><label><input id="pm" type="number" inputmode="numeric" min="0" max="59" value="9"><small>min</small></label><label><input id="ps" type="number" inputmode="numeric" min="0" max="59" value="9"><small>sec</small></label><select id="pu" aria-label="Pace unit"><option value="mi">per mile</option><option value="km">per km</option></select></span></div>
+</fieldset>
+<p class="pc-err" id="pce" role="alert" hidden></p>
+</form>
+
+<section class="pc-out" aria-labelledby="pcoh" aria-live="polite">
+<h2 id="pcoh" class="pc-h">Your result: <span id="o-lab">Marathon in 4:00:00</span></h2>
+<dl class="pc-kpi"><div><dt>Finish time</dt><dd id="o-t">{{ tool.example.finish }}</dd></div><div><dt>Pace per mile</dt><dd id="o-mi">{{ tool.example.perMi }}</dd></div><div><dt>Pace per km</dt><dd id="o-km">{{ tool.example.perKm }}</dd></div><div><dt>Speed</dt><dd id="o-sp">{{ tool.example.mph }} mph</dd></div></dl>
+<div class="pc-tw"><table class="pc-t"><caption>Estimated times at other distances (Riegel formula, an estimate)</caption><thead><tr><th scope="col">Distance</th><th scope="col">Estimated time</th><th scope="col">Pace /mi</th></tr></thead><tbody id="o-pred">{% for r in tool.example.preds %}<tr><th scope="row">{{ r.label }}</th><td>{{ r.t }}</td><td>{{ r.pace }}</td></tr>{% endfor %}</tbody></table></div>
+<p class="pc-fine">Predictions assume you train for the longer distance. Most runners slow more than the formula says past the half marathon.</p>
+</section>
+</div>
+
+<section aria-labelledby="sph"><div class="sec"><h2 id="sph">What are my splits?</h2><p class="sub">Even pacing, cumulative time at each marker</p><span class="pc-su" role="group" aria-label="Split unit"><button type="button" class="pc-sb" data-u="mi" aria-pressed="true">Miles</button><button type="button" class="pc-sb" data-u="km" aria-pressed="false">Km</button></span></div>
+<div class="pc-tw pc-splits" tabindex="0" role="region" aria-label="Split table"><table class="pc-t"><caption id="o-scap">Mile splits for a 4:00:00 marathon</caption><thead><tr><th scope="col" id="o-su">Mile</th><th scope="col">Time</th></tr></thead><tbody id="o-spl">{% for r in tool.example.splits %}<tr><th scope="row">{{ r.at }}</th><td>{{ r.t }}</td></tr>{% endfor %}</tbody></table></div></section>
+
+<section aria-labelledby="frh" id="find"><div class="sec"><h2 id="frh">Find a race at your distance</h2><p class="sub">Upcoming races with dates, prices and early-bird deadlines</p></div>
+<div class="pc-find">{% for h in tool.hubs %}<div class="pc-fd" data-d="{{ h.id }}"><h3>Find a {{ h.label | lower if h.id == 'half' or h.id == 'marathon' else h.label }} near you</h3><p>{% for c in h.cities %}<a href="/{{ c.slug }}/{{ h.slug }}/">{{ c.short }} <span>({{ c.n }})</span></a>{% endfor %}</p></div>{% endfor %}</div></section>
+
+<section aria-labelledby="chh" id="chart"><div class="sec"><h2 id="chh">Pace chart: finish times by pace</h2><p class="sub">Works without JavaScript</p></div>
+<div class="pc-tw"><table class="pc-t pc-chart"><caption>Finish times at an even pace, 6:00 to 14:00 per mile</caption><thead><tr><th scope="col">Pace /mi</th><th scope="col">Pace /km</th><th scope="col">5K</th><th scope="col">10K</th><th scope="col">Half</th><th scope="col">Marathon</th></tr></thead><tbody>{% for r in tool.chart %}<tr><th scope="row">{{ r.mi }}</th><td>{{ r.km }}</td><td>{{ r.k5 }}</td><td>{{ r.k10 }}</td><td>{{ r.half }}</td><td>{{ r.mar }}</td></tr>{% endfor %}</tbody></table></div></section>
+
+<section aria-labelledby="fmh" id="formula"><div class="sec"><h2 id="fmh">How is pace calculated?</h2></div>
+<div class="pc-prose">
+<p><strong>Pace = finish time ÷ distance.</strong> A 4:00:00 marathon is 240 minutes ÷ 26.22 miles = 9.15 minutes, which is 9:09 per mile. Divide by 42.195 km instead to get 5:41 per km.</p>
+<p><strong>Finish time = pace × distance.</strong> 10:00 per mile for a half marathon (13.11 miles) gives 2:11:06.</p>
+<p><strong>Predicted time = T1 × (D2 ÷ D1)<sup>1.06</sup>.</strong> This is the Riegel formula, published by Peter Riegel in 1977. It is a good guide from 5K to the half marathon and tends to be optimistic for the marathon.</p>
+<p>Distances used: 5K = 3.107 mi, 10K = 6.214 mi, half marathon = 13.109 mi (21.0975 km), marathon = 26.219 mi (42.195 km).</p>
+</div></section>
+
+{% include "faq.njk" %}
+<section class="pc-nl" aria-labelledby="pnh"><h2 id="pnh">Got a goal time? Find the race.</h2><p>Get upcoming races near you and early-bird price deadlines in one short weekly email. Free.</p><a class="btn" href="{{ '' | nlUrl }}"{% if site.newsletterUrl %} target="_blank" rel="noopener"{% endif %}>Get the free email →</a></section>
+</div>
+<script defer src="/assets/pace.js?v={{ build.v }}"></script>
+<script defer src="/assets/pace-ui.js?v={{ build.v }}"></script>

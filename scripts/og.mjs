@@ -23,7 +23,7 @@ fs.mkdirSync('_site/og', { recursive: true });
 let n = 0;
 for (const [key, u] of jobs) {
   const t = key === 'default' ? 'Upcoming races near you, before the price goes up.' : h1(u); if (!t) continue;
-  const label = LABEL[key] || (key.startsWith('guide-') ? 'RACE GUIDE' : 'RACE CALENDAR · 2026-27');
+  const label = LABEL[key] || (key.startsWith('guide-') ? 'RACE GUIDE' : key.startsWith('tool-') ? 'FREE TOOL · PACE CALCULATOR' : 'RACE CALENDAR · 2026-27');
   await sharp(Buffer.from(card(t, label))).png().toFile(`_site/og/${key}.png`); n++;
 }
 await sharp(Buffer.from(fs.readFileSync('src/favicon.svg'))).resize(512, 512).png().toFile('_site/logo.png');

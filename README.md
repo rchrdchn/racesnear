@@ -60,6 +60,7 @@ Rule: money never changes which races are listed or how they are sorted.
 │   ├── race.njk                   /<metro>/races/<slug>/ race page with Event schema
 │   ├── upcoming.njk, upcoming-month.njk, this-weekend.njk, price-increases.njk
 │   ├── guides/                    Hand-written guides (Nunjucks) + guides.json defaults + index
+│   ├── tools/                     Free tools: pace-calculator.njk + .11tydata.js (see Free tools)
 │   ├── newsletter.njk             /newsletter/ subscribe page with per-city links
 │   ├── about.md, advertise.md, privacy.md, 404.njk
 │   ├── sitemap.njk, robots.txt, site.webmanifest, favicon.svg, _headers
@@ -134,6 +135,17 @@ The guide shows up on `/guides/`, the home page and the sitemap.
 ### Adding a curated race
 
 Add an entry to `curated.json` with an `id`, `metro`, `name`, `date`, `url` (official page), `distances`, `badge`, `regStatus`, `priceNote` and `checked`. Run `npm run data` and confirm the "deduped" count in the log, then build and check.
+
+## Free tools
+
+### Race pace calculator: `/tools/pace-calculator/`
+
+- **What it does:** pick a distance (5K, 10K, 10 miles, half, marathon or a custom distance in miles or km) and enter a goal finish time or a pace (per mile or per km). It shows finish time, pace per mile and per km, speed, a mile or km split table (even pacing, cumulative times) and predicted times at the other distances.
+- **Math:** `src/assets/pace.js` (UMD, used by both the browser and the build). Pace = time / distance; finish = pace x distance; predictions use the Riegel formula `T2 = T1 x (D2 / D1)^1.06`, labelled as an estimate on the page. Distances: 5K 3.107 mi, 10K 6.214 mi, half 21.0975 km, marathon 42.195 km. Check: a 4:00:00 marathon = 9:09/mi (5:41/km); a 2:00:00 half = 9:09/mi; a 30:00 5K = 9:39/mi.
+- **Files:** `src/tools/pace-calculator.njk` (page), `src/tools/pace-calculator.11tydata.js` (FAQ answers, the 4:00:00 marathon example that is pre-rendered into the HTML, the no-JS pace chart, and the "find a race" city links with live counts from `cal`), `src/assets/pace-ui.js` (form handling), `.pc-*` rules at the end of `src/assets/style.css`.
+- **No JS:** the form is hidden, and the pre-rendered example result, the pace chart (6:00 to 14:00 per mile, every 30 seconds) and the formula section still show.
+- **Plumbing:** footer "Site" list, a line under the home page Guides, a line on every 5K, 10K, half and marathon distance hub, and the Bay Area half marathon guide. In the sitemap automatically; listed in `src/llms.11ty.js`. Share image key `tool-pace-calculator` (`lib/og.js` TOOLS list, label in `scripts/og.mjs`).
+- **Adding another tool:** add the page under `src/tools/`, add its slug to `TOOLS` in `lib/og.js`, link it from the footer and llms.txt, and follow the checklist in the shared patterns table below.
 
 ## Local setup
 
@@ -213,4 +225,5 @@ We run three sister sites built the same way: howtowatchsoccerusa.com, howtowatc
 | Select dropdowns | `appearance:none` with a custom SVG chevron in the site's ink color at `right 16px center` (soccer: 15px), `padding-right:44px`. Never set a `background:` shorthand on a select after this rule, because it wipes the chevron image. Use `background-color` instead. | `src/assets/style.css` |
 | Light theme only | No dark mode on any site. Each site has its own palette. | `:root` variables in `style.css` |
 | Copy rules | Short paragraphs, no em dashes, no owner name in site copy or drafts. | Everywhere |
+| Free tools | One page per tool under `/tools/<name>/`: answer-first intro with real numbers, the live calculator (vanilla JS, no libraries, data embedded at build time), a static table or formula that works without JS, How it works, FAQ (FAQPage) plus WebApplication JSON-LD, newsletter box, own share image (`og/tool-<name>.png` or `og/tools-<name>.png`). Linked from the footer, home, related hubs/team pages and guides; listed in the sitemap and llms.txt. `?team=<slug>` preselects a team on the two cost tools. Never show a price that is not in the site's checked data. | `src/tools/`, `src/assets/<tool>.js` |
 | QA before push | Build, internal link check, axe (contrast and names) and an overflow check at 320/375/1280 with Playwright, then verify live after the Pages deploy. | Playwright helpers live outside the repos, in `/workspace/.pwtool/` on the build box |

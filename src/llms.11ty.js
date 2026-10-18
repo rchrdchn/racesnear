@@ -16,6 +16,7 @@ module.exports = class {
       `- [Upcoming races, next 3 months](${U}/upcoming/)`,
       `- [Races this weekend](${U}/this-weekend/)`,
       `- [Early-bird deadlines in the next 3 weeks](${U}/price-increases/)`,
+      `- [Race pace calculator](${U}/tools/pace-calculator/): pace per mile and km from a goal time (a 4:00:00 marathon is 9:09/mi), finish time from a pace, splits, and Riegel-formula predictions for 5K to marathon.`,
       `- [Guides](${U}/guides/)`,
       `- [About and sources](${U}/about/)`,
       `- [Sitemap](${U}/sitemap.xml)`, '', '## Guides', '');
