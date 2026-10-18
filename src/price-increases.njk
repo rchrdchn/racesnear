@@ -8,7 +8,9 @@ description: "Races whose entry fee goes up in the next three weeks, in 10 US ci
 <div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / Price increases</p>
 <h1>Early-bird deadlines</h1>
-<p class="lead"><strong>{{ cal.allEarly.length }} races</strong> raise their entry fee between now and {{ cal.today | md }} plus three weeks. Dates are the last day at the current price, from each race's published price schedule.</p>
+{% updated %}
+<p class="lead"><strong>{{ hub.intro }}</strong> Dates are the last day at the current price, from each race's published price schedule.</p>
 <p class="jump">{% for m in cal.list %}{% if m.early.length %}<a href="#{{ m.slug }}">{{ m.short }} ({{ m.early.length }})</a>{% endif %}{% endfor %}</p>
 {% for m in cal.list %}{% if m.early.length %}<section id="{{ m.slug }}" aria-labelledby="p-{{ m.slug }}"><div class="sec"><h2 id="p-{{ m.slug }}">{{ m.name }}</h2></div>{{ k.early(m.early, cal.today) }}</section>{% endif %}{% endfor %}
+{% include "faq.njk" %}
 </div>

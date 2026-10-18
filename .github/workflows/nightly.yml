@@ -27,14 +27,14 @@ jobs:
       - name: Commit data changes
         id: commit
         run: |
-          git add -A src/_data
+          git add -A src/_data lastmod.json
           if git diff --cached --quiet; then echo "No data changes"; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Nightly race refresh $(TZ=America/Los_Angeles date +%F)"
           git push origin HEAD:main
           echo "pushed=true" >> "$GITHUB_OUTPUT"
-      # After Cloudflare Pages finishes deploying, ping IndexNow with every sitemap URL.
+      # After Cloudflare Pages finishes deploying, ping IndexNow with only the new, changed and removed URLs (.indexnow.json from postbuild).
       - name: IndexNow ping
         if: steps.commit.outputs.pushed == 'true'
         run: |

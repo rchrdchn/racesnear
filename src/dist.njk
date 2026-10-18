@@ -12,7 +12,9 @@ eleventyComputed:
 <div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / <a href="/{{ p.metro.slug }}/">{{ p.metro.name }}</a> / {% if p.region %}<a href="/{{ p.metro.slug }}/{{ p.dist.slug }}/">{{ p.dist.name }}</a> / {{ p.region.name }}{% else %}{{ p.dist.name }}{% endif %}</p>
 <h1>{{ p.dist.name }} {{ where }} ({{ cal.seasonYears }})</h1>
-<p class="lead"><strong>{{ p.races.length }} upcoming {{ p.dist.name | lower }}</strong> {{ where }} in the next 12 months{% if p.races.length %}. The next is <a href="{{ p.races[0] | raceUrl }}">{{ p.races[0].name }}</a> on {{ p.races[0].date | wdl }} {{ p.races[0].date | md }} in {{ p.races[0].city }}{% if p.races[0].priceFrom %}, from {{ p.races[0].priceFrom | money }}{% endif %}{% endif %}.</p>
+{% updated %}
+<p class="lead"><strong>{{ hub.intro }}</strong> {{ p.races.length }} {{ p.dist.name | lower if p.races.length != 1 else p.dist.one }} {{ "are" if p.races.length != 1 else "is" }} listed {{ where }} for the next 12 months{% if p.races.length and p.races[0].priceFrom %}; the next one starts from {{ p.races[0].priceFrom | money }}{% endif %}.</p>
 {% if p.subs.length > 1 %}<p class="jump"><a href="/{{ p.metro.slug }}/{{ p.dist.slug }}/"{% if not p.region %} aria-current="page"{% endif %}>All {{ p.metro.short }}</a>{% for g in p.subs %}<a href="/{{ p.metro.slug }}/{{ p.dist.slug }}/{{ g.slug }}/"{% if p.region and p.region.slug == g.slug %} aria-current="page"{% endif %}>{{ g.name }} ({{ g.count }})</a>{% endfor %}</p>{% endif %}
 <div class="sec"><h2>By date</h2></div>{{ k.list(p.races, cal.today) }}
+{% include "faq.njk" %}
 </div>

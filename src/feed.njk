@@ -1,0 +1,7 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>{{ site.name }} guides</title><link>{{ site.url }}/guides/</link><atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/><description>Race lists and planning guides for runners in 10 US cities.</description><language>en-us</language>
+{% for g in collections.guide | reverse %}{% if g.url != "/guides/" %}<item><title>{{ g.data.title | seoTitle | xml | safe }}</title><link>{{ site.url }}{{ g.url }}</link><guid>{{ site.url }}{{ g.url }}</guid><pubDate>{{ g.date | rfc822 }}</pubDate><description>{{ g.data.description | xml | safe }}</description></item>{% endif %}
+{% endfor %}</channel></rss>

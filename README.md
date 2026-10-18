@@ -157,10 +157,19 @@ npm run check      # internal link check
 
 ## SEO
 
+`npm run build` runs Eleventy, then `scripts/og.mjs` (share images) and `scripts/postbuild.mjs`. The postbuild step is shared with the soccer and NBA sites:
+
+- It fails the build on double-escaped entities in `<head>` (`&amp;amp;`, `&amp;#39;`), titles over 65 characters, descriptions over 160, or a `dateModified` with no visible date.
+- It hashes each sitemap page (title, description, `<main>`; text between `<!--nohash-->` markers is ignored) against `lastmod.json`. Only changed pages get a new timestamp, which fills the visible "Updated" line, JSON-LD `dateModified` and the sitemap `<lastmod>`.
+- It writes `.indexnow.json` with only new, changed and removed URLs. `npm run indexnow` sends those (add `-- --all` to resend the whole sitemap). Commit `lastmod.json` with every change.
+
+Titles and descriptions go through `lib/seo.js` (`seoTitle`, `seoDesc`), which decodes entities once and fits them to 65 and 160 characters. Hub pages get their intro sentence, FAQ and ItemList from `lib/hub.js`. BreadcrumbList is generated from the visible breadcrumb.
+
 - Canonical URL, title and description on every page.
 - Structured data: `Event` on race pages (with `Place`, `PostalAddress`, `Offer` or `AggregateOffer`; offer URLs are affiliate-tagged only for RunSignup), `Organization` and `WebSite`.
-- `/sitemap.xml` (about 2,600 URLs), referenced from `robots.txt`.
-- **IndexNow:** `npm run indexnow` after a deploy (automatic in the nightly job). Key name is `indexNowKey` in `site.json`; the file is `src/<key>.txt`.
+- `/sitemap.xml` (about 2,600 URLs, real per-page lastmod), referenced from `robots.txt`. `robots.txt` allows every crawler and names the search, AI search, assistant and AI training bots explicitly.
+- `/feed.xml` (guides) and `/llms.txt` (data-driven summary of cities and hubs).
+- **IndexNow:** changed URLs only, sent after the deploy by the nightly job. Key name is `indexNowKey` in `site.json`; the file is `src/<key>.txt`.
 - **Google Search Console:** owned by the site owner. Resubmit `/sitemap.xml` after big changes.
 
 ## Newsletter

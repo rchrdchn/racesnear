@@ -55,7 +55,8 @@ document.addEventListener('click', e => {
   mq.addEventListener ? mq.addEventListener('change', off) : mq.addListener(off);
 })();
 
-// City page filters: distance x area chips over the next-30-days list. Hidden without JS (list shows all).
+// City page filters: distance x area chips over the next-90-days list. Shown by CSS when JS runs (html.js),
+// with the default count rendered in HTML, so nothing shifts after load. Without JS the list shows all.
 (() => {
   const f = document.getElementById('filt'); if (!f) return;
   const wrap = f.nextElementSibling, rows = [...wrap.querySelectorAll('.race')], none = wrap.querySelector('.fnone'), cnt = f.querySelector('.fcount');
@@ -71,7 +72,7 @@ document.addEventListener('click', e => {
     f.querySelectorAll(`button[data-f="${b.dataset.f}"]`).forEach(x => x.setAttribute('aria-pressed', x === b));
     run();
   });
-  f.hidden = false; run();
+  run();
 })();
 
 // Home city picker: go straight to the chosen city page.

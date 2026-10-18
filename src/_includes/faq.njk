@@ -1,0 +1,1 @@
+{% if hub and hub.faq.length %}<section class="faq" aria-labelledby="faqh"><div class="sec"><h2 id="faqh">{{ faqTitle or "Quick answers" }}</h2></div><div class="qa">{% for x in hub.faq %}<h3>{{ x.q }}</h3><p>{{ x.a }}</p>{% endfor %}</div></section>{% endif %}

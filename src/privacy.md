@@ -10,6 +10,8 @@ description: "What we collect (very little) and why."
 
 # Privacy
 
+{% updated %}
+
 <p class="lead">Short version: no accounts, no ad trackers, and we never sell data.</p>
 
 - **Analytics.** We may use Cloudflare Web Analytics, which counts page views without cookies or personal profiles.

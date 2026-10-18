@@ -94,7 +94,7 @@ h3.minor{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(
 .ebd{display:flex;flex-direction:column;border-left:4px solid var(--gg);padding-left:10px}.ebd b{font-size:16px}.ebd small{font-size:12px;font-weight:700;color:#9c3012}
 .ebn strong{display:block;font-size:16px;line-height:1.3}.ebn small{display:block;color:var(--mu);font-size:13px;margin-top:2px}
 /* filters */
-.filt{background:#fff;border:1px solid var(--bd);border-radius:16px;padding:12px 14px;margin:0 0 12px}
+.filt{display:none;background:#fff;border:1px solid var(--bd);border-radius:16px;padding:12px 14px;margin:0 0 12px}
 .fg{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 8px}.fl1{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--mu);width:74px}
 .fg button{font:700 14px Manrope,sans-serif;padding:7px 12px;border-radius:999px;border:1px solid var(--bd);background:#fff;color:var(--ink);cursor:pointer;min-height:36px}
 .fg button:hover{border-color:var(--ocean)}.fg button[aria-pressed=true]{background:var(--ocean);border-color:var(--ocean);color:#fff}
@@ -163,3 +163,7 @@ html:not(.js) .picker{display:none}
 /* Selects: custom chevron 16px inside the right edge (native one hugs the border on macOS Chrome/Brave) */
 select{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5 7 7l5.5-5.5' fill='none' stroke='%230e2433' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;background-size:14px 9px;padding-right:44px;text-overflow:ellipsis;cursor:pointer}
 select::-ms-expand{display:none}
+.js .filt{display:block}
+/* updated date, FAQ */
+.upd{margin:-4px 0 14px;font-size:14px;color:var(--mu);font-weight:600}.rhead .upd{margin:2px 0 8px}
+.faq{margin:34px 0 10px}.faq .qa{background:#fff;border:1px solid var(--bd);border-radius:16px;padding:6px 20px 14px;max-width:880px}.faq h3{font-size:17px;margin:16px 0 4px}.faq p{margin:0 0 6px}

@@ -2,6 +2,8 @@
 const { ymd, addDays, weekend, MONTHS, DISTS, D } = require('../../lib/util.js');
 const data = require('./races.json');
 const metros = require('./metros.json');
+const { cutName } = require('../../lib/seo.js');
+const { fmt } = require('../../lib/util.js');
 module.exports = () => {
   const today = ymd(new Date());
   const [wkS, wkE] = weekend(today), in30 = addDays(today, 30), in21 = addDays(today, 21), in90 = addDays(today, 90);
@@ -17,6 +19,19 @@ module.exports = () => {
   }).sort((a, b) => a.start.localeCompare(b.start));
   const NEAR = { nyc: 'NYC', 'bay-area': 'the Bay Area', 'washington-dc': 'DC', 'denver-boulder': 'Denver', 'los-angeles': 'Los Angeles' };
   const up = data.races.filter(r => r.date >= today).sort((a, b) => a.date.localeCompare(b.date) || (a.start || '99').localeCompare(b.start || '99') || a.name.localeCompare(b.name));
+  // Race page titles: "{Name} {Year}: Date, Price, Registration". When the same name repeats in a year
+  // (several dates or cities), the title carries the date, then the city, so every title is unique.
+  { const k1 = r => cutName(r.name, 45).toLowerCase() + '|' + r.date.slice(0, 4), k2 = r => cutName(r.name, 45).toLowerCase() + '|' + r.date, c1 = {}, c2 = {};
+    for (const r of up) { c1[k1(r)] = (c1[k1(r)] || 0) + 1; c2[k2(r)] = (c2[k2(r)] || 0) + 1; }
+    for (const r of up) { const nm = cutName(r.name, 45), dt = fmt(r.date, { month: 'short', day: 'numeric', year: 'numeric' });
+      r.titleTag = c1[k1(r)] === 1 ? `${nm} ${r.date.slice(0, 4)}: Date, Price, Registration | Races Near` : c2[k2(r)] === 1 ? `${nm}, ${dt}: Date, Price, Registration` : null; }
+    // Same name and date (two listings): short name + date + area, then start time, then a counter.
+    const rest = up.filter(r => !r.titleTag), seen = {};
+    for (const r of rest) { const m = metros.find(x => x.slug === r.metro), g = (m.regions.find(x => x.slug === r.region) || {}).name || r.city;
+      const dt = fmt(r.date, { month: 'short', day: 'numeric', year: 'numeric' }); let t = `${cutName(r.name, 36)}, ${dt}, ${g}`;
+      if (seen[t]) t = `${cutName(r.name, 36)}, ${dt}${r.start ? ', ' + require('../../lib/util.js').time12(r.start) : ''} (${g})`;
+      if (seen[t]) t += ` #${seen[t] + 1}`;
+      seen[t] = (seen[t] || 0) + 1; r.titleTag = t; } }
   const M = {}, regionPages = [], distPages = [], monthPages = [], racePages = [], seasonPages = [];
   for (const m of metros) {
     const rs = up.filter(r => r.metro === m.slug);

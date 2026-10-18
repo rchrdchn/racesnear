@@ -11,7 +11,9 @@ eleventyComputed:
 <div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / <a href="/{{ m.slug }}/">{{ m.name }}</a> / This weekend</p>
 <h1>Races near {{ m.near }} this weekend</h1>
-<p class="lead">{% if m.weekend.length %}<strong>{{ m.weekend.length }} race{% if m.weekend.length != 1 %}s{% endif %}</strong> on {{ cal.wkS | wdl }} {{ cal.wkS | md }}{% if cal.wkE != cal.wkS %} and {{ cal.wkE | wdl }} {{ cal.wkE | md }}{% endif %}. Many take race-day signups, but some close online registration the day before.{% else %}No races are listed for {{ cal.wkS | md }}{% if cal.wkE != cal.wkS %} to {{ cal.wkE | md }}{% endif %} yet.{% endif %}</p>
+{% updated %}
+<p class="lead"><strong>{{ hub.intro }}</strong>{% if m.weekend.length %} Many take race-day signups, but some close online registration the day before.{% endif %}</p>
 <div class="sec"><h2>By date</h2></div>{{ k.list(m.weekend, cal.today, false, 'See what is coming up in the next 90 days on the ' + m.name + ' page.') }}
 <p class="back"><a href="/{{ m.slug }}/#next90">See the next 90 days near {{ m.near }} →</a></p>
+{% include "faq.njk" %}
 </div>

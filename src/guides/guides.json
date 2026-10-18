@@ -1,1 +1,1 @@
-{ "layout": "base.njk", "tags": "guide" }
+{ "layout": "base.njk", "tags": "guide", "article": true }

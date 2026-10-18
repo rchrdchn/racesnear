@@ -1,10 +1,10 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><script>document.documentElement.classList.add("js")</script>
-<title>{{ title }}</title><meta name="description" content="{{ description }}"><link rel="canonical" href="{{ site.url }}{{ page.url }}"><meta name="theme-color" content="#0b4a6f">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/site.webmanifest">
+{% set t = title | seoTitle %}{% set d = description | seoDesc %}{% set ogimg = page.url | ogImage %}<title>{{ t }}</title><meta name="description" content="{{ d }}"><link rel="canonical" href="{{ site.url }}{{ page.url }}"><meta name="theme-color" content="#0b4a6f">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/site.webmanifest"><link rel="alternate" type="application/rss+xml" title="{{ site.name }} guides" href="/feed.xml"><link rel="help" type="text/plain" href="/llms.txt" title="llms.txt">
 <link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
-<meta property="og:site_name" content="{{ site.name }}"><meta property="og:title" content="{{ title }}"><meta property="og:description" content="{{ description }}"><meta property="og:type" content="website"><meta property="og:url" content="{{ site.url }}{{ page.url }}"><meta name="twitter:card" content="summary">
-{% if not noindex and page.url == "/" %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{ site.name }}","url":"{{ site.url }}/"}</script>{% endif %}
-{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+<meta property="og:site_name" content="{{ site.name }}"><meta property="og:title" content="{{ t }}"><meta property="og:description" content="{{ d }}"><meta property="og:type" content="{{ 'article' if article else 'website' }}"><meta property="og:url" content="{{ site.url }}{{ page.url }}"><meta property="og:image" content="{{ ogimg }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{{ t }}"><meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ t }}"><meta name="twitter:description" content="{{ d }}"><meta name="twitter:image" content="{{ ogimg }}">
+{% if noindex %}<meta name="robots" content="noindex">{% else %}<script type="application/ld+json">{{ { url: page.url, title: title, description: description, hub: hub, kind: kind, article: article, date: page.date } | pageGraph | safe }}</script>{% endif %}
 {% if schema %}<script type="application/ld+json">{{ schema | json | safe }}</script>{% endif %}
 <link rel="stylesheet" href="/assets/style.css?v={{ build.v }}">
 </head><body><a class="skip" href="#main">Skip to content</a>
@@ -19,7 +19,7 @@
 <p class="fmail"><a href="mailto:{{ site.email }}">{{ site.email }}</a><button type="button" class="fcopy ecopy" data-email="{{ site.email }}" aria-label="Copy email address">Copy</button></p>
 <a class="fadv" href="/advertise/">Advertise your race →</a></div>
 <nav class="fl fcities" aria-label="Cities"><h3>Cities</h3>{% for m in cal.list %}<a href="/{{ m.slug }}/">{{ m.name }}</a>{% endfor %}</nav>
-<nav class="fl" aria-label="Site"><h3>Site</h3><a href="/upcoming/">Upcoming races</a><a href="/this-weekend/">Races this weekend</a><a href="/price-increases/">Early-bird deadlines</a><a href="/guides/">Guides</a><a href="/about/">About &amp; sources</a><a href="/advertise/">Advertise</a><a href="/privacy/">Privacy</a><a href="/sitemap.xml">Sitemap</a></nav>
+<nav class="fl" aria-label="Site"><h3>Site</h3><a href="/upcoming/">Upcoming races</a><a href="/this-weekend/">Races this weekend</a><a href="/price-increases/">Early-bird deadlines</a><a href="/guides/">Guides</a><a href="/newsletter/">Free weekly email</a><a href="/about/">About &amp; sources</a><a href="/advertise/">Advertise</a><a href="/privacy/">Privacy</a><a href="/sitemap.xml">Sitemap</a></nav>
 </div>
 <div class="fbar"><p class="legal">Race listings come from the RunSignup public race API, refreshed daily, plus a few major races checked by hand against their official sites. Dates, prices and start times can change, so confirm on the race's registration page before you go. Not affiliated with any race. RunSignup registration links are affiliate links (<a href="/about/#affiliate-links">details</a>).</p><p class="copy">© {{ build.year }} {{ site.name }}</p></div>
 </div></footer>

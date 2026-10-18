@@ -3,7 +3,7 @@ layout: base.njk
 pagination: { data: cal.racePages, size: 1, alias: p, addAllPagesToCollections: true }
 permalink: "/{{ p.metro.slug }}/races/{{ p.race.slug }}/"
 eleventyComputed:
-  title: "{{ p.race.name }} {{ p.race.date | truncate(4, true, '') }}: Date, Price, Registration | {{ site.name }}"
+  title: "{{ p.race.titleTag }}"
   description: "{{ p.race.name }} is {{ p.race.date | long }}{% if p.race.start %} at {{ p.race.start | t12 }}{% endif %} in {{ p.race.city }}. {{ p.race | distList }}.{% if p.race.priceFrom %} From {{ p.race.priceFrom | money }}.{% endif %}"
   nlMetro: "{{ p.metro.slug }}"
 ---
@@ -15,6 +15,7 @@ eleventyComputed:
 <article class="rpage">
 <div class="rhead"><div class="cal big" aria-hidden="true"><span class="w">{{ r.date | wd }}</span><b>{{ r.date | day }}</b><span class="m">{{ r.date | mon }}</span></div>
 <div><h1>{{ r.name }}</h1>
+{% updated %}
 <p class="answer"><strong>{{ r.date | long }}</strong>{% if r.start %}, first start {{ r.start | t12 }}{% endif %}, in {{ r.city }}{% if r.street %} ({{ r.street }}){% endif %}. Distances: {{ r | distList }}.{% if r.priceFrom %} Entry from {{ r.priceFrom | money }}{% if r.priceTo and r.priceTo != r.priceFrom %} to {{ r.priceTo | money }}{% endif %}{% if r.nextIncrease and r.nextIncrease.date >= cal.today %}; the {{ r.nextIncrease.event }} goes from {{ r.nextIncrease.from | money }} to {{ r.nextIncrease.to | money }} after {{ r.nextIncrease.date | md }}{% endif %}.{% endif %}</p></div></div>
 <div class="rgrid">
 <div class="rmain">
@@ -39,6 +40,6 @@ eleventyComputed:
 {% if near.length %}<ul class="mini">{% for x in near %}<li><a href="{{ x | raceUrl }}">{{ x.name }}</a><small>{{ x.date | wd }} {{ x.date | mds }} · {{ x.city }}</small></li>{% endfor %}</ul>{% else %}<p class="empty">No other races that weekend yet.</p>{% endif %}
 <p><a href="/{{ m.slug }}/">All {{ m.name }} races →</a></p></aside>
 </div>
-<p class="src">Source: {{ r.source }}{% if r.source == 'RunSignup' %} public race API, refreshed {{ cal.updated | truncate(10, true, '') }}{% elif r.checked %} (organizer's page), checked {{ r.checked | long }}{% else %}, refreshed {{ cal.updated | truncate(10, true, '') }}{% endif %}. Details can change; the registration page is the final word.</p>
+<!--nohash--><p class="src">Source: {{ r.source }}{% if r.source == 'RunSignup' %} public race API, refreshed {{ cal.updated | truncate(10, true, '') }}{% elif r.checked %} (organizer's page), checked {{ r.checked | long }}{% else %}, refreshed {{ cal.updated | truncate(10, true, '') }}{% endif %}. Details can change; the registration page is the final word.</p><!--/nohash-->
 </article>
 </div>

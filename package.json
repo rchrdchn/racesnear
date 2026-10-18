@@ -4,11 +4,16 @@
   "version": "1.0.0",
   "scripts": {
     "data": "node scripts/fetch-races.mjs",
-    "build": "eleventy",
+    "build": "eleventy && node scripts/og.mjs && node scripts/postbuild.mjs",
     "dev": "eleventy --serve",
     "check": "node scripts/check.mjs",
     "indexnow": "node scripts/indexnow.mjs"
   },
-  "engines": { "node": ">=20" },
-  "devDependencies": { "@11ty/eleventy": "^3.1.7" }
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7",
+    "sharp": "^0.35.5"
+  }
 }

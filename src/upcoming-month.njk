@@ -3,14 +3,16 @@ layout: base.njk
 pagination: { data: cal.siteMonths, size: 1, alias: p, addAllPagesToCollections: true }
 permalink: "/upcoming/{{ p.slug }}/"
 eleventyComputed:
-  title: "Running Races in {{ p.name }} {{ p.y }}: {{ p.count }} in 10 US Cities | {{ site.name }}"
+  title: "Running Races in {{ p.name }} {{ p.y }}: {{ p.count }} in 10 US Cities"
   description: "{{ p.count }} 5Ks, 10Ks, half marathons, marathons and trail races in {{ p.name }} {{ p.y }} near the Bay Area, NYC, LA, Chicago, Boston, DC, Seattle, Denver, Austin and San Diego."
 ---
 {% import "macros.njk" as k %}
 <div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / <a href="/upcoming/">Upcoming</a> / {{ p.name }} {{ p.y }}</p>
 <h1>Races in {{ p.name }} {{ p.y }}</h1>
-<p class="lead"><strong>{{ p.count }} races</strong> in {{ p.name }} across our ten cities, grouped by city and listed by date.</p>
+{% updated %}
+<p class="lead"><strong>{{ hub.intro }}</strong> Grouped by city and listed by date.</p>
 <p class="jump">{% for mo in cal.siteMonths %}<a href="/upcoming/{{ mo.slug }}/"{% if mo.key == p.key %} aria-current="page"{% endif %}>{{ mo.name | truncate(3, true, "") }} {{ mo.y }}</a>{% endfor %}</p>
 {% for m in cal.list %}{% set rs = p.races | where('metro', m.slug) %}{% if rs.length %}<section aria-labelledby="m-{{ m.slug }}"><div class="sec"><h2 id="m-{{ m.slug }}">Near {{ m.near }}</h2><p class="sub">{{ rs.length }} races</p><a class="more" href="/{{ m.slug }}/{{ p.y }}/{{ p.name | lower }}/">{{ m.short }} in {{ p.name }} →</a></div>{{ k.list(rs, cal.today) }}</section>{% endif %}{% endfor %}
+{% include "faq.njk" %}
 </div>

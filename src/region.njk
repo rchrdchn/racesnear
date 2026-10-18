@@ -11,7 +11,9 @@ eleventyComputed:
 <div class="wrap">
 <p class="crumbs"><a href="/">Home</a> / <a href="/{{ p.metro.slug }}/">{{ p.metro.name }}</a> / {{ p.region.name }}</p>
 <h1>Upcoming races in {{ p.region.name }}</h1>
-<p class="lead"><strong>{{ p.races.length }} upcoming race{% if p.races.length != 1 %}s{% endif %}</strong> in {{ p.region.name }}{% if p.races.length %}, next up: <a href="{{ p.races[0] | raceUrl }}">{{ p.races[0].name }}</a> on {{ p.races[0].date | wdl }} {{ p.races[0].date | md }}{% endif %}.</p>
+{% updated %}
+<p class="lead"><strong>{{ hub.intro }}</strong> {{ p.races.length }} upcoming race{% if p.races.length != 1 %}s{% endif %} in {{ p.region.name }} for the next 12 months, by date.</p>
 {% if p.dists.length %}<p class="jump">{% for d in p.dists %}<a href="/{{ p.metro.slug }}/{{ d.slug }}/{{ p.region.slug }}/">{{ d.name }}</a>{% endfor %}</p>{% endif %}
 <div class="sec"><h2>By date</h2></div>{{ k.list(p.races, cal.today) }}
+{% include "faq.njk" %}
 </div>
