@@ -1,2735 +1,54 @@
 {
- "updated": "2026-10-17T15:26",
- "from": "2026-10-17",
- "to": "2027-10-17",
+ "updated": "2026-10-18T03:18",
+ "from": "2026-10-18",
+ "to": "2027-10-18",
  "sources": {
-  "runsignup": 1832,
+  "runsignup": 1767,
   "curated": 47
  },
  "perMetro": {
   "bay-area": {
-   "raw": 222,
-   "kept": 133
+   "raw": 217,
+   "kept": 129
   },
   "nyc": {
-   "raw": 481,
-   "kept": 367
+   "raw": 461,
+   "kept": 350
   },
   "los-angeles": {
-   "raw": 300,
-   "kept": 274
+   "raw": 293,
+   "kept": 267
   },
   "chicago": {
-   "raw": 241,
-   "kept": 181
+   "raw": 236,
+   "kept": 177
   },
   "boston": {
-   "raw": 251,
-   "kept": 175
+   "raw": 244,
+   "kept": 168
   },
   "washington-dc": {
-   "raw": 357,
-   "kept": 215
+   "raw": 340,
+   "kept": 206
   },
   "seattle": {
-   "raw": 168,
-   "kept": 147
+   "raw": 161,
+   "kept": 140
   },
   "denver-boulder": {
-   "raw": 167,
-   "kept": 150
+   "raw": 160,
+   "kept": 145
   },
   "austin": {
-   "raw": 161,
-   "kept": 119
+   "raw": 158,
+   "kept": 117
   },
   "san-diego": {
-   "raw": 129,
-   "kept": 71
+   "raw": 123,
+   "kept": 68
   }
  },
  "races": [
-  {
-   "id": "rs-38121",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "14th Annual Happy Jack 5K",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:30",
-   "city": "West Nyack",
-   "region": "westchester-hudson",
-   "street": "Germonds Park",
-   "zip": "10994",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-02-03",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NY/WestNyack/HJ5K",
-   "website": "https://www.facebook.com/happyjackfundinc/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-44859-1777073885.2771-0.bP6_7D.png",
-   "summary": "The Happy Jack 5K is an annual, family-friendly walk/run honoring the life of our son, John Thomas “Happy Jack” Doyle. All proceeds benefit The Happy Jack Fund, which provides annual scholarships to high school students who have lost a sibling, while also supporting families navigating the loss of a child.",
-   "modified": "10/17/2026 17:51",
-   "slug": "14th-annual-happy-jack-5k"
-  },
-  {
-   "id": "rs-183477",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "2nd Annual Dyamond Fitness and Connie Dwyer Foundation: Breast Cancer 5k and Walk",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:30",
-   "city": "West Orange",
-   "region": "new-jersey",
-   "street": "1 Cherry Lane",
-   "zip": "07052",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": 45,
-   "priceTo": 45,
-   "nextIncrease": null,
-   "regOpen": "2026-07-01",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/NJ/WestOrange/DyamondFitnessAndConnieDwyerFoundationBreastCancer5kAndWalk",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-253163-1759271471.049-0.bO3fOV.jpg",
-   "summary": "Dyamond Fitness is teaming up with The Connie Dwyer Brest Cancer Foundation. The Connie Dwyer Breast Cancer Foundation serves underprivileged and vulnerable women by ensuring the availability of top-quality breast-health services that include screening, diagnosis, treatment and follow-up care.",
-   "modified": "10/13/2026 21:08",
-   "slug": "2nd-annual-dyamond-fitness-and-connie-dwyer-foundation-breast-cancer-5"
-  },
-  {
-   "id": "rs-38942",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "5k RUN/Walk FOR Completion",
-   "date": "2026-10-17",
-   "endDate": "2026-10-31",
-   "start": "08:30",
-   "city": "Wanaque",
-   "region": "new-jersey",
-   "street": "PCCC Wanaque Academic Center",
-   "zip": "07420",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": 25,
-   "priceTo": 25,
-   "nextIncrease": null,
-   "regOpen": "2026-06-30",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/NJ/Wanaque/5kRaceforCompletion",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race38942-logo-0.bI8Siy.png",
-   "summary": "Join us for the 11th Annual 5k Run/Walk for Completion. Saturday, October 17th. Race Starts 8:30 a.m. at PCCC Wanaque Academic Center.",
-   "modified": "10/17/2026 08:49",
-   "slug": "5k-run-walk-for-completion"
-  },
-  {
-   "id": "rs-149498",
-   "metro": "boston",
-   "source": "RunSignup",
-   "name": "7th Annual OLV Trick or Trot 5K",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Uxbridge",
-   "region": "metrowest",
-   "street": "77 Mendon St",
-   "zip": "01569",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-06-27",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/MA/Uxbridge/4thAnnualOLVTrickorTrot5K",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-211679-1781872307.7151-0.bQntAZ.png",
-   "summary": "5k in Scenic Blackstone Valley. Get outside with the family for a great cause! Enjoy the beautiful fall weather while walking or running a 5k near the Blackstone River Canal. Feel free to dress up in your favorite Halloween garb! Register by NOON September 25th to guarantee your shirt!",
-   "modified": "10/17/2026 09:31",
-   "slug": "7th-annual-olv-trick-or-trot-5k"
-  },
-  {
-   "id": "rs-204482",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "A Snail's Pace x Saucony Sunset Relays",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "16:00",
-   "city": "Fullerton",
-   "region": "orange-county",
-   "street": "Fullerton High School",
-   "zip": "92832",
-   "distances": [
-    {
-     "label": "1600m",
-     "cat": "other",
-     "km": 1.6
-    },
-    {
-     "label": "4000m",
-     "cat": "other",
-     "km": 4
-    }
-   ],
-   "cats": [],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-03-26",
-   "regClose": "2026-10-15",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/Fullerton/ASnailSPaceXSauconySunsetRelays",
-   "website": "https://www.asnailspace.com/content/sunset-relays",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-278962-1774562744.6639-0.bPXA24.png",
-   "summary": "Music, food and running! Celebrate a night under the lights with your running crew, racing nothing but RELAYS all night - 4x100, 4x200, 4x400, 4x800, 4x1600 and the distance medley relay (AKA DMR - 1200m, 400m, 800m, 1600m). This event is open to all ability levels. 4x100m - 1 heat. 4x200m - 1 heat. 4x400m - 5 heats.",
-   "modified": "10/15/2026 15:19",
-   "slug": "a-snails-pace-x-saucony-sunset-relays"
-  },
-  {
-   "id": "rs-186242",
-   "metro": "boston",
-   "source": "RunSignup",
-   "name": "Abby's House 50th Anniversary Hybrid 5K Run/Walk",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "West Boylston",
-   "region": "metrowest",
-   "street": "125 Crescent St",
-   "zip": "01583",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-06-17",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/MA/WestBoylston/AbbysHouse5k",
-   "website": "https://abbyshouse.org/event/16th-annual-abbys-house-hybrid-5k-run-walk/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-256596-1786465088.7053-0.bQE0Ta.png",
-   "summary": "Join us for the 17th Annual Abby's House Hybrid 5K Run/Walk. This is a CERTIFIED, CHIP-TIMED 5K course.",
-   "modified": "10/16/2026 20:21",
-   "slug": "abbys-house-50th-anniversary-hybrid-5k-run-walk"
-  },
-  {
-   "id": "rs-184990",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "Back to the Future: 88 MPH Dash 5K, 10K & Half",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:00",
-   "city": "Canoga Park",
-   "region": "san-fernando-valley",
-   "street": "6846 Owensmouth Ave",
-   "zip": "91303",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-12-10",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/CA/CanogaPark/BackToTheFutureMPHDash",
-   "website": "https://jedandtedraces.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-255073-1748112159.489-0.bOmHmF.png",
-   "summary": "Get ready to rev up your DeLorean and hit 88 MPH! Back to the Future: 88 MPH Dash celebrates the iconic time-traveling trilogy with a special nod to Back to the Future Day, October 21, the date Marty McFly and Doc Brown traveled to the future in Back to the Future Part II. Presented by Jed & Ted’s Excellent Races.",
-   "modified": "10/17/2026 17:45",
-   "slug": "back-to-the-future-88-mph-dash-5k-10k-and-half"
-  },
-  {
-   "id": "rs-55489",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "Baltimore Running Festival",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:30",
-   "city": "Baltimore",
-   "region": "baltimore-annapolis",
-   "street": "McKeldin Plaza",
-   "zip": "21201",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 20.92
-    },
-    {
-     "label": "16.2 miles",
-     "cat": "other",
-     "km": 26.07
-    },
-    {
-     "label": "Marathon",
-     "cat": "marathon",
-     "km": 41.84
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half",
-    "marathon"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2024-01-09",
-   "regClose": "2026-10-16",
-   "open": false,
-   "url": "https://runsignup.com/Race/MD/Baltimore/TheBaltimoreRunningFestival",
-   "website": "http://www.thebaltimoremarathon.com",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race55489-logo-0.bAtOlx.png",
-   "summary": "Join us at the event that many are calling one of the best races on the East Coast, FINISHING AT THE INNER HARBOR. This years event will have both a live component and virtual component. With five distances to choose from, and all runners snagging a great Under Armour shirt for participating, this event is for you!",
-   "modified": "10/16/2026 18:54",
-   "slug": "baltimore-running-festival"
-  },
-  {
-   "id": "rs-115229",
-   "metro": "chicago",
-   "source": "RunSignup",
-   "name": "Cantigny 5K Run/Walk 2026 - Benefiting The Midwest Shelter for Homeless Veterans",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Wheaton",
-   "region": "west-suburbs",
-   "street": "1S151 Winfield Road",
-   "zip": "60189",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-04-10",
-   "regClose": "2026-10-15",
-   "open": false,
-   "url": "https://runsignup.com/Race/IL/Wheaton/Cantigny5KRunWalk",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-121806-1722438540.5788-0.bMQLom.jpg",
-   "summary": "Cantigny (pronounced Can - Tee - Knee ). Cantigny is the former home of Colonel Robert R. McCormick, longtime editor, and publisher of the Chicago Tribune. The 500-acre estate features gardens, the Robert R. McCormick Museum, the First Division Museum, and a 27-hole championship public golf course.",
-   "modified": "10/17/2026 12:50",
-   "slug": "cantigny-5k-run-walk-benefiting-the-midwest-shelter-for-homeless-veter"
-  },
-  {
-   "id": "rs-214527",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "Charles Ian Joseph",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Baltimore",
-   "region": "baltimore-annapolis",
-   "street": "414 Light Street, Apt 1001",
-   "zip": "21202",
-   "distances": [
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-04",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/MD/Baltimore/CharlesIanJoseph",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-291203-1788530164.2775-0.bQMS30.jpg",
-   "summary": "Half marathon.",
-   "modified": "9/4/2026 09:56",
-   "slug": "charles-ian-joseph"
-  },
-  {
-   "id": "rs-17356",
-   "metro": "chicago",
-   "source": "RunSignup",
-   "name": "Chicago Fall Classic Half Marathon, 10K & 5K",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:15",
-   "city": "Chicago",
-   "region": "city",
-   "street": "601 W Montrose Ave",
-   "zip": "60613",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-12-16",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/IL/Chicago/CountrySole",
-   "website": "https://allcommunityevents.com/chicagofallclassic",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-24164-1779913076.7258-0.bQf1f0.png",
-   "summary": "You’re invited to the Chicago Fall Classic Half Marathon, 10K & 5K. Finish line goods will feature local caramel apples, hot apple cider and beer (21 )! #ChicagoFallClassic.",
-   "modified": "10/17/2026 07:51",
-   "slug": "chicago-fall-classic-half-marathon-10k-and-5k"
-  },
-  {
-   "id": "rs-136751",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Chili Hilly 5K Run/Walk",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "10:00",
-   "city": "Yonkers",
-   "region": "westchester-hudson",
-   "street": "782 Palisade Ave",
-   "zip": "10703",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-10",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NY/Yonkers/ChiliHilly5KRunWalkYonkers",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/ultra-300px.bMjMog.png",
-   "summary": "RACE START: 10AM. RACE DAY REGISTRATION: Starts 8:30 AM at the CTK parking lot (corner of Palisade Ave & Roberts Ave). REGISTRATION FEE: $40 Under 18 $30, Active Military Free.(register in person on Thurs Oct 15 or race day). PRE-REGISTRATION: NUGENTS PUB-782 Palisade Ave on Thursday OCT 15th from 4-8pm.",
-   "modified": "10/17/2026 17:51",
-   "slug": "chili-hilly-5k-run-walk"
-  },
-  {
-   "id": "rs-98582",
-   "metro": "boston",
-   "source": "RunSignup",
-   "name": "Devils Chase 6.66 & Creepy Clown 3.33",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Salem",
-   "region": "north-shore",
-   "street": "129 Fort Ave",
-   "zip": "01970",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5.36
-    },
-    {
-     "label": "6.66 miles",
-     "cat": "other",
-     "km": 10.72
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-02-13",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/MA/Salem/VirtualDevilsChase666CreepyClown333",
-   "website": "http://www.bnseventmanagement.com",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race98582-logo-0.bFurtn.png",
-   "summary": "Run like Hell in Salem, MA this October! 666 Event Description: The Devils Chase 6.66 Mile Run, named to the Top Nine Costume Runs in the World, is the best and most unique event you will run in all year long. 98% of participants dress up in costume, majority Devil theme costumes.",
-   "modified": "10/17/2026 09:12",
-   "slug": "devils-chase-6-66-and-creepy-clown-3-33"
-  },
-  {
-   "id": "rs-215518",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "Fall Fest Family 1-Mile Fun Run/Walk",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "13:00",
-   "city": "Silver Spring",
-   "region": "maryland-suburbs",
-   "street": "13500 Layhill Road",
-   "zip": "20906",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    }
-   ],
-   "cats": [],
-   "trail": false,
-   "priceFrom": 30,
-   "priceTo": 30,
-   "nextIncrease": null,
-   "regOpen": "2026-09-29",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/MD/SilverSpring/BarrieSchool",
-   "website": null,
-   "logo": null,
-   "summary": "Lace up your sneakers and join us for Barrie School’s Inaugural Fall Fest Family 1-Mile Fun Run/Walk! Run, walk, skip, or stroll your way through one mile of family-friendly fun at Fall Festival. Grab your family and friends, get moving, and enjoy a fun way to celebrate the Barrie community together.",
-   "modified": "10/8/2026 21:22",
-   "slug": "fall-fest-family-1-mile-fun-run-walk"
-  },
-  {
-   "id": "rs-212500",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "FWDFit First Annual 5K & Kids Mile",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Katonah",
-   "region": "westchester-hudson",
-   "street": "2875 US-35",
-   "zip": "10536",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-17",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NY/Katonah/FWDFit5KKidsMile",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288794-1786393704.2847-0.bQEJrO.png",
-   "summary": "Lace up your sneakers and join us for the 1st Annual FWD FIT Katonah Family Fun Day 5K & Kids Mile! Celebrate fitness, family, and community with a scenic 5K through the Pepsi Campus.",
-   "modified": "10/16/2026 22:04",
-   "slug": "fwdfit-first-annual-5k-and-kids-mile"
-  },
-  {
-   "id": "rs-133344",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "George Mason 5K and Fun Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:30",
-   "city": "Fairfax",
-   "region": "northern-virginia",
-   "street": "4373 Mason Pond Dr.",
-   "zip": "22030",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-07-20",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/VA/Fairfax/MasonNationThrivingTogether5K",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-139913-1749822167.1041-0.bOtcRx.png",
-   "summary": "Join us for the annual George Mason 5K & Fun Run! This year, all proceeds will benefit the Student Emergency Assistance Fund, overseen by the Student Support and Advocacy Center (SSAC).",
-   "modified": "10/17/2026 07:47",
-   "slug": "george-mason-5k-and-fun-run"
-  },
-  {
-   "id": "rs-193999",
-   "metro": "seattle",
-   "source": "RunSignup",
-   "name": "Goose Chase",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "10:00",
-   "city": "Seattle",
-   "region": "city",
-   "street": "4316 S Genesee St",
-   "zip": "98118",
-   "distances": [
-    {
-     "label": "2000m",
-     "cat": "other",
-     "km": 2
-    },
-    {
-     "label": "3000m",
-     "cat": "other",
-     "km": 3
-    },
-    {
-     "label": "4000m",
-     "cat": "other",
-     "km": 4
-    }
-   ],
-   "cats": [],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": null,
-   "regClose": null,
-   "open": false,
-   "url": "https://runsignup.com/Race/WA/Seattle/GooseChase",
-   "website": null,
-   "logo": null,
-   "summary": "https://rainierbeachxc.com/wp-content/uploads/2025/09/rainierbeachgoosechaseflyer2025.pdf.",
-   "modified": "10/16/2026 11:53",
-   "slug": "goose-chase"
-  },
-  {
-   "id": "rs-213576",
-   "metro": "seattle",
-   "source": "RunSignup",
-   "name": "Green Lake Sole 5K Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "10:00",
-   "city": "Seattle",
-   "region": "city",
-   "street": "Basketball Courts, 7201 East Green Lake Dr N, Seattle, WA 98115",
-   "zip": "98115",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-22",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/WA/Seattle/GreenLakeSole5KRun",
-   "website": null,
-   "logo": null,
-   "summary": "Put on your running shoes and be ready to run your sole out at the Green Lake Sole 5K Run. This 5k is partnered with YouthCare. Proceeds will go towards buying shoes for Seattle youth experiencing homelessness.",
-   "modified": "10/17/2026 13:53",
-   "slug": "green-lake-sole-5k-run"
-  },
-  {
-   "id": "rs-24884",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Harrington Park Fall Spectacular - 24th Annual",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Harrington Park",
-   "region": "new-jersey",
-   "street": "Harrington Park School",
-   "zip": "07640",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-02-15",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NJ/HarringtonPark/HarringtonPark",
-   "website": "http://www.hp5k.org",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-31630-1771177626.2418-0.bPKGAA.jpg",
-   "summary": "Our Fall Spectacular is a high energy event including a USATF Certified 5K Run/Walk for all ages on a relatively flat course through scenic Harrington Park, NJ. Enjoy professional pre-race stretching, a live DJ, and water stations at Miles 1 and 2.",
-   "modified": "10/17/2026 09:27",
-   "slug": "harrington-park-fall-spectacular-24th-annual"
-  },
-  {
-   "id": "rs-155970",
-   "metro": "seattle",
-   "source": "RunSignup",
-   "name": "Haunted 5K, 10K & 13.1M at Everett, WA (42)",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:30",
-   "city": "Everett",
-   "region": "snohomish",
-   "street": "3505 Lowell Snohomish River Rd,",
-   "zip": "98203",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2021-12-29",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/WA/Everett/Lowell10192024",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-219204-1736648940.9283-0.bNGYJS.png",
-   "summary": "US Road Running Races. US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition to keep things exciting.",
-   "modified": "7/4/2026 16:00",
-   "slug": "haunted-5k-10k-and-13-1m-at-everett-wa-42"
-  },
-  {
-   "id": "rs-212418",
-   "metro": "austin",
-   "source": "RunSignup",
-   "name": "Haunted 5K, 10K, & 13.1M at Austin, TX (42)",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Austin",
-   "region": "city",
-   "street": "10001 Burleson Rd",
-   "zip": "78719",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2022-03-30",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/TX/Austin/42AustinTX",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288696-1786119282.7336-0.bQDGrY.png",
-   "summary": "US Road Running Races. US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition to keep things exciting.",
-   "modified": "10/16/2026 01:27",
-   "slug": "haunted-5k-10k-and-13-1m-at-austin-tx-42"
-  },
-  {
-   "id": "rs-196597",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Heart & Sole 5K",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "10:30",
-   "city": "New Brunswick",
-   "region": "new-jersey",
-   "street": "321 Easton Ave",
-   "zip": "08901",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-01",
-   "regClose": "2026-09-01",
-   "open": false,
-   "url": "https://runsignup.com/Race/NJ/NewBrunswick/rutgershonorcollegeheartandsole5k",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-269097-1771606332.4508-0.bPMje8.png",
-   "summary": "RACE IS POSTPONED UNTIL FURTHER NOTICE. The Rutgers University Honors College is thrilled to present the 2nd Annual Heart & Sole 5K at Buccleuch Park! The race kicks off at 10:30 AM sharp, so come early to grab your bib and free event t-shirt! Pickup opens at 9:30 AM at the Large Pavilion.",
-   "modified": "9/14/2026 16:57",
-   "slug": "heart-and-sole-5k"
-  },
-  {
-   "id": "rs-34953",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "Hyattsville Zombie Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:45",
-   "city": "Hyattsville",
-   "region": "maryland-suburbs",
-   "street": "Driskell Park",
-   "zip": "20781",
-   "distances": [
-    {
-     "label": "1K",
-     "cat": "other",
-     "km": 1
-    },
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-04-18",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/MD/Hyattsville/HyattsvilleZombieRun",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-41692-1787835260.5064-0.bQKdn8.png",
-   "summary": "Join the Hyattsville Elementary School PTA for the 11th annual Zombie Run! The Hyattsville Zombie Run will be held in Driskell Park on October 17th!",
-   "modified": "10/17/2026 13:35",
-   "slug": "hyattsville-zombie-run"
-  },
-  {
-   "id": "rs-98111",
-   "metro": "denver-boulder",
-   "source": "RunSignup",
-   "name": "Indian Creek Trail Runs",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Sedalia",
-   "region": "suburbs",
-   "street": "2499 Pine Creek Rd",
-   "zip": "80135",
-   "distances": [
-    {
-     "label": "5.5 miles",
-     "cat": "other",
-     "km": 8.85
-    },
-    {
-     "label": "15 miles",
-     "cat": "other",
-     "km": 24.14
-    }
-   ],
-   "cats": [
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": 60,
-   "priceTo": 100,
-   "nextIncrease": null,
-   "regOpen": "2025-12-01",
-   "regClose": "2026-10-18",
-   "open": true,
-   "url": "https://runsignup.com/Race/CO/Sedalia/IndianCreekFifties",
-   "website": "https://humanpotentialrunning.com/races/indian-creek-fifties/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race98111-logo-0.bK7IpT.png",
-   "summary": "The Human Potential Running Series Presents. The Indian Creek Trail Runs Indian Creek Campground. The Indian Creek Trail Runs is the oldest official race of HPRS and is also known as our annual “Fall Classic.” This event features some of the best, seldom used, single track trails of the Denver Metro area.",
-   "modified": "10/17/2026 08:21",
-   "slug": "indian-creek-trail-runs"
-  },
-  {
-   "id": "rs-210753",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "Infinite Challenge Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "San Pedro",
-   "region": "south-bay-long-beach",
-   "street": "1332 S Harbor Blvd,",
-   "zip": "90731",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-17",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/SanPedro/InfiniteChallengeRun",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-286590-1783559275.294-0.bQtVrR.png",
-   "summary": "A special running festival is coming to LA, featuring the beloved members of Korea’s iconic variety show, Infinite Challenge.",
-   "modified": "10/17/2026 11:34",
-   "slug": "infinite-challenge-run"
-  },
-  {
-   "id": "rs-189348",
-   "metro": "seattle",
-   "source": "RunSignup",
-   "name": "Juanita Unified 5K - Heroes in motion",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:30",
-   "city": "Kirkland",
-   "region": "eastside-south-king",
-   "street": "10601 NE 132nd St.",
-   "zip": "98034",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-31",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/WA/Kirkland/JuanitaDECAUnified5K",
-   "website": null,
-   "logo": null,
-   "summary": "The Juanita Unified 5K is more than just a run (or walk!), it's a step toward a more inclusive and connected community. Juanita High School serves over 1,700 diverse students and is committed to creating an environment where every student feels valued.",
-   "modified": "10/5/2026 10:03",
-   "slug": "juanita-unified-5k-heroes-in-motion"
-  },
-  {
-   "id": "rs-32430",
-   "metro": "san-diego",
-   "source": "RunSignup",
-   "name": "Lake Hodges Trail Festival",
-   "date": "2026-10-17",
-   "endDate": "2026-10-18",
-   "start": "08:00",
-   "city": "San Diego",
-   "region": "city",
-   "street": "Piedras Pintadas Trailhead",
-   "zip": "92127",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10.3
-    },
-    {
-     "label": "9.3 miles",
-     "cat": "other",
-     "km": 14.97
-    },
-    {
-     "label": "15.6 miles",
-     "cat": "other",
-     "km": 25.11
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-12-01",
-   "regClose": "2026-10-16",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/SanDiego/LakeHodgesTrailFest",
-   "website": "https://www.elevationculture.com/lakehodgestrailruns",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-39172-1771710050.6014-0.bPMIzI.png",
-   "summary": "THE EVENT IS SOLD OUT! THERE ARE NO WAIT LIST. 2026 RUNNERS GUIDE - CLICK HERE. THE LAKE HODGES TRAIL RUNS & TRAIL DUATHLON- RUN | BIKE | RUN. is an annual trail running experience you don't want to miss. We offer something for the whole family to enjoy.",
-   "modified": "10/17/2026 17:34",
-   "slug": "lake-hodges-trail-festival"
-  },
-  {
-   "id": "rs-105923",
-   "metro": "seattle",
-   "source": "RunSignup",
-   "name": "Lake Washington Half Marathon",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Kirkland",
-   "region": "eastside-south-king",
-   "street": "Juanita Beach Park",
-   "zip": "98034",
-   "distances": [
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "half",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-01-11",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/WA/Kirkland/LakeWashingtonHalf",
-   "website": "https://www.orcarunning.com/race/lake-washington-half/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race105923-logo-0.bGdWWs.png",
-   "summary": "The Lake Washington Half marathon is a beautiful loop course that starts and finishes and Juanita Beach Park in Kirkland. See more details on the website here! Earn the R-Pod medal when you sign up for any 3 Orca Running races!",
-   "modified": "10/16/2026 14:37",
-   "slug": "lake-washington-half-marathon"
-  },
-  {
-   "id": "rs-208385",
-   "metro": "denver-boulder",
-   "source": "RunSignup",
-   "name": "Living Water 5K and Family Fun Walk/Jog",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Denver",
-   "region": "denver",
-   "street": "4601 W. 46th Ave",
-   "zip": "80212",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-05-26",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CO/Denver/LivingWater5KFunRun",
-   "website": "https://catholicengineeringcorps.org/living-water-run",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-283693-1788210566.4177-0.bQLE2g.png",
-   "summary": "Participants joining our inaugural annual 5K and Family Run/Walk will help bring awareness for clean, sustainable water solutions to communities in need and support our disaster response initiatives.",
-   "modified": "10/17/2026 10:51",
-   "slug": "living-water-5k-and-family-fun-walk-jog"
-  },
-  {
-   "id": "rs-215852",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Living Word Church Fall Fest 5k",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Union",
-   "region": "new-jersey",
-   "street": "2208 Stanley Terrace",
-   "zip": "07083",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-26",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NJ/Union/LivingWordChurchFallFest5k",
-   "website": null,
-   "logo": null,
-   "summary": "Join Us for Our First Ever Living Word Church Fall Fest Family 5K. Experience a day of community and fun at the Living Word Church Fall Fest Family 5K. Whether you're an experienced runner or just looking to walk with family and friends, this event is designed for everyone.",
-   "modified": "10/17/2026 12:00",
-   "slug": "living-word-church-fall-fest-5k"
-  },
-  {
-   "id": "rs-213466",
-   "metro": "denver-boulder",
-   "source": "RunSignup",
-   "name": "Longmonster Dash 5k",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:30",
-   "city": "Longmont",
-   "region": "northern-colorado",
-   "street": "Boston Ave. between Main and Martin",
-   "zip": "80504",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-19",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CO/Longmont/LongmonsterDash5k",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289905-1789079579.5128-0.bQOZaB.jpg",
-   "summary": "Something spooky this way runs! Lace up your monster clogs and join the Longmont Area Chamber of Commerce for the inaugural Longmonster Dash 5K & Costume Contest on Saturday, October 17, 2026. Runners, walkers, and broom fliers of all paces are welcome to join the fun.",
-   "modified": "10/17/2026 15:51",
-   "slug": "longmonster-dash-5k"
-  },
-  {
-   "id": "rs-64858",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Lou LaSalle Memorial 5K.",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Roseland",
-   "region": "new-jersey",
-   "street": "19 Harrison Avenue",
-   "zip": "07068",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-10-16",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NJ/Roseland/RunForRoseland",
-   "website": "https://register.capturepoint.com/roseland",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-71529-1788882075.8461-0.bQOcYB.png",
-   "summary": "The Roseland Recreation Department is proud to announce the Lou LaSalle Memorial 5K. This year's race carries special meaning as we honor the life and legacy of Louis Lou LaSalle, a longtime Roseland resident and dedicated community leader.",
-   "modified": "10/15/2026 20:28",
-   "slug": "lou-lasalle-memorial-5k"
-  },
-  {
-   "id": "rs-57733",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Mary'S Place By The Sea 2026 Walk-A-Thon & Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:45",
-   "city": "Ocean Grove",
-   "region": "new-jersey",
-   "street": "Ocean Avenue and Ocean Pathway",
-   "zip": "07756",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": 25,
-   "priceTo": 40,
-   "nextIncrease": null,
-   "regOpen": "2026-03-11",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/NJ/OceanGrove/MarysPlacebytheSeaWalkathon",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-64415-1715354643.3644-0.bMpJWt.jpg",
-   "summary": "Join us Saturday, October 17th, 2026, on Ocean Pathway in Ocean Grove, New Jersey, as we. walk, run, dance, and celebrate in support of the incredible women of Mary’s Place by the Sea. This year, we proudly celebrate 17 years of service to more than 17,000 women with cancer.",
-   "modified": "10/17/2026 06:07",
-   "slug": "marys-place-by-the-sea-walk-a-thon-and-run"
-  },
-  {
-   "id": "rs-212021",
-   "metro": "boston",
-   "source": "RunSignup",
-   "name": "Massasoit 60th Anniversary Fun Run & Walk",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Brockton",
-   "region": "south-shore",
-   "street": "1 Massasoit Boulevard",
-   "zip": "02302",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": null,
-   "regClose": null,
-   "open": false,
-   "url": "https://runsignup.com/Race/MA/Brockton/MassasoitFunRunWalk",
-   "website": "https://wl.donorperfect.net/weblink/weblink.aspx?name=E346875&id=84",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288182-1785442322.0862-0.bQA7as.png",
-   "summary": "Massasoit's 60th Anniversary Fun Run & Walk. Celebrate 60 years of Massasoit with a Fun Run, Walk, and Kid's Dash on October 17! The run/walk routes will take you through Massasoit's Brockton Campus and conclude with a barbeque. All participants will receive a shirt, medal, and access to the BBQ. Event Schedule.",
-   "modified": "10/16/2026 11:29",
-   "slug": "massasoit-60th-anniversary-fun-run-and-walk"
-  },
-  {
-   "id": "rs-119062",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "Mcrrc Black Hill 10K",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Boyds",
-   "region": "maryland-suburbs",
-   "street": "Black Hill Regional Park",
-   "zip": "20841",
-   "distances": [
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    }
-   ],
-   "cats": [
-    "10k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-02-10",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/MD/Boyds/MCRRCBlackHill10KXC",
-   "website": "https://mcrrc.org/calendar-event/black-hill-10k-2026/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-125638-1750864957.5212-0.bOxbq9.png",
-   "summary": "Welcome to the NON-MEMBER registration page for the MCRRC Black Hill 10K! This page may also be used to sign up to volunteer - please see the volunteer tab to the left. This race is part of our free, low-key series for members. Please refer to the Low-Key Race Entry Procedure on our website for more information.",
-   "modified": "10/16/2026 20:07",
-   "slug": "mcrrc-black-hill-10k"
-  },
-  {
-   "id": "rs-157430",
-   "metro": "boston",
-   "source": "RunSignup",
-   "name": "Miles for Mary",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "10:00",
-   "city": "Marblehead",
-   "region": "north-shore",
-   "street": "105 Ocean Ave",
-   "zip": "01945",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-01-01",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/MA/Marblehead/MilesforMary5KRunWalk",
-   "website": "https://www.milesformary.com/5krunandwalk/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race157430-logo-0.bLElnP.png",
-   "summary": "The Miles for Mary 5K Run and Walk began in 2013 to honor the memory of Mary Park and a growing number of other beloved members of our community. It also serves as a fundraiser for brain cancer research while raising awareness in a scenic and fun setting.",
-   "modified": "10/15/2026 22:28",
-   "slug": "miles-for-mary"
-  },
-  {
-   "id": "rs-146640",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "Night of the Living Runners - 5K, 10K, 10-Miler, Half Marathon",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:00",
-   "city": "Long Beach",
-   "region": "south-bay-long-beach",
-   "street": "780 E Shoreline Dr",
-   "zip": "90802",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "10 miles",
-     "cat": "other",
-     "km": 16.09
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-11-11",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/LongBeach/NightoftheLivingRunners5K10K15KandHalfMarathon",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-208376-1784071157.1593-0.bQvSp1.png",
-   "summary": "Race Details. Start Location: Alamitos Beach, 780 E Shoreline Dr. Long Beach, CA. Parking: Parking in the lot is $2/hour and starts at 8am, if you are running the Half/10m you can use the Passport app to pay for parking. Street parking is free. See map at the bottom of this email. Event Schedule. Friday, October 16th.",
-   "modified": "10/17/2026 16:22",
-   "slug": "night-of-the-living-runners-5k-10k-10-miler-half-marathon"
-  },
-  {
-   "id": "rs-154708",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "Nvjcyo Cross Country Developmental Meet 2",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:30",
-   "city": "Reston",
-   "region": "northern-virginia",
-   "street": "1400 Lake Fairfax Dr",
-   "zip": "20190",
-   "distances": [
-    {
-     "label": "2K",
-     "cat": "other",
-     "km": 2
-    },
-    {
-     "label": "3K",
-     "cat": "other",
-     "km": 3
-    },
-    {
-     "label": "4K",
-     "cat": "other",
-     "km": 4
-    }
-   ],
-   "cats": [
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-10-09",
-   "regClose": "2026-10-09",
-   "open": false,
-   "url": "https://runsignup.com/Race/VA/Reston/NVJCYOCrossCountryDevelopmentalMeet2",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/ultra-300px.bMjMog.png",
-   "summary": "NVJCYO Cross Country Developmental Meet 2.",
-   "modified": "10/17/2026 11:00",
-   "slug": "nvjcyo-cross-country-developmental-meet-2"
-  },
-  {
-   "id": "rs-206894",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Pat's Miles for Moms",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Roselle",
-   "region": "new-jersey",
-   "street": "Warinanco Sports Center",
-   "zip": "07203",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-05-04",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NJ/Roselle/PatsMilesforMoms",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-281856-1777917884.2437-0.bP-n-8.png",
-   "summary": "Join us for a meaningful 5K benefiting Moms Helping Moms and held in memory of Pat Deaton, the beloved husband of Moms Helping Moms co-founder Megan Deaton and former Chief Operating Officer - NB Alternatives at Neuberger.",
-   "modified": "10/17/2026 10:23",
-   "slug": "pats-miles-for-moms"
-  },
-  {
-   "id": "rs-96666",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "Pomona 5k & 10k",
-   "date": "2026-10-17",
-   "endDate": "2026-10-24",
-   "start": "07:10",
-   "city": "Pomona",
-   "region": "pasadena-sgv",
-   "street": "197 E. 2nd Street",
-   "zip": "91766",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 9.98
-    },
-    {
-     "label": "9.3 miles",
-     "cat": "other",
-     "km": 14.97
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-06-19",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/Pomona/Pomona5K10KRunWalk",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-103308-1717438335.0186-0.bMxGD_.png",
-   "summary": "Join us for the 10th Annual Pomona 5K & 10K on Saturday, October 17, 2026. The Pomona 5K/10K celebrates its 10th anniversary on Saturday, October 17, 2026. Take the chance to be a part of this historic milestone.",
-   "modified": "10/17/2026 09:25",
-   "slug": "pomona-5k-and-10k"
-  },
-  {
-   "id": "rs-114528",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Post Office Cafe's 35th Annual 5K Run & 1K Fun Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:30",
-   "city": "Babylon",
-   "region": "long-island",
-   "street": "130 W Main St",
-   "zip": "11702",
-   "distances": [
-    {
-     "label": "1K",
-     "cat": "other",
-     "km": 1
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-01",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NY/Babylon/PostOfficeCafe5k",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-121105-1785514377.3955-0.bQBmMj.jpg",
-   "summary": "Thank you for participating in the National MPS Society Run/Walk, and Post Office Cafe's 35th Annual 5K & 1K Fun Run. This event will raise awareness and funds for the National MPS Society. In our community, the Walk/Run will be held at the Post Office Cafe in celebration of Mark and Casey Lessing.",
-   "modified": "10/16/2026 20:33",
-   "slug": "post-office-cafes-35th-annual-5k-run-and-1k-fun-run"
-  },
-  {
-   "id": "rs-190330",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "Race of Legends XC",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:30",
-   "city": "Los Angeles",
-   "region": "central-la",
-   "street": "4700 Western Heritage Way",
-   "zip": "90027",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-07-27",
-   "regClose": "2026-10-13",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/LosAngeles/RaceOfLegends",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-261616-1785200414.8832-0.bQz_8E.jpg",
-   "summary": "Race of Legends XC 5K. People's race.",
-   "modified": "10/14/2026 22:53",
-   "slug": "race-of-legends-xc"
-  },
-  {
-   "id": "rs-209800",
-   "metro": "bay-area",
-   "source": "RunSignup",
-   "name": "Race The Flame",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Santa Cruz",
-   "region": "santa-cruz",
-   "street": "1156 High Street",
-   "zip": "95064",
-   "distances": [
-    {
-     "label": "2.2 miles",
-     "cat": "other",
-     "km": 3.54
-    },
-    {
-     "label": "2.5 miles",
-     "cat": "other",
-     "km": 4.02
-    }
-   ],
-   "cats": [],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-14",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/SantaCruz/RaceTheFlame",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285465-1783456254.9483-0.bQtwh-.jpg",
-   "summary": "IMPORTANT INFORMATION FOR RACE DAY REGISTRATION:. Race Day registration will be available ON-LINE until 7:45 AM on October 17. You must use your phone or computer to register before getting to the start line area. So if you wake up and decide to run sign up before you leave home or use your phone once you get onsite.",
-   "modified": "10/17/2026 05:37",
-   "slug": "race-the-flame"
-  },
-  {
-   "id": "rs-117558",
-   "metro": "chicago",
-   "source": "RunSignup",
-   "name": "Rosehill Cemetery 'Crypt' 5K Run/Walk",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "19:00",
-   "city": "Chicago",
-   "region": "city",
-   "street": "5800 N. Ravenswood Ave.",
-   "zip": "60660",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": 47,
-   "priceTo": 54,
-   "nextIncrease": null,
-   "regOpen": "2025-11-05",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/IL/Chicago/Crypt5KRunWalk",
-   "website": "https://chicagoevents.com/events/rosehill-crypt-5k/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race117558-logo-0.bLvMCm.png",
-   "summary": "Check out fall’s most ‘spirited’ event! It’s the 13th annual 5K on the grounds of the north side’s historic Rosehill Cemetery. Run or walk on the sprawling 350-acre Victorian-era cemetery that opened in 1864. It’s by far the largest cemetery in the City of Chicago (and second largest in Illinois). Monuments!",
-   "modified": "10/14/2026 00:34",
-   "slug": "rosehill-cemetery-crypt-5k-run-walk"
-  },
-  {
-   "id": "rs-133516",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "Run Baltimore with Team Aims",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "06:00",
-   "city": "Baltimore",
-   "region": "baltimore-annapolis",
-   "street": "1101 Russell St",
-   "zip": "21230",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    },
-    {
-     "label": "Marathon",
-     "cat": "marathon",
-     "km": 42.16
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half",
-    "marathon"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-30",
-   "regClose": "2026-10-02",
-   "open": false,
-   "url": "https://runsignup.com/Race/MD/Baltimore/runbaltimorewithAIMS",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race133516-logo-0.bK6ci6.png",
-   "summary": "Welcome to Team AIMS Baltimore Running Festival signup. Team AIMS is a charity partner for this race. Please read the following instructions carefully. Once you signup through this website, Team AIMS will register you to Baltimore Running Festival (BRF) as an AIMS Charity runner.",
-   "modified": "10/14/2026 21:07",
-   "slug": "run-baltimore-with-team-aims"
-  },
-  {
-   "id": "rs-211845",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Run for Waterside",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Stamford",
-   "region": "connecticut",
-   "street": "770 Pacific St",
-   "zip": "06902",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-07-28",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CT/Stamford/RunForWaterside5K",
-   "website": "http://www.watersideschool.org",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287963-1785524516.2197-0.bQBpeK.jpg",
-   "summary": "Run For Waterside has raised more than $2.5 million for student scholarships! Waterside School is an independent Junior Kindergarten through fifth grade school serving children and their families regardless of family income or circumstance. 100% of students receive need-based scholarships.",
-   "modified": "10/15/2026 15:53",
-   "slug": "run-for-waterside"
-  },
-  {
-   "id": "rs-216000",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "RUN LSP - Costume Edition",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "10:00",
-   "city": "Jersey City",
-   "region": "new-jersey",
-   "street": "200 Morris Pesin Dr",
-   "zip": "07305",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-29",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NJ/JerseyCity/RUNLSPCostumeEdition",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-293009-1790697770.7265-0.bQU-eQ.png",
-   "summary": "Join us on Saturday, October 17th for our Fall RUN LSP 5K! This event is hosted in collaboration with the John E. Nagel Foundation, the Friends of Liberty State Park, and Winning Events Group.",
-   "modified": "10/17/2026 06:37",
-   "slug": "run-lsp-costume-edition"
-  },
-  {
-   "id": "rs-212568",
-   "metro": "denver-boulder",
-   "source": "RunSignup",
-   "name": "Running Scared 5K/13K - Denver",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:30",
-   "city": "Littleton",
-   "region": "suburbs",
-   "street": "Platte River Bar & Grill",
-   "zip": "80120",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "13K",
-     "cat": "other",
-     "km": 13
-    },
-    {
-     "label": "18K",
-     "cat": "other",
-     "km": 18
-    }
-   ],
-   "cats": [
-    "5k",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": 35,
-   "priceTo": 65,
-   "nextIncrease": null,
-   "regOpen": "2026-08-10",
-   "regClose": "2026-10-18",
-   "open": true,
-   "url": "https://runsignup.com/Race/CO/Littleton/RunningScared5K13KDenver",
-   "website": "https://www.fivestarntp.com/races/Running-Scared-5K%2F13K",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-68919-1775878314.0948-0.bP2CcQ.png",
-   "summary": "Get ready for a spine-tingling race experience at the Running Scared 5K & 13K -where thrills, chills, and fast times collide! Whether you’re brave enough to tackle the 5K or daring enough to conquer the 13K, this Halloween-themed event delivers a fun and festive atmosphere perfect for runners of all levels.",
-   "modified": "10/16/2026 13:58",
-   "slug": "running-scared-5k-13k-denver"
-  },
-  {
-   "id": "rs-209692",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "RunThrough Hoboken 5k & 10k",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Hoboken",
-   "region": "new-jersey",
-   "street": "Hoboken 100 Sinatra Dr",
-   "zip": "07030",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 9.99
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k"
-   ],
-   "trail": false,
-   "priceFrom": 55,
-   "priceTo": 65,
-   "nextIncrease": null,
-   "regOpen": "2026-06-19",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/NJ/Hoboken/RunThroughHoboken5k10k",
-   "website": "https://runthroughusa.com/hoboken-5k-10k-2026",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285321-1781964367.6897-0.bQnP5p.png",
-   "summary": "Join us for the RunThrough Hoboken 5K & 10K on Saturday, 17th October 2026! Experience one of the most scenic waterfront race routes in the New York metropolitan area as you take on a fast and flat 5K or 10K along Hoboken's iconic Hudson River waterfront.",
-   "modified": "10/16/2026 17:49",
-   "slug": "runthrough-hoboken-5k-and-10k"
-  },
-  {
-   "id": "rs-211096",
-   "metro": "san-diego",
-   "source": "RunSignup",
-   "name": "San Diego Miles for Melanoma 5K",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:30",
-   "city": "San Diego",
-   "region": "city",
-   "street": "3000 N Mission Bay Dr",
-   "zip": "92109",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-07-20",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/SanDiego/SanDiegoMFM",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287047-1784061993.4376-0.bQvQaP.png",
-   "summary": "The cure for melanoma begins with me.and the Miles for Melanoma community coming together to run, walk and raise funds for the Melanoma Research Foundation.",
-   "modified": "10/17/2026 12:02",
-   "slug": "san-diego-miles-for-melanoma-5k"
-  },
-  {
-   "id": "rs-193713",
-   "metro": "san-diego",
-   "source": "RunSignup",
-   "name": "San Diego Miles for Melanoma 5k Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "San Diego",
-   "region": "city",
-   "street": "De Anza Cove Park, 3000 N. Mission Bay Drive",
-   "zip": "92109",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": null,
-   "regClose": null,
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/SanDiego/SanDiegoMilesforMelanoma5kRun",
-   "website": null,
-   "logo": null,
-   "summary": "",
-   "modified": "10/11/2026 23:35",
-   "slug": "san-diego-miles-for-melanoma-5k-run"
-  },
-  {
-   "id": "rs-37157",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "Spacerock Trail Race",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:30",
-   "city": "Aqua Dulce",
-   "region": "san-fernando-valley",
-   "street": "10700 Escondido Canyon Rd",
-   "zip": "91350",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "14.3K",
-     "cat": "other",
-     "km": 14.3
-    },
-    {
-     "label": "13.9 miles",
-     "cat": "other",
-     "km": 22.37
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-10-12",
-   "regClose": "2026-10-16",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/AquaDulce/SPACEROCKTrailRace",
-   "website": "https://spacerocktrailrace.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race37157-logo-0.bLp-0Y.png",
-   "summary": "OUT-OF-THIS-WORLD TRAIL RUNNING. SPACEROCK: the final trail running frontier. These are the voyages of trail runners around the world. Your mission: to explore strange new trails, to seek out new life and new experiences, to boldly run where no one has run before.",
-   "modified": "1/3/2026 15:15",
-   "slug": "spacerock-trail-race"
-  },
-  {
-   "id": "rs-121962",
-   "metro": "austin",
-   "source": "RunSignup",
-   "name": "Spooky Sprint-Austin",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Del Valle",
-   "region": "hill-country",
-   "street": "Southeast Metro Park",
-   "zip": "78617",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 9.98
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-09-27",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/TX/DelValle/BodiesSpookySprintAustin",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race121962-scaled-logo-0.bMitIs.png",
-   "summary": "Join us for the annual Spooky Sprint 5k/10k & Half Marathon! A fun, Halloween-themed event that is perfect for the whole family. The fun includes -. Great Swag - designer shirt & custom medal. Chip-timing with live results and awards. Free photos. Delicious Treats waiting at the finish line. Plenty of fun!",
-   "modified": "10/17/2026 09:19",
-   "slug": "spooky-sprint-austin"
-  },
-  {
-   "id": "rs-135758",
-   "metro": "boston",
-   "source": "RunSignup",
-   "name": "Sscps Annual Road Race 5K",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Hingham",
-   "region": "south-shore",
-   "street": "198 Union St",
-   "zip": "02043",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-02-18",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/MA/Hingham/SSCPSHarvest5K",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race135758-logo-0.bJf5Ho.png",
-   "summary": "Join us for our Annual Road Race 5K with a scenic course through Wompatuck State Park in Hingham - it's the perfect race for both the elite athlete and first-timers. CHECK-IN & RACE DETAILS:. Check-in, packet pick-up, and same-day registration 8:15am - 9:00am. Easy on-site parking.",
-   "modified": "10/15/2026 22:32",
-   "slug": "sscps-annual-road-race-5k"
-  },
-  {
-   "id": "rs-187877",
-   "metro": "bay-area",
-   "source": "RunSignup",
-   "name": "St. Helena Hometown Harvest Festival 5K Race and 1mi Fun Run/Walk",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:45",
-   "city": "Saint Helena",
-   "region": "napa-sonoma",
-   "street": "1304 Oak Ave.",
-   "zip": "94574",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-01",
-   "regClose": "2026-10-16",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/SaintHelena/StHelenaHometownHarvestFestival5KRaceAndMiFunRunWalk",
-   "website": "https://corecommunityfit.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-258657-1755808900.112-0.bOP4se.png",
-   "summary": "Please join Core Community Fitness along with St. Helena Parks and Recreation to start off the St. Helena Harvest Festival outside and moving! Join us for the 5k Race or the 1mi Fun Run/Walk on the morning of October 17, 2026! 5K Race winner packages for the top male and female winners!",
-   "modified": "10/17/2026 14:32",
-   "slug": "st-helena-hometown-harvest-festival-5k-race-and-1mi-fun-run-walk"
-  },
-  {
-   "id": "rs-43489",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Suffolk County Marathon",
-   "date": "2026-10-17",
-   "endDate": "2026-10-27",
-   "start": "09:00",
-   "city": "BAY SHORE",
-   "region": "long-island",
-   "street": "GARDINER COUNTY PARK",
-   "zip": "11706",
-   "distances": [
-    {
-     "label": "1K",
-     "cat": "other",
-     "km": 1
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    },
-    {
-     "label": "9.3 miles",
-     "cat": "other",
-     "km": 14.97
-    },
-    {
-     "label": "16.2 miles",
-     "cat": "other",
-     "km": 26.07
-    },
-    {
-     "label": "29.3 miles",
-     "cat": "ultra",
-     "km": 47.15
-    }
-   ],
-   "cats": [
-    "5k",
-    "ultra",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-12-15",
-   "regClose": "2026-10-17",
-   "open": true,
-   "url": "https://runsignup.com/Race/NY/BAYSHORE/SuffolkCountyMarathonHalfMarathonand5K",
-   "website": "http://suffolkmarathon.com",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-50199-1730553708.7351-0.bNjIDS.png",
-   "summary": "THE CATHOLIC HEALTH SUFFOLK COUNTY MARATHON WEEKEND. Join us for one of Long Island’s premier running events at the 12th Annual Suffolk County Marathon Weekend, featuring the Marathon, Half Marathon, 10K, and 5K. SATURDAY, OCTOBER 17, 2026. 5K & KIDS 1K.",
-   "modified": "10/17/2026 18:11",
-   "slug": "suffolk-county-marathon"
-  },
-  {
-   "id": "rs-151978",
-   "metro": "washington-dc",
-   "source": "RunSignup",
-   "name": "Team FSK - 2026 Baltimore Running Festival",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:30",
-   "city": "Baltimore",
-   "region": "baltimore-annapolis",
-   "street": "1425 E. Fort Avenue",
-   "zip": "21230",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    },
-    {
-     "label": "16.2 miles",
-     "cat": "other",
-     "km": 26.07
-    },
-    {
-     "label": "Marathon",
-     "cat": "marathon",
-     "km": 42.16
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half",
-    "marathon"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-02-01",
-   "regClose": "2026-10-02",
-   "open": false,
-   "url": "https://runsignup.com/Race/MD/Baltimore/TeamFSK",
-   "website": "https://wearefsk.org/teamfsk/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-214553-1788287325.5917-0.bQLXLD.jpg",
-   "summary": "The Francis Scott Key Elementary/Middle School (FSK) PTO is returning as a charity partner with the Baltimore running festival on October 17, 2026. Please consider joining Team FSK for one of the many in-person or virtual races that are being offered, ranging in distance from 5K to the Full Marathon.",
-   "modified": "9/28/2026 15:11",
-   "slug": "team-fsk-baltimore-running-festival"
-  },
-  {
-   "id": "rs-145339",
-   "metro": "bay-area",
-   "source": "RunSignup",
-   "name": "The Donut Fun Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Alameda",
-   "region": "east-bay",
-   "street": "2151 Ferry Point Road",
-   "zip": "94501",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-11-13",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/Alameda/TheDonutFunRun",
-   "website": "https://thedonutfunrun.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-206819-1784061110.701-0.bQvPY2.png",
-   "summary": "Sign up now for the 4th annual Donut Fun Run on Saturday, October 17, 2026! Register between now and Oct 1, 2026 to save! $55 adults, $25 for kids under 12, and $25 for seniors (65 ). ALL registrations come with a race t-shirt, finisher's medal and donut!!!!",
-   "modified": "10/17/2026 13:29",
-   "slug": "the-donut-fun-run"
-  },
-  {
-   "id": "rs-63766",
-   "metro": "denver-boulder",
-   "source": "RunSignup",
-   "name": "The Great Trailhead Foot Race 5 & 10 Miler",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:00",
-   "city": "Lakewood",
-   "region": "denver",
-   "street": "15600 W Morrison Rd.",
-   "zip": "80228",
-   "distances": [
-    {
-     "label": "5 miles",
-     "cat": "other",
-     "km": 8.05
-    },
-    {
-     "label": "10 miles",
-     "cat": "other",
-     "km": 16.09
-    }
-   ],
-   "cats": [
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-11-01",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CO/Lakewood/TheGreatTrailheadFootRace10Milerand5k",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race63766-logo-0.bJh08k.png",
-   "summary": "Welcome to the Great Trailhead Foot Race at Bear Creek Lake Park! Featuring legitimate TRAILS in the shadow of Denver's skyline, you'll love the single-track and dirt as you race 5 miles, or a double lap of 10 miles to the finish line party! Bring your ID because there's FREE BEER for 21 and up (with a valid ID)!",
-   "modified": "10/17/2026 10:41",
-   "slug": "the-great-trailhead-foot-race-5-and-10-miler"
-  },
-  {
-   "id": "rs-215910",
-   "metro": "bay-area",
-   "source": "RunSignup",
-   "name": "The Red Tulip Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "07:00",
-   "city": "Danville",
-   "region": "east-bay",
-   "street": "655 Old Orchard Drive",
-   "zip": "94526",
-   "distances": [
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    }
-   ],
-   "cats": [
-    "10k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-27",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/CA/Danville/DylansRunForParkinsons",
-   "website": "http://www.redtuliprun.com",
-   "logo": null,
-   "summary": "Red Tulip Run - Danville 10K for Parkinson's. Saturday, October 17, 2026 · 7:00 AM. 655 Old Orchard Dr, Danville, CA. The Red Tulip Run is a 10K through Danville, CA, organized to raise money for Parkinson's research. My grandad lived with Parkinson’s for several years before we lost him earlier this year.",
-   "modified": "10/13/2026 15:56",
-   "slug": "the-red-tulip-run"
-  },
-  {
-   "id": "rs-120823",
-   "metro": "seattle",
-   "source": "RunSignup",
-   "name": "The Salty Half and 10K too!",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:30",
-   "city": "Seattle",
-   "region": "city",
-   "street": "1222 Harbor Ave SW",
-   "zip": "98116",
-   "distances": [
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-19",
-   "regClose": "2026-10-15",
-   "open": false,
-   "url": "https://runsignup.com/Race/WA/Seattle/SaltyHalf",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race120823-logo-0.bHFjvw.png",
-   "summary": "Join us for a Fun Fall Run! The 18th Annual Salty Half and 10k too! Saturday, October 17th, 2026 8:30am Don Armeni Boat Ramp 1222 Harbor Ave SW, Seattle, WA 98116. Beautiful views of the Puget Sound and Seattle’s skyline. The best scenic run in West Seattle for only $39! If you register by September 19th.",
-   "modified": "9/1/2026 11:34",
-   "slug": "the-salty-half-and-10k-too"
-  },
-  {
-   "id": "rs-210454",
-   "metro": "chicago",
-   "source": "RunSignup",
-   "name": "Train Up 5K and Fun Run",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Northfield",
-   "region": "north-suburbs",
-   "street": "315 Waukegan Rd.",
-   "zip": "60093",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-08-21",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/IL/Northfield/TrainUp5KAndFunRun",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-286254-1784231270.6818-0.bQwtvM.png",
-   "summary": "Join CHA students, families, alumni, and friends to raise money for our Train Up Campaign. Not a runner? Walkers are welcome! With a 5K, 1 Mile, and two Kids' Dashes for the youngest students, we have something for everyone. Races begin and end on campus.",
-   "modified": "10/17/2026 09:58",
-   "slug": "train-up-5k-and-fun-run"
-  },
-  {
-   "id": "rs-22604",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Union Beach 5K",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "08:00",
-   "city": "Union Beach",
-   "region": "new-jersey",
-   "street": "Edmund Ave & Henry Street",
-   "zip": "07735",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-09",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/NJ/UnionBeach/UnionBeach5K",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-29406-1725023507.4269-0.bM0Cut.png",
-   "summary": "13TH ANNUAL UNION BEACH 5K. Sponsored by the Union Beach PBA 291. Run with us and celebrate our great community! When: 5K Saturday, October 17, 2026 8:00am. Where: Edmund's Ave & Henry Street, Union Beach, NJ 07735. 100% of the proceeds will benefit Union Beach PBA 291. AWARDS. Top 3 Male and Female Overall.",
-   "modified": "10/17/2026 08:18",
-   "slug": "union-beach-5k"
-  },
-  {
-   "id": "rs-129634",
-   "metro": "seattle",
-   "source": "RunSignup",
-   "name": "Where's Bigfoot 5k",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "10:00",
-   "city": "Seattle",
-   "region": "city",
-   "street": "5520 Ravenna Ave NE",
-   "zip": "98105",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2025-11-13",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/WA/Seattle/WheresBigfoot5k",
-   "website": "http://www.run2befit.com",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race129634-logo-0.bIBerA.png",
-   "summary": "Bigfoot has been spotted in Ravenna Park. The question is. Can you find him? Run or walk through one of Seattle’s most wooded parks while keeping your eyes open for Bigfoot sightings, footprints, clues and a few surprises along the way. All ages and paces are welcome.",
-   "modified": "10/17/2026 00:06",
-   "slug": "wheres-bigfoot-5k"
-  },
-  {
-   "id": "rs-147140",
-   "metro": "boston",
-   "source": "RunSignup",
-   "name": "Woodville School Teddy Trot 5k Run/Walk",
-   "date": "2026-10-17",
-   "endDate": "2026-10-17",
-   "start": "09:30",
-   "city": "Wakefield",
-   "region": "north-shore",
-   "street": "1 Church Street",
-   "zip": "01880",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-06-22",
-   "regClose": "2026-10-17",
-   "open": false,
-   "url": "https://runsignup.com/Race/MA/Wakefield/WoodvilleSchoolTeddyTrot",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race147140-logo-0.bKuBXO.png",
-   "summary": "Join us for the Woodville School 8th Annual Teddy Trot! Woodville students, teachers, and friends will enjoy a fun fall outdoor walk/run at Lake Quannapowitt, all the while raising money for Woodville Elementary School.",
-   "modified": "10/17/2026 10:03",
-   "slug": "woodville-school-teddy-trot-5k-run-walk"
-  },
   {
    "id": "rs-179344",
    "metro": "washington-dc",
@@ -2794,14 +113,9 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 25,
-   "priceTo": 25,
-   "nextIncrease": {
-    "date": "2026-10-17",
-    "event": "5K",
-    "from": 25,
-    "to": 35
-   },
+   "priceFrom": 35,
+   "priceTo": 35,
+   "nextIncrease": null,
    "regOpen": "2026-08-01",
    "regClose": "2026-10-18",
    "open": true,
@@ -2912,14 +226,9 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 35,
-   "priceTo": 35,
-   "nextIncrease": {
-    "date": "2026-10-17",
-    "event": "5K",
-    "from": 35,
-    "to": 40
-   },
+   "priceFrom": 40,
+   "priceTo": 40,
+   "nextIncrease": null,
    "regOpen": "2026-07-15",
    "regClose": "2026-10-18",
    "open": true,
@@ -2927,7 +236,7 @@
    "website": "http://btcte.org/5k",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-69153-1782853504.0359-0.bQrc-a.jpg",
    "summary": "Plans are underway for our 9th Annual Breaking the Chain Through Education 5K! This year's event will be at Metuchen High School in Metuchen. Registrants will receive t-shirts. Please register by September 30th to guarantee a shirt. Race fee $35 in advance; $40 day of.",
-   "modified": "10/16/2026 10:31",
+   "modified": "10/17/2026 19:19",
    "slug": "9th-annual-breaking-the-chain-through-education-5k"
   },
   {
@@ -2998,17 +307,17 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 15,
-   "priceTo": 15,
+   "priceFrom": null,
+   "priceTo": null,
    "nextIncrease": null,
    "regOpen": "2026-07-03",
    "regClose": "2026-10-17",
-   "open": true,
+   "open": false,
    "url": "https://runsignup.com/Race/WA/Seattle/AlaskaAirlinesDawgDash",
    "website": "http://www.dawgdash.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-245798-1751907754.7244-0.bOA_2Q.png",
    "summary": "Run with the pack. Show your Purple Pride. Support UW students! Hit the road, Huskies! Lace up your sneakers and soak in the fall campus beauty for our annual 10K run and 5K run/walk in support of students. All Dawgs (and dogs) are invited, and UWAA members save on registration.",
-   "modified": "10/17/2026 13:46",
+   "modified": "10/17/2026 21:54",
    "slug": "alaska-airlines-dawg-dash-5k-10k"
   },
   {
@@ -3054,7 +363,7 @@
    "website": "http://www.appleharvestrun.org/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-95403-1788365146.2597-0.bQMeLA.png",
    "summary": "Join Us for the 37th Annual Apple Harvest Run! The Apple Harvest Run is more than a race - it's a community tradition that brings neighbors, families, and runners together to support the students of the Dr. John C. Page Elementary School.",
-   "modified": "10/17/2026 17:03",
+   "modified": "10/17/2026 18:41",
    "slug": "apple-harvest-run"
   },
   {
@@ -3126,7 +435,7 @@
    "website": "https://join.autismspeaks.org/event/2026-baltimore-empower-walk-5k-run/e767032",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-259196-1759962414.9703-0.bO5UuU.png",
    "summary": "The Autism Speaks Empower Walk 5K Run is an uplifting celebration of community and progress, combining the spirit of the traditional Walk with the energy of a 5K run! Whether you’re walking, running, or cheering from the sidelines, there’s something for everyone to enjoy!",
-   "modified": "10/16/2026 10:24",
+   "modified": "10/17/2026 19:41",
    "slug": "baltimore-empower-walk-and-5k-run"
   },
   {
@@ -3231,14 +540,9 @@
     "trail"
    ],
    "trail": true,
-   "priceFrom": 30,
-   "priceTo": 30,
-   "nextIncrease": {
-    "date": "2026-10-17",
-    "event": "5K",
-    "from": 30,
-    "to": 35
-   },
+   "priceFrom": 35,
+   "priceTo": 35,
+   "nextIncrease": null,
    "regOpen": "2026-07-15",
    "regClose": "2026-10-18",
    "open": true,
@@ -3277,12 +581,12 @@
    "nextIncrease": null,
    "regOpen": "2026-04-20",
    "regClose": "2026-10-18",
-   "open": false,
+   "open": true,
    "url": "https://runsignup.com/Race/IL/Bolingbrook/BollingbrookeHowlOWeen5K",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-208652-1778781099.3127-0.bQbGUR.png",
    "summary": "Love those 4-legged friends of ours? Have a soft spot for rescue animals? Or just want to get some exercise? This event is for you! Join us for our fourth annual 6-legged 5K! Run or walk, with or without your furry friend for a festive Halloween themed event.",
-   "modified": "10/17/2026 11:42",
+   "modified": "10/18/2026 06:08",
    "slug": "bolingbrook-howl-o-ween-5k"
   },
   {
@@ -3314,13 +618,8 @@
    ],
    "trail": false,
    "priceFrom": 10,
-   "priceTo": 40,
-   "nextIncrease": {
-    "date": "2026-10-17",
-    "event": "5K",
-    "from": 40,
-    "to": 45
-   },
+   "priceTo": 45,
+   "nextIncrease": null,
    "regOpen": "2026-09-02",
    "regClose": "2026-10-18",
    "open": true,
@@ -3364,7 +663,7 @@
    "website": "https://give.abta.org/event/2024-bt5k-new-york/e544248",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race101449-scaled-logo-0.bMitfc.png",
    "summary": "The ABTA’s largest nationwide fundraiser, Breakthrough for Brain Tumors 5K (BT5K) Run & Walk events, are moving to more flexible programming, where anyone, anywhere can participate.",
-   "modified": "10/15/2026 15:15",
+   "modified": "10/17/2026 20:10",
    "slug": "bt5k-new-york"
   },
   {
@@ -3396,12 +695,12 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 53.86,
-   "priceTo": 53.86,
+   "priceFrom": null,
+   "priceTo": null,
    "nextIncrease": null,
    "regOpen": "2025-11-05",
    "regClose": "2026-10-18",
-   "open": true,
+   "open": false,
    "url": "https://runsignup.com/Race/CA/PlayaDelRey/2019TrickorTri",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-75882-1780162373.8502-0.bQgX9f.png",
@@ -3572,7 +871,7 @@
    "website": "https://winningeventsgroup.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-86144-1786572550.4379-0.bQFo8g.png",
    "summary": "Runners,. On Sunday, October 18, 2026, we’re back at beautiful Liberty State Park for an even bigger race day! This year, the annual Everybody’s 10K 5K is expanding with the addition of a Half Marathon!",
-   "modified": "10/17/2026 11:29",
+   "modified": "10/17/2026 22:37",
    "slug": "everybodys-run-fest-at-liberty-state-park"
   },
   {
@@ -3639,14 +938,9 @@
     "trail"
    ],
    "trail": true,
-   "priceFrom": 55,
-   "priceTo": 62.5,
-   "nextIncrease": {
-    "date": "2026-10-17",
-    "event": "5.1 miles",
-    "from": 55,
-    "to": 60
-   },
+   "priceFrom": 60,
+   "priceTo": 65,
+   "nextIncrease": null,
    "regOpen": "2025-12-28",
    "regClose": "2026-10-18",
    "open": true,
@@ -3768,14 +1062,9 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 40,
-   "priceTo": 40,
-   "nextIncrease": {
-    "date": "2026-10-17",
-    "event": "5K",
-    "from": 40,
-    "to": 45
-   },
+   "priceFrom": 45,
+   "priceTo": 45,
+   "nextIncrease": null,
    "regOpen": "2026-03-25",
    "regClose": "2026-10-18",
    "open": true,
@@ -3928,14 +1217,9 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 25,
-   "priceTo": 70,
-   "nextIncrease": {
-    "date": "2026-10-18",
-    "event": "10K",
-    "from": 70,
-    "to": 75
-   },
+   "priceFrom": 30,
+   "priceTo": 75,
+   "nextIncrease": null,
    "regOpen": "2026-06-01",
    "regClose": "2026-10-19",
    "open": true,
@@ -4051,7 +1335,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race23679-scaled-logo-0.bys0XI.png",
    "summary": "Malverne 5K Run-Walk. The Malverne 5K run-walk for education is organized by the Malverne Educational and Fitness Foundation (MEFF). The net proceeds of the 5K run go to the MEFF, a not-for-profit 501(c)(3) organization that supports youth programs within the Malverne school district.",
-   "modified": "10/17/2026 07:20",
+   "modified": "10/17/2026 18:54",
    "slug": "malverne-5k-run-for-education"
   },
   {
@@ -4082,12 +1366,12 @@
    "nextIncrease": null,
    "regOpen": "2026-06-22",
    "regClose": "2026-10-18",
-   "open": false,
+   "open": true,
    "url": "https://runsignup.com/Race/NJ/UnionTownship/MayorsDay5KRunWalk",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-18211-1782327556.9229-0.bQpcKe.png",
    "summary": "Fast USATF certified course through Union Township, NJ BlueBox Chip timing. Chip start, chip finish. Text messaging within seconds of finishing with finish time and pace, HD finish line video integrated into results. Sign up online and save! Race Day registration will be available at race site.",
-   "modified": "10/8/2026 14:47",
+   "modified": "10/18/2026 04:42",
    "slug": "mayors-day-5k-run-walk"
   },
   {
@@ -4195,7 +1479,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-258961-1786585219.2829-0.bQFscd.jpg",
    "summary": "Mind Over Body (MOB) 5K Run Walk For Fun, a movement dedicated to promoting mental health awareness and wellness! This event is more than just a race-it’s a reminder that our mental strength is just as important as our physical well-being.",
-   "modified": "10/17/2026 02:48",
+   "modified": "10/17/2026 23:37",
    "slug": "mob-5k-run-walk-for-fun"
   },
   {
@@ -4280,7 +1564,7 @@
    "website": null,
    "logo": null,
    "summary": "x.",
-   "modified": "10/12/2026 14:50",
+   "modified": "10/17/2026 18:31",
    "slug": "pasadena-trail-half-and-10k-5k"
   },
   {
@@ -4358,7 +1642,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-283672-1791328649.6785-0.bQXygj.png",
    "summary": "Celebrate the beauty of fall at the Puyallup Valley Fall Hops Harvest 5K on Sunday, October 18th at Firemind Brewing in downtown Puyallup! Gather your friends and family for this festive fall run/walk that combines fitness, community, and the flavors of the season.",
-   "modified": "10/16/2026 13:45",
+   "modified": "10/17/2026 23:14",
    "slug": "puyallup-valley-fall-hops-harvest-5k"
   },
   {
@@ -4506,14 +1790,9 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 32.5,
-   "priceTo": 57.5,
-   "nextIncrease": {
-    "date": "2026-10-18",
-    "event": "5K",
-    "from": 37.5,
-    "to": 40
-   },
+   "priceFrom": 35,
+   "priceTo": 60,
+   "nextIncrease": null,
    "regOpen": "2026-07-08",
    "regClose": "2026-10-19",
    "open": true,
@@ -4666,14 +1945,9 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 20,
-   "priceTo": 40,
-   "nextIncrease": {
-    "date": "2026-10-17",
-    "event": "10K",
-    "from": 40,
-    "to": 45
-   },
+   "priceFrom": 25,
+   "priceTo": 45,
+   "nextIncrease": null,
    "regOpen": "2026-02-26",
    "regClose": "2026-10-18",
    "open": true,
@@ -4722,7 +1996,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race141101-logo-0.bJUiDh.png",
    "summary": "The annual Topsfield Fall Foliage Classic Road Race offers a 5 Miler and 5K that loop through beautiful Topsfield, MA. Each has one hilly section at the beginning but course is mostly flat. The race features prizes for the top 3 M/F finishers on each course, as well as raffles and finish line food and fun. Amenities.",
-   "modified": "10/15/2026 20:03",
+   "modified": "10/18/2026 04:58",
    "slug": "topsfield-fall-foliage-classic-road-race"
   },
   {
@@ -4770,7 +2044,7 @@
    "website": "http://califlowruns.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-249010-1786831850.4297-0.bQGopQ.png",
    "summary": "Witches Wave Halloween Run - A Spooky Sprint by the Sea! ‍♀️. Lot 22 Bolsa Chica State Beach. Run Fast, Get Spooky, and Ride the Wicked Wave! The ocean’s not the only thing making waves this Halloween!",
-   "modified": "10/17/2026 16:41",
+   "modified": "10/18/2026 03:34",
    "slug": "witches-wave-halloween-run-5k-10k-and-half-marathon-by-califlow-runs"
   },
   {
@@ -5333,12 +2607,12 @@
     "trail"
    ],
    "trail": true,
-   "priceFrom": 25,
-   "priceTo": 25,
+   "priceFrom": null,
+   "priceTo": null,
    "nextIncrease": null,
    "regOpen": "2026-09-21",
    "regClose": "2026-10-18",
-   "open": true,
+   "open": false,
    "url": "https://runsignup.com/Race/CO/Boulder/FallSkylineTraverse",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-292232-1789912599.6953-0.bQR-yx.jpg",
@@ -6799,7 +4073,7 @@
    "website": "http://www.rtbfairwinds.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-213942-1786988217.5841-0.bQG0A5.png",
    "summary": "Join us for our 4th Annual 5k/Fun Run in beautiful Quiet Waters Park. The course will take you through woods and meadows on fully paved trails.",
-   "modified": "9/25/2026 10:12",
+   "modified": "10/17/2026 20:17",
    "slug": "rtb-fair-winds-5k-fun-run"
   },
   {
@@ -6867,14 +4141,9 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 45,
-   "priceTo": 45,
-   "nextIncrease": {
-    "date": "2026-10-18",
-    "event": "5K",
-    "from": 45,
-    "to": 50
-   },
+   "priceFrom": 50,
+   "priceTo": 50,
+   "nextIncrease": null,
    "regOpen": "2026-06-12",
    "regClose": "2026-10-24",
    "open": true,
@@ -6992,14 +4261,9 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 45,
-   "priceTo": 45,
-   "nextIncrease": {
-    "date": "2026-10-18",
-    "event": "10K",
-    "from": 45,
-    "to": 55
-   },
+   "priceFrom": 55,
+   "priceTo": 55,
+   "nextIncrease": null,
    "regOpen": "2026-04-28",
    "regClose": "2026-10-24",
    "open": true,
@@ -7785,7 +5049,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-293783-1791516732.5759-0.bQYga8.png",
    "summary": "Race Details. Event Name: 5K Trunk Or Treat. Date: 10/25/2026. Time: 5:00 pm. Location: Eastvale Trail Eastvale Community Park. Address: 12750 Citrus Street Eastvale, CA 92880. Distance: 5K & 1 Mile Kids Run. Course Information. Terrain Type: [Road/Trail/Mixed]. Elevation Gain: Leveled Ground 85%. Race Categories.",
-   "modified": "10/9/2026 02:19",
+   "modified": "10/17/2026 21:05",
    "slug": "5k-trunk-or-treat"
   },
   {
@@ -8306,7 +5570,7 @@
    "website": "https://www.oligonation.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-233251-1726756095.3172-0.bM7dt_.png",
    "summary": "Oligo Nation is an IRS-approved non-profit [EIN# 46-3087590]. Fast Track to a Cure 5K is inspired by Oligo survivors, families and friends who have a passion for our mission and want to make a difference in the lives of those living with Oligodendroglioma.",
-   "modified": "10/14/2026 21:30",
+   "modified": "10/17/2026 20:38",
    "slug": "fast-track-to-a-cure-new-jersey"
   },
   {
@@ -8646,14 +5910,9 @@
     "half"
    ],
    "trail": false,
-   "priceFrom": 64,
-   "priceTo": 105,
-   "nextIncrease": {
-    "date": "2026-10-18",
-    "event": "Half marathon",
-    "from": 105,
-    "to": 120
-   },
+   "priceFrom": 69,
+   "priceTo": 120,
+   "nextIncrease": null,
    "regOpen": "2025-10-27",
    "regClose": "2026-10-24",
    "open": true,
@@ -9520,7 +6779,7 @@
    "website": "http://www.innovationcharter.org/pumpkinrun",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-291606-1789056816.4402-0.bQOTCW.png",
    "summary": "A 3K trail race at Innovation Academy Charter School on October 25th, 2026. and Lots of Fall fun. This year we’ll have:. 30 vendors,. Farmers Market. Animals (Goat, Bunny and Bees). Apple Cider press demo and sampling. Pumpkin Seed Roasting. Pumpkin Photo op. Kids games and Activities. Concessions.",
-   "modified": "10/7/2026 12:22",
+   "modified": "10/17/2026 18:27",
    "slug": "pumpkin-run"
   },
   {
@@ -11828,13 +9087,13 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 45,
-   "priceTo": 45,
+   "priceFrom": 50,
+   "priceTo": 50,
    "nextIncrease": {
-    "date": "2026-10-18",
+    "date": "2026-10-30",
     "event": "5K",
-    "from": 45,
-    "to": 50
+    "from": 50,
+    "to": 60
    },
    "regOpen": "2025-11-01",
    "regClose": "2026-10-31",
@@ -11900,10 +9159,10 @@
    "date": "2026-10-31",
    "endDate": "2026-10-31",
    "start": "08:00",
-   "city": "Los Angeles",
-   "region": "central-la",
-   "street": "1310 W. Imperial Highway",
-   "zip": "90044",
+   "city": "Lawndale",
+   "region": "westside-beaches",
+   "street": "3850 W. Manhattan Beach Blvd.",
+   "zip": "90260",
    "distances": [
     {
      "label": "5K",
@@ -11927,11 +9186,11 @@
    "regOpen": "2026-08-10",
    "regClose": "2026-10-31",
    "open": true,
-   "url": "https://runsignup.com/Race/CA/LosAngeles/LASAAMugRunSouthLA",
+   "url": "https://runsignup.com/Race/CA/Lawndale/LASAAMugRunSouthLA",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288441-1787725409.0336-0.bQJOzH.png",
    "summary": "2026.",
-   "modified": "8/26/2026 03:16",
+   "modified": "10/17/2026 22:31",
    "slug": "lasaa-mug-run-south-la"
   },
   {
@@ -13149,7 +10408,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race116994-logo-0.bHgY6b.png",
    "summary": "Run in your Halloween costume along the popular Coyote Creek trail and win a prize. The Half Marathon (CA21023TEB) and Marathon (CA22026TEB) courses are USATF are certified.",
-   "modified": "9/8/2026 10:15",
+   "modified": "10/17/2026 21:28",
    "slug": "zombierunner-halloween"
   },
   {
@@ -16683,7 +13942,12 @@
    "trail": false,
    "priceFrom": 55,
    "priceTo": 55,
-   "nextIncrease": null,
+   "nextIncrease": {
+    "date": "2026-10-24",
+    "event": "5K",
+    "from": 55,
+    "to": 60
+   },
    "regOpen": "2026-08-02",
    "regClose": "2026-11-05",
    "open": true,
@@ -16864,12 +14128,12 @@
    ],
    "trail": false,
    "priceFrom": 15,
-   "priceTo": 40,
+   "priceTo": 45,
    "nextIncrease": {
-    "date": "2026-10-17",
+    "date": "2026-11-05",
     "event": "5K",
-    "from": 40,
-    "to": 45
+    "from": 45,
+    "to": 50
    },
    "regOpen": "2026-09-07",
    "regClose": "2026-11-07",
@@ -17396,8 +14660,13 @@
    ],
    "trail": false,
    "priceFrom": 18,
-   "priceTo": 42,
-   "nextIncrease": null,
+   "priceTo": 37,
+   "nextIncrease": {
+    "date": "2026-10-18",
+    "event": "5K",
+    "from": 32,
+    "to": 37
+   },
    "regOpen": "2025-12-29",
    "regClose": "2026-11-08",
    "open": true,
@@ -18315,40 +15584,6 @@
    "slug": "5-5k-series-turkey-trot"
   },
   {
-   "id": "rs-215794",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "5K Solo",
-   "date": "2026-11-14",
-   "endDate": "2026-11-14",
-   "start": "07:45",
-   "city": "Downey",
-   "region": "westside-beaches",
-   "street": "10900 Brookshire Ave.",
-   "zip": "90241",
-   "distances": [
-    {
-     "label": "5 miles",
-     "cat": "other",
-     "km": 8.05
-    }
-   ],
-   "cats": [],
-   "trail": false,
-   "priceFrom": 26.66,
-   "priceTo": 30,
-   "nextIncrease": null,
-   "regOpen": "2026-09-28",
-   "regClose": "2026-11-14",
-   "open": true,
-   "url": "https://runsignup.com/Race/CA/Downey/DowneyDanceTeamTurkeyTrot5kAndRelay",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-292760-1790310680.9516-0.bQTFKy.jpg",
-   "summary": "Downey Dance Team 5k& Relay Fundraiser. 3 runners per team. Each runner has to complete 4 consecutive laps(1mile each). Solo option available. Fees. $80 team registration fee. (3 runners per team to receive the discounted rate). $30 Solo. 2 Categories. New-Runners, Non-Competitive.",
-   "modified": "10/16/2026 14:15",
-   "slug": "5k-solo"
-  },
-  {
    "id": "rs-130154",
    "metro": "washington-dc",
    "source": "RunSignup",
@@ -18882,6 +16117,40 @@
    "summary": "Join us for the 'Run for Paws: DoggieRun 4K/5K' event! This fun and family-friendly race celebrates our furry friends and promotes healthy, active lifestyles for both humans and their canine companions. Whether you're an experienced runner or just looking for a fun day out with your dog, this race is for you.",
    "modified": "10/12/2026 14:20",
    "slug": "doggierun-4k-5k-run-to-promote-adoption-with-pet-or-human-division"
+  },
+  {
+   "id": "rs-215794",
+   "metro": "los-angeles",
+   "source": "RunSignup",
+   "name": "Downey Dance Team Turkey Trot 5K & Group Relay",
+   "date": "2026-11-14",
+   "endDate": "2026-11-14",
+   "start": "07:45",
+   "city": "Downey",
+   "region": "westside-beaches",
+   "street": "10900 Brookshire Ave.",
+   "zip": "90241",
+   "distances": [
+    {
+     "label": "5 miles",
+     "cat": "other",
+     "km": 8.05
+    }
+   ],
+   "cats": [],
+   "trail": false,
+   "priceFrom": 26.66,
+   "priceTo": 30,
+   "nextIncrease": null,
+   "regOpen": "2026-09-28",
+   "regClose": "2026-11-14",
+   "open": true,
+   "url": "https://runsignup.com/Race/CA/Downey/DowneyDanceTeamTurkeyTrot5kAndRelay",
+   "website": null,
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-292760-1790310680.9516-0.bQTFKy.jpg",
+   "summary": "Downey Dance Team 5K & Relay Fundraiser. 3 runners per team. Each runner has to complete 4 consecutive laps(1mile each). Solo option available. Fees. $80 team registration fee. (3 runners per team to receive the discounted rate). $30 Solo. 2 Categories. New-Runners, Non-Competitive.",
+   "modified": "10/18/2026 01:51",
+   "slug": "downey-dance-team-turkey-trot-5k-and-group-relay"
   },
   {
    "id": "rs-215294",
@@ -24734,13 +22003,13 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 30,
-   "priceTo": 30,
+   "priceFrom": 35,
+   "priceTo": 35,
    "nextIncrease": {
-    "date": "2026-10-17",
+    "date": "2026-10-31",
     "event": "5K",
-    "from": 30,
-    "to": 35
+    "from": 35,
+    "to": 40
    },
    "regOpen": "2026-09-20",
    "regClose": "2026-11-22",
@@ -29183,7 +26452,7 @@
    "website": "http://www.MoragaChamber.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-59781-1788550342.8671-0.bQMXZg.png",
    "summary": "Please join the Moraga Chamber of Commerce on Thanksgiving morning for the annual Moraga Turkey Trot! Gobble-Wobble your way out to the cart path at Moraga Country Club wearing your favorite zany costume, activewear or even PJs!",
-   "modified": "10/17/2026 16:12",
+   "modified": "10/17/2026 20:00",
    "slug": "moraga-turkey-trot"
   },
   {
@@ -33394,7 +30663,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-75960-1782391913.6389-0.bQpsrP.png",
    "summary": "The rarely seen Quarry Turkey will make his appearance two days after the big feast, fueled-up and ready to take on all the little turkeys! Come start a new Thanksgiving weekend tradition with a fast, mostly-flat half marathon, 10K or 5K!",
-   "modified": "9/26/2026 14:45",
+   "modified": "10/17/2026 22:26",
    "slug": "quarry-turkey"
   },
   {
@@ -33933,7 +31202,7 @@
    "nextIncrease": null,
    "regOpen": "2026-10-17",
    "regClose": "2026-11-28",
-   "open": false,
+   "open": true,
    "url": "https://runsignup.com/Race/CA/SanDiego/TurkeyTrot5kFunRunNP",
    "website": "https://www.coachbsd.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-218716-1761875035.4304-0.bPbbrB.png",
@@ -39410,7 +36679,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race54759-logo-0.bCcwKB.png",
    "summary": "Come join us in the beautiful redwood groves of the Santa Cruz Mountains! Tucked away just outside Silicon Valley, Sanborn County Park features miles of single-track trails dappled with filtered light through lush canopy.",
-   "modified": "9/26/2026 14:45",
+   "modified": "10/17/2026 22:26",
    "slug": "summit-rock"
   },
   {
@@ -44040,7 +41309,7 @@
    "website": "https://brazenracing.com/newyearsday/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race55369-logo-0.bLJh1D.png",
    "summary": "The sun is rising on Friday morning, January 1st, the first day of 2027. Where should you be? Pounding the trails of Lake Chabot, of course! Join us at Lake Chabot in Castro Valley for the scenic and invigorating 5K, 10K or half marathon.",
-   "modified": "9/27/2026 15:01",
+   "modified": "10/17/2026 22:26",
    "slug": "brazen-new-years-day"
   },
   {
@@ -47172,13 +44441,13 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 39,
-   "priceTo": 44,
+   "priceFrom": 44,
+   "priceTo": 49,
    "nextIncrease": {
-    "date": "2026-10-18",
+    "date": "2026-12-18",
     "event": "5K",
-    "from": 39,
-    "to": 44
+    "from": 44,
+    "to": 49
    },
    "regOpen": "2026-02-01",
    "regClose": "2027-01-17",
@@ -48578,7 +45847,7 @@
    "website": "https://brazenracing.com/coyotehills/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-62842-1788400503.8887-0.bQMnn3.png",
    "summary": "This Fremont park has hills in the name, but the climbing is minimal at these runs by the bay. You will find an abundance of scenic views and variety of surfaces from dirt to paved to the wood boardwalks running through the marsh! Hikers/walkers are always welcome! About Coyote Hills Regional Park.",
-   "modified": "9/27/2026 15:01",
+   "modified": "10/17/2026 22:26",
    "slug": "coyote-hills"
   },
   {
@@ -57161,13 +54430,13 @@
     "half"
    ],
    "trail": false,
-   "priceFrom": 40,
-   "priceTo": 85,
+   "priceFrom": 50,
+   "priceTo": 95,
    "nextIncrease": {
-    "date": "2026-10-18",
+    "date": "2026-11-13",
     "event": "Half marathon",
-    "from": 85,
-    "to": 95
+    "from": 95,
+    "to": 100
    },
    "regOpen": "2026-10-16",
    "regClose": "2027-03-14",
@@ -64460,7 +61729,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-65702-1745269353.2174-0.bObRjP.jpg",
    "summary": "Half marathon, 10L and 5K.",
-   "modified": "9/26/2026 14:45",
+   "modified": "10/17/2026 22:26",
    "slug": "badger-cove"
   },
   {
@@ -68575,14 +65844,9 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 20,
-   "priceTo": 25,
-   "nextIncrease": {
-    "date": "2026-10-17",
-    "event": "5K",
-    "from": 25,
-    "to": 30
-   },
+   "priceFrom": 25,
+   "priceTo": 30,
+   "nextIncrease": null,
    "regOpen": "2026-08-28",
    "regClose": "2027-05-02",
    "open": true,
@@ -71689,7 +68953,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race61697-logo-0.bA85eo.png",
    "summary": "Half marathon, 10K and 5K in the hills of Wilcat Canyon.",
-   "modified": "9/6/2026 17:57",
+   "modified": "10/17/2026 22:26",
    "slug": "wildcat"
   },
   {
@@ -73533,6 +70797,75 @@
    "slug": "44th-annual-providence-saint-johns-health-center-brentwood-run"
   },
   {
+   "id": "rs-122331",
+   "metro": "bay-area",
+   "source": "RunSignup",
+   "name": "Cinderella Trail Run",
+   "date": "2027-05-30",
+   "endDate": "2027-05-30",
+   "start": "07:50",
+   "city": "Oakland",
+   "region": "east-bay",
+   "street": "Joaquin Miller Park",
+   "zip": "94602",
+   "distances": [
+    {
+     "label": "2 miles",
+     "cat": "other",
+     "km": 3.22
+    },
+    {
+     "label": "8K",
+     "cat": "other",
+     "km": 8
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    },
+    {
+     "label": "30K",
+     "cat": "other",
+     "km": 30
+    },
+    {
+     "label": "Marathon",
+     "cat": "marathon",
+     "km": 42.16
+    },
+    {
+     "label": "50K",
+     "cat": "ultra",
+     "km": 50
+    }
+   ],
+   "cats": [
+    "half",
+    "marathon",
+    "ultra",
+    "trail"
+   ],
+   "trail": true,
+   "priceFrom": 60,
+   "priceTo": 90,
+   "nextIncrease": {
+    "date": "2027-05-24",
+    "event": "8K",
+    "from": 60,
+    "to": 70
+   },
+   "regOpen": "2026-08-06",
+   "regClose": "2027-05-30",
+   "open": true,
+   "url": "https://runsignup.com/Race/CA/Oakland/CinderellaTrailRun",
+   "website": null,
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race122331-logo-0.bHOOM-.png",
+   "summary": "The course travels through beautiful Joaquin Miller & Redwood Regional parks. You'll wind through tall redwoods along popular Sequoia-Bayview and French trails. Then, come back to the finish down the very technical Cinderella trail. Some runners call it the Wicked Step Sisters trail.",
+   "modified": "10/17/2026 18:39",
+   "slug": "cinderella-trail-run"
+  },
+  {
    "id": "rs-112273",
    "metro": "chicago",
    "source": "RunSignup",
@@ -73843,75 +71176,6 @@
    "summary": "Join Bright Star Community Outreach (BSCO) for our 5K Run/Walk - Hope in Action fundraiser on Saturday, May 16, starting at 9:00 AM. This community-centered race will begin in Mandrake Park and continue along the beautiful lakefront, offering participants a scenic and energizing route.",
    "modified": "9/8/2026 15:11",
    "slug": "bright-star-community-outreach-5k-run-walk-hope-in-action"
-  },
-  {
-   "id": "rs-122331",
-   "metro": "bay-area",
-   "source": "RunSignup",
-   "name": "Cinderella Trail Run",
-   "date": "2027-06-05",
-   "endDate": "2027-06-05",
-   "start": "07:50",
-   "city": "Oakland",
-   "region": "east-bay",
-   "street": "Joaquin Miller Park",
-   "zip": "94602",
-   "distances": [
-    {
-     "label": "2 miles",
-     "cat": "other",
-     "km": 3.22
-    },
-    {
-     "label": "8K",
-     "cat": "other",
-     "km": 8
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    },
-    {
-     "label": "30K",
-     "cat": "other",
-     "km": 30
-    },
-    {
-     "label": "Marathon",
-     "cat": "marathon",
-     "km": 42.16
-    },
-    {
-     "label": "50K",
-     "cat": "ultra",
-     "km": 50
-    }
-   ],
-   "cats": [
-    "half",
-    "marathon",
-    "ultra",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": 60,
-   "priceTo": 90,
-   "nextIncrease": {
-    "date": "2027-05-30",
-    "event": "8K",
-    "from": 60,
-    "to": 70
-   },
-   "regOpen": "2026-08-06",
-   "regClose": "2027-06-05",
-   "open": true,
-   "url": "https://runsignup.com/Race/CA/Oakland/CinderellaTrailRun",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race122331-logo-0.bHOOM-.png",
-   "summary": "The course travels through beautiful Joaquin Miller & Redwood Regional parks. You'll wind through tall redwoods along popular Sequoia-Bayview and French trails. Then, come back to the finish down the very technical Cinderella trail. Some runners call it the Wicked Step Sisters trail.",
-   "modified": "8/7/2026 08:42",
-   "slug": "cinderella-trail-run"
   },
   {
    "id": "rs-200849",
@@ -78472,7 +75736,12 @@
    "trail": true,
    "priceFrom": 63,
    "priceTo": 100,
-   "nextIncrease": null,
+   "nextIncrease": {
+    "date": "2027-05-18",
+    "event": "Half marathon",
+    "from": 90,
+    "to": 95
+   },
    "regOpen": "2026-10-17",
    "regClose": "2027-07-24",
    "open": true,
@@ -78480,7 +75749,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-71258-1780699495.0487-0.bQi1fN.jpg",
    "summary": "Rising up from the depths of Lake Chabot, the Bad Bass (a strangely kilt-wearing, bagpipe-playing Scottish bass with teeth) shows itself once again on July 24th 2027! Why is he Scottish? What is he doing in Castro Valley? How can he play bagpipes with his fin? We have no idea how to answer those questions.",
-   "modified": "9/30/2026 16:38",
+   "modified": "10/17/2026 22:26",
    "slug": "bad-bass"
   },
   {
