@@ -12,7 +12,17 @@ Runners pick a city and see every upcoming race in the next 90 days, plus season
 ## How the site makes money
 
 1. **RunSignup affiliate.** Races Near is a RunSignup affiliate. Every `runsignup.com` link gets an affiliate token appended (stored as `runsignupAffiliateToken` in `src/_data/site.json`; never paste it into docs or chats). RunSignup pays a share of the processing fee on registrations within 30 days of the click. Only RunSignup links are tagged: the `aff()` helper checks the link host. Tagged links use `rel="sponsored noopener"` and the footer and `/about/#affiliate-links` disclose it.
-2. **Other affiliate programs (researched, not live).** ACTIVE (developer.active.com affiliate application), Ahotu (percentage of ticket revenue) and Race Roster Promoter (per-event, organizer-set rewards). Drafts live in the git-ignored `outreach/` folder. Nothing has been submitted.
+2. **Other affiliate programs.** ACTIVE Network (applied, pending), Ahotu / World's Sports Group (terms received, waiting on how to apply) and Race Roster Promoter (per-event, organizer-set rewards; not applied). Drafts live in the git-ignored `outreach/` folder.
+
+### Affiliate status tracker (as of Oct 21, 2026)
+
+| Program | Site | Applied | Status | Next step |
+|---|---|---|---|---|
+| RunSignup (affiliate ID 911) | Races Near | Before launch | Active; links live since `d9e32cc` | Keep tagging RunSignup links |
+| ACTIVE Network | Races Near | Oct 17 | Pending | Submit W-9 after approval, then add links |
+| Ahotu / World's Sports Group | Races Near | Inquiry; terms received Oct 20 | Terms: 20% of Ahotu's 20% margin (about 4% of the order). Follow-up sent Oct 20 asking how to apply, how tracking links work and whether there's a race feed | Wait for reply |
+| Awin publisher account (Tiny Labs LLC, 3126478) | All | Oct 16 | Approved; no race brands joined | Look for running brands if useful |
+| Race Roster Promoter | Races Near | – | Not applied | Revisit later |
 3. **Sponsors.** `/advertise/` sells featured race listings, a newsletter sponsor slot and price-increase alerts, with launch pricing. Paid placements are labeled.
 
 Rule: money never changes which races are listed or how they are sorted.
