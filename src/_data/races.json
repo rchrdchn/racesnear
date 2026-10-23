@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-22T03:20",
- "from": "2026-10-22",
- "to": "2027-10-22",
+ "updated": "2026-10-23T03:20",
+ "from": "2026-10-23",
+ "to": "2027-10-23",
  "sources": {
-  "runsignup": 1755,
+  "runsignup": 1754,
   "curated": 47
  },
  "perMetro": {
@@ -16,11 +16,11 @@
    "kept": 334
   },
   "los-angeles": {
-   "raw": 314,
+   "raw": 315,
    "kept": 271
   },
   "chicago": {
-   "raw": 232,
+   "raw": 233,
    "kept": 175
   },
   "boston": {
@@ -32,16 +32,16 @@
    "kept": 209
   },
   "seattle": {
-   "raw": 162,
-   "kept": 139
+   "raw": 164,
+   "kept": 140
   },
   "denver-boulder": {
-   "raw": 167,
-   "kept": 147
+   "raw": 166,
+   "kept": 146
   },
   "austin": {
-   "raw": 159,
-   "kept": 119
+   "raw": 158,
+   "kept": 118
   },
   "san-diego": {
    "raw": 128,
@@ -49,190 +49,6 @@
   }
  },
  "races": [
-  {
-   "id": "rs-216043",
-   "metro": "denver-boulder",
-   "source": "RunSignup",
-   "name": "4A Region 3 XC State Qualifier",
-   "date": "2026-10-22",
-   "endDate": "2026-10-22",
-   "start": "11:00",
-   "city": "Northglenn",
-   "region": "denver",
-   "street": "2100 W 112th Ave",
-   "zip": "80234",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    }
-   ],
-   "cats": [
-    "5k",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": null,
-   "regClose": null,
-   "open": false,
-   "url": "https://runsignup.com/Race/CO/Northglenn/Qualifier4ARegion3",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/running-shoe1-300px.bMjMog.png",
-   "summary": "4A Region 3 High School Cross Country Regional Meet for State Qualification.",
-   "modified": "10/21/2026 15:08",
-   "slug": "4a-region-3-xc-state-qualifier"
-  },
-  {
-   "id": "rs-217340",
-   "metro": "denver-boulder",
-   "source": "RunSignup",
-   "name": "Chsaa XC Regionals - Aurora",
-   "date": "2026-10-22",
-   "endDate": "2026-10-22",
-   "start": "10:00",
-   "city": "Aurora",
-   "region": "suburbs",
-   "street": "19300 E Colfax Ave",
-   "zip": "80011",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": null,
-   "regClose": null,
-   "open": false,
-   "url": "https://runsignup.com/Race/CO/Aurora/CHSAAXCRegionalsAurora",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-294621-1792626756.4874-0.bQ2vbe.png",
-   "summary": "",
-   "modified": "10/21/2026 22:42",
-   "slug": "chsaa-xc-regionals-aurora"
-  },
-  {
-   "id": "rs-217335",
-   "metro": "denver-boulder",
-   "source": "RunSignup",
-   "name": "Chsaa XC Regionals Arvada",
-   "date": "2026-10-22",
-   "endDate": "2026-10-22",
-   "start": "09:15",
-   "city": "Arvada",
-   "region": "foothills",
-   "street": "19500 W 64th Pkwy",
-   "zip": "80403",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": null,
-   "regClose": null,
-   "open": false,
-   "url": "https://runsignup.com/Race/CO/Arvada/CHSAAXCRegionals",
-   "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-294616-1792536197.4679-0.bQ1-6f.png",
-   "summary": "www.co.milesplit.com.",
-   "modified": "10/20/2026 19:19",
-   "slug": "chsaa-xc-regionals-arvada"
-  },
-  {
-   "id": "rs-217408",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "CVC XC Conference Championship",
-   "date": "2026-10-22",
-   "endDate": "2026-10-22",
-   "start": "15:45",
-   "city": "Monroe Township",
-   "region": "new-jersey",
-   "street": "1662 Perrineville Rd",
-   "zip": "08831",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    }
-   ],
-   "cats": [
-    "5k",
-    "trail"
-   ],
-   "trail": true,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": null,
-   "regClose": null,
-   "open": false,
-   "url": "https://runsignup.com/Race/NJ/MonroeTownship/2026CVCXCConferenceChampionship",
-   "website": null,
-   "logo": null,
-   "summary": "",
-   "modified": "10/21/2026 16:21",
-   "slug": "cvc-xc-conference-championship"
-  },
-  {
-   "id": "rs-216040",
-   "metro": "austin",
-   "source": "RunSignup",
-   "name": "Hogeye Hustle 5k -- Glow in the Dark",
-   "date": "2026-10-22",
-   "endDate": "2026-10-22",
-   "start": "18:00",
-   "city": "Elgin",
-   "region": "north-suburbs",
-   "street": "109 Depot St",
-   "zip": "78621",
-   "distances": [
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 4.99
-    }
-   ],
-   "cats": [
-    "5k"
-   ],
-   "trail": false,
-   "priceFrom": null,
-   "priceTo": null,
-   "nextIncrease": null,
-   "regOpen": "2026-09-29",
-   "regClose": "2026-10-20",
-   "open": false,
-   "url": "https://runsignup.com/Race/TX/Elgin/HogeyeHustle5kGlowInTheDark",
-   "website": null,
-   "logo": null,
-   "summary": "Hogeye Hustle 5K Glow in the Dark. Kick off Hogeye weekend with the Hogeye Hustle 5K Glow in the Dark, a fun community 5K bringing runners, walkers, families, and friends together to light up Downtown Elgin!",
-   "modified": "10/16/2026 01:41",
-   "slug": "hogeye-hustle-5k-glow-in-the-dark"
-  },
   {
    "id": "rs-217338",
    "metro": "denver-boulder",
@@ -376,7 +192,7 @@
    ],
    "trail": false,
    "priceFrom": 37,
-   "priceTo": 100,
+   "priceTo": 37,
    "nextIncrease": {
     "date": "2026-10-23",
     "event": "5K",
@@ -390,7 +206,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-81843-1789058699.2923-0.bQOT6l.png",
    "summary": "Join us for the annual Market Street Mission 5K Race for Recovery on the Boardwalk (formerly known as the Jersey Shore Rescue Mission 5K Race & Family Walk)! We are excited to see you on the Boardwalk in Ocean Grove, NJ on Saturday October 24, 2026!",
-   "modified": "10/20/2026 13:31",
+   "modified": "10/22/2026 23:29",
    "slug": "5k-race-for-recovery-on-the-boardwalk"
   },
   {
@@ -584,7 +400,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-115469-1775239161.7801-0.bPZ__5.png",
    "summary": "Celebrate a major milestone with us at the 30th Annual Believe In Tomorrow Children's Foundation Port to Fort 6K, proudly presented by Home Depot - our title sponsor since day one.",
-   "modified": "10/19/2026 15:12",
+   "modified": "10/22/2026 16:36",
    "slug": "believe-in-tomorrow-port-to-fort-6k"
   },
   {
@@ -620,7 +436,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-257415-1791477611.0088-0.bQX8DR.jpg",
    "summary": "Boooo-mfield 5K prsented by 23 Skidoo Cafe - Where Block Party Meets Halloween. The Boooo-mfield 5K is more than just a run - it’s a Halloween-flavored block party right in the heart of the Watsessing community, starting and finishing outside Skiddoo and Narda’s Café.",
-   "modified": "10/21/2026 06:26",
+   "modified": "10/22/2026 14:47",
    "slug": "boooo-mfield-5k-presented-by-23-skidoo-cafe"
   },
   {
@@ -777,17 +593,17 @@
     "trail"
    ],
    "trail": true,
-   "priceFrom": 49.99,
-   "priceTo": 139.99,
+   "priceFrom": null,
+   "priceTo": null,
    "nextIncrease": null,
    "regOpen": "2025-11-04",
    "regClose": "2026-10-22",
-   "open": true,
+   "open": false,
    "url": "https://runsignup.com/Race/TX/MarbleFalls/FieldsOfGoldTrailRun",
    "website": "https://fitfoundation.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-255620-1750191424.7172-0.bOuC1a.png",
    "summary": "FIELDS OF GOLD TRAIL RUN. Shaffer Bend Recreation Area - A Celebration of Fall's Golden Glory. Location: 706 County Road 343A, Marble Falls, TX 78654. Terrain: Rolling hills, meadow trails, and lakeside paths.",
-   "modified": "10/17/2026 00:27",
+   "modified": "10/23/2026 04:13",
    "slug": "fields-of-gold-50-miler-50k-marathon-half-marathon-and-ruck-12-hour-10"
   },
   {
@@ -864,7 +680,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race94777-logo-0.bFbIj_.png",
    "summary": "Halloween WILL be in the air, and we will be celebrating the 16th running of the Ghost 5k running events! We invite you to join in the fun of Halloween with our 5k and Scarecrow Sprint Fun Run,. Join us Saturday, Oct. 25 at 4 PM from Dynasty Brewing Company, Ashburn VA (21140 Ashburn Crossing Dr.",
-   "modified": "10/21/2026 19:00",
+   "modified": "10/22/2026 19:52",
    "slug": "ghost-5k-and-scarecrow-sprint-fun-run"
   },
   {
@@ -1147,7 +963,7 @@
    "website": null,
    "logo": null,
    "summary": "CLAIRE LILIENTHAL SCHOOL. ANNUAL 5K • 2K • 1K FUN RUN. Saturday Oct 24 • Little Marina Green • San Francisco. The Howlin’ Moon is one of Claire Lilienthal’s favorite traditions-a morning when students, families, teachers, friends, and neighbors come together to run, walk, cheer, and celebrate our school community.",
-   "modified": "10/20/2026 17:37",
+   "modified": "10/22/2026 22:11",
    "slug": "howlin-moon"
   },
   {
@@ -1183,7 +999,7 @@
    "website": "http://www.isfdn.org/monstermash5k",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-254080-1788462640.6754-0.bQMCyW.png",
    "summary": "Help us raise a MONSTROUS amount of support for local students on October 24th! ISF Monster Mash 5K is a community-based, family-friendly event that raises funds for programs that serve students attending all 27 ISD schools. We welcome all-ages and abilities.",
-   "modified": "10/21/2026 18:39",
+   "modified": "10/22/2026 16:25",
    "slug": "issaquah-schools-foundation-monster-mash-5k"
   },
   {
@@ -1255,7 +1071,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-286024-1783006222.0107-0.bQrOqo.png",
    "summary": "The Kimball Cheetahs 5K, presented by the Kimball PTO, is a community event dedicated to promoting health, wellness, and school pride while raising funds to support Kimball Elementary School.",
-   "modified": "10/19/2026 15:01",
+   "modified": "10/22/2026 20:37",
    "slug": "kimball-elementary-5k"
   },
   {
@@ -1301,7 +1117,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-134591-1770930126.6045-0.bPJJ_o.png",
    "summary": "We are on CARA's 2026 Runner's Choice Race Circuit Again! Lake Bluff PTO Pumpkin Chase 5K and 1 Mile Fun Run is on Saturday October 24, 2026. The 5K starts 8AM and the Fun Run starts 9:15AM.",
-   "modified": "10/20/2026 19:43",
+   "modified": "10/22/2026 13:49",
    "slug": "lake-bluff-pto-pumpkin-chase"
   },
   {
@@ -1348,7 +1164,7 @@
    "website": "https://lasaa.org/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-215729-1787723749.5823-0.bQJN_L.png",
    "summary": "LASAA’s mission is to provide athletic events for our members, comprised of Los Angeles County Sheriff’s Department employees and law enforcement personnel, to promote health, fitness, and camaraderie. The Mug Run series started in 1993.",
-   "modified": "10/7/2026 16:10",
+   "modified": "10/22/2026 21:55",
    "slug": "lasaa-mug-run-lasd-carson-station"
   },
   {
@@ -1437,7 +1253,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-283776-1779931069.6248-0.bQf5E9.png",
    "summary": "Celebrate Dia de Los Muertos (the Mexican Day of the Dead) and the last weekend of Daylight Saving with a short run around Bell Island and Rowayton. Finish and watch the sun set over the Sound. Proceeds benefit the Brien McMahon and Norwalk High School track and cross country teams.",
-   "modified": "10/21/2026 08:42",
+   "modified": "10/23/2026 05:27",
    "slug": "los-runners-dia-de-los-muertos-5k"
   },
   {
@@ -1795,7 +1611,7 @@
    "website": "http://www.insidetrail.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race137654-logo-0.bLnO39.png",
    "summary": "A hidden redwood forest lies in the hills just a few miles over the ridge from downtown Oakland. The forest’s peaceful groves give little evidence of the park’s bustling past - in the mid-1800s the area was the scene of extensive logging to supply building materials for the San Francisco Bay Area.",
-   "modified": "9/14/2026 12:24",
+   "modified": "10/22/2026 15:24",
    "slug": "oakland-hills-trail-run"
   },
   {
@@ -1831,7 +1647,7 @@
    "website": "https://www.ocunited.org/run",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-127651-1788459547.9686-0.bQMBOB.png",
    "summary": "NEW for 2026!! Early Check-In AVAILABLE for all Pumpkin Run and Ride Participants on Friday, Oct 23rd from 7AM to 6 PM at OC United, 436 W. Commonwealth Ave, Fullerton CA 92832. Bike Rides begin at 7:15 AM (Check-in starts at 6:45).",
-   "modified": "10/21/2026 14:56",
+   "modified": "10/22/2026 14:28",
    "slug": "oc-united-pumpkin-run-and-ride"
   },
   {
@@ -1903,7 +1719,7 @@
    "website": null,
    "logo": null,
    "summary": "Peaks and Professors 5K Run/Walk. Saturday, October 24th | Red Square, University of Washington. Get ready for the most adventurous race of the quarter - the first-ever Peaks and Professors 5K!",
-   "modified": "10/13/2026 21:02",
+   "modified": "10/22/2026 12:00",
    "slug": "peaks-and-professors-5k"
   },
   {
@@ -2099,7 +1915,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race138053-logo-0.bJtxNk.png",
    "summary": "One in eight women in the United States will have breast cancer in their lifetime. Unfortunately, we all know someone who has been affected by this disease. When detected early, breast cancer survival rates are very high, but not every woman has access to important mammogram screening services.",
-   "modified": "10/19/2026 14:54",
+   "modified": "10/22/2026 22:24",
    "slug": "rides-and-strides"
   },
   {
@@ -2135,7 +1951,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-290896-1788408894.0329-0.bQMpq-.png",
    "summary": "Presented By:. Sagient. El Segundo Firefighters Association. Rock & Brews Restaurant. A 5K charity run inspired by axes and guitars. Test your firefighter endurance on a 3.1 mile course through our beach city. Once you finish the run, come celebrate your achievement at the exclusive Rock & Brews Afterparty!",
-   "modified": "9/18/2026 18:05",
+   "modified": "10/22/2026 11:46",
    "slug": "rock-and-run-5k"
   },
   {
@@ -2214,7 +2030,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-260438-1779289891.2825-0.bQdC8J.jpg",
    "summary": "Run for Your Life Race Returns to Lake Robinson! **REGISTER BY SEPTEMBER 19 AND YOU COULD WIN $200 TOWARD A NEW PAIR OF RUNNING SHOES FROM FLEET FEET SCHERERVILLE!**.",
-   "modified": "10/19/2026 11:11",
+   "modified": "10/22/2026 14:52",
    "slug": "run-for-your-life-race-at-robinson-lake-5k-and-haunted-fun-walk-run"
   },
   {
@@ -2334,7 +2150,7 @@
    "website": "https://www.runthroughusa.com/la-february-2026/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-259114-1753959716.6624-0.bOI00K.png",
    "summary": "Join us for the RunThrough USA Long Breach 5k,10k & Half Marathon Race Weekend. on Saturday 14th February and Sunday 24th October 2026. This popular running location in LA is perfect for not only quick times but some of the most spectacular coastline in the USA!",
-   "modified": "10/19/2026 05:06",
+   "modified": "10/22/2026 10:29",
    "slug": "runthrough-usa-long-beach-5k-10k-and-half-marathon-race"
   },
   {
@@ -2412,7 +2228,7 @@
    "website": "https://www.carenwareevents.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-37284-1751320656.3535-0.bOyWHq.png",
    "summary": "SoCal's Sunset Trick or Trot 5K/10K. Saturday, October 24th, 2026 | 5:00 PM. Bolsa Chica State Beach - Lot 25. Featuring a Trunk-or-Treat Expo beginning at 3:00 PM. Back for Year 2 as an Evening Tradition!",
-   "modified": "10/22/2026 02:12",
+   "modified": "10/22/2026 19:24",
    "slug": "socals-sunset-trick-or-trot-5k-10k-halloween-race"
   },
   {
@@ -2494,7 +2310,7 @@
    "website": "https://mortonarb.org/explore/activities/family/fall-color-5k-run-and-walk/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race78488-logo-0.bJ1t4R.png",
    "summary": "Spend a magical fall morning running or walking through a scenic course with trees just at the cusp of their full autumnal color change. You’ll experience a unique course with rolling terrain along the Arboretum’s East Side, perfect for participants of all levels to help kick off the Fall Color Festival.",
-   "modified": "10/21/2026 11:28",
+   "modified": "10/22/2026 18:35",
    "slug": "the-fall-color-5k"
   },
   {
@@ -2566,7 +2382,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-233665-1720728296.2688-0.bMKdRO.png",
    "summary": "Join us for a thrilling, chilling Halloween 5K like no other. This October, something spooky is coming to the storied grounds of Fort Monmouth. Join the skeleton army as it runs (or walks) through the storied grounds of Fort Monmouth.",
-   "modified": "10/21/2026 14:51",
+   "modified": "10/22/2026 14:29",
    "slug": "the-skeleton-run"
   },
   {
@@ -2595,7 +2411,7 @@
    ],
    "cats": [],
    "trail": false,
-   "priceFrom": 10,
+   "priceFrom": 30,
    "priceTo": 30,
    "nextIncrease": null,
    "regOpen": "2026-07-28",
@@ -2687,7 +2503,7 @@
    "website": "https://valor5k.framer.website/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-241935-1783959205.8488-0.bQvq6L.png",
    "summary": "Some races are about the finish line. This one is about who we honor along the way. Whether you're chasing a personal best, walking with friends, or participating in your very first 5K, every mile represents gratitude for those who have selflessly served our nation and our communities. Why You'll Love the VALOR 5K.",
-   "modified": "10/21/2026 17:10",
+   "modified": "10/22/2026 13:58",
    "slug": "valor-5k-and-fun-run"
   },
   {
@@ -2838,7 +2654,7 @@
    "website": "https://ultrasignup.com/register.aspx?did=132578",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race142801-logo-0.bJ4MH8.png",
    "summary": "We Get To Do This! We're back for year six!! We have the 10 mile one loop race and the 50k three loop race again this year. The loop is a nice mixture of single track, wide trails and some pavement. perfect for first time and seasoned trail runners. Two aid stations once again with lots of goodies and healthy options.",
-   "modified": "8/18/2026 07:56",
+   "modified": "10/22/2026 12:26",
    "slug": "womp-romp"
   },
   {
@@ -2878,8 +2694,8 @@
    "url": "https://runsignup.com/Race/VA/McLean/MonsterMashDash5K1Mile",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-252315-1770314518.877-0.bPHnSw.png",
-   "summary": "Spend your Halloween weekend with =PR=, join us and all the fun on Sunday, October 26 and show your support for Franklin Sherman Elementary School! Dress up in your best costume and join us for the Monster Mash Dash 5K/1 Mile Fun Run. 5K: Starts at 8:00 am.",
-   "modified": "10/14/2026 11:27",
+   "summary": "We can't wait to see you at the race!",
+   "modified": "10/22/2026 16:55",
    "slug": "pr-races-monster-mash-dash-5k-and-1-mile"
   },
   {
@@ -2988,7 +2804,7 @@
    "website": "http://www.flutie5k.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-256738-1779214340.005-0.bQdkGe.png",
    "summary": "Join us on Sunday, October 25th as the Flutie 5K for Autism returns to Memorial Field at Natick High School for its 27th year! Together, with our committed Charity Partners, this year's Flutie 5K will once again make a difference in the autism community across New England!",
-   "modified": "10/21/2026 12:07",
+   "modified": "10/22/2026 12:26",
    "slug": "27th-annual-flutie-5k-for-autism-presented-by-eastern-bank"
   },
   {
@@ -3139,14 +2955,9 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 50,
-   "priceTo": 70,
-   "nextIncrease": {
-    "date": "2026-10-23",
-    "event": "10K",
-    "from": 70,
-    "to": 80
-   },
+   "priceFrom": 60,
+   "priceTo": 80,
+   "nextIncrease": null,
    "regOpen": "2026-07-04",
    "regClose": "2026-10-25",
    "open": true,
@@ -3273,7 +3084,7 @@
    "website": "https://www.cantonfallclassic.org/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-213402-1785614101.4848-0.bQBK8v.png",
    "summary": "The 37th Canton Fall Classic. After 36 years our beloved classic 10k course needed to be retired. There have been many changes in the town over the race history that make the course too challenging for the police to feel comfortable with everyone’s safety.",
-   "modified": "10/15/2026 17:38",
+   "modified": "10/22/2026 12:37",
    "slug": "canton-fall-classic"
   },
   {
@@ -3319,7 +3130,7 @@
    "website": "https://www.orcarunning.com/captain-jacks/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-45559-1787096939.8904-0.bQHo9R.png",
    "summary": "Pre-game Halloween with your best pirate costume while running up a storm on your home turf! Captain Jack’s Treasure Run has been bringing you oodles of swash-buckling running fun for 8 years in a row. We’ve got three distances, 5K, 8K and 12K for you to choose from.",
-   "modified": "10/16/2026 14:39",
+   "modified": "10/22/2026 21:07",
    "slug": "captain-jacks-treasure-run"
   },
   {
@@ -3406,7 +3217,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-241972-1740432423.7674-0.bNVoqN.png",
    "summary": "Race Date: Sunday, October 25, 2026 at 9:00 AM. Registration Opens: May 1, 2026. Join us for a 5K run/walk celebrating the Day of the Dead. Run through picturesque Heritage Park and on the streets of Wheeling. Enjoy music and entertainment along the course. Hang out after the race for awards, music and food.",
-   "modified": "10/15/2026 12:11",
+   "modified": "10/22/2026 12:51",
    "slug": "day-of-the-dead-family-5k-run-walk"
   },
   {
@@ -3540,7 +3351,7 @@
    "website": "https://esplanade.org/esplanade5k/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-133978-1785873194.5737-0.bQCKmQ.png",
    "summary": "Celebrate autumn along the Charles River at the Fall Fest: Run & Walk for the Esplanade!",
-   "modified": "10/21/2026 20:52",
+   "modified": "10/22/2026 09:05",
    "slug": "fall-fest-run-and-walk-for-the-esplanade"
   },
   {
@@ -3586,7 +3397,7 @@
    "website": "https://runthefarm.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-11138-1718826778.2997-0.bMCZCA.png",
    "summary": "FALL Run the Farm is a 5 mile trail race to be held at Muscoot Farm in Katonah/Somers, NY on October 25, 2026. (There is also an upcoming SPRING running of this race on May 23, 2027 - sign up for that race here: https://runsignup.",
-   "modified": "10/19/2026 22:51",
+   "modified": "10/23/2026 05:36",
    "slug": "fall-run-the-farm"
   },
   {
@@ -3761,7 +3572,7 @@
    "website": "http://www.streetsareforeveryone.org/finish-the-ride-santa-clarita",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race150319-logo-0.bL8ign.png",
    "summary": "Finish The Ride & Finish The Run - Santa Clarita. Sunday, October 25, 2026 • 6:00 AM - 2:00 PM. West Creek Park • 24247 Village Circle Drive, Valencia, CA 91354. Join us for a memorable day of running, riding, walking, and rolling-all for a purpose.",
-   "modified": "10/19/2026 19:29",
+   "modified": "10/22/2026 19:31",
    "slug": "finish-the-ride-and-finish-the-run-santa-clarita"
   },
   {
@@ -4044,7 +3855,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-282092-1779898856.5813-0.bQfXNO.png",
    "summary": "Lace up your sneakers, grab your (optional!) costume, and join us for the Wicked 5K, a fun-filled community fundraiser benefiting the Hopkinton Center for the Arts!",
-   "modified": "10/20/2026 08:35",
+   "modified": "10/22/2026 16:36",
    "slug": "hca-wicked-5k"
   },
   {
@@ -4085,7 +3896,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-73005-1764839086.8378-0.bPmu6U.png",
    "summary": "The Hell on Earth Halloween 5k is the most terrifying race you'll ever run, or at least the most fun, so whether you are a veteran runner or this is your first 5k we’ve got a spooky spot for you to enjoy!",
-   "modified": "10/21/2026 20:41",
+   "modified": "10/22/2026 23:05",
    "slug": "hell-on-earth"
   },
   {
@@ -4234,7 +4045,7 @@
    "website": "http://allcommunityevents.com/hotciderhustle",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race6215-logo-0.bG0Zpa.png",
    "summary": "Run the Wheaton Hot Cider Hustle 8 Mile and 5K on Sunday, October 25th. Everyone gets hot cider, a caramel apple, and finisher mug at the finish line! Wheaton, IL. Use #HotCiderHustle to share your photos! Event times, dates, locations, and all other details are subject to change prior to the event.",
-   "modified": "10/20/2026 17:09",
+   "modified": "10/22/2026 19:16",
    "slug": "hot-cider-hustle-wheaton-8-mile-run-and-5k-run-walk"
   },
   {
@@ -4311,7 +4122,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-28644-1785282770.8434-0.bQAuds.png",
    "summary": "Deal Fire Company No. 2 & Jersey Shore Running Club. present. Deal Trick or Trot. NEW COURSE THIS YEAR! 5K- USATF CERTIFIED. Fast and Flat Course. Pet Walk. Kids’ Dashes. Sunday, October 25, 2026. RACE DAY PACKET PICKUP BEGINS AT 8:30am AT DEAL CASINO. PARKING - Park in the NORTH parking lot ONLY.",
-   "modified": "10/20/2026 18:06",
+   "modified": "10/22/2026 14:44",
    "slug": "jsrc-deal-trick-or-trot"
   },
   {
@@ -4328,12 +4139,14 @@
    "zip": "07083",
    "distances": [
     {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
     }
    ],
-   "cats": [],
+   "cats": [
+    "5k"
+   ],
    "trail": false,
    "priceFrom": 45,
    "priceTo": 45,
@@ -4345,7 +4158,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-213768-1777580224.4215-0.bP87Ja.jpg",
    "summary": "We run for more than miles. Join the Kean University community for our Annual Breast Cancer 5K. Sat Oct 18 | 9AM | Alumni Stadium. Walk it. Run it. Show up for it. Every step supports research, education, and care for those fighting breast cancer in NJ. T-shirts, raffles, survivor recognition, and Cougars everywhere.",
-   "modified": "10/20/2026 07:57",
+   "modified": "10/22/2026 19:53",
    "slug": "kean-university-breast-cancer-awareness-5k"
   },
   {
@@ -4696,7 +4509,7 @@
    "website": "https://pleasantonrotary.org/registration-fo-pleasantons-halloween-spirit-run-now-open/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race78864-logo-0.bDxBER.png",
    "summary": "Join us on Sunday, October 25 for this year's event! Start and finish in Downtown Pleasanton on Main Street. Wear a costume if you would like! 5K/10K starts at 8:30 a.m. 5K and 10K events are timed; awards will be presented to overall winners as well as to top finishers in each age group.",
-   "modified": "10/6/2026 19:18",
+   "modified": "10/22/2026 16:36",
    "slug": "pleasanton-rotary-halloween-spirit-run"
   },
   {
@@ -4728,8 +4541,8 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 79,
-   "priceTo": 89,
+   "priceFrom": 89,
+   "priceTo": 94,
    "nextIncrease": null,
    "regOpen": "2026-04-06",
    "regClose": "2026-10-25",
@@ -4738,7 +4551,7 @@
    "website": "https://runforpoland.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-117168-1790534489.9699-0.bQUwnz.png",
    "summary": "Polish Independence 10K/5K Run/Walk is a race celebrating Poland’s return as an independent country on November 11th, 1918. With a long tradition in Poland, the run has been organized annually in Chicago since 2018 by WPNA 103.1 FM, Polish American Mix.",
-   "modified": "10/21/2026 15:15",
+   "modified": "10/22/2026 21:11",
    "slug": "polish-independence-run"
   },
   {
@@ -4795,7 +4608,7 @@
    "website": "https://barntorun.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race114495-logo-0.bG2KoY.png",
    "summary": "The Powisset (pronounced “po-wiss-it”) Farm Trail Run is part of the Barn to Run Trail Race Series and the fall edition of this event takes place Sunday, October 25, 2026 at Powisset Farm in Dover, MA.",
-   "modified": "10/19/2026 19:01",
+   "modified": "10/22/2026 10:52",
    "slug": "powisset-farm-trail-run-fall"
   },
   {
@@ -4878,7 +4691,7 @@
    "website": "http://www.highlandcitystriders.org/refuge-race/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-248326-1742589974.8397-0.bN3Daw.png",
    "summary": "Race for the Refuge. The Highland City Striders welcome you to explore the trails at the Assabet River National Wildlife Refuge in Sudbury, MA! The Race for the Refuge begins at the ARNWR Visitor’s Center and traverses the beautiful trails around the Refuge.",
-   "modified": "10/20/2026 08:21",
+   "modified": "10/22/2026 09:27",
    "slug": "race-for-the-refuge"
   },
   {
@@ -5008,7 +4821,7 @@
    "website": "http://www.runscared5k.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-65232-1782343223.7538-0.bQpgy3.jpg",
    "summary": "Earn your candy at the 18th annual Run Scared, benefiting Blood Cancer United (formerly The Leukemia and Lymphoma Society) Choose from 10K, 5K or 2 mile walk or run. Celebrate Halloween with a scary dash in Seward Park. Registration includes long sleeve race shirt, a surprise finisher's item and Halloween treats.",
-   "modified": "10/21/2026 12:27",
+   "modified": "10/22/2026 16:06",
    "slug": "run-scared"
   },
   {
@@ -5068,12 +4881,12 @@
    ],
    "cats": [],
    "trail": false,
-   "priceFrom": 35,
-   "priceTo": 35,
+   "priceFrom": null,
+   "priceTo": null,
    "nextIncrease": null,
    "regOpen": "2026-06-01",
    "regClose": "2026-10-22",
-   "open": true,
+   "open": false,
    "url": "https://runsignup.com/Race/MD/Savage/Savage7k",
    "website": "https://www.bullseyerunning.com/event/sebby-5k/",
    "logo": null,
@@ -5202,7 +5015,7 @@
    "website": "http://sharsheret.org/westcoast",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race129611-logo-0.bJ9K33.png",
    "summary": "On Sunday, October 25, 2026, Sharsheret will gather hundreds of thrivers, caregivers, friends and supporters on the beach for our 5th Annual West Coast Dash in support of our breast and ovarian cancer work. Our run/walk will include a 5K Race, 10K Race, Family Fun Race, Virtual Race and Event Festival.",
-   "modified": "10/20/2026 16:45",
+   "modified": "10/22/2026 18:45",
    "slug": "sharsheret-west-coast-dash"
   },
   {
@@ -5335,7 +5148,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-211508-1724372996.51-0.bMX9Ge.png",
    "summary": "Sunday, October 25, 2026 | Duke Island Park - Bridgewater, New Jersey. Hosted by the Philippine Nurses Association of New Jersey - Somerset County Subchapter (PNANJ Somerset). Looking for a Halloween 5K or 10K in New Jersey that blends fitness, fun, and community impact?",
-   "modified": "10/18/2026 12:10",
+   "modified": "10/22/2026 14:43",
    "slug": "somerstrong-5k-10k-fun-walk-kids-fun-run-halloween-themed-and-trunk-or"
   },
   {
@@ -5670,7 +5483,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race79904-logo-0.bDxHgk.png",
    "summary": "The Odyssey Odyssey Fun Run is entering its 14th year. It has always been centered around having fun and exercising our bodies. It is an all-inclusive event, which is why all the races are FREE to participate in. We will be accepting donations for entrance fees but that is not a requirement for participation.",
-   "modified": "11/3/2025 14:24",
+   "modified": "10/22/2026 22:51",
    "slug": "the-14th-annual-odyssey-odyssey"
   },
   {
@@ -5743,7 +5556,7 @@
    "website": "http://www.jtcf.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race22246-logo-0.bzDF9c.png",
    "summary": "EVENT DATE:. Sunday, October 25 th, 2026. Start Time: 8:00am (KIDS FUN RUN). Start Time: 8:30am (5K Run/Walk). COURSE:- Same start and finish area as always!!! Flat and Fast Start and Finish in TOH parking lot at 1869 Wantagh Ave, Wantagh NY 11793. REGISTRATION:. Runners/Walkers.",
-   "modified": "10/11/2026 18:58",
+   "modified": "10/22/2026 19:22",
    "slug": "the-john-theissen-childrens-foundation-freaky-5k-and-kids-trick-or-tre"
   },
   {
@@ -6093,7 +5906,7 @@
    "website": "https://cfosny.fcsuite.com/erp/donate/create/fund?funit_id=11065",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-267179-1762559756.5106-0.bPdOCm.png",
    "summary": "The Rockland Road Runners To Infinity & Beyond Halloween 5K will be a fun event for kids and adults at Rockland Lake State Park. The money raised will go to the Jordyn Seiden Memorial Fund which will benefit kids who struggle with mental illness and intellectual developmental issues.",
-   "modified": "10/21/2026 14:51",
+   "modified": "10/22/2026 21:09",
    "slug": "1st-annual-to-infinity-and-beyond-halloween-5k"
   },
   {
@@ -6206,7 +6019,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-81251-1754669214.4343-0.bOLIcE.png",
    "summary": "The Cambridge 5K is the kickoff to race weekend! It's a 3.1-mile course that starts and finishes at CambridgeSide. It's a quick out and back along the Charles River that will have you in awe of the Boston skyline. The Cambridge Half Marathon is a 13.",
-   "modified": "10/21/2026 21:10",
+   "modified": "10/22/2026 16:30",
    "slug": "cambridge-half-marathon-5k"
   },
   {
@@ -6956,7 +6769,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-275497-1791328689.3609-0.bQXygX.png",
    "summary": "SOLD OUT! Price Reduction! We are sold out of 2026 medals so we are reducing the price to $35 for the 5K and $40 for the 10K. You will be receiving our Haunted Hustle 2025 medal. Costumes on. Spirits high. Let’s get haunted. We’re back from the beyond!",
-   "modified": "10/21/2026 18:28",
+   "modified": "10/22/2026 23:31",
    "slug": "haunted-hustle-5k-and-10k"
   },
   {
@@ -7154,7 +6967,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-271176-1767644887.7984-0.bPxb7x.png",
    "summary": "Dress up and run spooky and silly at the I Ain't Scared (of 5k) in Thornton! Fun music, Halloween snacks and costumes galore!! This event only comes around once every few years when Halloween lands on a weekend. You don't want to miss it!",
-   "modified": "10/9/2026 15:45",
+   "modified": "10/22/2026 19:05",
    "slug": "i-aint-scared-of-5k"
   },
   {
@@ -7272,13 +7085,13 @@
    "priceTo": 45,
    "nextIncrease": null,
    "regOpen": "2026-06-10",
-   "regClose": "2026-10-30",
+   "regClose": "2026-10-29",
    "open": true,
    "url": "https://runsignup.com/Race/NH/Londonderry/LiveFreeAnimalRescue5K",
    "website": "https://www.livefreerescue.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race143780-logo-0.bJ_Wb_.png",
    "summary": "A 5K/Walk to support Live Free Animal Rescue's mission to rescuing abandoned, neglected and traumatized dogs from southern states and our focus is high-risk dogs and puppies. Local owner surrenders here in New Hampshire are also a passion of ours.",
-   "modified": "9/9/2026 12:52",
+   "modified": "10/22/2026 14:20",
    "slug": "live-free-animal-rescue-franken-paws-5k-walk-fundraiser"
   },
   {
@@ -7403,7 +7216,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-235396-1788487194.2598-0.bQMIyA.png",
    "summary": "It’s Back - The Annual Northgate Market 5K! We’re thrilled to welcome you to this beloved community tradition, benefiting the Familia González Reynoso Foundation. This incredible organization supports higher education, human services, schools, orphanages, scholarships, and grants that change lives.",
-   "modified": "10/14/2026 13:06",
+   "modified": "10/22/2026 18:55",
    "slug": "northgate-market-5k"
   },
   {
@@ -8202,7 +8015,7 @@
    "website": "http://www.run2befit.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-120302-1750878227.6201-0.bOxeGt.jpg",
    "summary": "Join us for a spooktacular time at the Trick-or-Treat 5K! Grab your costume, lace up your running shoes, and head to Seward Park for a frightfully fun day of fitness and Halloween festivities!",
-   "modified": "10/16/2026 16:35",
+   "modified": "10/22/2026 17:06",
    "slug": "trick-or-treat-5k"
   },
   {
@@ -8460,7 +8273,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race116994-logo-0.bHgY6b.png",
    "summary": "Run in your Halloween costume along the popular Coyote Creek trail and win a prize. The Half Marathon (CA21023TEB) and Marathon (CA22026TEB) courses are USATF are certified.",
-   "modified": "10/21/2026 00:29",
+   "modified": "10/22/2026 21:40",
    "slug": "zombierunner-halloween"
   },
   {
@@ -8579,7 +8392,7 @@
    "website": "https://my.raceresult.com/415170/registration",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-115924-1781703862.0188-0.bQmQs2.jpg",
    "summary": "What better way to kick off the fall running season than with a fast, flat 5K or 10K… and a FREE Duck Donut waiting at the finish line? Choose your distance - and your perfect donut! As always, we’re keeping the vibe fun, friendly, and stress-free.",
-   "modified": "10/15/2026 17:32",
+   "modified": "10/22/2026 21:52",
    "slug": "6th-annual-duck-donut-5k-10k-and-new-2k-pup-strut"
   },
   {
@@ -8633,7 +8446,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-147488-1763602230.35-0.bPhM82.png",
    "summary": "From the base of Table Mountain and Colorado's spectacular foothills, All-Out Multicourse presents our 15th annual Kooky-Spooky from Jefferson County's NAAC Stadium… easily accessible from several nearby highways.",
-   "modified": "10/19/2026 06:44",
+   "modified": "10/22/2026 08:49",
    "slug": "all-out-kooky-spooky"
   },
   {
@@ -9206,7 +9019,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-277759-1775151007.8609-0.bPZQEF.png",
    "summary": "Join us on November 1st for NAMI Rockland’s 5K annual Run / Walk for Wellness to raise money for local programs and services that promote mental health awareness and end the stigma. Runners and Walkers will participate in the 5K starting at 10 AM. This race will be held rain or shine.",
-   "modified": "10/19/2026 10:47",
+   "modified": "10/22/2026 10:37",
    "slug": "nami-rockland-5k-run-walk-for-mental-wellness"
   },
   {
@@ -9284,7 +9097,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-259038-1755131683.8264-0.bONs8J.jpg",
    "summary": "Capital Sprints presents the Oakwood University 5K, Sponsored by the Oakwood University Class of 1997. Join alumni, friends, and supporters of Oakwood University for the Oakwood University 5K, a celebration of health, heritage, and purpose.",
-   "modified": "9/17/2026 11:44",
+   "modified": "10/22/2026 21:49",
    "slug": "oakwood-university-5k"
   },
   {
@@ -9373,7 +9186,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-79824-1752629525.0847-0.bODWev.jpg",
    "summary": "2026 Optimism Cal Tri Newport Dunes - 11.1.26. Started in 1978 as the Human Race Triathlon, Cal Tri Newport Dunes is the longest running triathlon in the world operating from the same location. Also started in 1978 was the Ironman World Championship Triathlon Oahu but it moved to Kailua-Kona, Hawaii in 1981.",
-   "modified": "10/22/2026 01:07",
+   "modified": "10/22/2026 19:07",
    "slug": "optimism-cal-tri-newport-dunes-11-1-26"
   },
   {
@@ -10250,7 +10063,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-230045-1746759030.6775-0.bOhw12.png",
    "summary": "Join us Saturday, November 7, 2026 at Centennial Park in Santa Ana for Beer City Half™ Orange County! See the sights, run the trails, and drink the brews. Beer City Festival is a full day of fun. Drink local and dig it!",
-   "modified": "10/20/2026 11:13",
+   "modified": "10/22/2026 18:07",
    "slug": "beer-city-half-oc"
   },
   {
@@ -10434,10 +10247,10 @@
    "priceFrom": 50,
    "priceTo": 65,
    "nextIncrease": {
-    "date": "2026-10-31",
-    "event": "10K",
-    "from": 65,
-    "to": 70
+    "date": "2026-11-01",
+    "event": "5K",
+    "from": 50,
+    "to": 55
    },
    "regOpen": "2025-12-01",
    "regClose": "2026-11-07",
@@ -10446,7 +10259,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-90876-1738874293.1733-0.bNPr21.png",
    "summary": "Get ready for the winter season while enjoying a race with your friends at the City Park Classic! 5k/10k finishers earn a MEDAL! November is Worldwide Pancreatic Cancer Awareness month - let's kick off the month by running for a cause!",
-   "modified": "10/20/2026 17:25",
+   "modified": "10/23/2026 02:20",
    "slug": "city-park-classic-5k-10k-and-1-mile-walk-of-hope-for-pancreatic-cancer"
   },
   {
@@ -10528,7 +10341,7 @@
    "website": "https://www.dav5k.boston/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-92466-1768841664.2529-0.bPBMha.png",
    "summary": "In 2026, we look forward to returning to DCR Fort Independence at Castle Island to celebrate Veterans Day weekend together on November 7 for the 11th Annual DAV 5K Boston! Race with us on one of the fastest and flattest race courses and stay for our famous post-race feast in South Boston. #VetsRunBoston.",
-   "modified": "10/16/2026 13:45",
+   "modified": "10/22/2026 16:45",
    "slug": "dav-5k-boston"
   },
   {
@@ -10569,7 +10382,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-235326-1787616311.4665-0.bQJnW3.png",
    "summary": "Join us for the 15th annual Ranger Run presented by the Deerpark Middle School PTA 9am on Saturday, November 7, 2026. The Ranger Run is not only attended by the families at Deerpark Middle School, the five feeder elementary schools, and the high school (McNeil) but also friends and neighbors around our community.",
-   "modified": "10/21/2026 21:22",
+   "modified": "10/22/2026 23:54",
    "slug": "deerpark-pta-ranger-run"
   },
   {
@@ -10990,7 +10803,7 @@
     "trail"
    ],
    "trail": true,
-   "priceFrom": 25,
+   "priceFrom": 35,
    "priceTo": 90,
    "nextIncrease": {
     "date": "2026-11-01",
@@ -11005,7 +10818,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race116864-logo-0.bHfWkv.png",
    "summary": "The course starts at the Marina and travels around the popular Lake Chabot reservoir and surrounding hills. Great course for first-time trail runners! (Distances are accurately measured using a Rolatape® surveyor's measuring wheel.).",
-   "modified": "8/13/2026 19:54",
+   "modified": "10/22/2026 14:07",
    "slug": "lake-chabot-trail-run"
   },
   {
@@ -11083,7 +10896,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-82070-1758654571.7206-0.bO0VbR.png",
    "summary": "Welcome to the MCRRC Stone Mill 50 Mile Run! This 50 mile trail run showcases the beauty of both the Seneca Greenway and Muddy Branch trails in Montgomery County, Maryland. The course traverses forested, rolling terrain on a primarily single track, dirt trail. There are small stream crossings.",
-   "modified": "10/21/2026 13:31",
+   "modified": "10/22/2026 19:21",
    "slug": "mcrrc-stone-mill-50-mile-run"
   },
   {
@@ -11623,7 +11436,7 @@
    "website": "https://trailroots.com/salmagundi",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race163775-logo-0.bMh_HN.png",
    "summary": "Come on out and race before the holidays on the fastest course this side of the Mississippi! With rolling hills and wide trails, this is a great race for beginner trail runners and you speedsters alike!",
-   "modified": "10/12/2026 16:49",
+   "modified": "10/22/2026 16:10",
    "slug": "salmagundi-trail-race"
   },
   {
@@ -11800,7 +11613,7 @@
    "website": "http://www.spanhelps.org",
    "logo": null,
    "summary": "SPAN's Turkey Trot is on Saturday, November 7th at Kinder Farm Park. There is a timed 5K and a 1 Mile Fun Walk/Run option. Early Bird pricing until 10/12/2026 and then individual prices increase by $5. Social Team Pricing: Register as part of a Social Team and everyone pays $25 once the team reaches 4 members.",
-   "modified": "10/14/2026 14:51",
+   "modified": "10/22/2026 21:15",
    "slug": "spanturkeytrot"
   },
   {
@@ -12133,7 +11946,7 @@
    "website": "http://www.nrcrun.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race19644-logo-0.bJkGq6.png",
    "summary": "Veterans 4K XC Race. The Northport Running Club presents the 46th Annual Veterans Day 4K Cross Country Race. The race will be held at the Veterans Administration Medical Center Golf Course, 79 Middleville Road, Northport NY! This year's race is part of the Suffolk County Veterans Run Series.",
-   "modified": "9/20/2026 17:54",
+   "modified": "10/22/2026 12:58",
    "slug": "veterans-day-cross-country-4-kilometer-run"
   },
   {
@@ -12179,7 +11992,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-260501-1755350409.6626-0.bOOiwj.jpg",
    "summary": "Lace Up for the Westminster 5K! Join us for a fun, family-friendly race that’s open to all ages and welcomes both the Westminster community and the greater Annandale community! With a fun run for our youngest Griffins, a 1K race, and a 5K race, there’s something for everyone.",
-   "modified": "10/20/2026 09:08",
+   "modified": "10/22/2026 15:43",
    "slug": "westminster-school-5k-race"
   },
   {
@@ -12933,8 +12746,8 @@
    "url": "https://runsignup.com/Race/MD/SilverSpring/LongBranch5k",
    "website": "https://discoverlongbranch.com/event/5k-family-fun-run-2/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-217708-1789144578.3547-0.bQPc4c.jpg",
-   "summary": "Long Branch 5K Fun Run & Walk. Sunday, November 8, 2026 • ⏰ 8:00 AM. Long Branch Garland Park. 8601 Garland Ave, Silver Spring, MD 20901.",
-   "modified": "10/21/2026 08:02",
+   "summary": "Long Branch 5K Fun Run & Walk. Sunday, November 8, 2026 | ⏰ 8:00 AM. Long Branch Garland Park, 8601 Garland Ave, Silver Spring, MD 20901. About the Race.",
+   "modified": "10/22/2026 15:34",
    "slug": "long-branch-5k-fun-run-and-walk"
   },
   {
@@ -13188,7 +13001,7 @@
    "website": "https://runsuperseries.com/runthebay",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-216966-1786897846.8205-0.bQGEw2.png",
    "summary": "Loops will be an incredibly enjoyable experience while simultaneously basking in the breathtaking panoramic views of the magnificent Bay! This sensational running trail allows participants to relish every single moment, as they traverse the stunning Chambers Bay in University Place, Washington.",
-   "modified": "10/21/2026 21:29",
+   "modified": "10/22/2026 21:05",
    "slug": "run-the-bay"
   },
   {
@@ -13270,7 +13083,7 @@
    "website": "https://docs.google.com/forms/d/e/1FAIpQLSdPeC80a3gXIza0cCXhOCXdUeQp18qxnt9DXXwBtjjCjfFlyw/viewform",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-142069-1760454850.101-0.bO7MJc.png",
    "summary": "Get ready for an exhilarating race that combines the excitement of a 5k or 1-mile run with the support of a vibrant community! Whether you're a seasoned racer or a first-timer, get set to experience an electrifying event in a stunning setting, surrounded by an awesome crowd of fellow runners! Race Details. Arrival.",
-   "modified": "10/16/2026 14:15",
+   "modified": "10/22/2026 14:28",
    "slug": "shark-attack-5k-and-1-mile-run"
   },
   {
@@ -13452,7 +13265,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race118341-logo-0.bJbLaQ.png",
    "summary": "What is the Homebound Hustle? On Sunday, November 8, 2026, Family Promise of Morris County will host the 6th Annual Steve Hammond Homebound Hustle 5K & 1-Mile Walk at Central Park of Morris County.",
-   "modified": "10/21/2026 16:29",
+   "modified": "10/22/2026 15:47",
    "slug": "the-steve-hammond-homebound-hustle-5k-and-1-mile-walk"
   },
   {
@@ -13608,7 +13421,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-265390-1789062696.6834-0.bQOU4O.png",
    "summary": "Join us for our 2nd annual RTC Run for Valor 5K, taking place at Reston Town Center on Wednesday, November 11, 2026 at 8:00am. This event is more than just a race-it’s an opportunity to come together in support of the men and women who have served our country.",
-   "modified": "10/13/2026 18:35",
+   "modified": "10/22/2026 16:19",
    "slug": "rtc-run-for-valor-5k"
   },
   {
@@ -14554,13 +14367,13 @@
     "half"
    ],
    "trail": false,
-   "priceFrom": 38.99,
-   "priceTo": 58.99,
+   "priceFrom": 42.99,
+   "priceTo": 64.99,
    "nextIncrease": {
-    "date": "2026-10-23",
+    "date": "2026-11-01",
     "event": "5K",
-    "from": 38.99,
-    "to": 42.99
+    "from": 42.99,
+    "to": 48.99
    },
    "regOpen": "2026-01-05",
    "regClose": "2026-11-15",
@@ -14644,7 +14457,7 @@
    "website": "http://janney5k.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-53939-1788896707.4608-0.bQOgxd.png",
    "summary": "Come and join in the 16th running of the Janney Elementary School 5K & Fun Run Race!! The Janney 5K & Fun Run is on!",
-   "modified": "10/21/2026 07:14",
+   "modified": "10/22/2026 11:05",
    "slug": "janney-5k-and-fun-run"
   },
   {
@@ -14844,7 +14657,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-236653-1792530700.7593-0.bQ19Km.png",
    "summary": "Join us for the annual Leyden Rock Turkey Trot 5K on November 14th at 9 AM, where fun and community come together! As always, we’re committed to giving back. We’ll be collecting non-perishable food donations to benefit Community Table, and you can also make a monetary donation directly through our registration website.",
-   "modified": "10/20/2026 17:11",
+   "modified": "10/22/2026 13:33",
    "slug": "leyden-rock-turkey-trot-5k"
   },
   {
@@ -14880,7 +14693,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-141126-1786993665.9064-0.bQG1Wb.jpg",
    "summary": "The 9th Annual Lingzi Dream Dash 5K Run/Walk will take place on the Charles River Esplanade, on a fast, flat 3.1-mile course with views of the city as Lingzi herself saw it.",
-   "modified": "10/21/2026 11:51",
+   "modified": "10/22/2026 09:48",
    "slug": "lingzi-dream-dash-5k"
   },
   {
@@ -15037,7 +14850,7 @@
    "website": "http://www.theoutpostrunning.com",
    "logo": null,
    "summary": "No frills. No hills. Just you, the track, and the clock. The Rag Tag 5K brings racing back to its simplest form: 12.5 laps on the track at Count Basie Field, at night, under the lights. No winding course, no tricky turns, no excuses. A precisely measured 5K built for one thing: running your best time.",
-   "modified": "10/10/2026 09:03",
+   "modified": "10/22/2026 14:22",
    "slug": "rag-tag-5k"
   },
   {
@@ -15970,7 +15783,7 @@
    "name": "Trot The Track 5K",
    "date": "2026-11-14",
    "endDate": "2026-11-14",
-   "start": "10:00",
+   "start": "11:00",
    "city": "Plainville",
    "region": "south-shore",
    "street": "301 Washington St.",
@@ -16000,8 +15813,8 @@
    "url": "https://runsignup.com/Race/MA/Plainville/TrotTheTrack5K",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/running-shoe1-300px.bMjMog.png",
-   "summary": "Date - September 26, 2026 (POSTPONED -- NEW DATE is 11/14). More Race Details. Race Start Time On Nov 14th - 10AM (Rain or shine). Packet Pickup - Race Morning Only! Opens at 9AM! Join the North Attleboro / Plainville Rotary Club for the Inaugural Trot The Track Run/Walk at Plainridge Park Casino in Plainville, MA!",
-   "modified": "9/24/2026 10:08",
+   "summary": "Date - September 26, 2026 (POSTPONED -- NEW DATE is 11/14). More Race Details. Race Start Time On Nov 14th - 11AM (Rain or shine). Packet Pickup - Race Morning Only! Opens at 9:45AM! Join the North Attleboro / Plainville Rotary Club for the Inaugural Trot The Track Run/Walk at Plainridge Park Casino in Plainville, MA!",
+   "modified": "10/22/2026 11:09",
    "slug": "trot-the-track-5k"
   },
   {
@@ -16037,7 +15850,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-217831-1790688269.2071-0.bQU7Wn.jpg",
    "summary": "Please join the Wayne Special Parents Association (WSPA) for our annual Turkey Trot 5K to support and raise awareness for Wayne Township Public Schools (WTPS) Unified Sports®. All proceeds will be donated to WTPS Unified Sports® Program.",
-   "modified": "10/20/2026 11:10",
+   "modified": "10/22/2026 16:21",
    "slug": "turkey-trot-5k-for-wtps-unified-sports-sponsored-by-wayne-special-pare"
   },
   {
@@ -17070,7 +16883,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/running-shoe1-300px.bMjMog.png",
    "summary": "Sunday, November 15, 2026 at the Community Arts Center. 721 Cranbury Road, East Brunswick, NJ 08816. 8:15 warm up stretch and National Anthem. 5K 8:30 am start time. Kids’ races: 10:00 am start time. Runners and walkers will complete a 5K for a great cause- the East Brunswick. Education Foundation!",
-   "modified": "10/20/2026 18:33",
+   "modified": "10/22/2026 22:08",
    "slug": "ebef-bear-crawl-a-5k-run-walk"
   },
   {
@@ -17326,7 +17139,7 @@
    "website": "https://www.girlsontherunboston.org/5k",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race147286-logo-0.bMbgxV.png",
    "summary": "Each season comes to an end with a celebratory 5K. This closing event gives program participants of all abilities a tangible sense of accomplishment. Crossing the finish line instills confidence through completion and is a joyful moment program participants always remember!",
-   "modified": "10/21/2026 09:56",
+   "modified": "10/22/2026 11:34",
    "slug": "girls-on-the-run-greater-boston-fall-season-celebratory-5k"
   },
   {
@@ -17480,7 +17293,7 @@
    "website": "https://www.hearyoursong.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-266371-1761590403.9828-0.bO_7Yd.png",
    "summary": "Celebrate 6 years of Hear Your Song with this 5K - run, walk, or roll anywhere in the world, anytime from Sunday, November 15th to Monday, November 30th! You can participate in this race VIRTUALLY or IN-PERSON.",
-   "modified": "10/12/2026 17:07",
+   "modified": "10/22/2026 12:38",
    "slug": "hear-your-song-fall-5k-run-walk-or-roll"
   },
   {
@@ -17925,7 +17738,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race119530-logo-0.bLfeT1.png",
    "summary": "The Horace Mann PTA is hosting its 6th annual Great Turkey Chase 5K & Fun Run, and we are so excited!",
-   "modified": "10/19/2026 10:11",
+   "modified": "10/22/2026 21:17",
    "slug": "the-great-turkey-chase-5k-and-1-mile-fun-run"
   },
   {
@@ -18213,7 +18026,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-142022-1791495534.5593-0.bQYa1U.jpg",
    "summary": "Come one, come all! Turkeys, donkeys, runners, joggers & walkers of all ages, because Bailey's Annual Turkey Trot is going to be one you and the family won't want to miss!",
-   "modified": "10/21/2026 11:31",
+   "modified": "10/22/2026 14:11",
    "slug": "285-turkey-trot"
   },
   {
@@ -18370,20 +18183,15 @@
    "trail": false,
    "priceFrom": 40,
    "priceTo": 40,
-   "nextIncrease": {
-    "date": "2026-11-04",
-    "event": "5K",
-    "from": 40,
-    "to": 45
-   },
-   "regOpen": "2026-10-12",
+   "nextIncrease": null,
+   "regOpen": "2026-10-24",
    "regClose": "2026-11-21",
-   "open": true,
+   "open": false,
    "url": "https://runsignup.com/Race/NJ/KendallPark/ConstableSchool5KTurkeyTrot",
    "website": "https://www.mapmyrun.com/routes/view/6246342439",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-46016-1759085950.8456-0.bO2yv-.jpg",
    "summary": "Lace up your sneakers and mark your calendars! The Constable Elementary PTO Turkey Trot is just around the corner. We invite you to join us for this cherished tradition that unites our community and surrounding areas.",
-   "modified": "10/1/2026 10:36",
+   "modified": "10/22/2026 22:07",
    "slug": "constable-elementary-pto-turkey-trot-5k-race-half-mile-and-50-yard-das"
   },
   {
@@ -18739,7 +18547,7 @@
    "website": "https://gracesd.churchcenter.com/login?return=https%3A%2F%2Fgracesd.churchcenter.com%2Fregistrations%2Fevents%2F3869514%2Freservations%2Fnew",
    "logo": null,
    "summary": "Thanks Giving 5K.",
-   "modified": "10/19/2026 13:54",
+   "modified": "10/22/2026 12:45",
    "slug": "harvest-hustle-5k-grace-church-san-diego"
   },
   {
@@ -18749,7 +18557,7 @@
    "name": "Hoboken's Annual Turkey Trot 5K",
    "date": "2026-11-21",
    "endDate": "2026-11-21",
-   "start": "09:00",
+   "start": "08:30",
    "city": "Hoboken",
    "region": "new-jersey",
    "street": "Pier A Park",
@@ -18764,19 +18572,25 @@
      "label": "5K",
      "cat": "5k",
      "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 9.98
     }
    ],
    "cats": [
-    "5k"
+    "5k",
+    "10k"
    ],
    "trail": false,
    "priceFrom": 20,
-   "priceTo": 45,
+   "priceTo": 55,
    "nextIncrease": {
     "date": "2026-11-01",
-    "event": "5K",
-    "from": 45,
-    "to": 50
+    "event": "10K",
+    "from": 55,
+    "to": 60
    },
    "regOpen": "2025-12-14",
    "regClose": "2026-11-21",
@@ -18785,7 +18599,7 @@
    "website": "https://winningeventsgroup.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race33599-scaled-logo-0.bytSqS.png",
    "summary": "The Hoboken Turkey Trot is Back - November 21, 2026! Kick off Thanksgiving week the right way at the Hoboken Turkey Trot, returning on Saturday, November 21, 2026, along Hoboken’s iconic waterfront.",
-   "modified": "10/22/2026 02:32",
+   "modified": "10/22/2026 08:08",
    "slug": "hobokens-annual-turkey-trot-5k"
   },
   {
@@ -19070,7 +18884,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-292154-1791747110.0991-0.bQY-qM.png",
    "summary": "Championship Matchday Starts with Heart at the NWSL Championship 5K, presented by CVS Health.",
-   "modified": "10/15/2026 18:07",
+   "modified": "10/22/2026 18:19",
    "slug": "nwsl-championship-5k-presented-by-cvs-health"
   },
   {
@@ -19776,7 +19590,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-294070-1792617322.8925-0.bQ2sTQ.png",
    "summary": "The inaugural Winthrop Turkey Trot takes place on Saturday, November 21, 2026, at Ingleside Park in Winthrop, MA! This family-friendly event features a 5K run/walk and Kids’ Dash, welcoming participants of all ages and abilities.",
-   "modified": "10/21/2026 21:31",
+   "modified": "10/22/2026 14:36",
    "slug": "winthrop-viking-turkey-trot"
   },
   {
@@ -20065,13 +19879,13 @@
     "trail"
    ],
    "trail": true,
-   "priceFrom": 52.5,
+   "priceFrom": 55,
    "priceTo": 62.5,
    "nextIncrease": {
-    "date": "2026-10-22",
+    "date": "2026-11-21",
     "event": "5 miles",
-    "from": 52.5,
-    "to": 55
+    "from": 55,
+    "to": 60
    },
    "regOpen": "2025-12-28",
    "regClose": "2026-11-22",
@@ -20386,7 +20200,7 @@
    "website": "http://rayenduranceevents.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race163281-logo-0.bMeHTA.png",
    "summary": "Join us for the 3rd Annual LA Classic Turkey Trot! Our event offers a 5K run/walk through beautiful Griffith Park in Los Angeles as well as a 5 Miler and 15K for those looking to challenge themselves! Run through the start and finish line at the Shane's Inspiration area in Griffith Park!",
-   "modified": "10/18/2026 17:20",
+   "modified": "10/22/2026 19:25",
    "slug": "la-classic-turkey-trot"
   },
   {
@@ -20546,13 +20360,13 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 26,
-   "priceTo": 37,
+   "priceFrom": 30,
+   "priceTo": 41,
    "nextIncrease": {
-    "date": "2026-10-22",
+    "date": "2026-11-19",
     "event": "5K",
-    "from": 37,
-    "to": 41
+    "from": 41,
+    "to": 43
    },
    "regOpen": "2026-09-09",
    "regClose": "2026-11-22",
@@ -20706,7 +20520,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-61761-1715354649.0744-0.bMpJWz.jpg",
    "summary": "‍♂️ Welcome to the Taco Trot 5K! ‍♀️. Where fitness, fun, and tacos come together for a great cause! Event Details:. Location: Horseshoe Lake - Roxbury NJ. Date: SUNDAY 11/22. ⏱ Timing: Chip-timed race. Who Can Join? Runners and walkers of all abilities! Post-Race Perks:. FREE tacos from Riviera Maya Restaurants.",
-   "modified": "10/19/2026 08:30",
+   "modified": "10/22/2026 15:32",
    "slug": "riviera-maya-taco-trot-5k"
   },
   {
@@ -21202,7 +21016,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287095-1787682981.9339-0.bQJEcL.jpg",
    "summary": "Join the Village of Mamaroneck for our 60th Annual Turkey Trot 5K and 1-Mile Gobbler Race. Kick off your Thanksgiving week with a beloved Mamaroneck tradition! The Village of Mamaroneck Parks & Recreation Department invites runners of all ages to join us on Sunday, November 22, 2026, at Harbor Island Park.",
-   "modified": "8/28/2026 11:48",
+   "modified": "10/22/2026 09:44",
    "slug": "village-of-mamaroneck-turkey-trot"
   },
   {
@@ -21982,7 +21796,7 @@
    "website": "http://www.middletonturkeytrot.org/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race100011-logo-0.bHagWZ.png",
    "summary": "Date: November 26, 2026 (RAIN OR SHINE). Race Start Time: 8AM. It wouldn't be Thanksgiving without participating in the 9th Annual Middleton Turkey Trot! How will you explain the need for that extra stuffing or big slice of pumpkin pie if you don't participate!?",
-   "modified": "10/16/2026 13:43",
+   "modified": "10/22/2026 10:54",
    "slug": "9th-annual-middleton-turkey-trot-5k"
   },
   {
@@ -22445,7 +22259,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race77006-logo-0.bC_M8Y.png",
    "summary": "This year, join iLearn Schools 5th Annual Be Grateful 5K as we give thanks for all the things we are grateful for. By participating, you not only celebrate a morning Thanksgiving run, but you are also giving back to the community.",
-   "modified": "10/21/2026 13:44",
+   "modified": "10/22/2026 16:38",
    "slug": "be-grateful-5k"
   },
   {
@@ -22820,7 +22634,7 @@
    "website": "http://www.cclcf.org/run",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285492-1785537532.4148-0.bQBsp8.png",
    "summary": "The Community Center of La Cañada Flintridge’s Thanksgiving Run - a 5K and Kids’ Mile - has been a local tradition and a community favorite for more than three decades.",
-   "modified": "10/21/2026 11:37",
+   "modified": "10/22/2026 16:04",
    "slug": "cclcf-thanksgiving-run-and-food-drive"
   },
   {
@@ -23376,7 +23190,7 @@
    "website": "https://drumstickdashla.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-117019-1777473409.0362-0.bP8HEb.png",
    "summary": "Drumstick Dash LA is BACK and bigger than ever! Join us at LA County's LARGEST Thanksgiving day event. Whether you’re chasing a PR or strolling with the whole family in costume, this is the ultimate way to kick off your holiday.",
-   "modified": "10/20/2026 11:44",
+   "modified": "10/22/2026 15:23",
    "slug": "drumstick-dash"
   },
   {
@@ -23692,7 +23506,7 @@
    "website": "http://franklinturkeytrot.org/index.html",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race143405-logo-0.bJ8a4Z.png",
    "summary": "Join us for the Franklin Turkey Trot! All proceeds go directly to benefit the Franklin Food Pantry.",
-   "modified": "10/15/2026 20:41",
+   "modified": "10/22/2026 19:35",
    "slug": "franklin-turkey-trot"
   },
   {
@@ -23728,7 +23542,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288190-1788969466.8171-0.bQOyh6.png",
    "summary": "Inaugural Gilroy Turkey Trot. **** Important information*****. Dear Participants,. We are working very hard to bring you a one-of-a-kind experience, starting with the finisher t-shirt and medals. We are designing a high-quality t-shirt that you can use for years to come.",
-   "modified": "10/21/2026 16:52",
+   "modified": "10/22/2026 15:55",
    "slug": "garlic-city-turkey-trot"
   },
   {
@@ -24016,7 +23830,7 @@
    "website": "http://greatgobbler.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race133731-logo-0.bI5aSG.png",
    "summary": "The 24th Annual Great Gobbler is on Thursday, November 26, 2026! Registration is open! Sign up now to secure your spot and receive a Gobbler shirt, available for the first 500 registrants only! Warm up your Thanksgiving appetite at Nashua High School South at the 24th Annual Great Gobbler 5K!",
-   "modified": "10/21/2026 14:00",
+   "modified": "10/22/2026 17:22",
    "slug": "great-gobbler-5k"
   },
   {
@@ -24373,7 +24187,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-254773-1787857702.8055-0.bQKiSM.png",
    "summary": "About Event. Thanksgiving holiday turkey trot 2.5 mile run & fun through Soundview Park. This park is a well maintain natural habitat park system apart of the prestigious Bronx River Greenway in association with Bronx River Alliance.",
-   "modified": "10/20/2026 14:57",
+   "modified": "10/22/2026 21:18",
    "slug": "hip-hop-turkey-trot"
   },
   {
@@ -24532,7 +24346,7 @@
    "website": "https://www.kmlegacyfdn.org/kindness-matters-walk",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-102713-1788395947.2455-0.bQMmgR.jpg",
    "summary": "We are excited to invite you to join us for the 10th Annual Kindness Matters Walk (KM Walk) - a milestone year for a community tradition built on hope, gratitude, and action. In 2026, participants can join us in person on Thanksgiving morning in Fullerton, CA, or participate virtually from wherever you are.",
-   "modified": "10/21/2026 14:49",
+   "modified": "10/22/2026 17:45",
    "slug": "kindness-matters-walk"
   },
   {
@@ -24830,7 +24644,7 @@
    "website": "http://www.lakelandhillsymca.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-239271-1785770591.5564-0.bQCljF.png",
    "summary": "Gobble, gobble! Get ready to trot! Lakeland Hills Family YMCA is proud to host the Mountain Lakes Turkey Trot for the third year, continuing a beloved Thanksgiving tradition made possible by the community members who established and supported it over the years.",
-   "modified": "10/17/2026 11:49",
+   "modified": "10/22/2026 13:56",
    "slug": "mountain-lakes-turkey-trot-hosted-by-lakeland-hills-family-ymca"
   },
   {
@@ -25220,7 +25034,7 @@
    "website": "https://www.palatineparks.org/event/turkey-trot-sammy-scury/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race148371-logo-0.bKEl3b.png",
    "summary": "Join us in celebrating the 45th annual Palatine Park District Thanksgiving Day Turkey Trot! Burn off those pre-Thanksgiving meal calories with this fun family event. Runners may choose either a 2 or 5 mile distance, kids can register for the 100 yard Sammy Scurry.",
-   "modified": "9/17/2026 17:22",
+   "modified": "10/22/2026 15:30",
    "slug": "palatine-park-district-turkey-trot"
   },
   {
@@ -25261,7 +25075,7 @@
    "website": "http://parkerrec.com/1167/Turkey-Day-5K-Fun-RunWalk",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race119778-logo-0.bHwK6c.png",
    "summary": "Turkey Day 5K FUN Run/Walk. with RNK Running & Walking. The tradition continues! Celebrate Thanksgiving Day with family and friends while getting a workout. Date: Nov. 26, 2026. Time: 8-8:15 a.m., (waves based on pace). Location: Start and Finish at Parker Recreation Center, 17301 E. Lincoln Ave.",
-   "modified": "10/21/2026 16:41",
+   "modified": "10/22/2026 14:13",
    "slug": "parker-parks-and-recreation-turkey-day-5k-fun-run-walk"
   },
   {
@@ -25639,7 +25453,7 @@
    "website": "https://www.run4thelove.com/services/upcoming-races",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-262048-1780522754.449-0.bQij8c.png",
    "summary": "The Township of River Vale Sponsors this event. The vision of Run 4 the Love LLC and Fitness with Friends is to help communities become healthy, fit, and happy by providing coaching, clinics and classes for everyone young and old.",
-   "modified": "9/15/2026 04:09",
+   "modified": "10/22/2026 12:14",
    "slug": "river-vale-run-4-the-love-and-fitness-with-friends-turkey-trot-charity"
   },
   {
@@ -25834,13 +25648,13 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 25,
+   "priceFrom": 30,
    "priceTo": 37,
    "nextIncrease": {
-    "date": "2026-10-22",
-    "event": "1000m",
-    "from": 25,
-    "to": 30
+    "date": "2026-10-29",
+    "event": "5K",
+    "from": 37,
+    "to": 45
    },
    "regOpen": "2026-07-07",
    "regClose": "2026-11-26",
@@ -26117,9 +25931,9 @@
    "open": true,
    "url": "https://runsignup.com/Race/WA/Silverdale/TurkeyTrot18",
    "website": "https://silverdalerotaryclub.org",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-73440-1728063764.9351-0.bNacKu.jpg",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-73440-1792689201.1995-0.bQ2KqX.jpg",
    "summary": "Please join us for our 9th Annual Silverdale Rotary Turkey Trot! For the fifth straight year we're going free-range with our wild Turkey Trot at Newberry Hill Heritage Park. All events are run in the woods -- away from streets, sidewalks, and cars. The park offers a scenic 2.",
-   "modified": "10/14/2026 12:16",
+   "modified": "10/22/2026 13:18",
    "slug": "silverdale-rotary-turkey-trot"
   },
   {
@@ -26829,7 +26643,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-251214-1760620571.7877-0.bO8paB.png",
    "summary": "Join us for the 4th Annual LexGiving 5k Run/Walk - Now on Thanksgiving Morning, with a new, family-friendlier course! The LexGiving team is excited to continue its mission to bring community together, on a new course with a few less hills!",
-   "modified": "10/21/2026 20:30",
+   "modified": "10/22/2026 09:24",
    "slug": "the-lexgiving-5k-now-on-thanksgiving-morning"
   },
   {
@@ -27098,7 +26912,7 @@
    "website": "https://thundercloud.com/event-info/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-42339-1783969427.0362-0.bQvtAt.png",
    "summary": "We are happy to announce that 2026 marks the 36th anniversary of the event! Without our amazing runners, volunteers, and sponsors, we wouldn't be here. Thank you for your continued support! We are still committed to ending homelessness in Austin and providing our annual check to Caritas of Austin! 1 Community.",
-   "modified": "10/21/2026 16:31",
+   "modified": "10/22/2026 16:15",
    "slug": "thundercloud-subs-turkey-trot"
   },
   {
@@ -27132,7 +26946,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race52578-logo-0.bHCjWv.png",
    "summary": "Join us for the 10th Annual Benicia Hand Up Turkey Trot. Benefiting The Tim & Jeannie Hamann Foundation. www.hamannfoundation.org. Giving A Hand Up To Patients Along Their Journey Fighting Cancer…. Since the inception of The Tim & Jeannie Hamann Foundation in 2014, the Foundation has granted over $1.",
-   "modified": "10/20/2026 23:01",
+   "modified": "10/22/2026 12:44",
    "slug": "tim-and-jeannie-hamann-foundation-benicia-hand-up-turkey-trot"
   },
   {
@@ -27219,7 +27033,7 @@
    "website": "http://tinyurl.com/turcreek26reg",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-238453-1789087975.4451-0.bQO1dN.jpg",
    "summary": "Register by October 25 for early bird pricing!! Join us for the 3rd annual TurCreek Trot! Cherry Creek XC is excited to host runners and walkers of all levels for this Thanksgiving morning 5K. We will have a staggered start for runners, walkers, and strollers. Proceeds will benefit the Cherry Creek XC team.",
-   "modified": "10/18/2026 10:01",
+   "modified": "10/22/2026 10:14",
    "slug": "turcreek-trot-5k"
   },
   {
@@ -27791,7 +27605,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race80496-logo-0.bDCwdk.png",
    "summary": "The Annual Winnetka Turkey Trot is Thanksgiving morning! The Race will sell out. It is a Rolling Start so that everyone has space to trot! The Speedy at 8:00 am, 8:30 am & Family Division at 9:00 am.",
-   "modified": "10/21/2026 12:55",
+   "modified": "10/22/2026 12:39",
    "slug": "winnetka-turkey-trot"
   },
   {
@@ -28019,7 +27833,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race153876-logo-0.bLgZr1.png",
    "summary": "Join Us for Our Annual Turkey Day 5K & 1 Mile Walk/Run! After Thanksgiving, come burn off those extra calories with family and friends along the beautiful Darien High School cross-country trail! Last year's event featured over 550 runners as well as music, children's games and food.",
-   "modified": "10/16/2026 22:28",
+   "modified": "10/22/2026 20:57",
    "slug": "darien-depot-overstuffed-turkey-trot-5k-and-1-mile-fun-run"
   },
   {
@@ -28783,7 +28597,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-215762-1782446952.781-0.bQpFTO.png",
    "summary": "In 2008, the Lexington High School Cross Country / Track & Field program hosted its first annual “Alumni Race” on the same, nearly all-road course the team has called home since 1970.",
-   "modified": "10/20/2026 11:03",
+   "modified": "10/22/2026 13:50",
    "slug": "lexington-legacy-5k"
   },
   {
@@ -29904,7 +29718,7 @@
    "priceFrom": 38,
    "priceTo": 38,
    "nextIncrease": {
-    "date": "2026-11-08",
+    "date": "2026-10-31",
     "event": "12K",
     "from": 38,
     "to": 40
@@ -29915,8 +29729,8 @@
    "url": "https://runsignup.com/Race/NJ/Middletown/NavesinkChallenge",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-45676-1789918225.3425-0.bQR_Wr.png",
-   "summary": "Presented by. The. JERSEY SHORE RUNNING CLUB. A Thanksgiving Weekend Tradition!! November 29, 2026. 10am - 12k. 10:10am - 5k. Bib/shirt pickup. Friday, November 27 - Birdsmouth Brewing - 6:30pm thru 8:30pm. Saturday, November 28 - 1pm thru 4pm - M.Y.A.A. Little League Field clubhouse.",
-   "modified": "10/21/2026 12:56",
+   "summary": "Presented by. The. JERSEY SHORE RUNNING CLUB. A Thanksgiving Weekend Tradition!! November 29, 2026. 10am - 12k. 10:10am - 5k. (PRICE INCREASE 11/1). Bib/shirt pickup. Friday, November 27 - Birdsmouth Brewing - 6:30pm thru 8:30pm. Saturday, November 28 - 1pm thru 4pm - M.Y.A.A. Little League Field clubhouse.",
+   "modified": "10/22/2026 15:48",
    "slug": "navesink-challenge-12k-and-5k"
   },
   {
@@ -30237,7 +30051,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-101771-1751583464.7135-0.bOzWRO.png",
    "summary": "The 16th Annual Reindeer Run will be here December 5th! Come one, come all! There is something for everyone at the Reindeer Run.",
-   "modified": "10/15/2026 14:43",
+   "modified": "10/22/2026 15:49",
    "slug": "16th-annual-reindeer-run-walk"
   },
   {
@@ -30630,7 +30444,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-143679-1783533196.5734-0.bQtO6m.png",
    "summary": "Set in scenic Little Bennett Regional Park, the Froggy Hollow 5 & 9 presented by Altra is a timed trail ultra event with 5-Hour, 5-Hour Relay, 9-Hour, 9-Hour Relay, and More Than a 4-Miler options.",
-   "modified": "9/30/2026 19:43",
+   "modified": "10/22/2026 13:45",
    "slug": "froggy-hollow-5-and-9-presented-by-altra"
   },
   {
@@ -31451,7 +31265,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-76675-1766426450.7005-0.bPsyDs.png",
    "summary": "It’s the most wonderful run of the year! The 15th annual Lions Charities Reindeer Run 5K is bringing festive fun to town. Grab your Santa hats, dust off those antlers and jingle bells, and get ready to Run, Run, Rudolph! Bring your friends, family, and holiday cheer for a morning full of holly jolly joy.",
-   "modified": "9/16/2026 12:54",
+   "modified": "10/22/2026 10:18",
    "slug": "reindeer-run-5k"
   },
   {
@@ -31585,7 +31399,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-233734-1721934405.5842-0.bMOQjf.jpg",
    "summary": "Join us for a jolly good time and kick off the holiday season for the 3rd annual South Kitsap Rotary Santa Sleighs 5K. This festive event will have participants dressing up as their favorite holiday character. The first 200 entrants will receive a free SANTA COSTUME to wear during the race.",
-   "modified": "10/18/2026 16:21",
+   "modified": "10/22/2026 17:19",
    "slug": "santa-sleighs-5k"
   },
   {
@@ -31667,7 +31481,7 @@
    "website": "https://humanpotentialrunning.com/sawmill/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race96807-logo-0.bK8IGG.png",
    "summary": "The Human Potential Running Series Presents:. The Sawmill Trail Runs Staunton State Park. The Sawmill Trail Runs first started as a “Fat Ass” event at White Ranch Open Space in Golden, CO, in December 2013. It was incorporated into an official trail race in December 2017.",
-   "modified": "10/4/2026 02:56",
+   "modified": "10/22/2026 23:47",
    "slug": "sawmill-trail-runs"
   },
   {
@@ -32312,7 +32126,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-253365-1746140910.817-0.bOe_7U.png",
    "summary": "Description:. The 3rdd Annual Crusaders Crush Cancer 5K. We are back for the 3rd annual Crusaders Crush Cancer 5k - the Christmas edition! Get your holiday running outfits ready! We are ready to make this year bigger and better than last year!",
-   "modified": "10/18/2026 12:12",
+   "modified": "10/22/2026 12:46",
    "slug": "crusaders-crush-cancer-5k"
   },
   {
@@ -32606,7 +32420,7 @@
    "website": "https://www.portofeverett.com/visit_the_waterfront/holiday_on_the_bay_5k.php",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-283674-1779817919.1715-0.bQfD2_.png",
    "summary": "Holiday on the Bay 5K Run or Walk and Kids Dash. Sunday, December 6th. Start Time: 9:00 AM. You’re invited to join us at Port of Everett’s Waterfront Place for the 4th Annual Holiday on the Bay 5K and Kids Dash! We encourage runners and walkers of all skill levels to join in on the fun!",
-   "modified": "10/14/2026 18:26",
+   "modified": "10/22/2026 12:02",
    "slug": "holiday-on-the-bay-5k-and-kids-dash"
   },
   {
@@ -32654,7 +32468,7 @@
    "website": "http://Califlowruns.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-249015-1791846744.406-0.bQZwLy.png",
    "summary": "The Jingle Bell Run - A Holiday Race by the Beach! 17851 PCH, HB CA 92649 - Lot 25. December 6, 2026. 5K | 10K | Half Marathon| Kids Dash|. Get ready to dash into the holiday season with the Jingle Bell Dash!",
-   "modified": "10/18/2026 21:23",
+   "modified": "10/22/2026 14:00",
    "slug": "jingle-bell-dash-kids-dash-5k-10k-and-half-marathon-and-santa-paws-dog"
   },
   {
@@ -33485,7 +33299,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race77205-logo-0.bEqXiA.png",
    "summary": "Join us for a chilly run of the Winter Classic 5K! Start and finish in beautiful downtown Cambridge, Massachusetts. Make it a winter stroll or an all-out sprint down Mass Ave. The course is fast and flat so you can get back to the finish line sooner! Festive attire is encouraged but not mandatory. REGISTRATION FEES:.",
-   "modified": "9/14/2026 14:35",
+   "modified": "10/22/2026 13:37",
    "slug": "winter-classic-5k"
   },
   {
@@ -33878,7 +33692,7 @@
    "website": "https://www.kentwa.gov/departments/kent-parks/events/christmas-rush-fun-run-and-walk",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-76453-1788458007.1744-0.bQMBqx.jpg",
    "summary": "The Christmas Rush will celebrate 44 years on December 12. The race features a 5k run/walk and a 10k run. along the scenic Green River. NEW 10k Course! The 10k will start on the west side of the Green River, will cross over and finish on the east side. Both the 5k and 10k will finish in the same location.",
-   "modified": "10/19/2026 17:37",
+   "modified": "10/22/2026 17:12",
    "slug": "christmas-rush"
   },
   {
@@ -33936,7 +33750,7 @@
    "website": "https://www.rungeorgetown.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-254437-1749834968.4755-0.bOtfZy.jpg",
    "summary": "Join us on Saturday, December 12th, 2026 for the 6th annual Georgetown Half Marathon, 10K, 5K, and Kid's K! Georgetown Texas is home to the most beautiful Town Square in Texas! Whether you join us for a day trip or a staycation, historic Georgetown will not disappoint.",
-   "modified": "10/6/2026 17:51",
+   "modified": "10/23/2026 00:46",
    "slug": "georgetown-half-marathon"
   },
   {
@@ -34337,7 +34151,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-117026-1729182124.6803-0.bNetMS.jpg",
    "summary": "Morristown Fleet Feet Packet Pick Up- 2-6 pm 12/11. Day of Packet Pick Up: 8:30-9:30 am. Packet Pick up Closes promptly at 9:30. Line up time: 9:50 am. Start Time: 10:00 am. Join us for a festive run on December 12th before the holiday season! Choose to run or walk 3.1 or 6.",
-   "modified": "9/21/2026 09:49",
+   "modified": "10/22/2026 10:20",
    "slug": "morris-hot-cocoa-5k-10k-december-12th-10-am"
   },
   {
@@ -35667,6 +35481,11 @@
    "zip": "92101",
    "distances": [
     {
+     "label": "4.4 miles",
+     "cat": "other",
+     "km": 7.08
+    },
+    {
      "label": "Half marathon",
      "cat": "half",
      "km": 21.08
@@ -35676,7 +35495,7 @@
     "half"
    ],
    "trail": false,
-   "priceFrom": 45,
+   "priceFrom": 25,
    "priceTo": 45,
    "nextIncrease": {
     "date": "2026-11-01",
@@ -35685,13 +35504,13 @@
     "to": 55
    },
    "regOpen": "2026-08-23",
-   "regClose": "2026-11-29",
+   "regClose": "2026-11-30",
    "open": true,
    "url": "https://runsignup.com/Race/CA/SanDiego/TheImproveEveryDayHalfMarathon",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/running-shoe1-300px.bMjMog.png",
-   "summary": "The Improve Every Day Half Marathon is built around one idea: every mile out there is proof of what you're capable of. This December 12th in San Diego, we're bringing that to life on a looped course where every lap shows you how far you've come. Half marathon runners will complete just over 3 laps.",
-   "modified": "10/19/2026 13:39",
+   "summary": "The Improve Every Day Half Marathon is built around one idea: every mile out there is proof of what you’re capable of. This December 12th in San Diego, we’re bringing that to life on a looped course where every lap shows you how far you’ve come. Half marathon runners will complete just over 3 laps.",
+   "modified": "10/23/2026 02:52",
    "slug": "the-improve-every-day-half-marathon"
   },
   {
@@ -35812,7 +35631,7 @@
    "website": "https://www.solesisters01887.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-125601-1733183397.8705-0.bNtKEL.png",
    "summary": "Sole Sisters Running Club's 9th Annual Winter SOLEstice 5K will be held on Saturday, December 12, 2026 at 10am! Run or walk our USATF certified 5K course! Walkers and strollers are welcome. We ask that those walking with little ones start behind our runners and walkers.",
-   "modified": "10/15/2026 10:40",
+   "modified": "10/22/2026 19:02",
    "slug": "winter-solestice-5k-run-walk"
   },
   {
@@ -35966,7 +35785,7 @@
    "website": "https://www.facebook.com/Festivus5k",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-119874-1787585127.8623-0.bQJgjN.png",
    "summary": "Help the Northshore Education Consortium raise money for students by joining us for the 15th running of the Festivus 5K for Autism on December 13, 2026 in historic downtown Salem, MA! We are expecting 500 runners! In fourteen years this race has raised over $325,000 for children with autism.",
-   "modified": "10/20/2026 10:47",
+   "modified": "10/22/2026 12:33",
    "slug": "festivus-5k-for-autism"
   },
   {
@@ -37402,7 +37221,7 @@
    "open": true,
    "url": "https://runsignup.com/Race/TX/MarbleFalls/ReindeerDash",
    "website": null,
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-266707-1785458642.3573-0.bQA-_s.png",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-266707-1792707405.4084-0.bQ2OTn.jpg",
    "summary": "Come run through one of the prettiest little lake towns in the Texas Hill Country! The Reindeer Dash begins on historic Main Street in downtown Marble Falls, then takes you along the lakeside and through the city park.",
    "modified": "7/30/2026 20:44",
    "slug": "reindeer-dash"
@@ -37957,8 +37776,8 @@
    "url": "https://runsignup.com/Race/CA/HuntingtonBeach/MidWinterMagicWinterSolsticeKKAndHalfMarathon",
    "website": "http://califlowruns.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-239423-1780987953.3747-0.bQj7GX.png",
-   "summary": "‍♀️ 3rd Annual Santa Reindeer Run ✨. Bolsa Chica State Beach - Lot 25. Sunday, December 20, 2026. Get ready to jingle all the way at the 2nd Annual Santa Reindeer Run! Join us at beautiful Bolsa Chica State Beach for a festive morning of holiday vibes, ocean views, and Santa Claus himself!",
-   "modified": "10/16/2026 05:17",
+   "summary": "‍♀️ 3rd Annual Santa Reindeer Run ✨. Bolsa Chica State Beach - Lot 25. Sunday, December 20, 2026. Get ready to jingle all the way at the 3rd Annual Santa Reindeer Run! Join us at beautiful Bolsa Chica State Beach for a festive morning of holiday vibes, ocean views, and Santa Claus himself!",
+   "modified": "10/22/2026 13:51",
    "slug": "santas-reindeer-run-3rd-annual-5k-10k-and-half-marathon"
   },
   {
@@ -38498,7 +38317,7 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-279514-1787706477.571-0.bQJJXT.png",
    "summary": "Join the Christmas Run! Jingle All the Way: A Merry Christmas Run!",
-   "modified": "10/11/2026 12:00",
+   "modified": "10/22/2026 12:49",
    "slug": "a-merry-christmas-run-5k-10k-13-1-nyc-central"
   },
   {
@@ -39508,7 +39327,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-294824-1792651515.1668-0.bQ2Bd7.jpg",
    "summary": "Join us on Sunday (12/27/2026) for an exhilarating day of fitness at the winter-themed WARRIOR RUSH - Wrath of Boreas 5K, 10K, Half Marathon 13.1 Classic run. This event is perfect for runners of all levels, offering a choice of distances to fit your skill and ambition.",
-   "modified": "10/22/2026 04:43",
+   "modified": "10/22/2026 19:36",
    "slug": "warrior-rush-5k-10k-half-marathon-13-1-chicagoland"
   },
   {
@@ -40351,7 +40170,7 @@
    "priceFrom": 44,
    "priceTo": 44,
    "nextIncrease": {
-    "date": "2026-12-01",
+    "date": "2026-12-02",
     "event": "5K",
     "from": 44,
     "to": 49
@@ -40363,7 +40182,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race2263-logo-0.bGlfTu.png",
    "summary": "The Resolute Runner 5K is the KICK OFF PARTY OF THE YEAR! It's time to be RESOLUTE, to retroactively earn your pumpkin pie and chocolate truffles, and to start the new year on the right foot, literally! The course starts at Johnny Roberts Memorial Park in Arvada, CO, and winds through the beautiful Ralston Creek Trail.",
-   "modified": "10/1/2026 14:41",
+   "modified": "10/22/2026 21:32",
    "slug": "resolute-runner-5k"
   },
   {
@@ -40438,7 +40257,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-127645-1782932023.7264-0.bQrwi3.png",
    "summary": "The Resolution Run is Back! Start your New Year with purpose at the Resolution Run 5K and 1-Mile Walk, returning to Patterson Park on January 1! This beloved Baltimore tradition kicks off the year with community, connection, and a healthy dose of fresh air, all while supporting a vital local cause.",
-   "modified": "9/27/2026 12:44",
+   "modified": "10/22/2026 12:19",
    "slug": "resolution-run"
   },
   {
@@ -40913,7 +40732,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-231149-1752708554.0861-0.bOEdxk.jpg",
    "summary": "Celebrate The New Year With Us! Join us for 2027 and help us make it even better! We're giving out some goodies to the first couple registrations so don't miss out and register now! Our Half Marathon course is roughly 90% on a trail with the remaining 10% on asphalt. Below is a quick overview of the course.",
-   "modified": "6/5/2026 19:07",
+   "modified": "10/22/2026 19:28",
    "slug": "griffith-park-resolution-run"
   },
   {
@@ -41769,6 +41588,42 @@
    "slug": "altadena-forever-run-lasaa-mug-run"
   },
   {
+   "id": "rs-217563",
+   "metro": "nyc",
+   "source": "RunSignup",
+   "name": "Racefaster through the Mall: New Year's Run",
+   "date": "2027-01-10",
+   "endDate": "2027-01-10",
+   "start": "07:30",
+   "city": "East Rutherford",
+   "region": "new-jersey",
+   "street": "1 American Dream Wy",
+   "zip": "07073",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    }
+   ],
+   "cats": [
+    "5k"
+   ],
+   "trail": false,
+   "priceFrom": 45,
+   "priceTo": 45,
+   "nextIncrease": null,
+   "regOpen": "2025-12-15",
+   "regClose": "2027-01-10",
+   "open": true,
+   "url": "https://runsignup.com/Race/NJ/EastRutherford/RacefasterThroughTheMallNewYearSRun",
+   "website": "http://www.racefaster.net",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-244340-1734710133.964-0.bNzzn1.png",
+   "summary": "Kick Off the New Year in-DOORS! Start 2027 on the right foot at RaceFaster Through the Mall: New Year’s Run! Join us as we ring in the New Year with another incredible indoor 5K at American Dream! Forget the freezing temperatures, icy sidewalks, and winter weather.",
+   "modified": "10/22/2026 16:22",
+   "slug": "racefaster-through-the-mall-new-years-run"
+  },
+  {
    "source": "Official site",
    "open": true,
    "priceFrom": null,
@@ -41911,9 +41766,9 @@
    "open": true,
    "url": "https://runsignup.com/Race/WA/Seattle/UnicornsRainbowsFunRun",
    "website": "http://www.run2befit.com",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race120407-logo-0.bJt3SV.png",
-   "summary": "Let's begin 2026 on a very happy note. Because who doesn't like unicorns and rainbows? FAQs: https://run2befit.com/unicorns-%26-rainbows-5k-1.",
-   "modified": "9/22/2026 18:17",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-126983-1792710707.3002-0.bQ2PGZ.jpg",
+   "summary": "Let's begin 2026 on a very happy note. Start 2027 with a little sparkle, a lot of color, and some magical miles! Whether you run, walk, or skip to the finish line, everyone is welcome! Long-sleeve race shirt. Custom finisher woodle. FREE race photos. Fun photo opportunities. Finish-line goodies.",
+   "modified": "10/22/2026 19:12",
    "slug": "unicorns-and-rainbows-5k"
   },
   {
@@ -42532,7 +42387,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-266638-1768494059.0852-0.bPArpR.png",
    "summary": "Chase the Sun, Crushing your Goals! ‍♀️. Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There is no better way to start your day than stepping up to the starting line just as the world wakes up. Forget the massive, impersonal race-day crowds.",
-   "modified": "10/14/2026 08:26",
+   "modified": "10/22/2026 12:31",
    "slug": "sunrise-marathon-5k-10k-13-1-austin-roundrock-jan"
   },
   {
@@ -43478,7 +43333,7 @@
    "website": "https://www.tejastrails.com/sanmarcos",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-209262-1719946270.0232-0.bMHeWE.png",
    "summary": "Saturday, January 23, 2027. This is a trail party you won’t want to miss. Right in the heart of beautiful San Marcos, this race is a neighborhood race that feels like the middle of nowhere in the thick of the trail system.",
-   "modified": "10/20/2026 17:49",
+   "modified": "10/22/2026 12:22",
    "slug": "great-springs-trail-race-san-marcos"
   },
   {
@@ -44011,324 +43866,6 @@
    "slug": "18th-annual-f-3-lake-half-marathon-and-5k"
   },
   {
-   "id": "rs-209194",
-   "metro": "los-angeles",
-   "source": "RunSignup",
-   "name": "Coffee Lover Run LOS Angeles",
-   "date": "2027-01-30",
-   "endDate": "2027-01-30",
-   "start": "07:30",
-   "city": "Los Angeles",
-   "region": "westside-beaches",
-   "street": "Palisades Park (Course Map will be emailed)",
-   "zip": "90272",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": 30,
-   "priceTo": 45,
-   "nextIncrease": null,
-   "regOpen": "2026-01-12",
-   "regClose": "2027-01-30",
-   "open": true,
-   "url": "https://runsignup.com/Race/CA/LosAngeles/CoffeeLoverRunLOSANGELES",
-   "website": "https://www.thebestraces.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-284717-1787794126.0627-0.bQJ5lo.png",
-   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "10/10/2026 12:18",
-   "slug": "coffee-lover-run-los-angeles"
-  },
-  {
-   "id": "rs-209504",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Coffee Lover Run NYC",
-   "date": "2027-01-30",
-   "endDate": "2027-01-30",
-   "start": "07:30",
-   "city": "New York City",
-   "region": "manhattan",
-   "street": "Hudson River Trails (Course Map will be emailed)",
-   "zip": "10001",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": 30,
-   "priceTo": 45,
-   "nextIncrease": null,
-   "regOpen": "2026-01-12",
-   "regClose": "2027-01-30",
-   "open": true,
-   "url": "https://runsignup.com/Race/NY/NewYorkCity/CoffeeLoverRunNYC",
-   "website": "https://www.thebestraces.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285095-1787794892.0588-0.bQJ5xm.png",
-   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "10/10/2026 12:31",
-   "slug": "coffee-lover-run-nyc"
-  },
-  {
-   "id": "rs-209505",
-   "metro": "nyc",
-   "source": "RunSignup",
-   "name": "Coffee Lover Run NYC Central",
-   "date": "2027-01-30",
-   "endDate": "2027-01-30",
-   "start": "07:30",
-   "city": "New York City",
-   "region": "manhattan",
-   "street": "NYC Central (Course Map will be emailed)",
-   "zip": "10025",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": 30,
-   "priceTo": 45,
-   "nextIncrease": null,
-   "regOpen": "2026-01-12",
-   "regClose": "2027-01-30",
-   "open": true,
-   "url": "https://runsignup.com/Race/NY/NewYorkCity/CoffeeLoverRunNYCCentral",
-   "website": "https://www.thebestraces.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285097-1787795035.1366-0.bQJ5zB.png",
-   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "10/12/2026 12:55",
-   "slug": "coffee-lover-run-nyc-central"
-  },
-  {
-   "id": "rs-209513",
-   "metro": "san-diego",
-   "source": "RunSignup",
-   "name": "Coffee Lover Run SAN Diego",
-   "date": "2027-01-30",
-   "endDate": "2027-01-30",
-   "start": "07:30",
-   "city": "San Diego",
-   "region": "city",
-   "street": "Liberty Station (Course Map will be emailed)",
-   "zip": "92106",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": 30,
-   "priceTo": 45,
-   "nextIncrease": null,
-   "regOpen": "2026-01-12",
-   "regClose": "2027-01-30",
-   "open": true,
-   "url": "https://runsignup.com/Race/CA/SanDiego/CoffeeLoverRunSANDIEGO",
-   "website": "https://www.thebestraces.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285105-1787795560.9328-0.bQJ5HO.png",
-   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "10/10/2026 12:45",
-   "slug": "coffee-lover-run-san-diego"
-  },
-  {
-   "id": "rs-209514",
-   "metro": "bay-area",
-   "source": "RunSignup",
-   "name": "Coffee Lover Run San Francisco",
-   "date": "2027-01-30",
-   "endDate": "2027-01-30",
-   "start": "07:30",
-   "city": "San Francisco",
-   "region": "san-francisco",
-   "street": "Crissy Field (Course Map will be emailed)",
-   "zip": "94129",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": 30,
-   "priceTo": 45,
-   "nextIncrease": null,
-   "regOpen": "2026-01-12",
-   "regClose": "2027-01-30",
-   "open": true,
-   "url": "https://runsignup.com/Race/CA/SanFrancisco/CoffeeLoverRunSANFRANCISCO",
-   "website": "https://www.thebestraces.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285106-1787795679.8009-0.bQJ5JF.png",
-   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "10/10/2026 12:48",
-   "slug": "coffee-lover-run-san-francisco"
-  },
-  {
-   "id": "rs-209515",
-   "metro": "seattle",
-   "source": "RunSignup",
-   "name": "Coffee Lover Run Seattle",
-   "date": "2027-01-30",
-   "endDate": "2027-01-30",
-   "start": "07:30",
-   "city": "Seattle",
-   "region": "city",
-   "street": "7400 Sand Point Way NE (Course Map will be emailed)",
-   "zip": "98115",
-   "distances": [
-    {
-     "label": "1 mile",
-     "cat": "other",
-     "km": 1.61
-    },
-    {
-     "label": "5K",
-     "cat": "5k",
-     "km": 5
-    },
-    {
-     "label": "10K",
-     "cat": "10k",
-     "km": 10
-    },
-    {
-     "label": "Half marathon",
-     "cat": "half",
-     "km": 21.08
-    }
-   ],
-   "cats": [
-    "5k",
-    "10k",
-    "half"
-   ],
-   "trail": false,
-   "priceFrom": 30,
-   "priceTo": 45,
-   "nextIncrease": null,
-   "regOpen": "2026-01-12",
-   "regClose": "2027-01-30",
-   "open": true,
-   "url": "https://runsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE",
-   "website": "https://www.thebestraces.com/",
-   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285107-1787795778.9654-0.bQJ5Lc.png",
-   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! The first 5 runners, we'll send you some coffee. Forget the massive, impersonal race-day crowds.",
-   "modified": "10/10/2026 12:50",
-   "slug": "coffee-lover-run-seattle"
-  },
-  {
    "id": "rs-209486",
    "metro": "austin",
    "source": "RunSignup",
@@ -44488,6 +44025,324 @@
    "slug": "coffee-lovers-run-denver-aurora"
   },
   {
+   "id": "rs-209194",
+   "metro": "los-angeles",
+   "source": "RunSignup",
+   "name": "Coffee Lovers Run LOS Angeles",
+   "date": "2027-01-30",
+   "endDate": "2027-01-30",
+   "start": "07:30",
+   "city": "Los Angeles",
+   "region": "westside-beaches",
+   "street": "Palisades Park (Course Map will be emailed)",
+   "zip": "90272",
+   "distances": [
+    {
+     "label": "1 mile",
+     "cat": "other",
+     "km": 1.61
+    },
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k",
+    "half"
+   ],
+   "trail": false,
+   "priceFrom": 30,
+   "priceTo": 45,
+   "nextIncrease": null,
+   "regOpen": "2026-01-12",
+   "regClose": "2027-01-30",
+   "open": true,
+   "url": "https://runsignup.com/Race/CA/LosAngeles/CoffeeLoverRunLOSANGELES",
+   "website": "https://www.thebestraces.com/",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-284717-1787794126.0627-0.bQJ5lo.png",
+   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
+   "modified": "10/22/2026 06:22",
+   "slug": "coffee-lovers-run-los-angeles"
+  },
+  {
+   "id": "rs-209504",
+   "metro": "nyc",
+   "source": "RunSignup",
+   "name": "Coffee Lovers Run NYC",
+   "date": "2027-01-30",
+   "endDate": "2027-01-30",
+   "start": "07:30",
+   "city": "New York City",
+   "region": "manhattan",
+   "street": "Hudson River Trails (Course Map will be emailed)",
+   "zip": "10001",
+   "distances": [
+    {
+     "label": "1 mile",
+     "cat": "other",
+     "km": 1.61
+    },
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k",
+    "half"
+   ],
+   "trail": false,
+   "priceFrom": 30,
+   "priceTo": 45,
+   "nextIncrease": null,
+   "regOpen": "2026-01-12",
+   "regClose": "2027-01-30",
+   "open": true,
+   "url": "https://runsignup.com/Race/NY/NewYorkCity/CoffeeLoverRunNYC",
+   "website": "https://www.thebestraces.com/",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285095-1787794892.0588-0.bQJ5xm.png",
+   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
+   "modified": "10/22/2026 06:29",
+   "slug": "coffee-lovers-run-nyc"
+  },
+  {
+   "id": "rs-209505",
+   "metro": "nyc",
+   "source": "RunSignup",
+   "name": "Coffee Lovers Run NYC Central",
+   "date": "2027-01-30",
+   "endDate": "2027-01-30",
+   "start": "07:30",
+   "city": "New York City",
+   "region": "manhattan",
+   "street": "NYC Central (Course Map will be emailed)",
+   "zip": "10025",
+   "distances": [
+    {
+     "label": "1 mile",
+     "cat": "other",
+     "km": 1.61
+    },
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k",
+    "half"
+   ],
+   "trail": false,
+   "priceFrom": 30,
+   "priceTo": 45,
+   "nextIncrease": null,
+   "regOpen": "2026-01-12",
+   "regClose": "2027-01-30",
+   "open": true,
+   "url": "https://runsignup.com/Race/NY/NewYorkCity/CoffeeLoverRunNYCCentral",
+   "website": "https://www.thebestraces.com/",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285097-1787795035.1366-0.bQJ5zB.png",
+   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
+   "modified": "10/22/2026 06:29",
+   "slug": "coffee-lovers-run-nyc-central"
+  },
+  {
+   "id": "rs-209513",
+   "metro": "san-diego",
+   "source": "RunSignup",
+   "name": "Coffee Lovers Run SAN Diego",
+   "date": "2027-01-30",
+   "endDate": "2027-01-30",
+   "start": "07:30",
+   "city": "San Diego",
+   "region": "city",
+   "street": "Liberty Station (Course Map will be emailed)",
+   "zip": "92106",
+   "distances": [
+    {
+     "label": "1 mile",
+     "cat": "other",
+     "km": 1.61
+    },
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k",
+    "half"
+   ],
+   "trail": false,
+   "priceFrom": 30,
+   "priceTo": 45,
+   "nextIncrease": null,
+   "regOpen": "2026-01-12",
+   "regClose": "2027-01-30",
+   "open": true,
+   "url": "https://runsignup.com/Race/CA/SanDiego/CoffeeLoverRunSANDIEGO",
+   "website": "https://www.thebestraces.com/",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285105-1787795560.9328-0.bQJ5HO.png",
+   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
+   "modified": "10/22/2026 06:32",
+   "slug": "coffee-lovers-run-san-diego"
+  },
+  {
+   "id": "rs-209514",
+   "metro": "bay-area",
+   "source": "RunSignup",
+   "name": "Coffee Lovers Run San Francisco",
+   "date": "2027-01-30",
+   "endDate": "2027-01-30",
+   "start": "07:30",
+   "city": "San Francisco",
+   "region": "san-francisco",
+   "street": "Crissy Field (Course Map will be emailed)",
+   "zip": "94129",
+   "distances": [
+    {
+     "label": "1 mile",
+     "cat": "other",
+     "km": 1.61
+    },
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k",
+    "half"
+   ],
+   "trail": false,
+   "priceFrom": 30,
+   "priceTo": 45,
+   "nextIncrease": null,
+   "regOpen": "2026-01-12",
+   "regClose": "2027-01-30",
+   "open": true,
+   "url": "https://runsignup.com/Race/CA/SanFrancisco/CoffeeLoverRunSANFRANCISCO",
+   "website": "https://www.thebestraces.com/",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285106-1787795679.8009-0.bQJ5JF.png",
+   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
+   "modified": "10/22/2026 06:32",
+   "slug": "coffee-lovers-run-san-francisco"
+  },
+  {
+   "id": "rs-209515",
+   "metro": "seattle",
+   "source": "RunSignup",
+   "name": "Coffee Lovers Run Seattle",
+   "date": "2027-01-30",
+   "endDate": "2027-01-30",
+   "start": "07:30",
+   "city": "Seattle",
+   "region": "city",
+   "street": "7400 Sand Point Way NE (Course Map will be emailed)",
+   "zip": "98115",
+   "distances": [
+    {
+     "label": "1 mile",
+     "cat": "other",
+     "km": 1.61
+    },
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "10K",
+     "cat": "10k",
+     "km": 10
+    },
+    {
+     "label": "Half marathon",
+     "cat": "half",
+     "km": 21.08
+    }
+   ],
+   "cats": [
+    "5k",
+    "10k",
+    "half"
+   ],
+   "trail": false,
+   "priceFrom": 30,
+   "priceTo": 45,
+   "nextIncrease": null,
+   "regOpen": "2026-01-12",
+   "regClose": "2027-01-30",
+   "open": true,
+   "url": "https://runsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE",
+   "website": "https://www.thebestraces.com/",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285107-1787795778.9654-0.bQJ5Lc.png",
+   "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! The first 5 runners, we'll send you some coffee. Forget the massive, impersonal race-day crowds.",
+   "modified": "10/22/2026 06:33",
+   "slug": "coffee-lovers-run-seattle"
+  },
+  {
    "id": "rs-56157",
    "metro": "bay-area",
    "source": "RunSignup",
@@ -44574,7 +44429,7 @@
    "website": "https://www.sassquadtrailrunning.com/frostysquatchy",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285501-1785882705.6579-0.bQCMHr.png",
    "summary": "The Frosty Squatchy is a Trail Party for runners and hikers of all ages and paces. Join us on January 30, 2027 for the 10th annual Frosty Fat Sass! Runners and hikers can sign-up for a 5k, 3 hours or 6 hours.",
-   "modified": "10/20/2026 12:42",
+   "modified": "10/22/2026 17:12",
    "slug": "frosty-squatchy"
   },
   {
@@ -45081,7 +44936,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-266638-1768494059.0852-0.bPArpR.png",
    "summary": "Donut Mind If I Do! ‍♂️. Get ready for a race day fueled by laughter, community, and a shared love for the world's best treat! ✨ The 2027 Run for Donut is the ultimate celebration for runners who believe that fitness and sweet cravings can go hand in hand.",
-   "modified": "10/8/2026 09:19",
+   "modified": "10/22/2026 12:49",
    "slug": "run-for-donut-nyc-central"
   },
   {
@@ -45447,15 +45302,20 @@
    "trail": true,
    "priceFrom": 50,
    "priceTo": 125,
-   "nextIncrease": null,
+   "nextIncrease": {
+    "date": "2026-10-25",
+    "event": "5K",
+    "from": 50,
+    "to": 55
+   },
    "regOpen": "2026-10-23",
    "regClose": "2027-01-27",
-   "open": false,
+   "open": true,
    "url": "https://runsignup.com/Race/MD/Columbia/LittlePatuxentRiverHalfMarathon10K",
    "website": "https://www.rivalraceseries.com/littlepatuxentriverrun",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-124325-1730136842.6297-0.bNh8Sk.jpg",
    "summary": "Enjoy nature in one of the most beautiful areas of Columbia, MD. Starting and finishing at the Guilford Pratt Truss Bridge, the half marathon (13.1 miles), 10K (6.55 miles) and 5K (3.1 miles) takes place on the Patuxent and Wincopin trails. The course runs along the Little Patuxent and Middle Patuxent River.",
-   "modified": "10/20/2026 13:56",
+   "modified": "10/23/2026 06:03",
    "slug": "little-patuxent-river-half-marathon-10k-and-5k"
   },
   {
@@ -46898,13 +46758,13 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 35,
-   "priceTo": 35,
+   "priceFrom": 39,
+   "priceTo": 39,
    "nextIncrease": {
-    "date": "2027-01-01",
+    "date": "2026-11-15",
     "event": "5K",
-    "from": 35,
-    "to": 40
+    "from": 39,
+    "to": 44
    },
    "regOpen": "2026-03-01",
    "regClose": "2027-02-13",
@@ -46913,7 +46773,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-9253-1764180007.3107-0.bPj0aN.png",
    "summary": "Are you a Heart Throb? Grab your best running buddy and come on out to Johnny Roberts Memorial Park just down from Olde Town Arvada. Celebrate the ability to get your heart pumping by cruising through this flat and fast 5k run (or walk!",
-   "modified": "10/13/2026 17:18",
+   "modified": "10/22/2026 21:39",
    "slug": "heart-throb-5k"
   },
   {
@@ -48076,7 +47936,7 @@
    "name": "Coronado Valentine's Day 10K, 5K and 1 Mile Fun Run/Walk",
    "date": "2027-02-14",
    "endDate": "2027-02-14",
-   "start": "08:00",
+   "start": "07:30",
    "city": "Coronado",
    "region": "city",
    "street": "2000 Mullinex Dr.",
@@ -48117,8 +47977,8 @@
    "url": "https://runsignup.com/Race/CA/Coronado/CoronadoValentineSDay10K5KAnd1MileFunRunWalk",
    "website": "https://www.valentinesday10k.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-275490-1771545258.0029-0.bPL6kQ.png",
-   "summary": "‍♀️ ‍♂️ Join the Coronado Valentine's Day 10K, 5K, & 1 Mile Run! ❤️. Date: Sunday, February 14th, 2027. Join us for Love in the morning and Football in the evening! Love to run or Just Have Fun? Sign up today. Don't miss this chance to celebrate fitness, friendship, and love on this flat and fast course!",
-   "modified": "9/1/2026 21:20",
+   "summary": "A Valentine's Day worth getting up for. Celebrate Sunday, February 14, 2027 at Tidelands Park with the Coronado Valentine's Day 10K, 5K & 1 Mile Run. Come as a couple, bring your friends, or join us solo for a scenic San Diego Bay running experience. 1 Mile Fun Run: 7:30 AM | 10K & 5K: 8:00 AM.",
+   "modified": "10/22/2026 18:45",
    "slug": "coronado-valentines-day-10k-5k-and-1-mile-fun-run-walk"
   },
   {
@@ -48338,8 +48198,8 @@
     "trail"
    ],
    "trail": true,
-   "priceFrom": 30,
-   "priceTo": 30,
+   "priceFrom": 35,
+   "priceTo": 35,
    "nextIncrease": null,
    "regOpen": "2026-07-29",
    "regClose": "2027-02-14",
@@ -48348,7 +48208,7 @@
    "website": "https://www.sassquadtrailrunning.com/onesiefest5k",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285502-1785882770.9682-0.bQCMIs.png",
    "summary": "Join us on Sunday February 14, 2027 at the Ramapo Valley County Reservation for the Squatchy Onesiefest 5K and Fun Run! Come sporting your favorite onesie and get ready to make some trail running/hiking memories that will last a lifetime.",
-   "modified": "10/20/2026 12:42",
+   "modified": "10/22/2026 17:12",
    "slug": "squatchy-onesiefest"
   },
   {
@@ -48436,8 +48296,8 @@
    "url": "https://runsignup.com/Race/NJ/JerseyCity/TheJCValentineHalfMarathon10K5K",
    "website": "https://www.citytrirace.com/race/valentines-jc",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-265491-1791395107.3027-0.bQXOuJ.png",
-   "summary": "The JC Valentine's Half Marathon, 10K, 5K takes place in Lincoln Park, a place that is not only historic, it’s beautiful!!! We are proud and excited to hold the 3rd Annual running event to support an incredible non-profit organization, Sustainable Jersey City.",
-   "modified": "10/9/2026 17:00",
+   "summary": "The JC Valentine's Half Marathon, 10K, 5K takes place in Lincoln Park, a place that is not only historic, it’s beautiful!!! We are proud and excited to hold the 4th Annual running event to support an incredible non-profit organization, Sustainable Jersey City.",
+   "modified": "10/22/2026 14:37",
    "slug": "the-jc-valentines-half-marathon-10k-5k"
   },
   {
@@ -49008,7 +48868,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-264235-1787780940.5554-0.bQJ19m.png",
    "summary": "Location Pending: SE Metro Park.",
-   "modified": "10/14/2026 14:01",
+   "modified": "10/22/2026 12:55",
    "slug": "mardi-gras-madness-austin"
   },
   {
@@ -49308,7 +49168,7 @@
    "website": "http://corona5000.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-264798-1760382184.2906-0.bO7uZO.png",
    "summary": "From 1913-1916, the roar of engines and the thrill of speeds approaching 100 mph electrified Grand Boulevard in Corona, as up to 100,000 spectators cheered during the legendary Corona Road Races. This perfect circle in the heart of “Circle City” was the stage for automotive history.",
-   "modified": "10/8/2026 13:49",
+   "modified": "10/22/2026 08:46",
    "slug": "corona-5000"
   },
   {
@@ -49446,7 +49306,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289796-1787663278.8511-0.bQJzoU.png",
    "summary": "Join the Run for Mental Health! A journey of hope and connection. Every step is a reminder that no one has to face life’s challenges alone. Whether running for yourself or someone you love, your stride makes a difference. Let's break the stigma together! ‍♀️ ‍♂️. Run with purpose. Run with heart!",
-   "modified": "10/20/2026 21:50",
+   "modified": "10/22/2026 23:13",
    "slug": "run-for-mental-health-austin-roundrock"
   },
   {
@@ -49499,7 +49359,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289796-1787663278.8511-0.bQJzoU.png",
    "summary": "Join the Run for Mental Health! A journey of hope and connection. Every step is a reminder that no one has to face life’s challenges alone. Whether running for yourself or someone you love, your stride makes a difference. Let's break the stigma together! ‍♀️ ‍♂️. Run with purpose. Run with heart!",
-   "modified": "10/11/2026 11:03",
+   "modified": "10/22/2026 23:17",
    "slug": "run-for-mental-health-chicago-evanston"
   },
   {
@@ -49552,7 +49412,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289796-1787663278.8511-0.bQJzoU.png",
    "summary": "Join the Run for Mental Health! A journey of hope and connection. Every step is a reminder that no one has to face life’s challenges alone. Whether running for yourself or someone you love, your stride makes a difference. Let's break the stigma together! ‍♀️ ‍♂️. Run with purpose. Run with heart!",
-   "modified": "10/11/2026 11:16",
+   "modified": "10/22/2026 23:29",
    "slug": "run-for-mental-health-denver-aurora"
   },
   {
@@ -49605,7 +49465,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289796-1787663278.8511-0.bQJzoU.png",
    "summary": "Join the Run for Mental Health! A journey of hope and connection. Every step is a reminder that no one has to face life’s challenges alone. Whether running for yourself or someone you love, your stride makes a difference. Let's break the stigma together! ‍♀️ ‍♂️. Run with purpose. Run with heart!",
-   "modified": "10/11/2026 11:34",
+   "modified": "10/22/2026 23:47",
    "slug": "run-for-mental-health-los-angeles"
   },
   {
@@ -49711,7 +49571,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289796-1787663278.8511-0.bQJzoU.png",
    "summary": "Join the Run for Mental Health! A journey of hope and connection. Every step is a reminder that no one has to face life’s challenges alone. Whether running for yourself or someone you love, your stride makes a difference. Let's break the stigma together! ‍♀️ ‍♂️. Run with purpose. Run with heart!",
-   "modified": "10/11/2026 12:00",
+   "modified": "10/22/2026 12:49",
    "slug": "run-for-mental-health-nyc-central"
   },
   {
@@ -50710,7 +50570,7 @@
    "website": "https://www.wildroverseries.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-145856-1792634935.3772-0.bQ2xa3.png",
    "summary": "3 Sundays of Irish-Themed Racing & Celebration! Starting February 28, 2027, shake off the winter blues at the Frozen Shamrock 3-Miler in historic Haverhill.",
-   "modified": "10/21/2026 22:50",
+   "modified": "10/22/2026 08:12",
    "slug": "20th-wild-rover-series"
   },
   {
@@ -50822,22 +50682,22 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 43,
-   "priceTo": 43,
+   "priceFrom": 44,
+   "priceTo": 44,
    "nextIncrease": {
-    "date": "2026-11-07",
+    "date": "2026-11-30",
     "event": "5K",
-    "from": 43,
-    "to": 48
+    "from": 44,
+    "to": 49
    },
-   "regOpen": "2026-03-07",
+   "regOpen": "2026-03-01",
    "regClose": "2027-02-28",
    "open": true,
    "url": "https://runsignup.com/Race/CO/HighlandsRanch/HighlandsRanch5k10k",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race84048-logo-0.bMfg8m.png",
    "summary": "Winter never disappoints us when racing in February in Highlands Ranch! You won't feel chilly after a course so hilly! After conquering the 5k, warm up with hot apple cider or hot cocoa at the finish line in your new FINISHER mug! Click the race info tab above and scroll through the drop-down menu for more race info!",
-   "modified": "10/13/2026 17:22",
+   "modified": "10/22/2026 22:18",
    "slug": "highlands-ranch-5k"
   },
   {
@@ -50940,7 +50800,7 @@
    "website": "http://www.navyraces.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-266015-1778800892.5654-0.bQbLJ8.png",
    "summary": "Run with Honor. Endure with Courage. Finish with Commitment. The Navy Ten-Miler brings together athletes, service members, veterans, and civilians to honor the Navy’s core values of Honor, Courage, and Commitment. Whether you're a seasoned runner or searching for your next challenge, this is your call to RUN NAVY.",
-   "modified": "10/21/2026 15:26",
+   "modified": "10/22/2026 13:34",
    "slug": "navy-ten-miler"
   },
   {
@@ -51487,7 +51347,7 @@
    "website": "https://www.tejastrails.com/austin",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-232955-1720464233.4365-0.bMJdnP.png",
    "summary": "Saturday, March 6, 2027. This race has it all and is right in Austin’s backyard. With over six miles of real trails surrounded by woods and streams, you will forget you are in the heart of one of the largest cities in Texas. The course features single tracks, rolling hills, fast downhills, and the Tejas Trails spirit.",
-   "modified": "10/20/2026 21:24",
+   "modified": "10/22/2026 12:23",
    "slug": "great-springs-trail-race-austin"
   },
   {
@@ -51822,7 +51682,7 @@
    "website": "https://www.sassquadtrailrunning.com/squatchapple",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285505-1785882740.2327-0.bQCMH0.png",
    "summary": "There is the Fallapple, the Mayapple, the Febapple and THE SQUATCHAPPLE!! Join us on Saturday March 7, 2026 for the Squatchapple Trail Race at the South Mountain Reservation in West Orange, NJ! With distances for everyone, this trail party is open to runners and hikers of all ages and paces.",
-   "modified": "10/20/2026 12:42",
+   "modified": "10/22/2026 17:20",
    "slug": "squatchapple"
   },
   {
@@ -51851,7 +51711,7 @@
    "nextIncrease": null,
    "regOpen": "2026-10-22",
    "regClose": "2027-03-07",
-   "open": false,
+   "open": true,
    "url": "https://runsignup.com/Race/CA/HermosaBeach/SandySaute",
    "website": "http://pantsoffracing.com/register",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race124416-logo-0.bInqmV.png",
@@ -53422,7 +53282,7 @@
    "website": "https://www.baltimoreshamrock5k.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-32801-1788708198.813-0.bQNyvM.png",
    "summary": "Baltimore's biggest St. Patrick's Day celebration starts with a 5K! Join the Sea of Green on Sunday, March 14th for a downhill, FAST course through Baltimore (runner & walker friendly!) that finishes at Power Plant Live! It's a race you'll love, with a party you'll never forget. The Altra Kelly Benefits St.",
-   "modified": "10/9/2026 10:28",
+   "modified": "10/22/2026 12:08",
    "slug": "altra-kelly-benefits-st-patricks-day-shamrock-5k"
   },
   {
@@ -54079,7 +53939,7 @@
    "website": "https://www.tejastrails.com/hippo",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-234989-1722789026.557-0.bMR6YI.png",
    "summary": "March 20, 2027. Welcome to Hutto, TX, home of the hippos! We have partnered with the coolest people ever, founders of the Hippo Social Club and Patriot Sports & Fitness to bring to you the Hippo Trail Fest!",
-   "modified": "10/20/2026 21:27",
+   "modified": "10/22/2026 12:21",
    "slug": "hippo-trail-fest"
   },
   {
@@ -55031,7 +54891,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287574-1792477769.4715-0.bQ1WPj.png",
    "summary": "Chase the Sun, Crushing your Goals! ‍♀️. Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There is no better way to start your day than stepping up to the starting line just as the world wakes up. Forget the massive, impersonal race-day crowds.",
-   "modified": "10/20/2026 02:29",
+   "modified": "10/22/2026 23:13",
    "slug": "sunrise-marathon-5k-10k-13-1-austin-roundrock-mar"
   },
   {
@@ -55084,7 +54944,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287575-1792477790.3194-0.bQ1WPE.png",
    "summary": "Chase the Sun, Crushing your Goals! ‍♀️. Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There is no better way to start your day than stepping up to the starting line just as the world wakes up. Forget the massive, impersonal race-day crowds.",
-   "modified": "10/20/2026 02:29",
+   "modified": "10/22/2026 23:17",
    "slug": "sunrise-marathon-5k-10k-13-1-chicago-evanston-mar"
   },
   {
@@ -55137,7 +54997,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287595-1792477834.3704-0.bQ1WQk.png",
    "summary": "Chase the Sun, Crushing your Goals! ‍♀️. Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There is no better way to start your day than stepping up to the starting line just as the world wakes up. Forget the massive, impersonal race-day crowds.",
-   "modified": "10/20/2026 02:30",
+   "modified": "10/22/2026 23:29",
    "slug": "sunrise-marathon-5k-10k-13-1-denver-aurora-mar"
   },
   {
@@ -55190,7 +55050,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-286244-1792478035.9916-0.bQ1WTt.png",
    "summary": "Chase the Sun, Crushing your Goals! ‍♀️. Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There is no better way to start your day than stepping up to the starting line just as the world wakes up. Forget the massive, impersonal race-day crowds.",
-   "modified": "10/20/2026 02:33",
+   "modified": "10/22/2026 23:47",
    "slug": "sunrise-marathon-5k-10k-13-1-los-angeles-mar"
   },
   {
@@ -57285,7 +57145,7 @@
    "website": "https://themicro.run",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-259019-1771807617.6923-0.bPM6ob.png",
    "summary": "A Race Series Designed by Runners, for Runners. In 2021, the coaches of the McKirdy Trained online coaching platform created the McKirdy Micro Marathon series to give athletes an opportunity to race. The mission was to help athletes run a personal best and qualify for the Boston Marathon or beyond.",
-   "modified": "10/18/2026 13:18",
+   "modified": "10/22/2026 19:25",
    "slug": "the-micro-breaking-3"
   },
   {
@@ -57463,7 +57323,7 @@
    "website": "https://themicro.run",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-260517-1783502272.4362-0.bQtHxa.png",
    "summary": "A Race Series Designed by Runners, for Runners. In 2021, the coaches of the McKirdy Trained online coaching platform created the McKirdy Micro Marathon series to give athletes an opportunity to race. The mission was to help athletes run a personal best and qualify for the Boston Marathon or beyond.",
-   "modified": "10/18/2026 13:15",
+   "modified": "10/22/2026 19:25",
    "slug": "the-micro-microtq"
   },
   {
@@ -57547,7 +57407,7 @@
    "website": "https://www.sassquadtrailrunning.com/bigbearsquatchnorth",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285507-1785882685.6439-0.bQCMG9.png",
    "summary": "Sassquad and the New York-New Jersey Trail Conference are proud to present the 6th Annual Harriman Big Bear SquaTCh North at Harriman State Park in Bear Mountain, New York! Join us at 9am on Saturday April 3, 2027 for this trail party!",
-   "modified": "10/20/2026 12:42",
+   "modified": "10/22/2026 17:19",
    "slug": "big-bear-squatch-north"
   },
   {
@@ -57919,15 +57779,20 @@
    "trail": false,
    "priceFrom": 38,
    "priceTo": 43,
-   "nextIncrease": null,
+   "nextIncrease": {
+    "date": "2026-10-26",
+    "event": "5K",
+    "from": 38,
+    "to": 40
+   },
    "regOpen": "2026-10-22",
    "regClose": "2027-04-04",
-   "open": false,
+   "open": true,
    "url": "https://runsignup.com/Race/CA/Arcadia/SantaAnitaDerbyDay5K",
    "website": "https://derbyday5k.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-92292-1756166636.8406-0.bORpNS.png",
    "summary": "Race like a Champion. Enjoy world-class horse racing and make a day of it with family and friends! Event Highlights. Scenic Course: Run or walk a 5K through the picturesque Los Angeles Arboretum, surrounded by lush greenery and stunning botanical gardens, before finishing on the iconic Santa Anita Race Track.",
-   "modified": "10/21/2026 23:09",
+   "modified": "10/22/2026 19:26",
    "slug": "santa-anita-derby-day-5k"
   },
   {
@@ -58357,7 +58222,7 @@
    "website": "http://unitedwaycm.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287009-1790097980.1592-0.bQSRO8.png",
    "summary": "For the first time in more than a decade, runners will once again have the chance to race a half marathon in Worcester.",
-   "modified": "10/21/2026 16:26",
+   "modified": "10/22/2026 16:20",
    "slug": "the-mass-half"
   },
   {
@@ -58851,7 +58716,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289806-1788171259.0914-0.bQLvp7.png",
    "summary": "Smooth vibes. Sweet energy. Bold moves. PB&J Fuel Run is all about a combo that just works. Mix your pace, spread the fun, and stick with it all the way to the finish. No stress, no expectations, just miles that feel good and a finish that feels even better.",
-   "modified": "10/8/2026 10:17",
+   "modified": "10/22/2026 23:13",
    "slug": "run-for-pb-and-j-5k-10k-13-1-austin-roundrock"
   },
   {
@@ -58904,7 +58769,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289806-1788171259.0914-0.bQLvp7.png",
    "summary": "Smooth vibes. Sweet energy. Bold moves. PB&J Fuel Run is all about a combo that just works. Mix your pace, spread the fun, and stick with it all the way to the finish. No stress, no expectations, just miles that feel good and a finish that feels even better.",
-   "modified": "10/8/2026 10:17",
+   "modified": "10/22/2026 23:17",
    "slug": "run-for-pb-and-j-5k-10k-13-1-chicago-evanston"
   },
   {
@@ -58957,7 +58822,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289806-1788171259.0914-0.bQLvp7.png",
    "summary": "Smooth vibes. Sweet energy. Bold moves. PB&J Fuel Run is all about a combo that just works. Mix your pace, spread the fun, and stick with it all the way to the finish. No stress, no expectations, just miles that feel good and a finish that feels even better.",
-   "modified": "10/8/2026 10:18",
+   "modified": "10/22/2026 23:29",
    "slug": "run-for-pb-and-j-5k-10k-13-1-denver-aurora"
   },
   {
@@ -59010,7 +58875,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289806-1788171259.0914-0.bQLvp7.png",
    "summary": "Smooth vibes. Sweet energy. Bold moves. PB&J Fuel Run is all about a combo that just works. Mix your pace, spread the fun, and stick with it all the way to the finish. No stress, no expectations, just miles that feel good and a finish that feels even better.",
-   "modified": "10/8/2026 10:25",
+   "modified": "10/22/2026 23:47",
    "slug": "run-for-pb-and-j-5k-10k-13-1-los-angeles"
   },
   {
@@ -59381,7 +59246,7 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287431-1787923667.6531-0.bQKyZt.png",
    "summary": "Love running (eventually)? Love taking it easy? This one's for you. This run is all about taking it slow, having fun, and soaking up the community. No rush. No pressure. Just good vibes and good people. Forget the massive, impersonal race-day crowds.",
-   "modified": "10/11/2026 10:42",
+   "modified": "10/22/2026 12:31",
    "slug": "sloth-run-5k-10k-13-1-austin-roundrock"
   },
   {
@@ -60091,7 +59956,7 @@
    "website": "https://wildflowerrun.org",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-143028-1760630980.9756-0.bO8rJe.jpg",
    "summary": "The AAUW Wildflower Run raises money for scholarships and leadership programs for women & girls and community grants. (For information about our organization, go to www.aauwmh.org.) 10K Run, 5K Run, and 5K Walk are all on country roads with chip timing.",
-   "modified": "10/21/2026 14:14",
+   "modified": "10/22/2026 21:25",
    "slug": "morgan-hill-aauw-wildflower-run"
   },
   {
@@ -61616,7 +61481,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-34411-1790263535.0952-0.bQTudV.jpg",
    "summary": "The 131st Boston Marathon is scheduled for April 19, 2027. As a member of the Semper Fi & America's Fund Team you will be provided with support from Semper Fi & America's Fund Community Sports Team throughout the training and fundraising process, an easy to use RunSignup.",
-   "modified": "10/21/2026 07:06",
+   "modified": "10/22/2026 15:35",
    "slug": "semper-fi-and-americas-fund-team-131st-boston-marathon-presented-by-ba"
   },
   {
@@ -61718,7 +61583,7 @@
    "id": "rs-211441",
    "metro": "austin",
    "source": "RunSignup",
-   "name": "Coffee Lover Run Austin/Roundrock",
+   "name": "Coffee Lovers Run Austin/Roundrock",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -61764,14 +61629,14 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287461-1787970084.6118-0.bQKKiK.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "9/22/2026 08:34",
-   "slug": "coffee-lover-run-austin-roundrock"
+   "modified": "10/22/2026 23:13",
+   "slug": "coffee-lovers-run-austin-roundrock-apr"
   },
   {
    "id": "rs-211443",
    "metro": "chicago",
    "source": "RunSignup",
-   "name": "Coffee Lover Run Chicago/Evanston",
+   "name": "Coffee Lovers Run Chicago/Evanston",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -61817,14 +61682,14 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287463-1787970176.8671-0.bQKKka.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "9/22/2026 08:34",
-   "slug": "coffee-lover-run-chicago-evanston"
+   "modified": "10/22/2026 23:17",
+   "slug": "coffee-lovers-run-chicago-evanston-apr"
   },
   {
    "id": "rs-211446",
    "metro": "denver-boulder",
    "source": "RunSignup",
-   "name": "Coffee Lover Run Denver/Aurora",
+   "name": "Coffee Lovers Run Denver/Aurora",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -61870,14 +61735,14 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287466-1787970456.5692-0.bQKKoy.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "9/22/2026 08:35",
-   "slug": "coffee-lover-run-denver-aurora"
+   "modified": "10/22/2026 23:29",
+   "slug": "coffee-lovers-run-denver-aurora-apr"
   },
   {
    "id": "rs-209338",
    "metro": "los-angeles",
    "source": "RunSignup",
-   "name": "Coffee Lover Run LOS Angeles",
+   "name": "Coffee Lovers Run LOS Angeles",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -61923,14 +61788,14 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-284903-1787970901.0925-0.bQKKvv.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "9/22/2026 08:36",
-   "slug": "coffee-lover-run-los-angeles-apr"
+   "modified": "10/22/2026 23:47",
+   "slug": "coffee-lovers-run-los-angeles-apr"
   },
   {
    "id": "rs-211457",
    "metro": "nyc",
    "source": "RunSignup",
-   "name": "Coffee Lover Run NYC",
+   "name": "Coffee Lovers Run NYC",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -61976,14 +61841,14 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287478-1787972062.3853-0.bQKKNE.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "9/22/2026 08:38",
-   "slug": "coffee-lover-run-nyc-apr"
+   "modified": "10/22/2026 07:01",
+   "slug": "coffee-lovers-run-nyc-apr"
   },
   {
    "id": "rs-211458",
    "metro": "nyc",
    "source": "RunSignup",
-   "name": "Coffee Lover Run NYC Central",
+   "name": "Coffee Lovers Run NYC Central",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -62029,14 +61894,14 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287479-1787972316.4194-0.bQKKRC.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "10/11/2026 12:00",
-   "slug": "coffee-lover-run-nyc-central-apr"
+   "modified": "10/22/2026 12:49",
+   "slug": "coffee-lovers-run-nyc-central-apr"
   },
   {
    "id": "rs-211464",
    "metro": "san-diego",
    "source": "RunSignup",
-   "name": "Coffee Lover Run SAN Diego",
+   "name": "Coffee Lovers Run SAN Diego",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -62082,14 +61947,14 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287485-1787973016.1297-0.bQKK2y.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "9/22/2026 08:40",
-   "slug": "coffee-lover-run-san-diego-apr"
+   "modified": "10/22/2026 07:05",
+   "slug": "coffee-lovers-run-san-diego-apr"
   },
   {
    "id": "rs-211465",
    "metro": "bay-area",
    "source": "RunSignup",
-   "name": "Coffee Lover Run San Francisco",
+   "name": "Coffee Lovers Run San Francisco",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -62135,14 +62000,14 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287486-1787973152.1382-0.bQKK4G.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "9/22/2026 08:40",
-   "slug": "coffee-lover-run-san-francisco-apr"
+   "modified": "10/22/2026 07:05",
+   "slug": "coffee-lovers-run-san-francisco-apr"
   },
   {
    "id": "rs-211466",
    "metro": "seattle",
    "source": "RunSignup",
-   "name": "Coffee Lover Run Seattle",
+   "name": "Coffee Lovers Run Seattle",
    "date": "2027-04-24",
    "endDate": "2027-04-24",
    "start": "07:30",
@@ -62188,8 +62053,8 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-287488-1787973236.425-0.bQKK50.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "9/22/2026 08:40",
-   "slug": "coffee-lover-run-seattle-apr"
+   "modified": "10/22/2026 07:06",
+   "slug": "coffee-lovers-run-seattle-apr"
   },
   {
    "id": "rs-162321",
@@ -62427,7 +62292,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race119331-logo-0.bHSNg4.png",
    "summary": "Don’t miss this popular half marathon on one of the prettiest courses you’ll ever run! The Ipswich Ale Half Marathon starts and finishes at beautiful Crane Beach in Ipswich, MA. Runners climb up and around the spectacular Crane Estate in the first mile - “Storming the Castle!",
-   "modified": "10/15/2026 19:38",
+   "modified": "10/22/2026 09:57",
    "slug": "ipswich-ale-half-marathon"
   },
   {
@@ -62708,7 +62573,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289342-1788173166.9391-0.bQLvTU.png",
    "summary": "Donut Mind If I Do! ‍♂️. Get ready for a race day fueled by laughter, community, and a shared love for the world's best treat! ✨ The 2027 Run for Donut is the ultimate celebration for runners who believe that fitness and sweet cravings can go hand in hand.",
-   "modified": "10/8/2026 10:33",
+   "modified": "10/22/2026 12:31",
    "slug": "run-for-donut-austin-roundrock-apr"
   },
   {
@@ -63812,22 +63677,22 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 41,
-   "priceTo": 41,
+   "priceFrom": 44,
+   "priceTo": 44,
    "nextIncrease": {
-    "date": "2027-04-01",
+    "date": "2027-01-25",
     "event": "5K",
-    "from": 41,
-    "to": 46
+    "from": 44,
+    "to": 49
    },
-   "regOpen": "2026-05-04",
+   "regOpen": "2026-05-01",
    "regClose": "2027-04-25",
    "open": true,
    "url": "https://runsignup.com/Race/CO/Denver/MileHighMile5k",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race84222-logo-0.bIdcfZ.png",
    "summary": "Ready to gallop around Denver with some friends? Yeah, you are! Come frolic with us at the Unicorn Runner 5k at Great Lawn Park to kick off your spring running season! You'll earn a sweet tee shirt and a flashy unicorn finisher medal!",
-   "modified": "10/13/2026 17:41",
+   "modified": "10/23/2026 00:49",
    "slug": "unicorn-5k-denver-east"
   },
   {
@@ -64520,7 +64385,7 @@
    "website": "https://ocmarathon.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-139627-1781809140.0868-0.bQnd_0.png",
    "summary": "The Hoag OC Marathon Running Festival is Orange County's premier race weekend, held annually during the first weekend in May. Whether you're tackling your first 5K, Half Marathon, or Marathon, there's an event for every runner.",
-   "modified": "10/20/2026 16:38",
+   "modified": "10/22/2026 08:49",
    "slug": "the-hoag-oc-marathon-running-festival"
   },
   {
@@ -64727,7 +64592,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-294278-1792162457.9041-0.bQ0JQz.jpg",
    "summary": "This Fun, Festive, professionally-timed 5k is our Inaugural Race to celebrate health and wellness while raising funds to support the mission of Middlesex College Foundation: scholarships, financial aid and educational resources for students.",
-   "modified": "10/21/2026 11:48",
+   "modified": "10/22/2026 14:33",
    "slug": "colts-classic-5k-run-walk-at-middlesex-college"
   },
   {
@@ -65934,7 +65799,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288679-1787647600.4012-0.bQJvzW.png",
    "summary": "Run Now, Chocolate Later! Who says you can't have your chocolate-and run it too? The 2027 Run for Chocolate is coming, and it’s sweeter than ever! Rally your friends, set your pace for our 5K/10K/13.1 Half-Marathon, and let the craving guide you to the finish line.",
-   "modified": "10/9/2026 09:33",
+   "modified": "10/22/2026 23:13",
    "slug": "run-for-chocolate-5k-10k-13-1-austin-roundrock-may"
   },
   {
@@ -65987,7 +65852,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288679-1787647600.4012-0.bQJvzW.png",
    "summary": "Run Now, Chocolate Later! Who says you can't have your chocolate-and run it too? The 2027 Run for Chocolate is coming, and it’s sweeter than ever! Rally your friends, set your pace for our 5K/10K/13.1 Half-Marathon, and let the craving guide you to the finish line.",
-   "modified": "10/9/2026 09:34",
+   "modified": "10/22/2026 23:17",
    "slug": "run-for-chocolate-5k-10k-13-1-chicago-evanston-may"
   },
   {
@@ -66040,7 +65905,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288679-1787647600.4012-0.bQJvzW.png",
    "summary": "Run Now, Chocolate Later! Who says you can't have your chocolate-and run it too? The 2027 Run for Chocolate is coming, and it’s sweeter than ever! Rally your friends, set your pace for our 5K/10K/13.1 Half-Marathon, and let the craving guide you to the finish line.",
-   "modified": "10/9/2026 09:41",
+   "modified": "10/22/2026 23:29",
    "slug": "run-for-chocolate-5k-10k-13-1-denver-aurora-may"
   },
   {
@@ -66093,7 +65958,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-286247-1787647708.0915-0.bQJvBC.png",
    "summary": "Run Now, Chocolate Later! Who says you can't have your chocolate-and run it too? The 2027 Run for Chocolate is coming, and it’s sweeter than ever! Rally your friends, set your pace for our 5K/10K/13.1 Half-Marathon, and let the craving guide you to the finish line.",
-   "modified": "10/9/2026 09:42",
+   "modified": "10/22/2026 23:47",
    "slug": "run-for-chocolate-5k-10k-13-1-los-angeles-may"
   },
   {
@@ -66624,7 +66489,7 @@
    "website": "http://allcommunityevents.com/mothersday5k",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race6199-scaled-logo-0.bysU0-.png",
    "summary": "Mother's Day 5k Run/Walk - 5/09/2027. Barrington, IL. Use #RunWithMom & #MomStrong when sharing your photos from the event. Event times, dates, location, and all other details are subject to change before the event. All official information is on the event's website AllCommunityEvents.com.",
-   "modified": "9/10/2026 16:18",
+   "modified": "10/22/2026 16:52",
    "slug": "barrington-mothers-day-5k-run-walk"
   },
   {
@@ -66717,14 +66582,14 @@
     "from": 39,
     "to": 44
    },
-   "regOpen": "2026-05-31",
+   "regOpen": "2026-06-01",
    "regClose": "2027-05-09",
    "open": true,
    "url": "https://runsignup.com/Race/CO/Westminster/WestminsterWomensClassic2",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-9398-1764180298.1211-0.bPj0fk.png",
    "summary": "Description. We are excited for the 2027 Colorado Women's Classic! While focused on women, all genders are WELCOME at this event! We will run this event rain or shine!:). This is THE race for ALL. THE. GOODIES. The Colorado Women's Classic is about the POSITIVE parts of being in a community of women.",
-   "modified": "10/13/2026 16:03",
+   "modified": "10/22/2026 22:58",
    "slug": "colorado-womens-classic-westminster"
   },
   {
@@ -69149,7 +69014,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289801-1788419886.9104-0.bQMr8U.png",
    "summary": "Not all superheroes wear capes-some wear running shoes! ✨. From everyday champions like dedicated moms, healthcare heroes & front-line workers, to the loyal friends who always have your back. Everyone has a superpower that makes the world a better place. This run is dedicated to YOU and every real-life hero among us!",
-   "modified": "10/9/2026 09:51",
+   "modified": "10/22/2026 23:13",
    "slug": "superheroes-run-austin-roundrock-may"
   },
   {
@@ -69202,7 +69067,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289801-1788419886.9104-0.bQMr8U.png",
    "summary": "Not all superheroes wear capes-some wear running shoes! ✨. From everyday champions like dedicated moms, healthcare heroes & front-line workers, to the loyal friends who always have your back. Everyone has a superpower that makes the world a better place. This run is dedicated to YOU and every real-life hero among us!",
-   "modified": "10/9/2026 09:56",
+   "modified": "10/22/2026 23:17",
    "slug": "superheroes-run-chicago-evanston-may"
   },
   {
@@ -69255,7 +69120,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289801-1788419886.9104-0.bQMr8U.png",
    "summary": "Not all superheroes wear capes-some wear running shoes! ✨. From everyday champions like dedicated moms, healthcare heroes & front-line workers, to the loyal friends who always have your back. Everyone has a superpower that makes the world a better place. This run is dedicated to YOU and every real-life hero among us!",
-   "modified": "10/9/2026 09:56",
+   "modified": "10/22/2026 23:29",
    "slug": "superheroes-run-denver-aurora-may"
   },
   {
@@ -69308,7 +69173,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289801-1788419886.9104-0.bQMr8U.png",
    "summary": "Not all superheroes wear capes-some wear running shoes! ✨. From everyday champions like dedicated moms, healthcare heroes & front-line workers, to the loyal friends who always have your back. Everyone has a superpower that makes the world a better place. This run is dedicated to YOU and every real-life hero among us!",
-   "modified": "10/9/2026 09:58",
+   "modified": "10/22/2026 23:47",
    "slug": "superheroes-run-los-angeles-may"
   },
   {
@@ -70281,7 +70146,7 @@
    "website": "http://www.sassquadtrailrunning.com/squatchyhooky",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-278502-1785883008.163-0.bQCMMa.png",
    "summary": "Two distances. Lake views below. Mountain views above. One unforgettable trail party! Sassquad Trail Running and the New York-New Jersey Trail Conference are proud to present Squatch the Hook: 5K/10K!",
-   "modified": "10/20/2026 12:43",
+   "modified": "10/22/2026 17:19",
    "slug": "squatch-the-hook"
   },
   {
@@ -70603,13 +70468,13 @@
     "trail"
    ],
    "trail": true,
-   "priceFrom": 35,
-   "priceTo": 65,
+   "priceFrom": 39,
+   "priceTo": 64,
    "nextIncrease": {
-    "date": "2027-03-01",
+    "date": "2027-03-08",
     "event": "Half marathon",
-    "from": 65,
-    "to": 70
+    "from": 64,
+    "to": 69
    },
    "regOpen": "2026-07-01",
    "regClose": "2027-06-06",
@@ -70618,7 +70483,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-17213-1764180342.2984-0.bPj0f2.png",
    "summary": "The Colorado 13er is THE event where the best parts of trail running and road racing combine to create a truly enjoyable, kind-to-your-body, well-supported 13.1 race!",
-   "modified": "10/13/2026 17:42",
+   "modified": "10/23/2026 00:26",
    "slug": "colorado-13er-half-marathon-10k-5k"
   },
   {
@@ -72451,13 +72316,13 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 18,
-   "priceTo": 41,
+   "priceFrom": 22,
+   "priceTo": 44,
    "nextIncrease": {
-    "date": "2026-11-01",
+    "date": "2027-03-21",
     "event": "5K",
-    "from": 41,
-    "to": 46
+    "from": 44,
+    "to": 49
    },
    "regOpen": "2026-07-01",
    "regClose": "2027-06-19",
@@ -72466,7 +72331,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race109169-logo-0.bGFZ2P.png",
    "summary": "Ready to get off the sofa and gallop around Thornton with some friends? Yeah, you are! Come frolic with us at the Unicorn Runner 5k in Thornton to kick off your summer! You'll earn a sweet tee shirt and a flashy unicorn finisher medal!",
-   "modified": "7/6/2026 17:40",
+   "modified": "10/23/2026 00:54",
    "slug": "unicorn-5k-north"
   },
   {
@@ -73067,7 +72932,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-138456-1781209231.783-0.bQkXIp.png",
    "summary": "Charm City Run is thrilled to announce that the 52nd annual MedStar Health Baltimore Women's Classic 5K presented by New Balance race will take place on June 27, 2027!",
-   "modified": "10/12/2026 10:17",
+   "modified": "10/22/2026 11:18",
    "slug": "medstar-health-baltimore-womens-classic-5k-presented-by-new-balance-ea"
   },
   {
@@ -73108,7 +72973,7 @@
    "website": "https://www.sdinternationaltriathlon.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-291101-1789333819.9648-0.bQPXe7.png",
    "summary": "‍♂️ ‍♀️ ‍♂️ 45TH ANNUAL SAN DIEGO INTERNATIONAL TRIATHLON. CELEBRATING 45 YEARS OF TRIATHLON HISTORY! Sunday, June 27, 2027. San Diego, California - Downtown Waterfront. For 45 years, athletes have been coming to San Diego to swim, bike, run, compete, celebrate, and become part of an incredible triathlon tradition.",
-   "modified": "10/8/2026 15:46",
+   "modified": "10/22/2026 22:28",
    "slug": "san-diego-international-triathlon-and-waterfront-5-6k"
   },
   {
@@ -73605,13 +73470,13 @@
     "10k"
    ],
    "trail": false,
-   "priceFrom": 35,
-   "priceTo": 45,
+   "priceFrom": 39,
+   "priceTo": 44,
    "nextIncrease": {
-    "date": "2027-03-01",
+    "date": "2027-04-05",
     "event": "5K",
-    "from": 35,
-    "to": 40
+    "from": 39,
+    "to": 44
    },
    "regOpen": "2026-08-01",
    "regClose": "2027-07-05",
@@ -73620,7 +73485,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-8729-1738905208.7418-0.bNPzz4.png",
    "summary": "Dress up as your favorite American Hero! This could be your mom, dad, Albert Einstein, Batman, Superman, or the Powerpuff girls! This event is all about celebrating GREAT people who do and have done GREAT things! Come be GREAT with us! Sign up for a team and each member saves $5!",
-   "modified": "7/28/2026 13:06",
+   "modified": "10/23/2026 01:27",
    "slug": "let-freedom-run-5k-10k-louisville"
   },
   {
@@ -73761,6 +73626,47 @@
    "summary": "Join us on Saturday, July 10, 2027 at Radium Runway in Alameda Point for Beer City Half™ Alameda! See the sights, run the coast, and drink the brews that make Alameda a home base for beer lovers. Beer City Festival is a full day of fun. Drink local and dig it!",
    "modified": "10/15/2026 18:11",
    "slug": "beer-city-half-alameda"
+  },
+  {
+   "id": "rs-200096",
+   "metro": "seattle",
+   "source": "RunSignup",
+   "name": "Christmas in July 5k",
+   "date": "2027-07-10",
+   "endDate": "2027-07-10",
+   "start": "09:00",
+   "city": "Seattle",
+   "region": "city",
+   "street": "2101 N Northlake Way",
+   "zip": "98103",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 4.99
+    }
+   ],
+   "cats": [
+    "5k"
+   ],
+   "trail": false,
+   "priceFrom": 33,
+   "priceTo": 33,
+   "nextIncrease": {
+    "date": "2027-05-23",
+    "event": "5K",
+    "from": 33,
+    "to": 38
+   },
+   "regOpen": "2026-08-17",
+   "regClose": "2027-07-10",
+   "open": true,
+   "url": "https://runsignup.com/Race/WA/Seattle/TheChristmasInJuly5k",
+   "website": "http://www.run2befit.com",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-273262-1769565155.1715-0.bPEwVJ.png",
+   "summary": "Winter vibes. Summer skies. Santa’s on vacation-and he’s running a 5K! The Christmas in July 5K mixes festive flair with summer fun for a jolly good run. Expect holiday spirit, warm weather, and plenty of laughs along the way. Questions? Concerns? Email us! General inquiries: info run2befit.com.",
+   "modified": "10/22/2026 19:38",
+   "slug": "christmas-in-july-5k"
   },
   {
    "id": "rs-69465",
@@ -74093,15 +73999,20 @@
    "trail": false,
    "priceFrom": 35,
    "priceTo": 35,
-   "nextIncrease": null,
-   "regOpen": "2027-02-19",
+   "nextIncrease": {
+    "date": "2027-04-12",
+    "event": "5K",
+    "from": 35,
+    "to": 40
+   },
+   "regOpen": "2026-10-22",
    "regClose": "2027-07-08",
-   "open": false,
+   "open": true,
    "url": "https://runsignup.com/Race/NJ/Cranford/ProjectPurplePretzelRun",
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-224137-1748011115.8816-0.bOmiHR.png",
    "summary": "Early Packet Pick Up 7-11. Fleet Feet Summit 10:30-1:30. Day of 7-8 am. Please arrive to the park no later than 7:45 am for parking and restrooms. 8:30 am Race Start. More Than a Race. Join us for the Project Purple Pretzel Run 5K and enjoy a beautiful morning at Nomahegan Park while supporting an incredible cause.",
-   "modified": "9/24/2026 14:09",
+   "modified": "10/22/2026 10:09",
    "slug": "project-purple-pretzel-run"
   },
   {
@@ -74453,7 +74364,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race8929-logo-0.bJ0gkg.png",
    "summary": "Welcome to the Summer Splash Prairie Dog Half, 10k & 5k in Castle Rock, Colorado. Part of the Prairie Dog Half race series, join us in July as we race through Castle Rock along the East Plum Creek Trail. For all race info, click the race info tap (or the links at the bottom)!",
-   "modified": "9/9/2026 18:47",
+   "modified": "10/23/2026 01:31",
    "slug": "summer-splash-prairie-dog-half-10k-and-5k"
   },
   {
@@ -74795,7 +74706,7 @@
    "website": "https://www.sassquadtrailrunning.com/frostysquatchy",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285748-1791924711.3237-0.bQZPNN.png",
    "summary": "Join us at the South Mountain Reservation in South Orange, New Jersey on Saturday July 24, 2027 for The Squatchy Surprise! Inspired by the TommyKnocker Ultra, The Squatchy Surprise will test your endurance, strategery and mental fortitude as your fate on the course is determined by the luck of the draw.",
-   "modified": "10/20/2026 12:43",
+   "modified": "10/22/2026 17:19",
    "slug": "squatchy-surprise"
   },
   {
@@ -76541,7 +76452,7 @@
    "id": "rs-217380",
    "metro": "los-angeles",
    "source": "RunSignup",
-   "name": "Coffee Lover Run LOS Angeles",
+   "name": "Coffee Lovers Run LOS Angeles",
    "date": "2027-08-21",
    "endDate": "2027-08-21",
    "start": "07:00",
@@ -76587,8 +76498,8 @@
    "website": "https://www.thebestraces.com/",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288892-1789477675.7869-0.bQQumR.png",
    "summary": "☕️ ‍♂️ ☕️ ‍♂️ ☕️ ‍♂️. For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1 Half-Marathon! Forget the massive, impersonal race-day crowds.",
-   "modified": "10/21/2026 06:02",
-   "slug": "coffee-lover-run-los-angeles-aug"
+   "modified": "10/22/2026 06:25",
+   "slug": "coffee-lovers-run-los-angeles-aug"
   },
   {
    "id": "rs-63035",
@@ -77934,13 +77845,13 @@
     "5k"
    ],
    "trail": false,
-   "priceFrom": 34.85,
-   "priceTo": 34.85,
+   "priceFrom": 44,
+   "priceTo": 44,
    "nextIncrease": {
-    "date": "2026-12-01",
+    "date": "2027-06-13",
     "event": "5K",
-    "from": 34.85,
-    "to": 39.85
+    "from": 44,
+    "to": 49
    },
    "regOpen": "2026-10-01",
    "regClose": "2027-09-11",
@@ -77949,7 +77860,7 @@
    "website": null,
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-52306-1788467938.1148-0.bQMDRI.png",
    "summary": "Run Denver. Run Sloan’s Lake. Make it a morning to remember! Join your neighbors and friends for THE Denver 5K-a fast, flat and scenic race around iconic Sloan’s Lake, with beautiful views of the Denver skyline along the way.",
-   "modified": "10/13/2026 11:31",
+   "modified": "10/22/2026 22:54",
    "slug": "the-denver-5k"
   },
   {
@@ -78550,7 +78461,7 @@
    "website": "https://www.sassquadtrailrunning.com/squatchyleftovers",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285868-1785882823.1075-0.bQCMJh.png",
    "summary": "Generous cut-offs, unending trail beauty, rockin' aid station and sweet swag.Join us at Wawayanda State Park in Hewitt, NJ on Friday September 17, Saturday September 18 and Sunday September 19, 2027 for the Wild Goose!",
-   "modified": "10/20/2026 12:44",
+   "modified": "10/22/2026 17:18",
    "slug": "wild-goose-trail-festival"
   },
   {
@@ -80245,7 +80156,12 @@
    "trail": false,
    "priceFrom": 20,
    "priceTo": 35,
-   "nextIncrease": null,
+   "nextIncrease": {
+    "date": "2026-10-27",
+    "event": "10K",
+    "from": 20,
+    "to": 30
+   },
    "regOpen": "2026-10-08",
    "regClose": "2027-10-10",
    "open": true,
@@ -80253,7 +80169,7 @@
    "website": "http://www.cityofmontebello.com",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-141241-1760413570.8841-0.bO7CEc.jpg",
    "summary": "Annual Montebello Heritage 5K/10K Run along the historic Whittier Blvd. The 5k begins at 8:00 a.m. at Montebello City Park. All participants receive a shirt and medal.",
-   "modified": "10/19/2026 19:08",
+   "modified": "10/22/2026 22:31",
    "slug": "montebello-heritage-5k-10k"
   },
   {
@@ -80371,15 +80287,20 @@
    "trail": true,
    "priceFrom": 45,
    "priceTo": 65,
-   "nextIncrease": null,
-   "regOpen": "2026-11-01",
+   "nextIncrease": {
+    "date": "2027-04-16",
+    "event": "10K",
+    "from": 45,
+    "to": 50
+   },
+   "regOpen": "2026-10-22",
    "regClose": "2027-10-16",
-   "open": false,
+   "open": true,
    "url": "https://runsignup.com/Race/NY/Tuxedo/BigBearSquaTChSouth",
    "website": "https://www.sassquadtrailrunning.com/bigbearsquatchnorth",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285753-1785882696.1534-0.bQCMHi.png",
    "summary": "Sassquad and the New York-New Jersey Trail Conference are proud to present the Big Bear SquaTCh South at Harriman State Park in Tuxedo, New York! Join us for this trail half marathon and 10K. All runners and hikers will experience non-stop trail beauty on this single loop course through Harriman State Park!",
-   "modified": "10/20/2026 12:44",
+   "modified": "10/22/2026 17:26",
    "slug": "big-bear-squatch-south"
   },
   {
@@ -80484,8 +80405,60 @@
    "website": "https://www.elevationculture.com/lakehodgestrailruns",
    "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-39172-1771710050.6014-0.bPMIzI.png",
    "summary": "THE EVENT IS SOLD OUT! THERE ARE NO WAIT LIST. 2026 RUNNERS GUIDE - CLICK HERE. THE LAKE HODGES TRAIL RUNS & TRAIL DUATHLON- RUN | BIKE | RUN. is an annual trail running experience you don't want to miss. We offer something for the whole family to enjoy.",
-   "modified": "10/19/2026 23:22",
+   "modified": "10/22/2026 14:46",
    "slug": "lake-hodges-trail-festival"
+  },
+  {
+   "id": "rs-212568",
+   "metro": "denver-boulder",
+   "source": "RunSignup",
+   "name": "Running Scared 5K/13K - Denver",
+   "date": "2027-10-16",
+   "endDate": "2027-10-16",
+   "start": "08:30",
+   "city": "Littleton",
+   "region": "suburbs",
+   "street": "Platte River Bar & Grill",
+   "zip": "80120",
+   "distances": [
+    {
+     "label": "5K",
+     "cat": "5k",
+     "km": 5
+    },
+    {
+     "label": "13K",
+     "cat": "other",
+     "km": 13
+    },
+    {
+     "label": "18K",
+     "cat": "other",
+     "km": 18
+    }
+   ],
+   "cats": [
+    "5k",
+    "trail"
+   ],
+   "trail": true,
+   "priceFrom": 20,
+   "priceTo": 45,
+   "nextIncrease": {
+    "date": "2026-11-04",
+    "event": "5K",
+    "from": 25,
+    "to": 30
+   },
+   "regOpen": "2026-10-22",
+   "regClose": "2027-10-16",
+   "open": true,
+   "url": "https://runsignup.com/Race/CO/Littleton/RunningScared5K13KDenver",
+   "website": "https://www.fivestarntp.com/races/Running-Scared-5K%2F13K",
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-68919-1775878314.0948-0.bP2CcQ.png",
+   "summary": "Get ready for a spine-tingling race experience at the Running Scared 5K & 13K -where thrills, chills, and fast times collide! Whether you’re brave enough to tackle the 5K or daring enough to conquer the 13K, this Halloween-themed event delivers a fun and festive atmosphere perfect for runners of all levels.",
+   "modified": "10/22/2026 11:18",
+   "slug": "running-scared-5k-13k-denver"
   },
   {
    "id": "rs-121962",
@@ -80544,6 +80517,47 @@
    "summary": "Join us for the annual Spooky Sprint 5k/10k & Half Marathon! A fun, Halloween-themed event that is perfect for the whole family. The fun includes -. Great Swag - designer shirt & custom medal. Chip-timing with live results and awards. Free photos. Delicious Treats waiting at the finish line. Plenty of fun!",
    "modified": "10/21/2026 10:18",
    "slug": "spooky-sprint-austin"
+  },
+  {
+   "id": "rs-63766",
+   "metro": "denver-boulder",
+   "source": "RunSignup",
+   "name": "The Great Trailhead Foot Race 5 & 10 Miler",
+   "date": "2027-10-16",
+   "endDate": "2027-10-16",
+   "start": "09:00",
+   "city": "Lakewood",
+   "region": "denver",
+   "street": "15600 W Morrison Rd.",
+   "zip": "80228",
+   "distances": [
+    {
+     "label": "5 miles",
+     "cat": "other",
+     "km": 8.05
+    },
+    {
+     "label": "10 miles",
+     "cat": "other",
+     "km": 16.09
+    }
+   ],
+   "cats": [
+    "trail"
+   ],
+   "trail": true,
+   "priceFrom": 55,
+   "priceTo": 60,
+   "nextIncrease": null,
+   "regOpen": "2026-11-01",
+   "regClose": "2027-10-16",
+   "open": false,
+   "url": "https://runsignup.com/Race/CO/Lakewood/TheGreatTrailheadFootRace10Milerand5k",
+   "website": null,
+   "logo": "https://d368g9lw5ileu7.cloudfront.net/races/race63766-logo-0.bJh08k.png",
+   "summary": "Welcome to the Great Trailhead Foot Race at Bear Creek Lake Park! Featuring legitimate TRAILS in the shadow of Denver's skyline, you'll love the single-track and dirt as you race 5 miles, or a double lap of 10 miles to the finish line party! Bring your ID because there's FREE BEER for 21 and up (with a valid ID)!",
+   "modified": "10/23/2026 02:08",
+   "slug": "the-great-trailhead-foot-race-5-and-10-miler"
   },
   {
    "id": "rs-179344",
