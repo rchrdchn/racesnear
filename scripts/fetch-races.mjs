@@ -58,7 +58,7 @@ function shape(r, now, m) {
   const trailWords = /\btrail|\bridge|single ?track|fire ?road|\bhills? run|\bdipsea|\bxc\b|cross country/i;
   const isTrail = evs.some(e => e.event_type === 'trail_race') || trailWords.test(r.name) || /\btrail(s)?\b/i.test(strip(r.description).slice(0, 600));
   const seen = new Set(), dist = [];
-  let start = null, priceNow = null, priceMax = null, inc = null, regOpen = null, regClose = null;
+  let start = null, priceNow = null, priceMax = null, inc = null, regOpen = null, regClose = null; const rises = [];
   for (const e of evs) {
     const km = toKm(e.distance), c = cat(km), l = label(e.distance || e.name, km);
     if (e.distance && !seen.has(l) && km >= 0.9) { seen.add(l); dist.push({ label: l, cat: c, km: km ? +km.toFixed(2) : null }); }
@@ -70,8 +70,15 @@ function shape(r, now, m) {
     if (cur && cur.fee && km >= 0.9) {
       if (priceNow == null || cur.fee < priceNow) priceNow = cur.fee; if (priceMax == null || cur.fee > priceMax) priceMax = cur.fee;
       const nx = periods.filter(p => key(p.o) > key(cur.o)).sort((a, b) => key(a.o) < key(b.o) ? -1 : 1)[0];
-      if (nx && nx.fee > cur.fee && key(cur.o) <= now && (!inc || cur.c.d < inc.date)) inc = { date: cur.c.d, event: clean(l), from: cur.fee, to: nx.fee };
+      if (nx && nx.fee > cur.fee && key(cur.o) <= now) rises.push({ date: cur.c.d, event: clean(l), from: cur.fee, to: nx.fee });
     }
+  }
+  // Next price rise: the earliest one, plus every distance that rises that day (events) and whether that is all of them (all).
+  if (rises.length) {
+    const d = rises.reduce((m, x) => x.date < m ? x.date : m, rises[0].date), same = rises.filter(x => x.date === d);
+    const by = new Map(); for (const x of same) by.set(x.event, by.has(x.event) && by.get(x.event) !== x.to ? null : x.to); // two fees for one distance: no single new price
+    const events = [...by].map(([event, to]) => ({ event, to }));
+    inc = { ...same[0], events, all: dist.every(q => events.some(e => e.event === q.label)) };
   }
   if (!dist.length) return { skip: 'no-distances' };
   const order = { '5k': 1, '10k': 2, half: 3, marathon: 4, ultra: 5, other: 0 };

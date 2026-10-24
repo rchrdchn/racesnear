@@ -48,6 +48,23 @@ ${body}
 ${txt(80, 598, 'racesnear.com', 28, C.white)}${txt(1120, 597, '5Ks to marathons · early-bird deadlines', 21, C.mu, { anchor: 'end', ff: MONO, fw: 400 })}</svg>`;
 }
 
+// "Price goes up Oct 25 → $60" only when every distance rises that day (or there is one distance);
+// otherwise name what rises: "5K price goes up…", "5K & 10K price goes up…", "3 distances: price goes up…".
+// Older data has no events/all fields: then only the one named event is known to rise.
+function riseLabel(r, inc, maxW) {
+  const labels = [...new Set(r.distances.map(q => q.label))];
+  const evs = inc.events || [{ event: inc.event, to: inc.to }];
+  const all = labels.length <= 1 || (inc.all ?? labels.every(l => evs.some(e => e.event === l)));
+  const tos = [...new Set(evs.map(e => e.to))], day = fmt(inc.date, { month: 'short', day: 'numeric' });
+  const what = all ? '' : evs.length === 1 ? evs[0].event : evs.length === 2 ? `${evs[0].event} & ${evs[1].event}` : `${evs.length} distances:`;
+  const head = what ? `${what} price goes up ${day}` : `Price goes up ${day}`;
+  const fits = t => W(t, 26) + 44 <= maxW;
+  const full = tos.length === 1 && tos[0] ? `${head} → ${money(tos[0])}` : head;
+  if (fits(full)) return full;
+  if (fits(head)) return head;
+  return clip(head, 26, maxW - 44);
+}
+
 // Race page: date tile | kicker, name, city, distance chips; price row below.
 function raceCard(r, m) {
   const d = o => fmt(r.date, o);
@@ -85,8 +102,7 @@ function raceCard(r, m) {
   }
   const inc = r.nextIncrease && r.nextIncrease.date >= today ? r.nextIncrease : null;
   if (inc) {
-    const lbl = `Price goes up ${fmt(inc.date, { month: 'short', day: 'numeric' })}` + (inc.to ? ` → ${money(inc.to)}` : '');
-    s += pill(px, PY + 8, lbl, { size: 26, h: 54, pad: 22, bg: C.or })[0];
+    s += pill(px, PY + 8, riseLabel(r, inc, 1120 - px), { size: 26, h: 54, pad: 22, bg: C.or })[0];
   } else if (r.open) s += pill(px, PY + 8, 'Registration open', { size: 26, h: 54, pad: 22, stroke: C.orl, fg: C.orl })[0];
   else if (r.priceFrom == null) s += txt(80, PY + 50, 'Distances, start time and registration link inside', 26, C.mu, { fw: 400 });
   return frame(s, m.name.toUpperCase());
@@ -135,7 +151,7 @@ const jobs = Object.entries(ogSources()).map(([k, u]) => [k, () => svgFor(k, u)]
 for (const d of fs.readdirSync('src/guides')) if (/\.(njk|md)$/.test(d) && d !== 'index.njk') { const pl = (fs.readFileSync('src/guides/' + d, 'utf8').match(/permalink:\s*"?([^"\n]+)/) || [])[1]; if (pl) { const k = 'guide-' + pl.split('/').filter(Boolean)[1]; jobs.push([k, () => svgFor(k, pl.trim())]); } }
 for (const { race, metro } of cal.racePages) jobs.push([`race-${metro.slug}-${race.slug}`, () => raceCard(race, cal.metros[metro.slug] || metro)]);
 
-export { raceCard, headCard, svgFor };
+export { raceCard, headCard, svgFor, riseLabel };
 if (import.meta.url === `file://${process.argv[1]}`) {
   const t0 = Date.now(); fs.mkdirSync('_site/og', { recursive: true });
   let n = 0, bytes = 0;
