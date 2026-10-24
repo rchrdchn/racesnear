@@ -179,7 +179,11 @@ npm run check      # internal link check
 
 ## SEO
 
-`npm run build` runs Eleventy, then `scripts/og.mjs` (share images) and `scripts/postbuild.mjs`. The postbuild step is shared with the soccer and NBA sites:
+`npm run build` runs Eleventy, then `scripts/og.mjs` (share images) and `scripts/postbuild.mjs`. 
+
+Share images (`og/<key>.png`, keys in `lib/og.js`, 1200x630, dark navy): every race page gets its own card (date tile, name, city, distance chips, price from `priceFrom`/`priceTo` and the next price rise when known); city hubs get the headline, race counts and the next race; other pages get the H1 plus the first sentence of their description. Text is DejaVu (on the Cloudflare build image); `scripts/og-widths.json` holds its glyph widths so long names wrap and shrink instead of running off the card. About 1,800 cards, ~45 s of the build.
+
+The postbuild step is shared with the soccer and NBA sites:
 
 - It fails the build on double-escaped entities in `<head>` (`&amp;amp;`, `&amp;#39;`), titles over 65 characters, descriptions over 160, or a `dateModified` with no visible date.
 - It hashes each sitemap page (title, description, `<main>`; text between `<!--nohash-->` markers is ignored) against `lastmod.json`. Only changed pages get a new timestamp, which fills the visible "Updated" line, JSON-LD `dateModified` and the sitemap `<lastmod>`.
